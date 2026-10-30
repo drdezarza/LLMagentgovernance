@@ -1,0 +1,24 @@
+# credentials (never commit a real key)
+credentials/*
+!credentials/nebius.env.example
+
+# runtime state written by sessions
+data/cache.nosync/
+data/ledger.sqlite
+data/runs_mock/
+journal/
+logs/
+state/
+reports/index.html
+reports/index_mock.html
+_to_delete/
+vendor/
+
+# python / editors
+__pycache__/
+*.py[cod]
+.venv/
+.venv.nosync/
+.ipynb_checkpoints/
+.DS_Store
+._*

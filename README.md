@@ -6,7 +6,7 @@
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](#installation)
 [![Code license: MIT](https://img.shields.io/badge/code-MIT-green.svg)](LICENSE)
 [![Data license: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey.svg)](DATA_LICENSE.md)
-[![Paper numbers verified](https://img.shields.io/badge/paper%20numbers-604%2F604%20verified-brightgreen.svg)](paper/)
+[![Paper numbers verified](https://img.shields.io/badge/paper%20numbers-604%20verified-brightgreen.svg)](paper/)
 
 ---
 
