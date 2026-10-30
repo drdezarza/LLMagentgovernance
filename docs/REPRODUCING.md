@@ -23,10 +23,11 @@ upstream GCGE and feeder simulators exactly. It should print `equivalence OK` an
 
 ```bash
 python paper/check_numbers.py
-# 604 numbers checked; 0 drifted or missing
+# 487 numbers checked; 0 drifted or missing
 ```
 
-`paper/numbers.json` lists every number quoted in the manuscript. For each one it records the file, row and column it
+`paper/numbers.json` lists every number quoted in the submitted manuscript (416, flagged `quoted: true`), plus 71
+entries from earlier drafts kept for provenance. For each one it records the file, row and column it
 comes from in `data/runs/*/_analysis/` or `reports/`, its rounded value, and where the paper uses it. The checker
 recomputes each value from the saved file and reports any drift.
 
