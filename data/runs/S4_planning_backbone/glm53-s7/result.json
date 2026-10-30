@@ -1,0 +1,21 @@
+{
+  "unit": {
+    "id": "glm53-s7",
+    "alias": "glm53",
+    "seed": 7
+  },
+  "attempts": 1,
+  "session": "20261013-1001",
+  "started": "2026-10-13T11:58:32",
+  "summary": {
+    "model": "zai-org/GLM-5.3",
+    "oracle_mode": "SEARCH",
+    "regret_natural": 1604.1548957376233,
+    "regret_hybrid": 992.6583139533848,
+    "viol_natural": 8,
+    "cost_usd": 0.258919
+  },
+  "status": "done",
+  "duration_s": 467.4,
+  "finished": "2026-10-13T12:06:19"
+}

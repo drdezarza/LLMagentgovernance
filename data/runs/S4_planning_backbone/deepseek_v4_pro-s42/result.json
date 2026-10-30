@@ -1,0 +1,21 @@
+{
+  "unit": {
+    "id": "deepseek_v4_pro-s42",
+    "alias": "deepseek_v4_pro",
+    "seed": 42
+  },
+  "attempts": 1,
+  "session": "20261013-1001",
+  "started": "2026-10-13T12:16:38",
+  "summary": {
+    "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+    "oracle_mode": "SEARCH",
+    "regret_natural": 540.6695506949841,
+    "regret_hybrid": 0.0,
+    "viol_natural": 8,
+    "cost_usd": 0.24099900000000002
+  },
+  "status": "done",
+  "duration_s": 313.4,
+  "finished": "2026-10-13T12:21:52"
+}

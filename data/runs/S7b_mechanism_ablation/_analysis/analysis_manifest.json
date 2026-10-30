@@ -1,0 +1,491 @@
+{
+  "stage": "S7b_mechanism_ablation",
+  "written": "2026-10-29T20:08:19",
+  "interim": false,
+  "analysis_code": "13ec06628be08273",
+  "rubric_sha1": "8a9fd7c89c24",
+  "params": {
+    "families": [
+      "deepseek_v4_pro",
+      "minimax_m3",
+      "glm53"
+    ],
+    "seeds": [
+      1,
+      2,
+      3
+    ],
+    "plans": [
+      "SEQUENTIAL",
+      "HIERARCHICAL",
+      "SEARCH",
+      "natural"
+    ],
+    "govs": [
+      "G0",
+      "Gmsg",
+      "Gcap",
+      "Ggini",
+      "G1r"
+    ],
+    "integrity_thresholds": [
+      0.8,
+      0.9,
+      0.95,
+      0.98
+    ],
+    "gini_thresholds": [
+      null,
+      0.45,
+      0.4,
+      0.35
+    ]
+  },
+  "design": "775cb252ebc6c521",
+  "units_expected": 180,
+  "units_done": 180,
+  "unit_code_versions": {
+    "49fb4cd8ea1989da": 180
+  },
+  "validity": {
+    "rules_version": "2026-10-15",
+    "units_done": 180,
+    "units_eligible": 180,
+    "units_excluded": 0,
+    "exclusion_reasons": {},
+    "by_group": {
+      "R1|HIERARCHICAL|G0": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R1|HIERARCHICAL|G1r": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R1|HIERARCHICAL|Gcap": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R1|HIERARCHICAL|Ggini": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R1|HIERARCHICAL|Gmsg": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R1|SEARCH|G0": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R1|SEARCH|G1r": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R1|SEARCH|Gcap": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R1|SEARCH|Ggini": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R1|SEARCH|Gmsg": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R1|SEQUENTIAL|G0": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R1|SEQUENTIAL|G1r": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R1|SEQUENTIAL|Gcap": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R1|SEQUENTIAL|Ggini": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R1|SEQUENTIAL|Gmsg": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R1|natural|G0": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R1|natural|G1r": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R1|natural|Gcap": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R1|natural|Ggini": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R1|natural|Gmsg": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R2|HIERARCHICAL|G0": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R2|HIERARCHICAL|G1r": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R2|HIERARCHICAL|Gcap": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R2|HIERARCHICAL|Ggini": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R2|HIERARCHICAL|Gmsg": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R2|SEARCH|G0": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R2|SEARCH|G1r": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R2|SEARCH|Gcap": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R2|SEARCH|Ggini": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R2|SEARCH|Gmsg": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R2|SEQUENTIAL|G0": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R2|SEQUENTIAL|G1r": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R2|SEQUENTIAL|Gcap": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R2|SEQUENTIAL|Ggini": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R2|SEQUENTIAL|Gmsg": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R2|natural|G0": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R2|natural|G1r": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R2|natural|Gcap": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R2|natural|Ggini": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R2|natural|Gmsg": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R3|HIERARCHICAL|G0": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R3|HIERARCHICAL|G1r": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R3|HIERARCHICAL|Gcap": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R3|HIERARCHICAL|Ggini": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R3|HIERARCHICAL|Gmsg": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R3|SEARCH|G0": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R3|SEARCH|G1r": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R3|SEARCH|Gcap": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R3|SEARCH|Ggini": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R3|SEARCH|Gmsg": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R3|SEQUENTIAL|G0": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R3|SEQUENTIAL|G1r": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R3|SEQUENTIAL|Gcap": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R3|SEQUENTIAL|Ggini": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R3|SEQUENTIAL|Gmsg": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R3|natural|G0": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R3|natural|G1r": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R3|natural|Gcap": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R3|natural|Ggini": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R3|natural|Gmsg": {
+        "done": 3,
+        "eligible": 3
+      }
+    },
+    "rules": {
+      "judge_invalid_rate": [
+        "<=",
+        0.1
+      ],
+      "audit_invalid_share": [
+        "<=",
+        0.1
+      ]
+    }
+  },
+  "contributing_units": [
+    "R1-sc1001-SEQUENTIAL-G0",
+    "R1-sc1001-SEQUENTIAL-Gmsg",
+    "R1-sc1001-SEQUENTIAL-Gcap",
+    "R1-sc1001-SEQUENTIAL-Ggini",
+    "R1-sc1001-SEQUENTIAL-G1r",
+    "R1-sc1001-HIERARCHICAL-G0",
+    "R1-sc1001-HIERARCHICAL-Gmsg",
+    "R1-sc1001-HIERARCHICAL-Gcap",
+    "R1-sc1001-HIERARCHICAL-Ggini",
+    "R1-sc1001-HIERARCHICAL-G1r",
+    "R1-sc1001-SEARCH-G0",
+    "R1-sc1001-SEARCH-Gmsg",
+    "R1-sc1001-SEARCH-Gcap",
+    "R1-sc1001-SEARCH-Ggini",
+    "R1-sc1001-SEARCH-G1r",
+    "R1-sc1001-natural-G0",
+    "R1-sc1001-natural-Gmsg",
+    "R1-sc1001-natural-Gcap",
+    "R1-sc1001-natural-Ggini",
+    "R1-sc1001-natural-G1r",
+    "R1-sc1002-SEQUENTIAL-G0",
+    "R1-sc1002-SEQUENTIAL-Gmsg",
+    "R1-sc1002-SEQUENTIAL-Gcap",
+    "R1-sc1002-SEQUENTIAL-Ggini",
+    "R1-sc1002-SEQUENTIAL-G1r",
+    "R1-sc1002-HIERARCHICAL-G0",
+    "R1-sc1002-HIERARCHICAL-Gmsg",
+    "R1-sc1002-HIERARCHICAL-Gcap",
+    "R1-sc1002-HIERARCHICAL-Ggini",
+    "R1-sc1002-HIERARCHICAL-G1r",
+    "R1-sc1002-SEARCH-G0",
+    "R1-sc1002-SEARCH-Gmsg",
+    "R1-sc1002-SEARCH-Gcap",
+    "R1-sc1002-SEARCH-Ggini",
+    "R1-sc1002-SEARCH-G1r",
+    "R1-sc1002-natural-G0",
+    "R1-sc1002-natural-Gmsg",
+    "R1-sc1002-natural-Gcap",
+    "R1-sc1002-natural-Ggini",
+    "R1-sc1002-natural-G1r",
+    "R1-sc1003-SEQUENTIAL-G0",
+    "R1-sc1003-SEQUENTIAL-Gmsg",
+    "R1-sc1003-SEQUENTIAL-Gcap",
+    "R1-sc1003-SEQUENTIAL-Ggini",
+    "R1-sc1003-SEQUENTIAL-G1r",
+    "R1-sc1003-HIERARCHICAL-G0",
+    "R1-sc1003-HIERARCHICAL-Gmsg",
+    "R1-sc1003-HIERARCHICAL-Gcap",
+    "R1-sc1003-HIERARCHICAL-Ggini",
+    "R1-sc1003-HIERARCHICAL-G1r",
+    "R1-sc1003-SEARCH-G0",
+    "R1-sc1003-SEARCH-Gmsg",
+    "R1-sc1003-SEARCH-Gcap",
+    "R1-sc1003-SEARCH-Ggini",
+    "R1-sc1003-SEARCH-G1r",
+    "R1-sc1003-natural-G0",
+    "R1-sc1003-natural-Gmsg",
+    "R1-sc1003-natural-Gcap",
+    "R1-sc1003-natural-Ggini",
+    "R1-sc1003-natural-G1r",
+    "R2-sc2001-SEQUENTIAL-G0",
+    "R2-sc2001-SEQUENTIAL-Gmsg",
+    "R2-sc2001-SEQUENTIAL-Gcap",
+    "R2-sc2001-SEQUENTIAL-Ggini",
+    "R2-sc2001-SEQUENTIAL-G1r",
+    "R2-sc2001-HIERARCHICAL-G0",
+    "R2-sc2001-HIERARCHICAL-Gmsg",
+    "R2-sc2001-HIERARCHICAL-Gcap",
+    "R2-sc2001-HIERARCHICAL-Ggini",
+    "R2-sc2001-HIERARCHICAL-G1r",
+    "R2-sc2001-SEARCH-G0",
+    "R2-sc2001-SEARCH-Gmsg",
+    "R2-sc2001-SEARCH-Gcap",
+    "R2-sc2001-SEARCH-Ggini",
+    "R2-sc2001-SEARCH-G1r",
+    "R2-sc2001-natural-G0",
+    "R2-sc2001-natural-Gmsg",
+    "R2-sc2001-natural-Gcap",
+    "R2-sc2001-natural-Ggini",
+    "R2-sc2001-natural-G1r",
+    "R2-sc2002-SEQUENTIAL-G0",
+    "R2-sc2002-SEQUENTIAL-Gmsg",
+    "R2-sc2002-SEQUENTIAL-Gcap",
+    "R2-sc2002-SEQUENTIAL-Ggini",
+    "R2-sc2002-SEQUENTIAL-G1r",
+    "R2-sc2002-HIERARCHICAL-G0",
+    "R2-sc2002-HIERARCHICAL-Gmsg",
+    "R2-sc2002-HIERARCHICAL-Gcap",
+    "R2-sc2002-HIERARCHICAL-Ggini",
+    "R2-sc2002-HIERARCHICAL-G1r",
+    "R2-sc2002-SEARCH-G0",
+    "R2-sc2002-SEARCH-Gmsg",
+    "R2-sc2002-SEARCH-Gcap",
+    "R2-sc2002-SEARCH-Ggini",
+    "R2-sc2002-SEARCH-G1r",
+    "R2-sc2002-natural-G0",
+    "R2-sc2002-natural-Gmsg",
+    "R2-sc2002-natural-Gcap",
+    "R2-sc2002-natural-Ggini",
+    "R2-sc2002-natural-G1r",
+    "R2-sc2003-SEQUENTIAL-G0",
+    "R2-sc2003-SEQUENTIAL-Gmsg",
+    "R2-sc2003-SEQUENTIAL-Gcap",
+    "R2-sc2003-SEQUENTIAL-Ggini",
+    "R2-sc2003-SEQUENTIAL-G1r",
+    "R2-sc2003-HIERARCHICAL-G0",
+    "R2-sc2003-HIERARCHICAL-Gmsg",
+    "R2-sc2003-HIERARCHICAL-Gcap",
+    "R2-sc2003-HIERARCHICAL-Ggini",
+    "R2-sc2003-HIERARCHICAL-G1r",
+    "R2-sc2003-SEARCH-G0",
+    "R2-sc2003-SEARCH-Gmsg",
+    "R2-sc2003-SEARCH-Gcap",
+    "R2-sc2003-SEARCH-Ggini",
+    "R2-sc2003-SEARCH-G1r",
+    "R2-sc2003-natural-G0",
+    "R2-sc2003-natural-Gmsg",
+    "R2-sc2003-natural-Gcap",
+    "R2-sc2003-natural-Ggini",
+    "R2-sc2003-natural-G1r",
+    "R3-sc3001-SEQUENTIAL-G0",
+    "R3-sc3001-SEQUENTIAL-Gmsg",
+    "R3-sc3001-SEQUENTIAL-Gcap",
+    "R3-sc3001-SEQUENTIAL-Ggini",
+    "R3-sc3001-SEQUENTIAL-G1r",
+    "R3-sc3001-HIERARCHICAL-G0",
+    "R3-sc3001-HIERARCHICAL-Gmsg",
+    "R3-sc3001-HIERARCHICAL-Gcap",
+    "R3-sc3001-HIERARCHICAL-Ggini",
+    "R3-sc3001-HIERARCHICAL-G1r",
+    "R3-sc3001-SEARCH-G0",
+    "R3-sc3001-SEARCH-Gmsg",
+    "R3-sc3001-SEARCH-Gcap",
+    "R3-sc3001-SEARCH-Ggini",
+    "R3-sc3001-SEARCH-G1r",
+    "R3-sc3001-natural-G0",
+    "R3-sc3001-natural-Gmsg",
+    "R3-sc3001-natural-Gcap",
+    "R3-sc3001-natural-Ggini",
+    "R3-sc3001-natural-G1r",
+    "R3-sc3002-SEQUENTIAL-G0",
+    "R3-sc3002-SEQUENTIAL-Gmsg",
+    "R3-sc3002-SEQUENTIAL-Gcap",
+    "R3-sc3002-SEQUENTIAL-Ggini",
+    "R3-sc3002-SEQUENTIAL-G1r",
+    "R3-sc3002-HIERARCHICAL-G0",
+    "R3-sc3002-HIERARCHICAL-Gmsg",
+    "R3-sc3002-HIERARCHICAL-Gcap",
+    "R3-sc3002-HIERARCHICAL-Ggini",
+    "R3-sc3002-HIERARCHICAL-G1r",
+    "R3-sc3002-SEARCH-G0",
+    "R3-sc3002-SEARCH-Gmsg",
+    "R3-sc3002-SEARCH-Gcap",
+    "R3-sc3002-SEARCH-Ggini",
+    "R3-sc3002-SEARCH-G1r",
+    "R3-sc3002-natural-G0",
+    "R3-sc3002-natural-Gmsg",
+    "R3-sc3002-natural-Gcap",
+    "R3-sc3002-natural-Ggini",
+    "R3-sc3002-natural-G1r",
+    "R3-sc3003-SEQUENTIAL-G0",
+    "R3-sc3003-SEQUENTIAL-Gmsg",
+    "R3-sc3003-SEQUENTIAL-Gcap",
+    "R3-sc3003-SEQUENTIAL-Ggini",
+    "R3-sc3003-SEQUENTIAL-G1r",
+    "R3-sc3003-HIERARCHICAL-G0",
+    "R3-sc3003-HIERARCHICAL-Gmsg",
+    "R3-sc3003-HIERARCHICAL-Gcap",
+    "R3-sc3003-HIERARCHICAL-Ggini",
+    "R3-sc3003-HIERARCHICAL-G1r",
+    "R3-sc3003-SEARCH-G0",
+    "R3-sc3003-SEARCH-Gmsg",
+    "R3-sc3003-SEARCH-Gcap",
+    "R3-sc3003-SEARCH-Ggini",
+    "R3-sc3003-SEARCH-G1r",
+    "R3-sc3003-natural-G0",
+    "R3-sc3003-natural-Gmsg",
+    "R3-sc3003-natural-Gcap",
+    "R3-sc3003-natural-Ggini",
+    "R3-sc3003-natural-G1r"
+  ]
+}

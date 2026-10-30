@@ -1,0 +1,11 @@
+t,target_mode,theme,intensity,timing,claims,confidence,reasoning,n_targets,governance,n_rejected
+0,BRIDGES,MORAL,0.4,PERIODIC,FACTUAL,0.75,Slight intensity increase.,6,governed,2
+5,BRIDGES,MORAL,0.4,PERIODIC,FACTUAL,0.75,Slight intensity increase.,6,governed,2
+10,BRIDGES,MORAL,0.4,PERIODIC,FACTUAL,0.75,Slight intensity increase.,6,governed,2
+15,BRIDGES,MORAL,0.4,PERIODIC,FACTUAL,0.75,Slight intensity increase.,6,governed,3
+20,BRIDGES,MORAL,0.4,PERIODIC,FACTUAL,0.7,Slight intensity increase.,6,governed,2
+25,BRIDGES,MORAL,0.4,PERIODIC,FACTUAL,0.7,Slight intensity increase.,6,governed,1
+30,BRIDGES,MORAL,0.4,PERIODIC,FACTUAL,0.75,Slight intensity increase.,6,governed,2
+35,BRIDGES,MORAL,0.4,PERIODIC,FACTUAL,0.7,Slight intensity increase.,6,governed,3
+40,BRIDGES,MORAL,0.4,PERIODIC,FACTUAL,0.7,Slight intensity increase.,6,governed,3
+45,BRIDGES,MORAL,0.4,PERIODIC,FACTUAL,0.75,Slight intensity increase.,6,governed,2

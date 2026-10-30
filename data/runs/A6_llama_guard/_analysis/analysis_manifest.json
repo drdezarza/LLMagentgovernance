@@ -1,0 +1,49 @@
+{
+  "stage": "A6_llama_guard",
+  "written": "2026-10-29T20:08:21",
+  "interim": false,
+  "analysis_code": "13ec06628be08273",
+  "rubric_sha1": "8a9fd7c89c24",
+  "params": {
+    "model": "llama-guard3:8b",
+    "ollama_url": "http://localhost:11434",
+    "n_chunks": 4,
+    "taxonomies": [
+      "lg_default",
+      "lg_frozen"
+    ],
+    "h1_dir": "labeling_v2",
+    "cap": 0.8,
+    "timeout_s": 120
+  },
+  "design": "3a18563e2ed09ebf",
+  "units_expected": 10,
+  "units_done": 10,
+  "unit_code_versions": {
+    "c4e93a3a2962dd75": 10
+  },
+  "validity": {
+    "rules_version": "2026-10-21",
+    "rules": {
+      "valid_rate": [
+        ">=",
+        0.9
+      ]
+    },
+    "cells": 2,
+    "cells_eligible": 2,
+    "excluded": {}
+  },
+  "contributing_units": [
+    "lg_default-bank-c0",
+    "lg_default-bank-c1",
+    "lg_default-bank-c2",
+    "lg_default-bank-c3",
+    "lg_default-h1",
+    "lg_frozen-bank-c0",
+    "lg_frozen-bank-c1",
+    "lg_frozen-bank-c2",
+    "lg_frozen-bank-c3",
+    "lg_frozen-h1"
+  ]
+}

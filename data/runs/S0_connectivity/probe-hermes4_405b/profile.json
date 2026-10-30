@@ -1,0 +1,8 @@
+{
+  "alias": "hermes4_405b",
+  "usable": true,
+  "extra_body": {},
+  "min_max_tokens": 400,
+  "latency_s": 2.323,
+  "reasoning_seen": false
+}

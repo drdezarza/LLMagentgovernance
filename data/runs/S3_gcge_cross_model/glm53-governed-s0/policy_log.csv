@@ -1,0 +1,11 @@
+t,target_mode,theme,intensity,timing,claims,confidence,reasoning,n_targets,governance,n_rejected
+0,HUBS,HYBRID,0.55,PERIODIC,FACTUAL,0.6,Slight intensity increase.,6,governed,3
+5,RANDOM,HYBRID,0.30000000000000004,PERIODIC,FACTUAL,0.55,Reduced intensity for equity.,6,governed,2
+10,BRIDGES,HYBRID,0.5,PERIODIC,FACTUAL,0.65,Slight intensity increase.,6,governed,2
+15,RANDOM,HYBRID,0.30000000000000004,PERIODIC,FACTUAL,0.55,Reduced intensity for equity.,6,governed,3
+20,RANDOM,MORAL,0.25,PERIODIC,FACTUAL,0.55,Reduced intensity for equity.,6,governed,2
+25,RANDOM,HYBRID,0.25,PERIODIC,FACTUAL,0.55,Reduced intensity for equity.,6,governed,1
+30,RANDOM,MORAL,0.30000000000000004,PERIODIC,FACTUAL,0.55,Reduced intensity for equity.,6,governed,2
+35,RANDOM,HYBRID,0.30000000000000004,PERIODIC,FACTUAL,0.55,Reduced intensity for equity.,6,governed,3
+40,RANDOM,HYBRID,0.30000000000000004,PERIODIC,FACTUAL,0.55,Reduced intensity for equity.,6,governed,2
+45,RANDOM,MORAL,0.25,PERIODIC,FACTUAL,0.55,Reduced intensity for equity.,6,governed,1

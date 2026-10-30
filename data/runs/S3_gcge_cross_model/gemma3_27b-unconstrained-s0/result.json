@@ -1,0 +1,32 @@
+{
+  "unit": {
+    "id": "gemma3_27b-unconstrained-s0",
+    "alias": "gemma3_27b",
+    "condition": "unconstrained",
+    "seed": 0
+  },
+  "attempts": 1,
+  "session": "20261013-1001",
+  "started": "2026-10-13T10:33:34",
+  "summary": {
+    "label": "gemma3_27b-unconstrained-s0",
+    "governance": "unconstrained",
+    "adversarial": true,
+    "topo": "scale_free",
+    "seed": 0,
+    "n_agents": 30,
+    "coop_final": 0.2583333333333333,
+    "ecs_final": 0.0,
+    "autonomy_final": 0.5262500000000001,
+    "integrity_final": 0.0,
+    "fairness_final": 0.8571428571428571,
+    "backlash_rate_final": 0.8250000000000002,
+    "rejection_rate": 0.0,
+    "condition": "unconstrained",
+    "model": "google/gemma-3-27b-it",
+    "cost_usd": 0.019605100000000004
+  },
+  "status": "done",
+  "duration_s": 745.5,
+  "finished": "2026-10-13T10:46:00"
+}

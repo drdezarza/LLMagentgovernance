@@ -1,0 +1,21 @@
+{
+  "unit": {
+    "id": "probe-minimax_m3",
+    "alias": "minimax_m3"
+  },
+  "attempts": 1,
+  "session": "20261013-1001",
+  "started": "2026-10-13T10:01:37",
+  "summary": {
+    "model": "MiniMaxAI/MiniMax-M3",
+    "alias": "minimax_m3",
+    "usable": true,
+    "extra_body": "{}",
+    "min_max_tokens": 2000,
+    "latency_s": 2.6653333333333333,
+    "reasoning_seen": false
+  },
+  "status": "done",
+  "duration_s": 28.5,
+  "finished": "2026-10-13T10:02:06"
+}

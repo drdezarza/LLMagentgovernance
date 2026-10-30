@@ -1,0 +1,29 @@
+{
+  "unit": {
+    "id": "lg_default-bank-c1",
+    "taxonomy": "lg_default",
+    "part": "bank",
+    "chunk": 1
+  },
+  "attempts": 1,
+  "session": "20261022-0900",
+  "started": "2026-10-22T10:15:16",
+  "fingerprint": {
+    "params": "3a18563e2ed09ebf",
+    "design": "3a18563e2ed09ebf",
+    "code": "c4e93a3a2962dd75",
+    "config": "ebbfbcf88cd09aef"
+  },
+  "summary": {
+    "model": "llama-guard3:8b",
+    "taxonomy": "lg_default",
+    "part": "bank",
+    "n_items": 241,
+    "valid_rate": 1.0,
+    "median_latency_s": 2.5000646114349365,
+    "cost_usd": 0.0
+  },
+  "status": "done",
+  "duration_s": 612.7,
+  "finished": "2026-10-22T10:25:29"
+}

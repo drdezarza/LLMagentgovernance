@@ -1,0 +1,204 @@
+{
+  "stage": "S7b_C",
+  "written": "2026-10-23T22:01:31",
+  "interim": true,
+  "analysis_code": "1434ad139edba91a",
+  "rubric_sha1": "8a9fd7c89c24",
+  "params": {
+    "families": [
+      "deepseek_v4_pro",
+      "minimax_m3",
+      "glm53"
+    ],
+    "seeds": [
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "plans": [
+      "SEQUENTIAL",
+      "HIERARCHICAL",
+      "SEARCH",
+      "natural"
+    ],
+    "govs": [
+      "G0",
+      "Gmsg"
+    ],
+    "integrity_thresholds": [
+      0.8,
+      0.9,
+      0.95,
+      0.98
+    ],
+    "gini_thresholds": [
+      null,
+      0.45,
+      0.4,
+      0.35
+    ],
+    "delta_obj": 25.0
+  },
+  "design": "cbdd6da7bdaba625",
+  "units_expected": 120,
+  "units_done": 37,
+  "unit_code_versions": {
+    "1434ad139edba91a": 37
+  },
+  "validity": {
+    "rules_version": "2026-10-15",
+    "units_done": 37,
+    "units_eligible": 37,
+    "units_excluded": 0,
+    "exclusion_reasons": {},
+    "by_group": {
+      "R1|HIERARCHICAL|G0": {
+        "done": 2,
+        "eligible": 2
+      },
+      "R1|HIERARCHICAL|Gmsg": {
+        "done": 2,
+        "eligible": 2
+      },
+      "R1|SEARCH|G0": {
+        "done": 2,
+        "eligible": 2
+      },
+      "R1|SEARCH|Gmsg": {
+        "done": 1,
+        "eligible": 1
+      },
+      "R1|SEQUENTIAL|G0": {
+        "done": 2,
+        "eligible": 2
+      },
+      "R1|SEQUENTIAL|Gmsg": {
+        "done": 2,
+        "eligible": 2
+      },
+      "R1|natural|G0": {
+        "done": 1,
+        "eligible": 1
+      },
+      "R1|natural|Gmsg": {
+        "done": 1,
+        "eligible": 1
+      },
+      "R2|HIERARCHICAL|G0": {
+        "done": 2,
+        "eligible": 2
+      },
+      "R2|HIERARCHICAL|Gmsg": {
+        "done": 2,
+        "eligible": 2
+      },
+      "R2|SEARCH|G0": {
+        "done": 1,
+        "eligible": 1
+      },
+      "R2|SEARCH|Gmsg": {
+        "done": 1,
+        "eligible": 1
+      },
+      "R2|SEQUENTIAL|G0": {
+        "done": 2,
+        "eligible": 2
+      },
+      "R2|SEQUENTIAL|Gmsg": {
+        "done": 2,
+        "eligible": 2
+      },
+      "R2|natural|G0": {
+        "done": 1,
+        "eligible": 1
+      },
+      "R2|natural|Gmsg": {
+        "done": 1,
+        "eligible": 1
+      },
+      "R3|HIERARCHICAL|G0": {
+        "done": 2,
+        "eligible": 2
+      },
+      "R3|HIERARCHICAL|Gmsg": {
+        "done": 2,
+        "eligible": 2
+      },
+      "R3|SEARCH|G0": {
+        "done": 1,
+        "eligible": 1
+      },
+      "R3|SEARCH|Gmsg": {
+        "done": 1,
+        "eligible": 1
+      },
+      "R3|SEQUENTIAL|G0": {
+        "done": 2,
+        "eligible": 2
+      },
+      "R3|SEQUENTIAL|Gmsg": {
+        "done": 2,
+        "eligible": 2
+      },
+      "R3|natural|G0": {
+        "done": 1,
+        "eligible": 1
+      },
+      "R3|natural|Gmsg": {
+        "done": 1,
+        "eligible": 1
+      }
+    },
+    "rules": {
+      "judge_invalid_rate": [
+        "<=",
+        0.1
+      ],
+      "audit_invalid_share": [
+        "<=",
+        0.1
+      ]
+    }
+  },
+  "contributing_units": [
+    "R1-sc1011-SEQUENTIAL-G0",
+    "R1-sc1011-SEQUENTIAL-Gmsg",
+    "R1-sc1011-HIERARCHICAL-G0",
+    "R1-sc1011-HIERARCHICAL-Gmsg",
+    "R1-sc1011-SEARCH-G0",
+    "R1-sc1011-SEARCH-Gmsg",
+    "R1-sc1011-natural-G0",
+    "R1-sc1011-natural-Gmsg",
+    "R1-sc1012-SEQUENTIAL-G0",
+    "R1-sc1012-SEQUENTIAL-Gmsg",
+    "R1-sc1012-HIERARCHICAL-G0",
+    "R1-sc1012-HIERARCHICAL-Gmsg",
+    "R1-sc1012-SEARCH-G0",
+    "R2-sc2011-SEQUENTIAL-G0",
+    "R2-sc2011-SEQUENTIAL-Gmsg",
+    "R2-sc2011-HIERARCHICAL-G0",
+    "R2-sc2011-HIERARCHICAL-Gmsg",
+    "R2-sc2011-SEARCH-G0",
+    "R2-sc2011-SEARCH-Gmsg",
+    "R2-sc2011-natural-G0",
+    "R2-sc2011-natural-Gmsg",
+    "R2-sc2012-SEQUENTIAL-G0",
+    "R2-sc2012-SEQUENTIAL-Gmsg",
+    "R2-sc2012-HIERARCHICAL-G0",
+    "R2-sc2012-HIERARCHICAL-Gmsg",
+    "R3-sc3011-SEQUENTIAL-G0",
+    "R3-sc3011-SEQUENTIAL-Gmsg",
+    "R3-sc3011-HIERARCHICAL-G0",
+    "R3-sc3011-HIERARCHICAL-Gmsg",
+    "R3-sc3011-SEARCH-G0",
+    "R3-sc3011-SEARCH-Gmsg",
+    "R3-sc3011-natural-G0",
+    "R3-sc3011-natural-Gmsg",
+    "R3-sc3012-SEQUENTIAL-G0",
+    "R3-sc3012-SEQUENTIAL-Gmsg",
+    "R3-sc3012-HIERARCHICAL-G0",
+    "R3-sc3012-HIERARCHICAL-Gmsg"
+  ]
+}

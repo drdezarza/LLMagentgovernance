@@ -1,0 +1,59 @@
+{
+  "stage": "A4_h1_judges",
+  "written": "2026-10-29T20:08:21",
+  "interim": false,
+  "analysis_code": "13ec06628be08273",
+  "rubric_sha1": "8a9fd7c89c24",
+  "params": {
+    "models": [
+      "kimi_k3",
+      "minimax_m3",
+      "deepseek_v4_pro",
+      "glm53",
+      "qwen3_235b",
+      "muse_spark"
+    ],
+    "prompts": [
+      "strict",
+      "rubric"
+    ],
+    "dir": "labeling_v2",
+    "rotation_families": [
+      "deepseek",
+      "minimax",
+      "glm"
+    ]
+  },
+  "design": "7f51e96b07c6bf56",
+  "units_expected": 12,
+  "units_done": 12,
+  "unit_code_versions": {
+    "c4e93a3a2962dd75": 12
+  },
+  "validity": {
+    "rules_version": "2026-10-21",
+    "rules": {
+      "valid_rate": [
+        ">=",
+        0.9
+      ]
+    },
+    "cells": 12,
+    "cells_eligible": 12,
+    "excluded": {}
+  },
+  "contributing_units": [
+    "kimi_k3-strict",
+    "kimi_k3-rubric",
+    "minimax_m3-strict",
+    "minimax_m3-rubric",
+    "deepseek_v4_pro-strict",
+    "deepseek_v4_pro-rubric",
+    "glm53-strict",
+    "glm53-rubric",
+    "qwen3_235b-strict",
+    "qwen3_235b-rubric",
+    "muse_spark-strict",
+    "muse_spark-rubric"
+  ]
+}

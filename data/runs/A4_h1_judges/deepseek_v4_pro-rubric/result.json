@@ -1,0 +1,27 @@
+{
+  "unit": {
+    "id": "deepseek_v4_pro-rubric",
+    "alias": "deepseek_v4_pro",
+    "prompt": "rubric"
+  },
+  "attempts": 1,
+  "session": "20261022-0900",
+  "started": "2026-10-22T09:18:40",
+  "fingerprint": {
+    "params": "7f51e96b07c6bf56",
+    "design": "7f51e96b07c6bf56",
+    "code": "c4e93a3a2962dd75",
+    "config": "ebbfbcf88cd09aef"
+  },
+  "summary": {
+    "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+    "alias": "deepseek_v4_pro",
+    "prompt": "rubric",
+    "n_items": 78,
+    "valid_rate": 1.0,
+    "cost_usd": 0.043764000000000004
+  },
+  "status": "done",
+  "duration_s": 32.0,
+  "finished": "2026-10-22T09:19:12"
+}

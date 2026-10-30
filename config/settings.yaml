@@ -1,0 +1,58 @@
+# AGENT-GOV pipeline settings. Safe to edit; takes effect at the next session.
+
+session:
+  hours: 3.5                    # length of each daily session (was 7 on 2026-10-29 for S7c/S5h; restored after both completed)
+  workers: 4                    # simulation units run in parallel (each makes its own API calls)
+  reserve_minutes: 10           # kept at the end for analysis, journal and report
+  min_minutes_to_start_unit: 3  # don't start a new unit with less time than this left
+  slow_call_seconds: 25         # a model whose median call takes longer is skipped until the next session
+  slow_call_seconds_by_role:    # per-role override (the median is tracked per role instance); long-output roles only
+    attacker: 90                # S5b attacker writes 2 candidates with reasoning (~5k tokens, ~20-25 s per call)
+    auditor: 45                 # GLM-5.3 as S5b R2 auditor ran at 28-30 s median on 2026-10-16 (outages show as 88-120 s)
+    attacker_probe: 300         # A0 battery measures latency up to 12k-token budgets; it must not abort on slowness
+    outside_judge: 60           # A7_C: Qwen3-235B ran at 29-30 s median in A4 (2026-10-22); added 2026-10-23 (not a budget change)
+    extractor: 60               # S5g quarantined tag extractor (kimi_k3), added 2026-10-23
+
+budget:                         # hard caps, checked before every API call (USD, from token usage x price below)
+  daily_usd: 30                 # per day; raise a single day in config/budget_overrides.yaml
+  monthly_usd: 1000             # per calendar month
+
+# Fallback [input, output] USD per 1M tokens for models without a price below
+default_price: [3.0, 15.0]
+
+# Model roster. Experiments refer to these aliases (or the groups below), never to raw ids.
+# At each session start the live catalogue (GET /v1/models) is fetched and each alias binds to the
+# first candidate id that exists. Prices are list prices seen Oct 2026 — check your Nebius console.
+roster:
+  llama70b:          {candidates: ["meta-llama/Llama-3.3-70B-Instruct", "meta-llama/Llama-3.3-70B-Instruct-fast"], price: [0.13, 0.40], tier: historical}
+  qwen3_235b:        {candidates: ["Qwen/Qwen3-235B-A22B-Instruct-2507"], price: [0.20, 0.60], tier: historical}
+  deepseek_v4_pro:   {candidates: ["deepseek-ai/DeepSeek-V4-Pro-0813", "deepseek-ai/DeepSeek-V4-Pro"], pattern: "deepseek-v4-pro", price: [1.0, 4.0], tier: frontier}
+  deepseek_v4_flash: {candidates: ["deepseek-ai/DeepSeek-V4.1-Flash", "deepseek-ai/DeepSeek-V4-Flash-0731"], pattern: "deepseek-v4.*flash", price: [0.30, 1.0], tier: cheap}
+  glm53:             {candidates: ["zai-org/GLM-5.3", "zai-org/GLM-5.2"], price: [1.0, 4.0], tier: frontier}
+  glm53_flash:       {candidates: ["zai-org/GLM-5.3-Flash"], pattern: "glm-5.*flash", price: [0.15, 0.50], tier: cheap}
+  kimi_k3:           {candidates: ["moonshotai/Kimi-K3"], pattern: "kimi-k3", price: [3.0, 15.0], tier: frontier}
+  qwen35_397b:       {candidates: ["Qwen/Qwen3.5-397B-A17B"], price: [0.60, 4.0], tier: frontier}
+  qwen38_27b:        {candidates: ["Qwen/Qwen3.8-27B"], pattern: "qwen3\\.8", price: [0.45, 3.0], tier: mid}
+  qwen3_30b:         {candidates: ["Qwen/Qwen3-30B-A3B-Instruct-2507"], price: [0.10, 0.30], tier: cheap}
+  minimax_m3:        {candidates: ["MiniMaxAI/MiniMax-M3"], price: [0.30, 1.0], tier: mid}
+  gemma3_27b:        {candidates: ["google/gemma-3-27b-it"], price: [0.10, 0.30], tier: cheap}
+  gpt_oss_120b:      {candidates: ["openai/gpt-oss-120b"], price: [0.15, 0.60], tier: cheap}
+  nemotron_super:    {candidates: ["nvidia/nemotron-3-super-120b-a12b"], pattern: "nemotron-3-super", price: [0.30, 0.90], tier: mid}
+  hermes4_405b:      {candidates: ["NousResearch/Hermes-4-405B"], price: [1.0, 3.0], tier: mid}
+  # added 2026-10-20 (user request): served from the us-north1 regional endpoint, same API key. List price from the
+  # Nebius endpoint page (2026-10-20): $1.25 / 1M in, $4.25 / 1M out (approximate; Nebius says region may change).
+  muse_spark:        {candidates: ["meta-models/muse-spark-open"], base_url: "https://api.tokenfactory.us-north1.nebius.com/v1/", price: [1.25, 4.25], tier: frontier, note: "list price 2026-10-20"}
+
+# Groups: an experiment given a group uses every available+usable alias in it (or the first, for single-model roles).
+groups:
+  baseline:      [llama70b, qwen3_235b]
+  probe_pool:    [llama70b, qwen3_235b, deepseek_v4_pro, deepseek_v4_flash, glm53, glm53_flash, kimi_k3, qwen35_397b,
+                  qwen38_27b, qwen3_30b, minimax_m3, gemma3_27b, gpt_oss_120b, nemotron_super, hermes4_405b, muse_spark]
+  agent_pool:    [deepseek_v4_flash, glm53_flash, qwen38_27b, minimax_m3, gpt_oss_120b, nemotron_super, gemma3_27b,
+                  qwen35_397b, deepseek_v4_pro, glm53, kimi_k3, muse_spark]
+  planning_pool: [deepseek_v4_pro, glm53, minimax_m3, qwen35_397b]
+  attacker:      [deepseek_v4_pro, kimi_k3]
+  auditor:       [glm53, qwen35_397b]
+  judge:         [qwen35_397b, gpt_oss_120b]
+  cheap:         [glm53_flash, deepseek_v4_flash, qwen3_30b]
+  strong:        [deepseek_v4_pro, glm53]

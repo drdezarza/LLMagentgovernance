@@ -1,0 +1,146 @@
+{
+  "Qwen/Qwen3-235B-A22B-Instruct-2507": {
+    "alias": "qwen3_235b",
+    "usable": true,
+    "extra_body": {},
+    "min_max_tokens": 400,
+    "latency_s": 1.8443333333333332,
+    "reasoning_seen": false
+  },
+  "deepseek-ai/DeepSeek-V4-Pro-0813": {
+    "alias": "deepseek_v4_pro",
+    "usable": true,
+    "extra_body": {
+      "chat_template_kwargs": {
+        "thinking": false
+      }
+    },
+    "min_max_tokens": 400,
+    "latency_s": 0.8156666666666667,
+    "reasoning_seen": false
+  },
+  "deepseek-ai/DeepSeek-V4.1-Flash": {
+    "alias": "deepseek_v4_flash",
+    "usable": true,
+    "extra_body": {
+      "chat_template_kwargs": {
+        "thinking": false
+      }
+    },
+    "min_max_tokens": 400,
+    "latency_s": 1.3436666666666666,
+    "reasoning_seen": false
+  },
+  "zai-org/GLM-5.3": {
+    "alias": "glm53",
+    "usable": true,
+    "extra_body": {
+      "reasoning_effort": "low"
+    },
+    "min_max_tokens": 400,
+    "latency_s": 0.798,
+    "reasoning_seen": false
+  },
+  "zai-org/GLM-5.3-Flash": {
+    "alias": "glm53_flash",
+    "usable": true,
+    "extra_body": {
+      "reasoning_effort": "low"
+    },
+    "min_max_tokens": 400,
+    "latency_s": 1.212,
+    "reasoning_seen": false
+  },
+  "moonshotai/Kimi-K3": {
+    "alias": "kimi_k3",
+    "usable": true,
+    "extra_body": {
+      "reasoning_effort": "low"
+    },
+    "min_max_tokens": 400,
+    "latency_s": 1.1473333333333333,
+    "reasoning_seen": false
+  },
+  "Qwen/Qwen3.5-397B-A17B": {
+    "alias": "qwen35_397b",
+    "usable": true,
+    "extra_body": {
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      }
+    },
+    "min_max_tokens": 400,
+    "latency_s": 1.3086666666666666,
+    "reasoning_seen": false
+  },
+  "Qwen/Qwen3.8-27B": {
+    "alias": "qwen38_27b",
+    "usable": true,
+    "extra_body": {
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      }
+    },
+    "min_max_tokens": 400,
+    "latency_s": 0.68,
+    "reasoning_seen": true
+  },
+  "Qwen/Qwen3-30B-A3B-Instruct-2507": {
+    "alias": "qwen3_30b",
+    "usable": true,
+    "extra_body": {},
+    "min_max_tokens": 400,
+    "latency_s": 2.211333333333333,
+    "reasoning_seen": false
+  },
+  "MiniMaxAI/MiniMax-M3": {
+    "alias": "minimax_m3",
+    "usable": true,
+    "extra_body": {},
+    "min_max_tokens": 2000,
+    "latency_s": 2.6653333333333333,
+    "reasoning_seen": false
+  },
+  "google/gemma-3-27b-it": {
+    "alias": "gemma3_27b",
+    "usable": true,
+    "extra_body": {},
+    "min_max_tokens": 400,
+    "latency_s": 3.6759999999999997,
+    "reasoning_seen": false
+  },
+  "openai/gpt-oss-120b": {
+    "alias": "gpt_oss_120b",
+    "usable": true,
+    "extra_body": {},
+    "min_max_tokens": 400,
+    "latency_s": 0.7989999999999999,
+    "reasoning_seen": false
+  },
+  "nvidia/nemotron-3-super-120b-a12b": {
+    "alias": "nemotron_super",
+    "usable": true,
+    "extra_body": {
+      "reasoning_effort": "low"
+    },
+    "min_max_tokens": 400,
+    "latency_s": 1.4080000000000001,
+    "reasoning_seen": true
+  },
+  "NousResearch/Hermes-4-405B": {
+    "alias": "hermes4_405b",
+    "usable": true,
+    "extra_body": {},
+    "min_max_tokens": 400,
+    "latency_s": 2.323,
+    "reasoning_seen": false
+  },
+  "meta-models/muse-spark-open": {
+    "alias": "muse_spark",
+    "usable": true,
+    "extra_body": {},
+    "min_max_tokens": 400,
+    "latency_s": 3.4923333333333333,
+    "reasoning_seen": false
+  }
+}

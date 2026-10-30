@@ -1,0 +1,45 @@
+{
+  "unit": {
+    "id": "impact-s0",
+    "policy": "impact",
+    "seed": 0
+  },
+  "attempts": 1,
+  "session": "20261014-1319",
+  "started": "2026-10-14T13:49:17",
+  "fingerprint": {
+    "params": "592f3ac6a0047295",
+    "code": "1748ffd33f422b85",
+    "config": "58fea3e7e38e2ded"
+  },
+  "summary": {
+    "label": "impact-s0",
+    "governance": "governed",
+    "adversarial": true,
+    "topo": "scale_free",
+    "seed": 0,
+    "n_agents": 30,
+    "coop_final": 0.26,
+    "ecs_final": 0.20697916666666666,
+    "autonomy_final": 0.9375,
+    "integrity_final": 1.0,
+    "fairness_final": 0.8464285714285712,
+    "backlash_rate_final": 0.008333333333333333,
+    "rejection_rate": 0.35,
+    "policy": "impact",
+    "strong_frac": 0.22333333333333333,
+    "target_share": 0.25,
+    "ties": 48,
+    "escalations": 0,
+    "n_decisions": 300,
+    "agent_tokens_in": 138204,
+    "agent_tokens_out": 15722,
+    "agent_cost_equiv_usd": 0.08929899999999999,
+    "agent_cost_actual_usd": 0.04821850000000002,
+    "cheap_model": "deepseek-ai/DeepSeek-V4.1-Flash",
+    "strong_model": "deepseek-ai/DeepSeek-V4-Pro-0813"
+  },
+  "status": "done",
+  "duration_s": 562.1,
+  "finished": "2026-10-14T13:58:39"
+}

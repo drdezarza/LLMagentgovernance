@@ -1,0 +1,25 @@
+{
+  "unit": {
+    "id": "judge-minimax_m3",
+    "alias": "minimax_m3"
+  },
+  "attempts": 1,
+  "session": "20261015-0900",
+  "started": "2026-10-15T09:46:00",
+  "fingerprint": {
+    "params": "41a1f0231ff75ac8",
+    "design": "41a1f0231ff75ac8",
+    "code": "c711ea102ce2cb2e",
+    "config": "287873370a1d7dfd"
+  },
+  "summary": {
+    "model": "MiniMaxAI/MiniMax-M3",
+    "n_items": 135,
+    "n_calls_valid": 195,
+    "rubric_sha1": "8a9fd7c89c24",
+    "cost_usd": 0.1337359
+  },
+  "status": "done",
+  "duration_s": 440.9,
+  "finished": "2026-10-15T09:53:21"
+}

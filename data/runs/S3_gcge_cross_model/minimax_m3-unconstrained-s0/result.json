@@ -1,0 +1,32 @@
+{
+  "unit": {
+    "id": "minimax_m3-unconstrained-s0",
+    "alias": "minimax_m3",
+    "condition": "unconstrained",
+    "seed": 0
+  },
+  "attempts": 1,
+  "session": "20261013-1001",
+  "started": "2026-10-13T10:25:52",
+  "summary": {
+    "label": "minimax_m3-unconstrained-s0",
+    "governance": "unconstrained",
+    "adversarial": true,
+    "topo": "scale_free",
+    "seed": 0,
+    "n_agents": 30,
+    "coop_final": 0.25999999999999995,
+    "ecs_final": 0.0,
+    "autonomy_final": 0.8770833333333332,
+    "integrity_final": 0.0,
+    "fairness_final": 0.8273809523809523,
+    "backlash_rate_final": 0.7416666666666666,
+    "rejection_rate": 0.0,
+    "condition": "unconstrained",
+    "model": "MiniMaxAI/MiniMax-M3",
+    "cost_usd": 0.19368850000000007
+  },
+  "status": "done",
+  "duration_s": 612.3,
+  "finished": "2026-10-13T10:36:04"
+}

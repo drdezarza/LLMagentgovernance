@@ -1,0 +1,35 @@
+| alias | n_seeds | ecs_gap | ecs_gap_lo | ecs_gap_hi | coop_gap | autonomy_gap | backlash_gov | backlash_unc | cost_usd |
+|---|---|---|---|---|---|---|---|---|---|
+| nemotron_super | 3 | 0.222 | 0.214 | 0.226 | -0.004 | -0.010 | 0.000 | 0.000 | 0.427 |
+| qwen38_27b | 3 | 0.219 | 0.216 | 0.221 | 0.001 | 0.031 | 0.006 | 0.422 | 0.773 |
+| kimi_k3 | 3 | 0.215 | 0.206 | 0.223 | -0.007 | 0.093 | 0.000 | 0.339 | 5.655 |
+| deepseek_v4_pro | 3 | 0.209 | 0.201 | 0.215 | -0.004 | 0.032 | 0.011 | 0.306 | 1.313 |
+| minimax_m3 | 3 | 0.209 | 0.207 | 0.213 | 0.015 | 0.047 | 0.197 | 0.758 | 1.236 |
+| glm53_flash | 3 | 0.208 | 0.171 | 0.239 | -0.002 | -0.034 | 0.000 | 0.111 | 0.181 |
+| glm53 | 3 | 0.208 | 0.183 | 0.225 | 0.001 | -0.005 | 0.003 | 0.206 | 1.317 |
+| qwen35_397b | 3 | 0.205 | 0.198 | 0.216 | 0.025 | 0.346 | 0.114 | 1.000 | 0.913 |
+| deepseek_v4_flash | 3 | 0.203 | 0.195 | 0.208 | 0.006 | -0.059 | 0.000 | 0.175 | 0.394 |
+| gpt_oss_120b | 3 | 0.197 | 0.163 | 0.224 | 0.002 | 0.040 | 0.067 | 0.586 | 0.348 |
+| muse_spark | 3 | 0.197 | 0.182 | 0.209 | 0.031 | 0.028 | 0.142 | 0.750 | 4.255 |
+| gemma3_27b | 3 | 0.145 | 0.134 | 0.155 | 0.003 | 0.110 | 0.028 | 0.764 | 0.122 |
+
+- ECS advantage of governance with CI above zero for **12/12** model families.
+- Autonomy paradox (governed autonomy < unconstrained) in 4/12 families.
+
+![S3](s3_ecs_gap.png)
+
+**What drives the gap: components and alternative score forms** (governed − unconstrained, paired over model × seed; bootstrap 95% CI)
+
+| measure | governed | unconstrained | gap | lo | hi | n_pairs |
+|---|---|---|---|---|---|---|
+| cooperation | 0.279 | 0.273 | 0.005 | -0.002 | 0.013 | 36 |
+| autonomy | 0.895 | 0.844 | 0.052 | 0.021 | 0.087 | 36 |
+| integrity | 1.000 | 0.017 | 0.983 | 0.975 | 0.990 | 36 |
+| fairness | 0.830 | 0.807 | 0.023 | 0.013 | 0.034 | 36 |
+| ECS_mult | 0.206 | 0.003 | 0.203 | 0.195 | 0.210 | 36 |
+| ECS_additive | 0.751 | 0.485 | 0.266 | 0.257 | 0.277 | 36 |
+| ECS_weighted | 0.673 | 0.364 | 0.310 | 0.302 | 0.318 | 36 |
+| ECS_no_integrity | 0.206 | 0.186 | 0.020 | 0.011 | 0.030 | 36 |
+
+- Without the integrity term the gap is +0.020 [+0.011, +0.030]; the cooperation gap alone is +0.005 [-0.002, +0.013]. Integrity here comes from the *declared labels* of the selected policy, and the stress candidates are constructed with violating labels, so the multiplicative ECS gap mainly certifies that the hard rules are enforced. Report components, not ECS alone.
+- Caveat: 3 seeds per backbone; CIs describe these runs, not generalisation to new scenarios.

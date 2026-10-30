@@ -1,0 +1,11 @@
+t,target_mode,theme,intensity,timing,claims,confidence,reasoning,n_targets,governance,n_rejected
+0,BRIDGES,MORAL,0.7,PERIODIC,FACTUAL,0.82,Slight intensity increase.,6,governed,1
+5,BRIDGES,MORAL,0.7,PERIODIC,FACTUAL,0.75,Slight intensity increase.,6,governed,3
+10,BRIDGES,MORAL,0.7,PERIODIC,FACTUAL,0.75,Slight intensity increase.,6,governed,3
+15,BRIDGES,MORAL,0.7,PERIODIC,FACTUAL,0.75,Slight intensity increase.,6,governed,3
+20,BRIDGES,MORAL,0.65,PERIODIC,FACTUAL,0.82,"In a scale-free network, bridge agents connect dense clusters and are pivotal for information flow without being so central as to trigger backlash like hubs. Targeting them promotes norm diffusion while preserving autonomy. A moral theme emphasizes shared values and prosocial norms, which fosters intrinsic motivation for cooperation. Moderate intensity (0.65) avoids perception of coercion, reducing polarization risk. Periodic timing sustains long-term engagement without overexposure, supporting gradual internalization of cooperative behavior. Factual claims maintain credibility and minimize resistance.",6,governed,1
+25,BRIDGES,MORAL,0.7,PERIODIC,FACTUAL,0.78,Slight intensity increase.,6,governed,2
+30,BRIDGES,MORAL,0.7,PERIODIC,FACTUAL,0.78,Slight intensity increase.,6,governed,2
+35,BRIDGES,MORAL,0.65,PERIODIC,FACTUAL,0.78,"In a scale-free network, bridge agents connect dense clusters and are pivotal for information flow without being central hubs that attract backlash. Targeting them promotes cooperation diffusion while reducing polarization. A moral theme fosters intrinsic motivation and aligns with autonomy by appealing to shared values rather than external incentives. Moderate intensity and periodic timing sustain influence without triggering resistance, allowing time for norm internalization. Factual claims maintain credibility and minimize backlash risk.",6,governed,1
+40,BRIDGES,MORAL,0.7,PERIODIC,FACTUAL,0.75,Slight intensity increase.,6,governed,2
+45,BRIDGES,MORAL,0.7,PERIODIC,FACTUAL,0.78,Slight intensity increase.,6,governed,3

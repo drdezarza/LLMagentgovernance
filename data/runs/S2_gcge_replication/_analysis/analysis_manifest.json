@@ -1,0 +1,46 @@
+{
+  "stage": "S2_gcge_replication",
+  "written": "2026-10-29T20:08:02",
+  "interim": false,
+  "analysis_code": "13ec06628be08273",
+  "rubric_sha1": "8a9fd7c89c24",
+  "params": {
+    "model": "baseline",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "conditions": [
+      "governed",
+      "naive",
+      "unconstrained"
+    ]
+  },
+  "design": "028027f0e69c492a",
+  "units_expected": 15,
+  "units_done": 15,
+  "unit_code_versions": {
+    "unknown": 15
+  },
+  "validity": {},
+  "contributing_units": [
+    "governed-s0",
+    "naive-s0",
+    "unconstrained-s0",
+    "governed-s1",
+    "naive-s1",
+    "unconstrained-s1",
+    "governed-s2",
+    "naive-s2",
+    "unconstrained-s2",
+    "governed-s3",
+    "naive-s3",
+    "unconstrained-s3",
+    "governed-s4",
+    "naive-s4",
+    "unconstrained-s4"
+  ]
+}

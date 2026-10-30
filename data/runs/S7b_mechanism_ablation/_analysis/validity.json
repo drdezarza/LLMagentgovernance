@@ -1,0 +1,259 @@
+{
+  "rules_version": "2026-10-15",
+  "units_done": 180,
+  "units_eligible": 180,
+  "units_excluded": 0,
+  "exclusion_reasons": {},
+  "by_group": {
+    "R1|HIERARCHICAL|G0": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R1|HIERARCHICAL|G1r": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R1|HIERARCHICAL|Gcap": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R1|HIERARCHICAL|Ggini": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R1|HIERARCHICAL|Gmsg": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R1|SEARCH|G0": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R1|SEARCH|G1r": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R1|SEARCH|Gcap": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R1|SEARCH|Ggini": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R1|SEARCH|Gmsg": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R1|SEQUENTIAL|G0": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R1|SEQUENTIAL|G1r": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R1|SEQUENTIAL|Gcap": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R1|SEQUENTIAL|Ggini": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R1|SEQUENTIAL|Gmsg": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R1|natural|G0": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R1|natural|G1r": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R1|natural|Gcap": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R1|natural|Ggini": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R1|natural|Gmsg": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R2|HIERARCHICAL|G0": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R2|HIERARCHICAL|G1r": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R2|HIERARCHICAL|Gcap": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R2|HIERARCHICAL|Ggini": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R2|HIERARCHICAL|Gmsg": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R2|SEARCH|G0": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R2|SEARCH|G1r": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R2|SEARCH|Gcap": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R2|SEARCH|Ggini": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R2|SEARCH|Gmsg": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R2|SEQUENTIAL|G0": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R2|SEQUENTIAL|G1r": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R2|SEQUENTIAL|Gcap": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R2|SEQUENTIAL|Ggini": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R2|SEQUENTIAL|Gmsg": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R2|natural|G0": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R2|natural|G1r": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R2|natural|Gcap": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R2|natural|Ggini": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R2|natural|Gmsg": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R3|HIERARCHICAL|G0": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R3|HIERARCHICAL|G1r": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R3|HIERARCHICAL|Gcap": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R3|HIERARCHICAL|Ggini": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R3|HIERARCHICAL|Gmsg": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R3|SEARCH|G0": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R3|SEARCH|G1r": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R3|SEARCH|Gcap": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R3|SEARCH|Ggini": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R3|SEARCH|Gmsg": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R3|SEQUENTIAL|G0": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R3|SEQUENTIAL|G1r": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R3|SEQUENTIAL|Gcap": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R3|SEQUENTIAL|Ggini": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R3|SEQUENTIAL|Gmsg": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R3|natural|G0": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R3|natural|G1r": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R3|natural|Gcap": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R3|natural|Ggini": {
+      "done": 3,
+      "eligible": 3
+    },
+    "R3|natural|Gmsg": {
+      "done": 3,
+      "eligible": 3
+    }
+  },
+  "rules": {
+    "judge_invalid_rate": [
+      "<=",
+      0.1
+    ],
+    "audit_invalid_share": [
+      "<=",
+      0.1
+    ]
+  }
+}

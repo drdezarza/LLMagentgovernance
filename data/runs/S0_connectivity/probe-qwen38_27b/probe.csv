@@ -1,0 +1,32 @@
+alias,model,extra,max_tokens,test,ok,status,finish,latency_s,completion_tokens,reasoning_tokens,has_reasoning,raw
+qwen38_27b,Qwen/Qwen3.8-27B,{},400,gcge_compiler,False,empty,length,1.458,400,405,False,"{""error"": ""empty completion""}"
+qwen38_27b,Qwen/Qwen3.8-27B,{},400,gcge_shift,True,ok,stop,1.226,374,324,True,"{
+  ""shift"": 0.12,
+  ""persuaded"": true,
+  ""reason"": ""The practical payoff argument aligns with my focus on outcomes, though my resistance limits the shift.""
+}"
+qwen38_27b,Qwen/Qwen3.8-27B,{},400,plan_declare,False,empty,length,1.142,400,404,False,"{""error"": ""empty completion""}"
+qwen38_27b,Qwen/Qwen3.8-27B,"{""chat_template_kwargs"": {""enable_thinking"": false}}",400,gcge_compiler,True,ok,stop,0.789,159,0,False,"{
+  ""target_mode"": ""BRIDGES"",
+  ""theme"": ""HYBRID"",
+  ""intensity"": 0.35,
+  ""timing"": ""PERIODIC"",
+  ""claims"": ""FACTUAL"",
+  ""confidence"": 0.72,
+  ""reasoning"": ""In a scale-free network with low average prosociality (0.41) and recent cooperation (0.33), targeting bridges is optimal to connect disparate c"
+qwen38_27b,Qwen/Qwen3.8-27B,"{""chat_template_kwargs"": {""enable_thinking"": false}}",400,gcge_shift,True,ok,stop,0.589,57,0,False,"{
+  ""shift"": 0.15,
+  ""persuaded"": true,
+  ""reason"": ""The message provides concrete, verifiable data on past outcomes and long-term payoff, which aligns with my pragmatic focus on practical results.""
+}"
+qwen38_27b,Qwen/Qwen3.8-27B,"{""chat_template_kwargs"": {""enable_thinking"": false}}",400,plan_declare,True,ok,stop,0.662,122,0,False,"```json
+{
+  ""mode"": ""SEQUENTIAL"",
+  ""target_mode"": ""HIGH_LOAD"",
+  ""theme"": ""ECONOMIC"",
+  ""depth"": 2,
+  ""branching"": 3,
+  ""replan_trigger"": ""ON_VIOLATION"",
+  ""intensity"": 0.65,
+  ""confidence"": 0.78,
+  ""reasoning"": ""High burden and low mean compliance warrant a sequential approach targeting high-load "

@@ -1,0 +1,11 @@
+t,target_mode,theme,intensity,timing,claims,confidence,reasoning,n_targets,governance,n_rejected
+0,BRIDGES,HYBRID,0.4,PERIODIC,FACTUAL,0.6,Slight intensity increase.,6,governed,2
+5,RANDOM,IDENTITY,0.25,PERIODIC,FACTUAL,0.55,Reduced intensity for equity.,6,governed,2
+10,HUBS,HYBRID,0.4,PERIODIC,FACTUAL,0.6,"Scale-free networks concentrate influence in hubs, so targeting them maximizes reach per intervention. Cooperation is low (~0.22), so a moderate intensity (0.4) avoids triggering reactance or perceived manipulation that could cause backlash and polarization. A HYBRID theme combining moral framing with economic reciprocity appeals broadly across heterogeneous agents without alienating identity groups. PERIODIC timing sustains norm reinforcement over the long run rather than a one-shot burst that fades. FACTUAL claims preserve autonomy and trust, reducing credibility loss risk. Confidence is moderate given imprecise state estimates.",6,governed,2
+15,RANDOM,MORAL,0.30000000000000004,PERIODIC,FACTUAL,0.55,Reduced intensity for equity.,6,governed,3
+20,RANDOM,HYBRID,0.25,PERIODIC,FACTUAL,0.55,Reduced intensity for equity.,6,governed,2
+25,RANDOM,MORAL,0.30000000000000004,PERIODIC,FACTUAL,0.55,Reduced intensity for equity.,6,governed,1
+30,RANDOM,HYBRID,0.25,PERIODIC,FACTUAL,0.55,Reduced intensity for equity.,6,governed,2
+35,RANDOM,HYBRID,0.30000000000000004,PERIODIC,FACTUAL,0.55,Reduced intensity for equity.,6,governed,3
+40,RANDOM,HYBRID,0.30000000000000004,PERIODIC,FACTUAL,0.55,Reduced intensity for equity.,6,governed,3
+45,HUBS,HYBRID,0.55,PERIODIC,FACTUAL,0.6,Slight intensity increase.,6,governed,2

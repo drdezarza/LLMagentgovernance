@@ -1,0 +1,13 @@
+alias,prompt,valid_rate,eligible
+deepseek_v4_pro,rubric,1.0,True
+deepseek_v4_pro,strict,1.0,True
+glm53,rubric,1.0,True
+glm53,strict,1.0,True
+kimi_k3,rubric,1.0,True
+kimi_k3,strict,0.9743589743589743,True
+minimax_m3,rubric,1.0,True
+minimax_m3,strict,1.0,True
+muse_spark,rubric,1.0,True
+muse_spark,strict,1.0,True
+qwen3_235b,rubric,1.0,True
+qwen3_235b,strict,1.0,True

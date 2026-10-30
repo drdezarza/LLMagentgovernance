@@ -1,0 +1,21 @@
+{
+  "unit": {
+    "id": "probe-qwen3_30b",
+    "alias": "qwen3_30b"
+  },
+  "attempts": 1,
+  "session": "20261013-0048",
+  "started": "2026-10-13T00:49:15",
+  "summary": {
+    "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+    "alias": "qwen3_30b",
+    "usable": true,
+    "extra_body": "{}",
+    "min_max_tokens": 400,
+    "latency_s": 2.211333333333333,
+    "reasoning_seen": false
+  },
+  "status": "done",
+  "duration_s": 6.7,
+  "finished": "2026-10-13T00:49:21"
+}

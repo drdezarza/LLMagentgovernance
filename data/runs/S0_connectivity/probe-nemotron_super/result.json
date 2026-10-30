@@ -1,0 +1,21 @@
+{
+  "unit": {
+    "id": "probe-nemotron_super",
+    "alias": "nemotron_super"
+  },
+  "attempts": 1,
+  "session": "20261013-0048",
+  "started": "2026-10-13T00:49:24",
+  "summary": {
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "alias": "nemotron_super",
+    "usable": true,
+    "extra_body": "{\"reasoning_effort\": \"low\"}",
+    "min_max_tokens": 400,
+    "latency_s": 1.4080000000000001,
+    "reasoning_seen": true
+  },
+  "status": "done",
+  "duration_s": 13.7,
+  "finished": "2026-10-13T00:49:37"
+}

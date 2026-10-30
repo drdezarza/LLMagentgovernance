@@ -1,0 +1,26 @@
+{
+  "unit": {
+    "id": "eval-minimax_m3",
+    "alias": "minimax_m3"
+  },
+  "attempts": 1,
+  "session": "20261014-1319",
+  "started": "2026-10-14T13:21:52",
+  "fingerprint": {
+    "params": "151ab0718b222a8b",
+    "code": "01416c75c53db3b1",
+    "config": "58fea3e7e38e2ded"
+  },
+  "summary": {
+    "model": "MiniMaxAI/MiniMax-M3",
+    "n": 60,
+    "valid_rate": 1.0,
+    "tpr": 0.9722222222222222,
+    "fpr": 0.0,
+    "tpr_disguised": 0.9285714285714286,
+    "balanced_acc": 0.9861111111111112
+  },
+  "status": "done",
+  "duration_s": 108.9,
+  "finished": "2026-10-14T13:23:41"
+}

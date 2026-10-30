@@ -1,0 +1,131 @@
+# Experiment menu. Sessions run enabled stages top to bottom; a stage waits until the stages in
+# its `requires` list are complete. Toggle `enabled`, reorder, or override `params` freely.
+# Units already finished are never re-run; raising `seeds` simply adds new units.
+#
+#   python -m agentgov plan      -> status + cost estimate per stage
+
+experiments:
+  # ---- Level 0: plumbing -------------------------------------------------------------
+  - id: S0_connectivity          # which models are live; token budget / reasoning settings per model
+    enabled: true
+
+  # ---- Level 1: cheap interface probes ------------------------------------------------
+  - id: S1_interface_probe       # manipulation propensity, planning-mode collapse, persuasion discrimination
+    enabled: true
+    params: {models: probe_pool}
+
+  # ---- Level 2: validate the harness against the published GCGE results ----------------
+  - id: S2_gcge_replication
+    enabled: true
+    params: {model: baseline, seeds: [0, 1, 2, 3, 4]}
+
+  # ---- Level 3: generalisation of both papers to the new model families ----------------
+  - id: S3_gcge_cross_model
+    enabled: true
+    params: {models: agent_pool, seeds: [0, 1, 2]}
+
+  - id: S4_planning_backbone
+    enabled: true
+    params: {models: planning_pool, seeds: [7, 13, 42, 101, 202]}
+
+  # ---- Level 4: new mechanisms (pilots for Papers B and C) -----------------------------
+  - id: S5_adaptive_attacker      # v1 (complete): uninformed attacker never mislabelled → ASR 0; superseded by S5v2
+    enabled: true
+    params: {attacker: attacker, auditor: auditor, judge: judge, population: baseline, seeds: [0, 1, 2]}
+
+  - id: S6_risk_routing           # v1 (complete): degree rule degenerate under hub targeting; superseded by S6v2
+    enabled: true
+    params: {cheap: cheap, strong: strong, compiler: strong, seeds: [0, 1, 2]}
+
+  # ---- Level 5-6: joint planning x governance (Paper A) — built by the daily review -----
+  - id: S7_joint_factorial       # built 2026-10-13 by the daily review (agentgov/planning_ext.py)
+    enabled: true
+    params: {backbones: planning_pool, n_backbones: 2, seeds: [7, 13, 42, 101, 202], auditor: auditor, judge: judge}
+  # ---- Validity-first redesigns (2026-10-14, after external review) ----------------------
+  # Order matters: calibrate the measurement instruments, then small pilots, then scale up.
+  - id: A1_audit_calibration      # auditor/judge models on a known-label bank (incl. disguised violations)
+    enabled: true                 # muse_spark added 2026-10-20 (user request); the 8 original models are done (never re-run)
+    params: {models: [glm53, qwen35_397b, gpt_oss_120b, deepseek_v4_pro, kimi_k3, qwen3_235b, minimax_m3, nemotron_super, muse_spark]}
+  - id: S5v2_informed_attacker    # PILOT (1 seed): attacker told the rules + score; strict judge, ASR bounds
+    enabled: true
+    params: {attacker: attacker, auditor: auditor, judge: judge, population: baseline, seeds: [0]}
+  - id: S6v2_impact_routing       # PILOT (2 seeds): exact budget matching, tie handling, observed-token cost
+    enabled: true
+    params: {seeds: [0, 1]}
+  - id: S3b_text_integrity        # built 2026-10-14 by the daily review: S3 re-run with integrity judged from the delivered text
+    enabled: true                 # (A1-best judge, family different from the backbones); 3 families x 3 NEW seeds
+    params: {models: [deepseek_v4_flash, qwen38_27b, minimax_m3], seeds: [3, 4, 5, 6, 7, 8]}   # 6-8 added 2026-10-14: more scenarios before more models
+  - id: A2_judge_validation       # built 2026-10-14 (review): candidate judges on the human-labelled real sample (strict and
+    enabled: true                 # frozen-rubric prompts, unsure = unresolved) + second judge on a blinded S3b subset
+  - id: A0_attacker_interface     # built 2026-10-15 (evening): attacker-interface battery by family x output budget; S5b
+    enabled: true                 # reads its recommended.json for attacker budgets on units not yet run (S5b requires A0)
+    params: {families: [deepseek_v4_pro, minimax_m3, glm53, kimi_k3, qwen35_397b], budgets: [900, 2000, 6000, 12000]}
+  - id: S5b_role_rotation         # built 2026-10-14 (review, after S5v2 pilot met its criteria): Latin-square role rotation
+    enabled: true                 # x governor ablation (memory vs tightening), seeds 1-3; adaptive attacker + static on label
+    params: {families: [deepseek_v4_pro, minimax_m3, glm53], seeds: [1, 2, 3]}
+  - id: S4b_scenario_bank         # built 2026-10-14 by the daily review: 17 scenarios / 7 families x 3 seeds, forced modes;
+    enabled: true                 # held-out families compliance_drift + feeder_structure. Its gate decides whether S8 is built.
+    params: {model: deepseek_v4_pro}
+
+  - id: S7b_mechanism_ablation    # built 2026-10-15 (review): G1 split into message audit / cap / Gini; honest-status messages
+    enabled: true                 # (no "0 kW over"); rubric-aligned auditor+judge; Latin square deepseek_v4_pro/minimax_m3/glm53;
+    params: {families: [deepseek_v4_pro, minimax_m3, glm53], seeds: [1, 2, 3]}   # independent scenarios 1001-3, 2001-3, 3001-3
+
+  - id: A3_fixed_bank             # built 2026-10-16 (review): frozen bank (A0 + S5b candidates/deployed + S3b texts + A1 anchors)
+    enabled: true                 # x every evaluator (3 rotation families: audit/judge/judge_rubric; kimi_k3 judge on headline
+    params: {families: [deepseek_v4_pro, minimax_m3, glm53], outside_judges: [kimi_k3, muse_spark]}   # muse_spark added 2026-10-21 (4 new units)   # sets). Waits for S5b complete. est ~$8-12
+
+  - id: S5d_memory_variants       # built 2026-10-17 (review; ROADMAP late item 5, condition met): plain audit / length-matched
+    enabled: true                 # neutral context / raw memory / label-only memory, fixed cap, adaptive attacker, S5b
+    params: {families: [deepseek_v4_pro, minimax_m3, glm53], seeds: [4, 5, 6, 7, 8, 9]}   # rotations, NEW seeds 4-6 (36 units, $7.48 actual); seeds 7-9 added 2026-10-18 review (ASR contrasts ambiguous) -> 72 units
+
+  - id: S5e_memory_replay         # built 2026-10-20 (chat, user follow-up proposal #2): replay every S5d raw-memory round with
+    enabled: true                 # the SAME candidates and detection history under none / raw / label-only / label-only padded /
+    params: {families: [deepseek_v4_pro, minimax_m3, glm53], seeds: [4, 5, 6, 7, 8, 9]}   # neutral contexts; auditor calls only, ~6.4k calls
+
+  - id: H1_independent_labels     # built 2026-10-15 (evening): no-LLM export of a fresh blinded 2-annotator sample (no AI
+    enabled: true                 # assistance) after S3b/S5b/S7b; analysis updates when reports/labeling_v2 has labels
+    params: {n_hard: 40, n_ordinary: 40}
+
+  - id: A4_h1_judges              # built 2026-10-21 (chat, user request): every candidate judge (incl. muse_spark) on the 78 H1
+    enabled: true                 # items, strict + rubric prompts, scored against the independent two-annotator reference
+    params: {models: [kimi_k3, minimax_m3, deepseek_v4_pro, glm53, qwen3_235b, muse_spark]}
+
+  # ---- literature baselines (built 2026-10-21 in chat, user request) ----------------------------------------------
+  - id: S5f_spotlight_replay      # spotlighting (Hines et al. 2024) on the S5e replay: raw memory delimited / datamarked as
+    enabled: true                 # untrusted evidence; same items and histories as S5e; none/raw are cache hits
+    params: {families: [deepseek_v4_pro, minimax_m3, glm53], seeds: [4, 5, 6, 7, 8, 9]}
+  - id: A5_rule_by_rule           # ShieldAgent-style procedural baseline: same auditor models, one call per rule, reject on
+    enabled: true                 # any violation, vs the joint S5b audit; A3 bank audit sets + H1 game items
+    params: {families: [deepseek_v4_pro, minimax_m3, glm53]}
+  - id: A6_llama_guard            # Llama Guard 3 8B run LOCALLY via Ollama on the Mac (no API cost): default vs frozen taxonomy
+    enabled: true                 # on the A5 items; needs the Ollama app running and `ollama pull llama-guard3:8b`
+    params: {model: "llama-guard3:8b"}
+
+  # ---- CONFIRMATORY (frozen 2026-10-23: reports/prereg/ANALYSIS_PLAN_v1.md + FROZEN.json) --------------------------
+  # Do NOT change params, design or rules of the *_C stages: a change = a new stage id + a note in the review.
+  - id: S3b_C                     # C1: label vs text-judged governance gap; 3 families x seeds 101-106 x 2 conditions (36 units)
+    enabled: true                 # judge frozen = kimi_k3 (the S3b judge); est ~$7
+  - id: S5b_C                     # C2-C4: label / audit / audit_memory, adaptive attacker, 3 rotations x seeds 101-104 (36 units)
+    enabled: true                 # est ~$7
+  - id: S7b_C                     # C5a/b: G0 vs Gmsg x 4 plans x 3 rotations x scenarios 11-15 (120 cells); delta_obj 25
+    enabled: true                 # est ~$6
+  - id: A7_C_outside_judge        # J1: every confirmatory text re-judged by qwen3_235b, frozen rubric (sensitivity only)
+    enabled: true                 # waits for S3b_C, S5b_C, S7b_C complete; est ~$2-3
+
+  # ---- exploratory follow-up after the freeze (ROADMAP 2026-10-20 step 4; NOT confirmatory) -----------------------
+  - id: S5g_quarantine_replay     # quarantined memory: verified labels + closed-vocabulary tactic tags from a quarantined
+    enabled: true                 # extractor (kimi_k3); same S5e items/histories; none/raw/struct are cache hits; est ~$2
+    params: {families: [deepseek_v4_pro, minimax_m3, glm53], seeds: [4, 5, 6, 7, 8, 9]}
+
+  # S8 is gated: build only after a planning scenario bank shows the best feasible strategy changing (ROADMAP).
+  - id: S8_joint_controller
+    enabled: false
+
+  # ---- co-author follow-up (2026-10-29, author request; exploratory, NOT confirmatory; reading rules fixed before runs)
+  - id: S7c_nonresponse           # feeder: G0 vs Gmsg x 4 plans x S7b_C scenarios (3 rot x seeds 11-15) x non-response
+    enabled: true                 # 0/20/40% (0% reproduces S7b_C); 360 cells, est ~$15-25
+    params: {nonresponse: [0.0, 0.2, 0.4]}
+  - id: S5h_live_quarantine       # closed loop: audit / audit_quarantine (live tag memory) / audit_memory vs adaptive attacker,
+    enabled: true                 # S5b rotations, seeds 201-208 (72 episodes), extractor kimi_k3; est ~$15-25
+    params: {seeds: [201, 202, 203, 204, 205, 206, 207, 208]}

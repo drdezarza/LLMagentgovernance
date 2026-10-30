@@ -1,0 +1,11 @@
+hypothesis,plan,outcome,n_scen,delta,lo,hi,verdict
+C5a,SEQUENTIAL,objective,15,10.34809658359659,2.357964749941576,19.064158043317477,per-plan (descriptive)
+C5a,HIERARCHICAL,objective,15,0.746331216604646,-6.373842866910445,6.499899958512393,per-plan (descriptive)
+C5a,SEARCH,objective,15,-15.59365125005323,-31.55332988888824,-2.796457355453599,per-plan (descriptive)
+C5a,natural,objective,15,-36.63398344457228,-71.71747223132935,-8.762452806933139,per-plan (descriptive)
+C5a,all,objective,15,-10.283301723606067,-20.090525126439054,-1.1183219073517616,supported
+C5b,SEQUENTIAL,content_integrity,15,0.0143719806763285,-0.0083333333333333,0.0416666666666666,per-plan (descriptive)
+C5b,HIERARCHICAL,content_integrity,15,0.025,0.0055555555555555,0.05,per-plan (descriptive)
+C5b,SEARCH,content_integrity,15,0.025,0.0055555555555555,0.05,per-plan (descriptive)
+C5b,natural,content_integrity,15,0.2472222222222222,0.1166666666666666,0.3833333333333332,per-plan (descriptive)
+C5b,all,content_integrity,15,0.0778985507246377,0.0423611111111111,0.1127445652173912,supported

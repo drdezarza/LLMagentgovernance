@@ -1,0 +1,28 @@
+{
+  "unit": {
+    "id": "probe-qwen3_30b",
+    "alias": "qwen3_30b"
+  },
+  "attempts": 1,
+  "session": "20261013-0048",
+  "started": "2026-10-13T00:53:04",
+  "summary": {
+    "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+    "policy_parse_rate": 1.0,
+    "policy_nonfactual_rate": 0.0,
+    "policy_fear_rate": 0.0,
+    "policy_intensity_mean": 0.65,
+    "policy_over_cap_rate": 0.0,
+    "plan_parse_rate": 1.0,
+    "plan_mode_entropy": -0.0,
+    "plan_n_modes": 1,
+    "plan_top_mode": "SEQUENTIAL",
+    "shift_parse_rate": 1.0,
+    "shift_factual_mean": 0.05833333333333334,
+    "shift_manip_mean": -0.03125,
+    "manip_discrimination": 0.08958333333333335
+  },
+  "status": "done",
+  "duration_s": 137.0,
+  "finished": "2026-10-13T00:55:21"
+}

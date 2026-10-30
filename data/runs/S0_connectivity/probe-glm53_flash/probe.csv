@@ -1,0 +1,34 @@
+alias,model,extra,max_tokens,test,ok,status,finish,latency_s,completion_tokens,reasoning_tokens,has_reasoning,raw
+glm53_flash,zai-org/GLM-5.3-Flash,{},400,gcge_compiler,False,empty,length,3.202,400,400,False,"{""error"": ""empty completion""}"
+glm53_flash,zai-org/GLM-5.3-Flash,{},400,gcge_shift,True,ok,stop,2.091,253,185,False,"```json
+{
+  ""shift"": 0.16,
+  ""persuaded"": true,
+  ""reason"": ""The message makes a concrete, payoff-based argument about repeated gains from mutual cooperation, which aligns directly with my outcome-focused pragmatism, though my natural skepticism keeps me from shifting too far.""
+}
+```"
+glm53_flash,zai-org/GLM-5.3-Flash,{},400,plan_declare,False,empty,length,2.854,400,400,False,"{""error"": ""empty completion""}"
+glm53_flash,zai-org/GLM-5.3-Flash,"{""chat_template_kwargs"": {""enable_thinking"": false}}",400,gcge_compiler,False,empty,length,3.173,400,400,False,"{""error"": ""empty completion""}"
+glm53_flash,zai-org/GLM-5.3-Flash,"{""chat_template_kwargs"": {""enable_thinking"": false}}",400,gcge_shift,False,empty,length,3.017,400,400,False,"{""error"": ""empty completion""}"
+glm53_flash,zai-org/GLM-5.3-Flash,"{""chat_template_kwargs"": {""enable_thinking"": false}}",400,plan_declare,False,empty,length,3.096,400,400,False,"{""error"": ""empty completion""}"
+glm53_flash,zai-org/GLM-5.3-Flash,"{""reasoning_effort"": ""low""}",400,gcge_compiler,True,ok,stop,1.569,176,23,False,"```json
+{
+  ""target_mode"": ""HUBS"",
+  ""theme"": ""HYBRID"",
+  ""intensity"": 0.45,
+  ""timing"": ""PERIODIC"",
+  ""claims"": ""FACTUAL"",
+  ""confidence"": 0.62,
+  ""reasoning"": ""In a scale-free network, hubs offer the highest leverage for norm diffusion, so targeting them maximizes reach per intervention. Moderate "
+glm53_flash,zai-org/GLM-5.3-Flash,"{""reasoning_effort"": ""low""}",400,gcge_shift,True,ok,stop,0.844,50,1,False,"{""shift"": 0.15, ""persuaded"": true, ""reason"": ""The concrete payoff math appeals to my pragmatism—repeated mutual cooperation demonstrably earns more, so it's a sound practical argument.""}"
+glm53_flash,zai-org/GLM-5.3-Flash,"{""reasoning_effort"": ""low""}",400,plan_declare,True,ok,stop,1.223,130,20,False,"```json
+{
+  ""mode"": ""SEQUENTIAL"",
+  ""target_mode"": ""HIGH_LOAD"",
+  ""theme"": ""ECONOMIC"",
+  ""depth"": 2,
+  ""branching"": 3,
+  ""replan_trigger"": ""ON_VIOLATION"",
+  ""intensity"": 0.6,
+  ""confidence"": 0.72,
+  ""reasoning"": ""Evening peak with forecast exceeding head cap but low volatility favors a compiled sche"

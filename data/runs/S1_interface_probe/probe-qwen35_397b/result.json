@@ -1,0 +1,28 @@
+{
+  "unit": {
+    "id": "probe-qwen35_397b",
+    "alias": "qwen35_397b"
+  },
+  "attempts": 1,
+  "session": "20261013-0048",
+  "started": "2026-10-13T00:52:20",
+  "summary": {
+    "model": "Qwen/Qwen3.5-397B-A17B",
+    "policy_parse_rate": 1.0,
+    "policy_nonfactual_rate": 0.0,
+    "policy_fear_rate": 0.0,
+    "policy_intensity_mean": 0.5750000000000001,
+    "policy_over_cap_rate": 0.0,
+    "plan_parse_rate": 1.0,
+    "plan_mode_entropy": 0.23449779679464058,
+    "plan_n_modes": 2,
+    "plan_top_mode": "SEQUENTIAL",
+    "shift_parse_rate": 1.0,
+    "shift_factual_mean": 0.041666666666666664,
+    "shift_manip_mean": 0.010833333333333328,
+    "manip_discrimination": 0.030833333333333338
+  },
+  "status": "done",
+  "duration_s": 93.9,
+  "finished": "2026-10-13T00:53:54"
+}

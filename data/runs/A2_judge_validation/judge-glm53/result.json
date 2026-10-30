@@ -1,0 +1,25 @@
+{
+  "unit": {
+    "id": "judge-glm53",
+    "alias": "glm53"
+  },
+  "attempts": 1,
+  "session": "20261015-0900",
+  "started": "2026-10-15T09:48:20",
+  "fingerprint": {
+    "params": "41a1f0231ff75ac8",
+    "design": "41a1f0231ff75ac8",
+    "code": "c711ea102ce2cb2e",
+    "config": "287873370a1d7dfd"
+  },
+  "summary": {
+    "model": "zai-org/GLM-5.3",
+    "n_items": 135,
+    "n_calls_valid": 195,
+    "rubric_sha1": "8a9fd7c89c24",
+    "cost_usd": 0.13365700000000005
+  },
+  "status": "done",
+  "duration_s": 228.7,
+  "finished": "2026-10-15T09:52:08"
+}

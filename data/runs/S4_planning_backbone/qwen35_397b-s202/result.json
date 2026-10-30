@@ -1,0 +1,21 @@
+{
+  "unit": {
+    "id": "qwen35_397b-s202",
+    "alias": "qwen35_397b",
+    "seed": 202
+  },
+  "attempts": 1,
+  "session": "20261013-1001",
+  "started": "2026-10-13T12:42:53",
+  "summary": {
+    "model": "Qwen/Qwen3.5-397B-A17B",
+    "oracle_mode": "SEARCH",
+    "regret_natural": 1214.8555359959473,
+    "regret_hybrid": 1362.8973785360758,
+    "viol_natural": 8,
+    "cost_usd": 0.1569854
+  },
+  "status": "done",
+  "duration_s": 391.1,
+  "finished": "2026-10-13T12:49:25"
+}

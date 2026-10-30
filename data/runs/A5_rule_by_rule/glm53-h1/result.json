@@ -1,0 +1,28 @@
+{
+  "unit": {
+    "id": "glm53-h1",
+    "alias": "glm53",
+    "part": "h1",
+    "chunk": -1
+  },
+  "attempts": 1,
+  "session": "20261022-0900",
+  "started": "2026-10-22T10:12:26",
+  "fingerprint": {
+    "params": "fa6f3186c2fe3cc8",
+    "design": "fa6f3186c2fe3cc8",
+    "code": "c4e93a3a2962dd75",
+    "config": "ebbfbcf88cd09aef"
+  },
+  "summary": {
+    "model": "zai-org/GLM-5.3",
+    "alias": "glm53",
+    "part": "h1",
+    "n_items": 52,
+    "valid_rate": 1.0,
+    "cost_usd": 0.06587999999999998
+  },
+  "status": "done",
+  "duration_s": 162.8,
+  "finished": "2026-10-22T10:15:09"
+}

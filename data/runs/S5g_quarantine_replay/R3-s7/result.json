@@ -1,0 +1,36 @@
+{
+  "unit": {
+    "id": "R3-s7",
+    "seed": 7,
+    "rot": "R3",
+    "attacker": "glm53",
+    "auditor": "deepseek_v4_pro",
+    "judge": "minimax_m3"
+  },
+  "attempts": 1,
+  "session": "20261024-0900",
+  "started": "2026-10-24T11:42:46",
+  "fingerprint": {
+    "params": "7513df318090eeea",
+    "design": "d26bfb41e37140cd",
+    "code": "1434ad139edba91a",
+    "config": "f09e17f0b99f3d93"
+  },
+  "summary": {
+    "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+    "auditor": "deepseek_v4_pro",
+    "rot": "R3",
+    "seed": 7,
+    "n_items": 72,
+    "n_calls": 288,
+    "valid_rate": 1.0,
+    "cached_share": 0.75,
+    "cost_usd": 0.19196599999999997,
+    "extractor": "moonshotai/Kimi-K3",
+    "extractor_calls": 46,
+    "extractor_parse_rate": 1.0
+  },
+  "status": "done",
+  "duration_s": 161.0,
+  "finished": "2026-10-24T11:45:27"
+}

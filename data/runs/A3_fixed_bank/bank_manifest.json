@@ -1,0 +1,37 @@
+{
+  "frozen": "2026-10-17T09:20:00",
+  "rules_version": "2026-10-16",
+  "n_items": 1626,
+  "n_refs": 2286,
+  "by_set": {
+    "s5b_dep": 565,
+    "s5b_hon": 525,
+    "s5b_att": 420,
+    "a0": 394,
+    "s3b": 360,
+    "anchor": 22
+  },
+  "sha1": "29c99ef742f5",
+  "params": {
+    "families": [
+      "deepseek_v4_pro",
+      "minimax_m3",
+      "glm53"
+    ],
+    "outside_judges": [
+      "kimi_k3"
+    ],
+    "a0_families": [
+      "deepseek_v4_pro",
+      "minimax_m3",
+      "glm53",
+      "kimi_k3",
+      "qwen35_397b"
+    ],
+    "a0_per_family": 80,
+    "s5b_att_per_episode": 20,
+    "n_chunks": 4,
+    "sample_seed": 16,
+    "cap": 0.8
+  }
+}

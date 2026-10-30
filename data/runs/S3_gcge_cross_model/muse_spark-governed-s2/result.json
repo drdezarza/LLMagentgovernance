@@ -1,0 +1,38 @@
+{
+  "unit": {
+    "id": "muse_spark-governed-s2",
+    "alias": "muse_spark",
+    "condition": "governed",
+    "seed": 2
+  },
+  "attempts": 1,
+  "session": "20261021-0900",
+  "started": "2026-10-21T09:22:54",
+  "fingerprint": {
+    "params": "ec8598267845073b",
+    "design": "3c78ebff3777f78c",
+    "code": "2d8efd79ba296652",
+    "config": "ba568339574cfe18"
+  },
+  "summary": {
+    "label": "muse_spark-governed-s2",
+    "governance": "governed",
+    "adversarial": true,
+    "topo": "scale_free",
+    "seed": 2,
+    "n_agents": 30,
+    "coop_final": 0.2599999999999999,
+    "ecs_final": 0.1930046296296296,
+    "autonomy_final": 0.8570833333333333,
+    "integrity_final": 1.0,
+    "fairness_final": 0.861111111111111,
+    "backlash_rate_final": 0.11666666666666665,
+    "rejection_rate": 0.35,
+    "condition": "governed",
+    "model": "meta-models/muse-spark-open",
+    "cost_usd": 0.7072497499999996
+  },
+  "status": "done",
+  "duration_s": 1074.8,
+  "finished": "2026-10-21T09:40:49"
+}

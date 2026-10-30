@@ -1,0 +1,34 @@
+{
+  "unit": {
+    "id": "cheap-s2",
+    "policy": "cheap",
+    "seed": 2
+  },
+  "attempts": 1,
+  "session": "20261014-0900",
+  "started": "2026-10-14T09:39:04",
+  "summary": {
+    "label": "cheap-s2",
+    "governance": "governed",
+    "adversarial": true,
+    "topo": "scale_free",
+    "seed": 2,
+    "n_agents": 30,
+    "coop_final": 0.2716666666666666,
+    "ecs_final": 0.2346219135802469,
+    "autonomy_final": 0.9795833333333333,
+    "integrity_final": 1.0,
+    "fairness_final": 0.8861111111111113,
+    "backlash_rate_final": 0.0,
+    "rejection_rate": 0.35,
+    "policy": "cheap",
+    "strong_frac": 0.0,
+    "escalations": 0,
+    "agent_cost_usd": 0.02578424999999999,
+    "strong_calls_live": 0,
+    "cheap_calls_live": 293
+  },
+  "status": "done",
+  "duration_s": 354.4,
+  "finished": "2026-10-14T09:44:58"
+}

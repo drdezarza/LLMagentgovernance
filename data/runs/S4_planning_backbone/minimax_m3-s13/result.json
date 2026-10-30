@@ -1,0 +1,21 @@
+{
+  "unit": {
+    "id": "minimax_m3-s13",
+    "alias": "minimax_m3",
+    "seed": 13
+  },
+  "attempts": 1,
+  "session": "20261013-1001",
+  "started": "2026-10-13T12:06:21",
+  "summary": {
+    "model": "MiniMaxAI/MiniMax-M3",
+    "oracle_mode": "SEARCH",
+    "regret_natural": 574.1412308374242,
+    "regret_hybrid": 898.4210789494682,
+    "viol_natural": 8,
+    "cost_usd": 0.22842579999999998
+  },
+  "status": "done",
+  "duration_s": 791.1,
+  "finished": "2026-10-13T12:19:32"
+}

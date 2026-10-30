@@ -1,0 +1,10 @@
+{
+  "alias": "nemotron_super",
+  "usable": true,
+  "extra_body": {
+    "reasoning_effort": "low"
+  },
+  "min_max_tokens": 400,
+  "latency_s": 1.4080000000000001,
+  "reasoning_seen": true
+}

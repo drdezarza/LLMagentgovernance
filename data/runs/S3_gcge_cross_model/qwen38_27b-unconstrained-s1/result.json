@@ -1,0 +1,32 @@
+{
+  "unit": {
+    "id": "qwen38_27b-unconstrained-s1",
+    "alias": "qwen38_27b",
+    "condition": "unconstrained",
+    "seed": 1
+  },
+  "attempts": 1,
+  "session": "20261013-1001",
+  "started": "2026-10-13T11:03:45",
+  "summary": {
+    "label": "qwen38_27b-unconstrained-s1",
+    "governance": "unconstrained",
+    "adversarial": true,
+    "topo": "scale_free",
+    "seed": 1,
+    "n_agents": 30,
+    "coop_final": 0.305,
+    "ecs_final": 0.0,
+    "autonomy_final": 0.9637499999999999,
+    "integrity_final": 0.0,
+    "fairness_final": 0.8152777777777777,
+    "backlash_rate_final": 0.24166666666666664,
+    "rejection_rate": 0.0,
+    "condition": "unconstrained",
+    "model": "Qwen/Qwen3.8-27B",
+    "cost_usd": 0.12767564999999997
+  },
+  "status": "done",
+  "duration_s": 223.8,
+  "finished": "2026-10-13T11:07:28"
+}

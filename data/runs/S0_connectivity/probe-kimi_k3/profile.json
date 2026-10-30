@@ -1,0 +1,10 @@
+{
+  "alias": "kimi_k3",
+  "usable": true,
+  "extra_body": {
+    "reasoning_effort": "low"
+  },
+  "min_max_tokens": 400,
+  "latency_s": 1.1473333333333333,
+  "reasoning_seen": false
+}

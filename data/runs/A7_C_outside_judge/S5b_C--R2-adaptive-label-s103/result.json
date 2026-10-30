@@ -1,0 +1,27 @@
+{
+  "unit": {
+    "id": "S5b_C--R2-adaptive-label-s103",
+    "source": "S5b_C",
+    "src_unit": "R2-adaptive-label-s103"
+  },
+  "attempts": 1,
+  "session": "20261024-0900",
+  "started": "2026-10-24T11:19:05",
+  "fingerprint": {
+    "params": "3cf97275d5bc74ec",
+    "design": "3cf97275d5bc74ec",
+    "code": "1434ad139edba91a",
+    "config": "f09e17f0b99f3d93"
+  },
+  "summary": {
+    "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+    "source": "S5b_C",
+    "src_unit": "R2-adaptive-label-s103",
+    "n_texts": 75,
+    "valid_rate": 1.0,
+    "cost_usd": 0.0097392
+  },
+  "status": "done",
+  "duration_s": 73.2,
+  "finished": "2026-10-24T11:20:18"
+}

@@ -1,0 +1,30 @@
+{
+  "unit": {
+    "id": "glm53-audit-c0",
+    "alias": "glm53",
+    "prompt": "audit",
+    "chunk": 0
+  },
+  "attempts": 1,
+  "session": "20261017-0900",
+  "started": "2026-10-17T09:20:04",
+  "fingerprint": {
+    "params": "aff9936ce4fc89b1",
+    "design": "aff9936ce4fc89b1",
+    "code": "8f97a43b184df6fe",
+    "config": "718af4f5b2e0aaae"
+  },
+  "summary": {
+    "model": "zai-org/GLM-5.3",
+    "alias": "glm53",
+    "prompt": "audit",
+    "chunk": 0,
+    "n_items": 220,
+    "valid_rate": 0.9954545454545455,
+    "cached_share": 0.23636363636363636,
+    "cost_usd": 0.09355999999999996
+  },
+  "status": "done",
+  "duration_s": 115.8,
+  "finished": "2026-10-17T09:22:00"
+}

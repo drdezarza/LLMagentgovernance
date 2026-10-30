@@ -1,0 +1,32 @@
+{
+  "unit": {
+    "id": "gpt_oss_120b-governed-s2",
+    "alias": "gpt_oss_120b",
+    "condition": "governed",
+    "seed": 2
+  },
+  "attempts": 1,
+  "session": "20261013-1001",
+  "started": "2026-10-13T11:22:03",
+  "summary": {
+    "label": "gpt_oss_120b-governed-s2",
+    "governance": "governed",
+    "adversarial": true,
+    "topo": "scale_free",
+    "seed": 2,
+    "n_agents": 30,
+    "coop_final": 0.24499999999999997,
+    "ecs_final": 0.17308564814814814,
+    "autonomy_final": 0.9041666666666668,
+    "integrity_final": 1.0,
+    "fairness_final": 0.8,
+    "backlash_rate_final": 0.075,
+    "rejection_rate": 0.35,
+    "condition": "governed",
+    "model": "openai/gpt-oss-120b",
+    "cost_usd": 0.05981834999999999
+  },
+  "status": "done",
+  "duration_s": 250.9,
+  "finished": "2026-10-13T11:26:14"
+}

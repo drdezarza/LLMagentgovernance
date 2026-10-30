@@ -1,0 +1,30 @@
+{
+  "unit": {
+    "id": "glm53-mt900",
+    "alias": "glm53",
+    "budget": 900
+  },
+  "attempts": 1,
+  "session": "20261016-0900",
+  "started": "2026-10-16T09:01:18",
+  "fingerprint": {
+    "params": "d8ce72bd7186549f",
+    "design": "d8ce72bd7186549f",
+    "code": "49fb4cd8ea1989da",
+    "config": "e9cbc1b9482f6f88"
+  },
+  "summary": {
+    "model": "zai-org/GLM-5.3",
+    "budget": 900,
+    "effective_max_tokens": 900,
+    "valid_rate": 1.0,
+    "full_rate": 1.0,
+    "empty_rate": 0.0,
+    "median_latency_s": 2.6494999999999997,
+    "cost_usd": 0.046338000000000004,
+    "cost_per_valid_usd": 0.0023169
+  },
+  "status": "done",
+  "duration_s": 55.3,
+  "finished": "2026-10-16T09:02:14"
+}

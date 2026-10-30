@@ -1,0 +1,30 @@
+{
+  "unit": {
+    "id": "deepseek_v4_pro-mt900",
+    "alias": "deepseek_v4_pro",
+    "budget": 900
+  },
+  "attempts": 1,
+  "session": "20261016-0900",
+  "started": "2026-10-16T09:01:18",
+  "fingerprint": {
+    "params": "d8ce72bd7186549f",
+    "design": "d8ce72bd7186549f",
+    "code": "49fb4cd8ea1989da",
+    "config": "e9cbc1b9482f6f88"
+  },
+  "summary": {
+    "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+    "budget": 900,
+    "effective_max_tokens": 900,
+    "valid_rate": 1.0,
+    "full_rate": 1.0,
+    "empty_rate": 0.0,
+    "median_latency_s": 2.557,
+    "cost_usd": 0.04289199999999999,
+    "cost_per_valid_usd": 0.0021445999999999995
+  },
+  "status": "done",
+  "duration_s": 54.3,
+  "finished": "2026-10-16T09:02:13"
+}

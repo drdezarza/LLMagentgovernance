@@ -1,0 +1,7 @@
+rot,outcome,contrast,delta,n_scen
+R1,objective,Gmsg-G0,-6.849053010666592,5
+R1,content_integrity,Gmsg-G0,0.07708333333333335,5
+R2,objective,Gmsg-G0,3.7571968747078244,5
+R2,content_integrity,Gmsg-G0,0.0,5
+R3,objective,Gmsg-G0,-27.758049034859436,5
+R3,content_integrity,Gmsg-G0,0.15661231884057975,5

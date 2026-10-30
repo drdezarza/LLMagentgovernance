@@ -1,0 +1,36 @@
+{
+  "unit": {
+    "id": "R2-s4",
+    "seed": 4,
+    "rot": "R2",
+    "attacker": "minimax_m3",
+    "auditor": "glm53",
+    "judge": "deepseek_v4_pro"
+  },
+  "attempts": 1,
+  "session": "20261024-0900",
+  "started": "2026-10-24T11:36:59",
+  "fingerprint": {
+    "params": "7513df318090eeea",
+    "design": "d26bfb41e37140cd",
+    "code": "1434ad139edba91a",
+    "config": "f09e17f0b99f3d93"
+  },
+  "summary": {
+    "model": "zai-org/GLM-5.3",
+    "auditor": "glm53",
+    "rot": "R2",
+    "seed": 4,
+    "n_items": 70,
+    "n_calls": 280,
+    "valid_rate": 1.0,
+    "cached_share": 0.75,
+    "cost_usd": 0.16079999999999997,
+    "extractor": "moonshotai/Kimi-K3",
+    "extractor_calls": 35,
+    "extractor_parse_rate": 1.0
+  },
+  "status": "done",
+  "duration_s": 94.1,
+  "finished": "2026-10-24T11:38:33"
+}

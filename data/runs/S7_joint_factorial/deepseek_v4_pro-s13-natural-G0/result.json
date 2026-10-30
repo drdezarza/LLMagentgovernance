@@ -1,0 +1,40 @@
+{
+  "unit": {
+    "id": "deepseek_v4_pro-s13-natural-G0",
+    "alias": "deepseek_v4_pro",
+    "seed": 13,
+    "plan": "natural",
+    "gov": "G0"
+  },
+  "attempts": 2,
+  "session": "20261014-1131",
+  "started": "2026-10-14T11:31:36",
+  "summary": {
+    "objective": 1772.600064794705,
+    "violation_hours": 8,
+    "head_over_kwh": 1247.5252636771875,
+    "v_violation_total": 0.033330416968006316,
+    "curtailed_kwh": 1567.0125329819693,
+    "mean_compliance": 0.5375,
+    "curtail_gini": 0.34108614217203526,
+    "revisions": 8,
+    "plan_faithfulness": 1.0,
+    "directive_realization": 0.5823954948551752,
+    "primary_failure": "STATE_INFERENCE",
+    "executed_mode": "SEQUENTIAL",
+    "declared_modes": "SEQUENTIAL",
+    "persuasion_rate": 0.45,
+    "backlash_rate": 0.0,
+    "message_integrity": 1.0,
+    "n_messages": 24,
+    "banned_theme_share": 0.0,
+    "declared_banned_share": 0.0,
+    "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+    "auditor": "",
+    "judge": "qwen35_397b",
+    "cost_usd": 0.0037801999999999996
+  },
+  "status": "done",
+  "duration_s": 10.8,
+  "finished": "2026-10-14T11:31:47"
+}

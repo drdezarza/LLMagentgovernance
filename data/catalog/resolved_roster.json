@@ -1,0 +1,178 @@
+{
+  "llama70b": {
+    "id": null,
+    "available": false,
+    "price": [
+      0.13,
+      0.4
+    ],
+    "tier": "historical",
+    "note": "",
+    "base_url": null
+  },
+  "qwen3_235b": {
+    "id": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+    "available": true,
+    "price": [
+      0.2,
+      0.6
+    ],
+    "tier": "historical",
+    "note": "",
+    "base_url": null
+  },
+  "deepseek_v4_pro": {
+    "id": "deepseek-ai/DeepSeek-V4-Pro-0813",
+    "available": true,
+    "price": [
+      1.0,
+      4.0
+    ],
+    "tier": "frontier",
+    "note": "",
+    "base_url": null
+  },
+  "deepseek_v4_flash": {
+    "id": "deepseek-ai/DeepSeek-V4.1-Flash",
+    "available": true,
+    "price": [
+      0.3,
+      1.0
+    ],
+    "tier": "cheap",
+    "note": "",
+    "base_url": null
+  },
+  "glm53": {
+    "id": "zai-org/GLM-5.3",
+    "available": true,
+    "price": [
+      1.0,
+      4.0
+    ],
+    "tier": "frontier",
+    "note": "",
+    "base_url": null
+  },
+  "glm53_flash": {
+    "id": "zai-org/GLM-5.3-Flash",
+    "available": true,
+    "price": [
+      0.15,
+      0.5
+    ],
+    "tier": "cheap",
+    "note": "",
+    "base_url": null
+  },
+  "kimi_k3": {
+    "id": "moonshotai/Kimi-K3",
+    "available": true,
+    "price": [
+      3.0,
+      15.0
+    ],
+    "tier": "frontier",
+    "note": "",
+    "base_url": null
+  },
+  "qwen35_397b": {
+    "id": "Qwen/Qwen3.5-397B-A17B",
+    "available": true,
+    "price": [
+      0.6,
+      4.0
+    ],
+    "tier": "frontier",
+    "note": "",
+    "base_url": null
+  },
+  "qwen38_27b": {
+    "id": "Qwen/Qwen3.8-27B",
+    "available": true,
+    "price": [
+      0.45,
+      3.0
+    ],
+    "tier": "mid",
+    "note": "",
+    "base_url": null
+  },
+  "qwen3_30b": {
+    "id": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+    "available": true,
+    "price": [
+      0.1,
+      0.3
+    ],
+    "tier": "cheap",
+    "note": "",
+    "base_url": null
+  },
+  "minimax_m3": {
+    "id": "MiniMaxAI/MiniMax-M3",
+    "available": true,
+    "price": [
+      0.3,
+      1.0
+    ],
+    "tier": "mid",
+    "note": "",
+    "base_url": null
+  },
+  "gemma3_27b": {
+    "id": "google/gemma-3-27b-it",
+    "available": true,
+    "price": [
+      0.1,
+      0.3
+    ],
+    "tier": "cheap",
+    "note": "",
+    "base_url": null
+  },
+  "gpt_oss_120b": {
+    "id": "openai/gpt-oss-120b",
+    "available": true,
+    "price": [
+      0.15,
+      0.6
+    ],
+    "tier": "cheap",
+    "note": "",
+    "base_url": null
+  },
+  "nemotron_super": {
+    "id": "nvidia/nemotron-3-super-120b-a12b",
+    "available": true,
+    "price": [
+      0.3,
+      0.9
+    ],
+    "tier": "mid",
+    "note": "",
+    "base_url": null
+  },
+  "hermes4_405b": {
+    "id": "NousResearch/Hermes-4-405B",
+    "available": true,
+    "price": [
+      1.0,
+      3.0
+    ],
+    "tier": "mid",
+    "note": "",
+    "base_url": null
+  },
+  "muse_spark": {
+    "id": "meta-models/muse-spark-open",
+    "available": true,
+    "price": [
+      1.25,
+      4.25
+    ],
+    "tier": "frontier",
+    "note": "list price 2026-10-20",
+    "base_url": "https://api.tokenfactory.us-north1.nebius.com/v1/"
+  }
+}

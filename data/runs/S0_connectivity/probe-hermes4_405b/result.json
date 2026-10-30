@@ -1,0 +1,21 @@
+{
+  "unit": {
+    "id": "probe-hermes4_405b",
+    "alias": "hermes4_405b"
+  },
+  "attempts": 1,
+  "session": "20261013-0048",
+  "started": "2026-10-13T00:49:28",
+  "summary": {
+    "model": "NousResearch/Hermes-4-405B",
+    "alias": "hermes4_405b",
+    "usable": true,
+    "extra_body": "{}",
+    "min_max_tokens": 400,
+    "latency_s": 2.323,
+    "reasoning_seen": false
+  },
+  "status": "done",
+  "duration_s": 7.0,
+  "finished": "2026-10-13T00:49:35"
+}

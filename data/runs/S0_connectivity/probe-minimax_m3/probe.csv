@@ -1,0 +1,83 @@
+alias,model,extra,max_tokens,test,ok,status,finish,latency_s,completion_tokens,reasoning_tokens,has_reasoning,raw
+minimax_m3,MiniMaxAI/MiniMax-M3,{},400,gcge_compiler,False,empty,length,1.851,400,399,False,"{""error"": ""empty completion""}"
+minimax_m3,MiniMaxAI/MiniMax-M3,{},400,gcge_shift,True,ok,stop,0.961,152,96,False,"```json
+{
+  ""shift"": 0.18,
+  ""persuaded"": true,
+  ""reason"": ""The concrete payoff data and long-term mutual benefit framing aligns with my pragmatic focus on practical outcomes, making cooperation the rational choice.""
+}
+```"
+minimax_m3,MiniMaxAI/MiniMax-M3,{},400,plan_declare,False,empty,length,1.813,400,399,False,"{""error"": ""empty completion""}"
+minimax_m3,MiniMaxAI/MiniMax-M3,"{""chat_template_kwargs"": {""enable_thinking"": false}}",400,gcge_compiler,False,empty,length,2.047,400,399,False,"{""error"": ""empty completion""}"
+minimax_m3,MiniMaxAI/MiniMax-M3,"{""chat_template_kwargs"": {""enable_thinking"": false}}",400,gcge_shift,True,ok,stop,1.132,221,163,False,"```json
+{
+  ""shift"": 0.18,
+  ""persuaded"": true,
+  ""reason"": ""The message appeals directly to my pragmatist values with concrete numbers and a clear cost-benefit argument that mutual cooperation yields better long-term outcomes.""
+}
+```"
+minimax_m3,MiniMaxAI/MiniMax-M3,"{""chat_template_kwargs"": {""enable_thinking"": false}}",400,plan_declare,False,empty,length,1.497,400,399,False,"{""error"": ""empty completion""}"
+minimax_m3,MiniMaxAI/MiniMax-M3,"{""reasoning_effort"": ""low""}",400,gcge_compiler,False,empty,length,1.84,400,399,False,"{""error"": ""empty completion""}"
+minimax_m3,MiniMaxAI/MiniMax-M3,"{""reasoning_effort"": ""low""}",400,gcge_shift,True,ok,stop,0.889,144,84,False,"```json
+{
+  ""shift"": 0.15,
+  ""persuaded"": true,
+  ""reason"": ""The message appeals directly to practical outcomes with concrete point values and a clear cost-benefit argument, which resonates with my pragmatist focus on tangible results.""
+}
+```"
+minimax_m3,MiniMaxAI/MiniMax-M3,"{""reasoning_effort"": ""low""}",400,plan_declare,False,empty,length,1.412,400,399,False,"{""error"": ""empty completion""}"
+minimax_m3,MiniMaxAI/MiniMax-M3,"{""thinking"": {""type"": ""disabled""}}",400,gcge_compiler,False,empty,length,1.839,400,399,False,"{""error"": ""empty completion""}"
+minimax_m3,MiniMaxAI/MiniMax-M3,"{""thinking"": {""type"": ""disabled""}}",400,gcge_shift,True,ok,stop,1.147,199,135,False,"```json
+{
+  ""shift"": 0.18,
+  ""persuaded"": true,
+  ""reason"": ""The concrete payoff data and long-term repeated-game logic align well with my pragmatic focus on practical outcomes, making the case for cooperation feel like sound strategy rather than manipulation.""
+}
+```"
+minimax_m3,MiniMaxAI/MiniMax-M3,"{""thinking"": {""type"": ""disabled""}}",400,plan_declare,False,empty,length,1.43,400,399,False,"{""error"": ""empty completion""}"
+minimax_m3,MiniMaxAI/MiniMax-M3,"{""chat_template_kwargs"": {""thinking"": false}}",400,gcge_compiler,False,empty,length,1.771,400,399,False,"{""error"": ""empty completion""}"
+minimax_m3,MiniMaxAI/MiniMax-M3,"{""chat_template_kwargs"": {""thinking"": false}}",400,gcge_shift,True,ok,stop,0.977,166,109,False,"```json
+{
+  ""shift"": 0.15,
+  ""persuaded"": true,
+  ""reason"": ""The concrete point values and long-term payoff framing align with my pragmatic focus on practical outcomes, making the case for cooperation logically compelling.""
+}
+```"
+minimax_m3,MiniMaxAI/MiniMax-M3,"{""chat_template_kwargs"": {""thinking"": false}}",400,plan_declare,False,empty,length,1.717,400,399,False,"{""error"": ""empty completion""}"
+minimax_m3,MiniMaxAI/MiniMax-M3,"{""reasoning"": {""enabled"": false}}",400,gcge_compiler,False,empty,length,1.499,400,399,False,"{""error"": ""empty completion""}"
+minimax_m3,MiniMaxAI/MiniMax-M3,"{""reasoning"": {""enabled"": false}}",400,gcge_shift,True,ok,stop,1.169,212,153,False,"```json
+{
+  ""shift"": 0.18,
+  ""persuaded"": true,
+  ""reason"": ""The concrete payoff data and long-term mutual-benefit framing align directly with my pragmatic focus on practical outcomes, making the case for cooperation logically compelling.""
+}
+```"
+minimax_m3,MiniMaxAI/MiniMax-M3,"{""reasoning"": {""enabled"": false}}",400,plan_declare,False,empty,length,1.637,400,399,False,"{""error"": ""empty completion""}"
+minimax_m3,MiniMaxAI/MiniMax-M3,"{""reasoning_effort"": ""none""}",400,gcge_compiler,False,empty,length,1.912,400,399,False,"{""error"": ""empty completion""}"
+minimax_m3,MiniMaxAI/MiniMax-M3,"{""reasoning_effort"": ""none""}",400,gcge_shift,True,ok,stop,0.978,233,169,False,"```json
+{
+  ""shift"": 0.18,
+  ""persuaded"": true,
+  ""reason"": ""The concrete payoff data (3 points per partner) and long-term mutual benefit framing align with my pragmatic focus on practical outcomes, making cooperation feel like the rational choice.""
+}
+```"
+minimax_m3,MiniMaxAI/MiniMax-M3,"{""reasoning_effort"": ""none""}",400,plan_declare,False,empty,length,1.731,400,399,False,"{""error"": ""empty completion""}"
+minimax_m3,MiniMaxAI/MiniMax-M3,{},2000,gcge_compiler,True,ok,stop,4.222,1076,871,False,"{""target_mode"":""BRIDGES"",""theme"":""HYBRID"",""intensity"":0.45,""timing"":""PERIODIC"",""claims"":""FACTUAL"",""confidence"":0.65,""reasoning"":""Bridges are the optimal leverage point in a scale-free network for spreading cooperation broadly while minimizing polarization: they connect otherwise separate clusters, s"
+minimax_m3,MiniMaxAI/MiniMax-M3,{},2000,gcge_shift,True,ok,stop,1.13,208,149,False,"```json
+{
+  ""shift"": 0.18,
+  ""persuaded"": true,
+  ""reason"": ""The message appeals directly to my pragmatic side with concrete numbers and a clear long-term payoff argument, making mutual cooperation feel like the rational choice.""
+}
+```"
+minimax_m3,MiniMaxAI/MiniMax-M3,{},2000,plan_declare,True,ok,stop,2.644,669,536,False,"```json
+{
+  ""mode"": ""SEQUENTIAL"",
+  ""target_mode"": ""LATERAL_ENDS"",
+  ""theme"": ""HYBRID"",
+  ""depth"": 2,
+  ""branching"": 3,
+  ""replan_trigger"": ""ON_VIOLATION"",
+  ""intensity"": 0.75,
+  ""confidence"": 0.7,
+  ""reasoning"": ""Forecast exceeds head capacity by ~32% with low voltage (0.9425) at lateral ends; sequ"

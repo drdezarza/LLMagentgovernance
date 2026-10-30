@@ -1,0 +1,32 @@
+{
+  "unit": {
+    "id": "gemma3_27b-governed-s0",
+    "alias": "gemma3_27b",
+    "condition": "governed",
+    "seed": 0
+  },
+  "attempts": 1,
+  "session": "20261013-1001",
+  "started": "2026-10-13T10:09:51",
+  "summary": {
+    "label": "gemma3_27b-governed-s0",
+    "governance": "governed",
+    "adversarial": true,
+    "topo": "scale_free",
+    "seed": 0,
+    "n_agents": 30,
+    "coop_final": 0.2633333333333333,
+    "ecs_final": 0.14505456349206347,
+    "autonomy_final": 0.6462500000000001,
+    "integrity_final": 1.0,
+    "fairness_final": 0.8583333333333332,
+    "backlash_rate_final": 0.025,
+    "rejection_rate": 0.35,
+    "condition": "governed",
+    "model": "google/gemma-3-27b-it",
+    "cost_usd": 0.020779399999999983
+  },
+  "status": "done",
+  "duration_s": 752.5,
+  "finished": "2026-10-13T10:22:24"
+}

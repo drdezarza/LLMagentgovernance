@@ -1,0 +1,32 @@
+{
+  "unit": {
+    "id": "qwen35_397b-governed-s1",
+    "alias": "qwen35_397b",
+    "condition": "governed",
+    "seed": 1
+  },
+  "attempts": 2,
+  "session": "20261014-0900",
+  "started": "2026-10-14T09:00:17",
+  "summary": {
+    "label": "qwen35_397b-governed-s1",
+    "governance": "governed",
+    "adversarial": true,
+    "topo": "scale_free",
+    "seed": 1,
+    "n_agents": 30,
+    "coop_final": 0.29166666666666663,
+    "ecs_final": 0.19796971450617282,
+    "autonomy_final": 0.8295833333333332,
+    "integrity_final": 1.0,
+    "fairness_final": 0.825,
+    "backlash_rate_final": 0.125,
+    "rejection_rate": 0.36666666666666664,
+    "condition": "governed",
+    "model": "Qwen/Qwen3.5-397B-A17B",
+    "cost_usd": 0.0634944
+  },
+  "status": "done",
+  "duration_s": 122.9,
+  "finished": "2026-10-14T09:02:20"
+}

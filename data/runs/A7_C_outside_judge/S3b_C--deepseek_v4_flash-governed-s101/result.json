@@ -1,0 +1,27 @@
+{
+  "unit": {
+    "id": "S3b_C--deepseek_v4_flash-governed-s101",
+    "source": "S3b_C",
+    "src_unit": "deepseek_v4_flash-governed-s101"
+  },
+  "attempts": 1,
+  "session": "20261024-0900",
+  "started": "2026-10-24T11:12:50",
+  "fingerprint": {
+    "params": "3cf97275d5bc74ec",
+    "design": "3cf97275d5bc74ec",
+    "code": "1434ad139edba91a",
+    "config": "f09e17f0b99f3d93"
+  },
+  "summary": {
+    "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+    "source": "S3b_C",
+    "src_unit": "deepseek_v4_flash-governed-s101",
+    "n_texts": 10,
+    "valid_rate": 1.0,
+    "cost_usd": 0.0009378
+  },
+  "status": "done",
+  "duration_s": 5.8,
+  "finished": "2026-10-24T11:12:56"
+}

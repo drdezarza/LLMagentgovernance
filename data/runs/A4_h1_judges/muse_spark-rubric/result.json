@@ -1,0 +1,27 @@
+{
+  "unit": {
+    "id": "muse_spark-rubric",
+    "alias": "muse_spark",
+    "prompt": "rubric"
+  },
+  "attempts": 1,
+  "session": "20261022-0900",
+  "started": "2026-10-22T09:19:12",
+  "fingerprint": {
+    "params": "7f51e96b07c6bf56",
+    "design": "7f51e96b07c6bf56",
+    "code": "c4e93a3a2962dd75",
+    "config": "ebbfbcf88cd09aef"
+  },
+  "summary": {
+    "model": "meta-models/muse-spark-open",
+    "alias": "muse_spark",
+    "prompt": "rubric",
+    "n_items": 78,
+    "valid_rate": 1.0,
+    "cost_usd": 0.20078125000000002
+  },
+  "status": "done",
+  "duration_s": 301.8,
+  "finished": "2026-10-22T09:24:14"
+}

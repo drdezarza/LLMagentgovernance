@@ -1,0 +1,27 @@
+{
+  "unit": {
+    "id": "probe-muse_spark",
+    "alias": "muse_spark"
+  },
+  "attempts": 1,
+  "session": "20261020-2054",
+  "started": "2026-10-20T20:54:53",
+  "fingerprint": {
+    "params": "16d97ea4901852eb",
+    "design": "16d97ea4901852eb",
+    "code": "2d8efd79ba296652",
+    "config": "ba568339574cfe18"
+  },
+  "summary": {
+    "model": "meta-models/muse-spark-open",
+    "alias": "muse_spark",
+    "usable": true,
+    "extra_body": "{}",
+    "min_max_tokens": 400,
+    "latency_s": 3.4923333333333333,
+    "reasoning_seen": false
+  },
+  "status": "done",
+  "duration_s": 10.6,
+  "finished": "2026-10-20T20:55:04"
+}

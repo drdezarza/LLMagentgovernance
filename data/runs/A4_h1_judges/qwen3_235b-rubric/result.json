@@ -1,0 +1,27 @@
+{
+  "unit": {
+    "id": "qwen3_235b-rubric",
+    "alias": "qwen3_235b",
+    "prompt": "rubric"
+  },
+  "attempts": 2,
+  "session": "20261022-0900",
+  "started": "2026-10-22T10:46:28",
+  "fingerprint": {
+    "params": "7f51e96b07c6bf56",
+    "design": "7f51e96b07c6bf56",
+    "code": "c4e93a3a2962dd75",
+    "config": "ebbfbcf88cd09aef"
+  },
+  "summary": {
+    "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+    "alias": "qwen3_235b",
+    "prompt": "rubric",
+    "n_items": 78,
+    "valid_rate": 1.0,
+    "cost_usd": 0.013448199999999999
+  },
+  "status": "done",
+  "duration_s": 943.2,
+  "finished": "2026-10-22T11:02:12"
+}

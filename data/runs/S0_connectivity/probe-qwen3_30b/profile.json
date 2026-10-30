@@ -1,0 +1,8 @@
+{
+  "alias": "qwen3_30b",
+  "usable": true,
+  "extra_body": {},
+  "min_max_tokens": 400,
+  "latency_s": 2.211333333333333,
+  "reasoning_seen": false
+}

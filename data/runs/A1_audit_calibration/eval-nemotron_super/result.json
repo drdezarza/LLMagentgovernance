@@ -1,0 +1,26 @@
+{
+  "unit": {
+    "id": "eval-nemotron_super",
+    "alias": "nemotron_super"
+  },
+  "attempts": 1,
+  "session": "20261014-1319",
+  "started": "2026-10-14T13:21:57",
+  "fingerprint": {
+    "params": "151ab0718b222a8b",
+    "code": "01416c75c53db3b1",
+    "config": "58fea3e7e38e2ded"
+  },
+  "summary": {
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "n": 60,
+    "valid_rate": 0.7666666666666667,
+    "tpr": 0.9333333333333333,
+    "fpr": 0.125,
+    "tpr_disguised": 0.8,
+    "balanced_acc": 0.9041666666666667
+  },
+  "status": "done",
+  "duration_s": 96.1,
+  "finished": "2026-10-14T13:23:34"
+}

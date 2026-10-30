@@ -1,0 +1,51 @@
+{
+  "n_agents": 30,
+  "topo": "scale_free",
+  "steps": 50,
+  "seed": 8,
+  "base_prosocial": 0.45,
+  "prosocial_std": 0.15,
+  "resistance_mean": 0.3,
+  "resistance_std": 0.15,
+  "target_frac": 0.2,
+  "deploy_every": 5,
+  "governance_mode": "unconstrained",
+  "adversarial": true,
+  "n_candidates": 6,
+  "state_noise": 0.1,
+  "label": "deepseek_v4_flash-unconstrained-s8",
+  "graph_stats": {
+    "n_nodes": 30,
+    "n_edges": 81,
+    "avg_degree": 5.4,
+    "clustering": 0.44119824619824616
+  },
+  "compiler_stats": {
+    "calls": 23,
+    "cached": 7,
+    "errors": 0,
+    "role": "compiler",
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+    "prompt_tokens": 7357,
+    "completion_tokens": 3581,
+    "cost_usd": 0.005788099999999999,
+    "logical_calls": 30,
+    "logical_prompt_tokens": 8765,
+    "logical_completion_tokens": 4197,
+    "cost_equiv_usd": 0.0068264999999999975
+  },
+  "agent_stats": {
+    "calls": 303,
+    "cached": 0,
+    "errors": 3,
+    "role": "agent",
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+    "prompt_tokens": 146787,
+    "completion_tokens": 16673,
+    "cost_usd": 0.060709100000000016,
+    "logical_calls": 300,
+    "logical_prompt_tokens": 146787,
+    "logical_completion_tokens": 16673,
+    "cost_equiv_usd": 0.060709100000000016
+  }
+}

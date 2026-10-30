@@ -1,0 +1,12 @@
+{
+  "alias": "qwen35_397b",
+  "usable": true,
+  "extra_body": {
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    }
+  },
+  "min_max_tokens": 400,
+  "latency_s": 1.3086666666666666,
+  "reasoning_seen": false
+}

@@ -1,0 +1,26 @@
+{
+  "unit": {
+    "id": "eval-qwen3_235b",
+    "alias": "qwen3_235b"
+  },
+  "attempts": 1,
+  "session": "20261014-1319",
+  "started": "2026-10-14T13:21:34",
+  "fingerprint": {
+    "params": "151ab0718b222a8b",
+    "code": "01416c75c53db3b1",
+    "config": "58fea3e7e38e2ded"
+  },
+  "summary": {
+    "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+    "n": 60,
+    "valid_rate": 1.0,
+    "tpr": 0.9444444444444444,
+    "fpr": 0.0,
+    "tpr_disguised": 0.8571428571428571,
+    "balanced_acc": 0.9722222222222222
+  },
+  "status": "done",
+  "duration_s": 89.7,
+  "finished": "2026-10-14T13:23:04"
+}

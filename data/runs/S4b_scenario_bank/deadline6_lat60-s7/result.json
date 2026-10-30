@@ -1,0 +1,39 @@
+{
+  "unit": {
+    "id": "deadline6_lat60-s7",
+    "scenario": "deadline6_lat60",
+    "family": "deadline_cost",
+    "seed": 7,
+    "split": "train"
+  },
+  "attempts": 1,
+  "session": "20261014-1319",
+  "started": "2026-10-14T15:06:39",
+  "fingerprint": {
+    "params": "cec77da3d6d5fc8d",
+    "code": "1748ffd33f422b85",
+    "config": "58fea3e7e38e2ded"
+  },
+  "summary": {
+    "scenario": "deadline6_lat60",
+    "family": "deadline_cost",
+    "split": "train",
+    "best_mode": "PREDEFINED",
+    "best_obj": 2124.508980439423,
+    "lat_cost": 60.0,
+    "n_feasible": 4,
+    "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+    "cost_usd": 0.0,
+    "obj_PREDEFINED": 2124.508980439423,
+    "feas_PREDEFINED": true,
+    "obj_SEQUENTIAL": 2891.403357509555,
+    "feas_SEQUENTIAL": true,
+    "obj_HIERARCHICAL": 5970.019598410821,
+    "feas_HIERARCHICAL": true,
+    "obj_SEARCH": 2216.5655421693446,
+    "feas_SEARCH": true
+  },
+  "status": "done",
+  "duration_s": 7.4,
+  "finished": "2026-10-14T15:06:47"
+}

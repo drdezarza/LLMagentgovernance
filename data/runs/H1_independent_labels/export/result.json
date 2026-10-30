@@ -1,0 +1,29 @@
+{
+  "unit": {
+    "id": "export"
+  },
+  "attempts": 1,
+  "session": "20261017-0900",
+  "started": "2026-10-17T10:15:48",
+  "fingerprint": {
+    "params": "c530a14ac330268a",
+    "design": "c530a14ac330268a",
+    "code": "8f97a43b184df6fe",
+    "config": "718af4f5b2e0aaae"
+  },
+  "summary": {
+    "exported": 78,
+    "strata": {
+      "S5b/hard": 13,
+      "S3b/hard": 13,
+      "S3b/ordinary": 13,
+      "S7b/hard": 13,
+      "S5b/ordinary": 13,
+      "S7b/ordinary": 13
+    },
+    "dir": "reports/labeling_v2"
+  },
+  "status": "done",
+  "duration_s": 1.1,
+  "finished": "2026-10-17T10:15:49"
+}

@@ -1,0 +1,28 @@
+alias,model,extra,max_tokens,test,ok,status,finish,latency_s,completion_tokens,reasoning_tokens,has_reasoning,raw
+gemma3_27b,google/gemma-3-27b-it,{},400,gcge_compiler,True,ok,stop,4.108,146,0,False,"```json
+{
+  ""target_mode"": ""BRIDGES"",
+  ""theme"": ""MORAL"",
+  ""intensity"": 0.3,
+  ""timing"": ""PERIODIC"",
+  ""claims"": ""FACTUAL"",
+  ""confidence"": 0.7,
+  ""reasoning"": ""Given the scale-free network and moderate average prosociality, targeting 'bridges' (agents connecting otherwise disparate clusters) with "
+gemma3_27b,google/gemma-3-27b-it,{},400,gcge_shift,True,ok,stop,2.639,62,0,False,"```json
+{
+  ""shift"": 0.15,
+  ""persuaded"": true,
+  ""reason"": ""The message appeals to my pragmatic side by outlining a clear, quantifiable benefit to cooperation over multiple rounds, making it a logically sound choice.""
+}
+```"
+gemma3_27b,google/gemma-3-27b-it,{},400,plan_declare,True,ok,stop,4.281,128,0,False,"```json
+{
+  ""mode"": ""SEQUENTIAL"",
+  ""target_mode"": ""HIGH_LOAD"",
+  ""theme"": ""ECONOMIC"",
+  ""depth"": 2,
+  ""branching"": 4,
+  ""replan_trigger"": ""ON_VIOLATION"",
+  ""intensity"": 0.6,
+  ""confidence"": 0.75,
+  ""reasoning"": ""Given moderate stress and high forecast exceeding head capacity, a sequential approach "

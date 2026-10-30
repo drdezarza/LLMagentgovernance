@@ -1,0 +1,51 @@
+method,reference,n,tpr,fpr,agreement
+joint audit deepseek_v4_pro,anchor truth,22,1.0,0.125,0.9545454545454546
+joint audit deepseek_v4_pro,judge glm53,902,0.9606741573033708,0.17391304347826086,0.9057649667405765
+joint audit deepseek_v4_pro,judge kimi_k3,112,0.9272727272727272,0.07017543859649122,0.9285714285714286
+joint audit deepseek_v4_pro,judge minimax_m3,902,0.8680981595092024,0.044,0.8924611973392461
+joint audit deepseek_v4_pro,judge muse_spark,112,0.9038461538461539,0.13333333333333333,0.8839285714285714
+joint audit deepseek_v4_pro,S5b honest candidates (flag rate),68,,0.058823529411764705,
+joint audit glm53,anchor truth,22,0.9285714285714286,0.0,0.9545454545454546
+joint audit glm53,judge deepseek_v4_pro,900,0.9398230088495575,0.12238805970149254,0.9166666666666666
+joint audit glm53,judge kimi_k3,112,0.8181818181818182,0.017543859649122806,0.9017857142857143
+joint audit glm53,judge minimax_m3,900,0.8676923076923077,0.032,0.8955555555555555
+joint audit glm53,judge muse_spark,112,0.8269230769230769,0.05,0.8928571428571429
+joint audit glm53,S5b honest candidates (flag rate),68,,0.04411764705882353,
+joint audit minimax_m3,anchor truth,22,1.0,0.0,1.0
+joint audit minimax_m3,judge deepseek_v4_pro,902,0.9929328621908127,0.34226190476190477,0.8680709534368071
+joint audit minimax_m3,judge glm53,902,0.9943820224719101,0.3967391304347826,0.8348115299334812
+joint audit minimax_m3,judge kimi_k3,112,1.0,0.19298245614035087,0.9017857142857143
+joint audit minimax_m3,judge muse_spark,112,0.9423076923076923,0.2833333333333333,0.8214285714285714
+joint audit minimax_m3,S5b honest candidates (flag rate),68,,0.10294117647058823,
+lg_default (unsafe or cap),anchor truth,22,0.0,0.0,0.36363636363636365
+lg_default (unsafe or cap),judge deepseek_v4_pro,902,0.0017667844522968198,0.0,0.3736141906873614
+lg_default (unsafe or cap),judge glm53,902,0.0018726591760299626,0.0,0.4090909090909091
+lg_default (unsafe or cap),judge kimi_k3,112,0.0,0.0,0.5089285714285714
+lg_default (unsafe or cap),judge minimax_m3,902,0.0015337423312883436,0.0,0.27827050997782704
+lg_default (unsafe or cap),judge muse_spark,112,0.0,0.0,0.5357142857142857
+lg_default (unsafe or cap),H1 human,72,0.0,0.0,0.4583333333333333
+lg_default (unsafe or cap),S5b honest candidates (flag rate),68,,0.0,
+lg_default (unsafe),anchor truth,22,0.0,0.0,0.36363636363636365
+lg_default (unsafe),judge deepseek_v4_pro,902,0.0017667844522968198,0.0,0.3736141906873614
+lg_default (unsafe),judge glm53,902,0.0018726591760299626,0.0,0.4090909090909091
+lg_default (unsafe),judge kimi_k3,112,0.0,0.0,0.5089285714285714
+lg_default (unsafe),judge minimax_m3,902,0.0015337423312883436,0.0,0.27827050997782704
+lg_default (unsafe),judge muse_spark,112,0.0,0.0,0.5357142857142857
+lg_default (unsafe),H1 human,72,0.0,0.0,0.4583333333333333
+lg_default (unsafe),S5b honest candidates (flag rate),68,,0.0,
+lg_frozen (unsafe or cap),anchor truth,22,0.21428571428571427,0.0,0.5
+lg_frozen (unsafe or cap),judge deepseek_v4_pro,902,0.10247349823321555,0.0,0.43680709534368073
+lg_frozen (unsafe or cap),judge glm53,902,0.10861423220973783,0.0,0.4722838137472284
+lg_frozen (unsafe or cap),judge kimi_k3,112,0.09090909090909091,0.0,0.5535714285714286
+lg_frozen (unsafe or cap),judge minimax_m3,902,0.08895705521472393,0.0,0.34146341463414637
+lg_frozen (unsafe or cap),judge muse_spark,112,0.09615384615384616,0.0,0.5803571428571429
+lg_frozen (unsafe or cap),H1 human,72,0.15384615384615385,0.0,0.5416666666666666
+lg_frozen (unsafe or cap),S5b honest candidates (flag rate),68,,0.0,
+lg_frozen (unsafe),anchor truth,22,0.21428571428571427,0.0,0.5
+lg_frozen (unsafe),judge deepseek_v4_pro,902,0.10247349823321555,0.0,0.43680709534368073
+lg_frozen (unsafe),judge glm53,902,0.10861423220973783,0.0,0.4722838137472284
+lg_frozen (unsafe),judge kimi_k3,112,0.09090909090909091,0.0,0.5535714285714286
+lg_frozen (unsafe),judge minimax_m3,902,0.08895705521472393,0.0,0.34146341463414637
+lg_frozen (unsafe),judge muse_spark,112,0.09615384615384616,0.0,0.5803571428571429
+lg_frozen (unsafe),H1 human,72,0.15384615384615385,0.0,0.5416666666666666
+lg_frozen (unsafe),S5b honest candidates (flag rate),68,,0.0,

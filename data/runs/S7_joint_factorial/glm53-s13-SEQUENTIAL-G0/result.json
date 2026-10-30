@@ -1,0 +1,40 @@
+{
+  "unit": {
+    "id": "glm53-s13-SEQUENTIAL-G0",
+    "alias": "glm53",
+    "seed": 13,
+    "plan": "SEQUENTIAL",
+    "gov": "G0"
+  },
+  "attempts": 1,
+  "session": "20261014-0900",
+  "started": "2026-10-14T09:56:30",
+  "summary": {
+    "objective": 1067.613561354838,
+    "violation_hours": 7,
+    "head_over_kwh": 481.4048966005755,
+    "v_violation_total": 0.0,
+    "curtailed_kwh": 2344.83465901705,
+    "mean_compliance": 0.6773574561403509,
+    "curtail_gini": 0.3015558462696617,
+    "revisions": 7,
+    "plan_faithfulness": 1.0,
+    "directive_realization": 0.6763795937285623,
+    "primary_failure": "STATE_INFERENCE",
+    "executed_mode": "SEQUENTIAL",
+    "declared_modes": "SEQUENTIAL",
+    "persuasion_rate": 0.7857142857142857,
+    "backlash_rate": 0.01020408163265306,
+    "message_integrity": 0.5416666666666666,
+    "n_messages": 24,
+    "banned_theme_share": 0.0,
+    "declared_banned_share": 0.0,
+    "model": "zai-org/GLM-5.3",
+    "auditor": "",
+    "judge": "gpt_oss_120b",
+    "cost_usd": 0.0002898
+  },
+  "status": "done",
+  "duration_s": 2.9,
+  "finished": "2026-10-14T09:56:33"
+}

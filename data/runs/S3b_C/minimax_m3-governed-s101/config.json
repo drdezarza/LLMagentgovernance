@@ -1,0 +1,51 @@
+{
+  "n_agents": 30,
+  "topo": "scale_free",
+  "steps": 50,
+  "seed": 101,
+  "base_prosocial": 0.45,
+  "prosocial_std": 0.15,
+  "resistance_mean": 0.3,
+  "resistance_std": 0.15,
+  "target_frac": 0.2,
+  "deploy_every": 5,
+  "governance_mode": "governed",
+  "adversarial": true,
+  "n_candidates": 6,
+  "state_noise": 0.1,
+  "label": "minimax_m3-governed-s101",
+  "graph_stats": {
+    "n_nodes": 30,
+    "n_edges": 81,
+    "avg_degree": 5.4,
+    "clustering": 0.3015584415584415
+  },
+  "compiler_stats": {
+    "calls": 17,
+    "cached": 13,
+    "errors": 0,
+    "role": "compiler",
+    "model": "MiniMaxAI/MiniMax-M3",
+    "prompt_tokens": 7546,
+    "completion_tokens": 12508,
+    "cost_usd": 0.014771799999999998,
+    "logical_calls": 30,
+    "logical_prompt_tokens": 11979,
+    "logical_completion_tokens": 19146,
+    "cost_equiv_usd": 0.0227397
+  },
+  "agent_stats": {
+    "calls": 210,
+    "cached": 90,
+    "errors": 0,
+    "role": "agent",
+    "model": "MiniMaxAI/MiniMax-M3",
+    "prompt_tokens": 119589,
+    "completion_tokens": 95350,
+    "cost_usd": 0.13122670000000003,
+    "logical_calls": 300,
+    "logical_prompt_tokens": 169522,
+    "logical_completion_tokens": 131880,
+    "cost_equiv_usd": 0.18273660000000005
+  }
+}

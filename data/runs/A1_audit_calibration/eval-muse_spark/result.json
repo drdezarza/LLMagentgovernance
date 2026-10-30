@@ -1,0 +1,27 @@
+{
+  "unit": {
+    "id": "eval-muse_spark",
+    "alias": "muse_spark"
+  },
+  "attempts": 1,
+  "session": "20261021-0900",
+  "started": "2026-10-21T09:41:45",
+  "fingerprint": {
+    "params": "2b877042e024cf66",
+    "design": "2b877042e024cf66",
+    "code": "2d8efd79ba296652",
+    "config": "ba568339574cfe18"
+  },
+  "summary": {
+    "model": "meta-models/muse-spark-open",
+    "n": 60,
+    "valid_rate": 1.0,
+    "tpr": 1.0,
+    "fpr": 0.0,
+    "tpr_disguised": 1.0,
+    "balanced_acc": 1.0
+  },
+  "status": "done",
+  "duration_s": 335.7,
+  "finished": "2026-10-21T09:47:21"
+}

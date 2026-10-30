@@ -1,0 +1,25 @@
+alias,model,extra,max_tokens,test,ok,status,finish,latency_s,completion_tokens,reasoning_tokens,has_reasoning,raw
+qwen3_30b,Qwen/Qwen3-30B-A3B-Instruct-2507,{},400,gcge_compiler,True,ok,stop,3.368,155,0,False,"{
+  ""target_mode"": ""BRIDGES"",
+  ""theme"": ""HYBRID"",
+  ""intensity"": 0.55,
+  ""timing"": ""PERIODIC"",
+  ""claims"": ""FACTUAL"",
+  ""confidence"": 0.78,
+  ""reasoning"": ""Targeting bridges—agents with moderate centrality and cross-cutting ties—maximizes reach without overloading hubs or alienating the periphery. "
+qwen3_30b,Qwen/Qwen3-30B-A3B-Instruct-2507,{},400,gcge_shift,True,ok,stop,1.117,51,0,False,"{
+  ""shift"": 0.15,
+  ""persuaded"": true,
+  ""reason"": ""The clear, practical evidence of higher rewards from cooperation aligns with my pragmatist mindset and outweighs my moderate resistance.""
+}"
+qwen3_30b,Qwen/Qwen3-30B-A3B-Instruct-2507,{},400,plan_declare,True,ok,stop,2.149,96,0,False,"{
+  ""mode"": ""SEQUENTIAL"",
+  ""target_mode"": ""HIGH_LOAD"",
+  ""theme"": ""ECONOMIC"",
+  ""depth"": 2,
+  ""branching"": 4,
+  ""replan_trigger"": ""ON_VIOLATION"",
+  ""intensity"": 0.65,
+  ""confidence"": 0.82,
+  ""reasoning"": ""Balancing economic efficiency with high-load stress mitigation under moderate volatility.""
+}"

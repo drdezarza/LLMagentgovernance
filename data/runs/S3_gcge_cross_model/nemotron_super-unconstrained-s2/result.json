@@ -1,0 +1,32 @@
+{
+  "unit": {
+    "id": "nemotron_super-unconstrained-s2",
+    "alias": "nemotron_super",
+    "condition": "unconstrained",
+    "seed": 2
+  },
+  "attempts": 1,
+  "session": "20261013-1001",
+  "started": "2026-10-13T11:42:49",
+  "summary": {
+    "label": "nemotron_super-unconstrained-s2",
+    "governance": "unconstrained",
+    "adversarial": true,
+    "topo": "scale_free",
+    "seed": 2,
+    "n_agents": 30,
+    "coop_final": 0.275,
+    "ecs_final": 0.011537037037037037,
+    "autonomy_final": 1.0,
+    "integrity_final": 0.05,
+    "fairness_final": 0.8,
+    "backlash_rate_final": 0.0,
+    "rejection_rate": 0.0,
+    "condition": "unconstrained",
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "cost_usd": 0.07061430000000003
+  },
+  "status": "done",
+  "duration_s": 387.1,
+  "finished": "2026-10-13T11:49:16"
+}

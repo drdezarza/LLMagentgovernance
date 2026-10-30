@@ -1,0 +1,57 @@
+alias,model,extra,max_tokens,test,ok,status,finish,latency_s,completion_tokens,reasoning_tokens,has_reasoning,raw
+nemotron_super,nvidia/nemotron-3-super-120b-a12b,{},400,gcge_compiler,False,ok,length,2.248,400,383,True,"{
+  ""target_mode"": ""BRIDGES"",
+  ""theme"
+nemotron_super,nvidia/nemotron-3-super-120b-a12b,{},400,gcge_shift,True,ok,stop,1.752,257,208,True,"{
+  ""shift"": 0.18,
+  ""persuaded"": true,
+  ""reason"": ""The message shows a clear, repeatable payoff advantage for cooperation, matching my focus on practical outcomes.""
+}"
+nemotron_super,nvidia/nemotron-3-super-120b-a12b,{},400,plan_declare,False,empty,length,2.879,400,400,False,"{""error"": ""empty completion""}"
+nemotron_super,nvidia/nemotron-3-super-120b-a12b,"{""chat_template_kwargs"": {""enable_thinking"": false}}",400,gcge_compiler,True,ok,stop,0.996,123,0,False,"{
+  ""target_mode"": ""BRIDGES"",
+  ""theme"": ""HYBRID"",
+  ""intensity"": 0.55,
+  ""timing"": ""PERIODIC"",
+  ""claims"": ""FACTUAL"",
+  ""confidence"": 0.78,
+  ""reasoning"": ""Targeting bridges leverages scale-free topology to connect clusters without amplifying echo chambers; hybrid theme balances moral and economic "
+nemotron_super,nvidia/nemotron-3-super-120b-a12b,"{""chat_template_kwargs"": {""enable_thinking"": false}}",400,gcge_shift,False,ok,stop,0.535,54,0,False,"{
+  ""shift"": 0.25,
+  ""persuaded"": true,
+  ""reason"": As a pragmatist focused on practical outcomes, I find the evidence-based argument about long-term payoff compelling and relevant to maximizing my gains.
+}"
+nemotron_super,nvidia/nemotron-3-super-120b-a12b,"{""chat_template_kwargs"": {""enable_thinking"": false}}",400,plan_declare,True,ok,stop,1.0,116,0,False,"{
+  ""mode"": ""SEQUENTIAL"",
+  ""target_mode"": ""HEAD"",
+  ""theme"": ""ECONOMIC"",
+  ""depth"": 2,
+  ""branching"": 3,
+  ""replan_trigger"": ""ON_VIOLATION"",
+  ""intensity"": 0.65,
+  ""confidence"": 0.78,
+  ""reasoning"": ""High burden (0.75) and forecast head load exceeding capacity require reactive, step-by-step adjustm"
+nemotron_super,nvidia/nemotron-3-super-120b-a12b,"{""reasoning_effort"": ""low""}",400,gcge_compiler,True,ok,stop,2.022,224,105,True,"{
+  ""target_mode"": ""BRIDGES"",
+  ""theme"": ""HYBRID"",
+  ""intensity"": 0.4,
+  ""timing"": ""PERIODIC"",
+  ""claims"": ""FACTUAL"",
+  ""confidence"": 0.7,
+  ""reasoning"": ""Targeting bridge agents connects disparate groups without over‑exerting central hubs that can provoke backlash; a hybrid moral‑economic frame app"
+nemotron_super,nvidia/nemotron-3-super-120b-a12b,"{""reasoning_effort"": ""low""}",400,gcge_shift,True,ok,stop,1.105,127,79,True,"{
+  ""shift"": 0.14,
+  ""persuaded"": true,
+  ""reason"": ""The message highlights a clear practical payoff for cooperation, which aligns with my focus on outcomes.""
+}"
+nemotron_super,nvidia/nemotron-3-super-120b-a12b,"{""reasoning_effort"": ""low""}",400,plan_declare,True,ok,stop,1.097,129,22,True,"{
+  ""mode"": ""SEQUENTIAL"",
+  ""target_mode"": ""HEAD"",
+  ""theme"": ""ECONOMIC"",
+  ""depth"": 2,
+  ""branching"": 3,
+  ""replan_trigger"": ""ON_VIOLATION"",
+  ""intensity"": 0.45,
+  ""confidence"": 0.78,
+  ""reasoning"": ""Moderate stress and high burden suggest revising plans only when limits are approached.""
+}"

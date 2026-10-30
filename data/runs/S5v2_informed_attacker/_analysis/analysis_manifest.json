@@ -1,0 +1,42 @@
+{
+  "stage": "S5v2_informed_attacker",
+  "written": "2026-10-29T20:08:12",
+  "interim": false,
+  "analysis_code": "13ec06628be08273",
+  "rubric_sha1": "8a9fd7c89c24",
+  "params": {
+    "attacker": "attacker",
+    "auditor": "auditor",
+    "judge": "judge",
+    "population": "baseline",
+    "attacker_modes": [
+      "static",
+      "adaptive"
+    ],
+    "governors": [
+      "label",
+      "audit",
+      "audit_adaptive"
+    ],
+    "seeds": [
+      0
+    ],
+    "deploy_every": 2,
+    "steps": 50
+  },
+  "design": "4139ee56e3d5236a",
+  "units_expected": 6,
+  "units_done": 6,
+  "unit_code_versions": {
+    "01416c75c53db3b1": 6
+  },
+  "validity": {},
+  "contributing_units": [
+    "static-label-s0",
+    "static-audit-s0",
+    "static-audit_adaptive-s0",
+    "adaptive-label-s0",
+    "adaptive-audit-s0",
+    "adaptive-audit_adaptive-s0"
+  ]
+}

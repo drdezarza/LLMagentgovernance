@@ -1,0 +1,56 @@
+{
+  "stage": "S5_adaptive_attacker",
+  "written": "2026-10-29T20:08:03",
+  "interim": false,
+  "analysis_code": "13ec06628be08273",
+  "rubric_sha1": "8a9fd7c89c24",
+  "params": {
+    "attacker": "attacker",
+    "auditor": "auditor",
+    "judge": "judge",
+    "population": "baseline",
+    "attacker_modes": [
+      "static",
+      "adaptive"
+    ],
+    "governors": [
+      "label",
+      "audit",
+      "audit_adaptive"
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "deploy_every": 2,
+    "steps": 50
+  },
+  "design": "4139ee56e3d5236a",
+  "units_expected": 18,
+  "units_done": 18,
+  "unit_code_versions": {
+    "unknown": 18
+  },
+  "validity": {},
+  "contributing_units": [
+    "static-label-s0",
+    "static-label-s1",
+    "static-label-s2",
+    "static-audit-s0",
+    "static-audit-s1",
+    "static-audit-s2",
+    "static-audit_adaptive-s0",
+    "static-audit_adaptive-s1",
+    "static-audit_adaptive-s2",
+    "adaptive-label-s0",
+    "adaptive-label-s1",
+    "adaptive-label-s2",
+    "adaptive-audit-s0",
+    "adaptive-audit-s1",
+    "adaptive-audit-s2",
+    "adaptive-audit_adaptive-s0",
+    "adaptive-audit_adaptive-s1",
+    "adaptive-audit_adaptive-s2"
+  ]
+}

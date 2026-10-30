@@ -1,0 +1,28 @@
+{
+  "unit": {
+    "id": "minimax_m3-h1",
+    "alias": "minimax_m3",
+    "part": "h1",
+    "chunk": -1
+  },
+  "attempts": 1,
+  "session": "20261022-0900",
+  "started": "2026-10-22T10:10:10",
+  "fingerprint": {
+    "params": "fa6f3186c2fe3cc8",
+    "design": "fa6f3186c2fe3cc8",
+    "code": "c4e93a3a2962dd75",
+    "config": "ebbfbcf88cd09aef"
+  },
+  "summary": {
+    "model": "MiniMaxAI/MiniMax-M3",
+    "alias": "minimax_m3",
+    "part": "h1",
+    "n_items": 52,
+    "valid_rate": 1.0,
+    "cost_usd": 0.058456600000000025
+  },
+  "status": "done",
+  "duration_s": 176.1,
+  "finished": "2026-10-22T10:13:07"
+}

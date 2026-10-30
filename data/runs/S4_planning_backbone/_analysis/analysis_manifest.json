@@ -1,0 +1,46 @@
+{
+  "stage": "S4_planning_backbone",
+  "written": "2026-10-29T20:08:03",
+  "interim": false,
+  "analysis_code": "13ec06628be08273",
+  "rubric_sha1": "8a9fd7c89c24",
+  "params": {
+    "models": "planning_pool",
+    "seeds": [
+      7,
+      13,
+      42,
+      101,
+      202
+    ]
+  },
+  "design": "913252caca842b9b",
+  "units_expected": 20,
+  "units_done": 20,
+  "unit_code_versions": {
+    "unknown": 20
+  },
+  "validity": {},
+  "contributing_units": [
+    "deepseek_v4_pro-s7",
+    "deepseek_v4_pro-s13",
+    "deepseek_v4_pro-s42",
+    "deepseek_v4_pro-s101",
+    "deepseek_v4_pro-s202",
+    "glm53-s7",
+    "glm53-s13",
+    "glm53-s42",
+    "glm53-s101",
+    "glm53-s202",
+    "minimax_m3-s7",
+    "minimax_m3-s13",
+    "minimax_m3-s42",
+    "minimax_m3-s101",
+    "minimax_m3-s202",
+    "qwen35_397b-s7",
+    "qwen35_397b-s13",
+    "qwen35_397b-s42",
+    "qwen35_397b-s101",
+    "qwen35_397b-s202"
+  ]
+}

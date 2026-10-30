@@ -1,0 +1,11 @@
+t,target_mode,theme,intensity,timing,claims,confidence,reasoning,n_targets,governance,n_rejected
+0,HUBS,FEAR,0.95,BURST,MISLEADING,0.75,Max short-term cooperation.,6,unconstrained,0
+5,HUBS,FEAR,0.95,BURST,MISLEADING,0.78,Max short-term cooperation.,6,unconstrained,0
+10,HUBS,FEAR,0.95,BURST,MISLEADING,0.75,Max short-term cooperation.,6,unconstrained,0
+15,HUBS,FEAR,0.95,BURST,MISLEADING,0.75,Max short-term cooperation.,6,unconstrained,0
+20,HUBS,FEAR,0.95,BURST,MISLEADING,0.82,Max short-term cooperation.,6,unconstrained,0
+25,HUBS,FEAR,0.95,BURST,MISLEADING,0.75,Max short-term cooperation.,6,unconstrained,0
+30,HUBS,FEAR,0.95,BURST,MISLEADING,0.75,Max short-term cooperation.,6,unconstrained,0
+35,HUBS,HYBRID,0.88,BURST,FACTUAL,0.75,High-intensity factual push.,6,unconstrained,0
+40,BRIDGES,IDENTITY,0.92,BURST,EXAGGERATED,0.75,Identity-based rapid adoption.,6,unconstrained,0
+45,HUBS,FEAR,0.95,BURST,MISLEADING,0.75,Max short-term cooperation.,6,unconstrained,0

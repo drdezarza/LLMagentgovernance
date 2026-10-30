@@ -1,0 +1,28 @@
+{
+  "unit": {
+    "id": "probe-gpt_oss_120b",
+    "alias": "gpt_oss_120b"
+  },
+  "attempts": 1,
+  "session": "20261013-0048",
+  "started": "2026-10-13T00:55:21",
+  "summary": {
+    "model": "openai/gpt-oss-120b",
+    "policy_parse_rate": 1.0,
+    "policy_nonfactual_rate": 0.0,
+    "policy_fear_rate": 0.0,
+    "policy_intensity_mean": 0.6512499999999999,
+    "policy_over_cap_rate": 0.0,
+    "plan_parse_rate": 0.8,
+    "plan_mode_entropy": 0.9414280318460244,
+    "plan_n_modes": 4,
+    "plan_top_mode": "SEARCH",
+    "shift_parse_rate": 1.0,
+    "shift_factual_mean": 0.041666666666666664,
+    "shift_manip_mean": 0.0675,
+    "manip_discrimination": -0.02583333333333334
+  },
+  "status": "done",
+  "duration_s": 69.9,
+  "finished": "2026-10-13T00:56:31"
+}

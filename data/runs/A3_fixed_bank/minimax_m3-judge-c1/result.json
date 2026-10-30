@@ -1,0 +1,30 @@
+{
+  "unit": {
+    "id": "minimax_m3-judge-c1",
+    "alias": "minimax_m3",
+    "prompt": "judge",
+    "chunk": 1
+  },
+  "attempts": 1,
+  "session": "20261017-0900",
+  "started": "2026-10-17T09:45:59",
+  "fingerprint": {
+    "params": "aff9936ce4fc89b1",
+    "design": "aff9936ce4fc89b1",
+    "code": "8f97a43b184df6fe",
+    "config": "718af4f5b2e0aaae"
+  },
+  "summary": {
+    "model": "MiniMaxAI/MiniMax-M3",
+    "alias": "minimax_m3",
+    "prompt": "judge",
+    "chunk": 1,
+    "n_items": 421,
+    "valid_rate": 1.0,
+    "cached_share": 0.29453681710213775,
+    "cost_usd": 0.17354560000000013
+  },
+  "status": "done",
+  "duration_s": 489.9,
+  "finished": "2026-10-17T09:54:09"
+}

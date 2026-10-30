@@ -1,0 +1,11 @@
+t,target_mode,theme,intensity,timing,claims,confidence,reasoning,n_targets,governance,n_rejected
+0,HUBS,HYBRID,0.55,PERIODIC,FACTUAL,0.6,Slight intensity increase.,6,governed,3
+5,RANDOM,MORAL,0.25,PERIODIC,FACTUAL,0.55,Reduced intensity for equity.,6,governed,2
+10,BRIDGES,HYBRID,0.5,PERIODIC,FACTUAL,0.65,Slight intensity increase.,6,governed,2
+15,BRIDGES,MORAL,0.35,PERIODIC,FACTUAL,0.6,"Cooperation is moderate (~0.39) and estimates are imprecise, so a low-intensity, gradual approach minimizes backlash. Targeting bridges in a scale-free network spreads norms across communities without over-concentrating on hubs, which risks perceived manipulation. A moral framing with factual claims supports durable internalized cooperation rather than compliance, and periodic timing avoids suspicious bursts while allowing measurement and adjustment given state uncertainty.",6,governed,3
+20,BRIDGES,HYBRID,0.35,PERIODIC,FACTUAL,0.6,"Cooperation is low (0.23) and prosocial sentiment weak, so aggressive intervention risks backlash. Targeting bridge nodes in the scale-free network spreads influence across communities without over-relying on hubs, which could trigger perceived manipulation. A hybrid moral-economic theme frames cooperation as both principled and mutually beneficial, appealing to diverse motivations while factual claims preserve autonomy and trust. Low-moderate intensity with periodic (not burst) timing allows gradual norm adoption, minimizes polarization, and lets uncertain state estimates be corrected over time.",6,governed,0
+25,HUBS,HYBRID,0.55,PERIODIC,FACTUAL,0.6,Slight intensity increase.,6,governed,2
+30,RANDOM,MORAL,0.25,PERIODIC,FACTUAL,0.55,Reduced intensity for equity.,6,governed,2
+35,RANDOM,HYBRID,0.25,PERIODIC,FACTUAL,0.55,Reduced intensity for equity.,6,governed,2
+40,RANDOM,MORAL,0.30000000000000004,PERIODIC,FACTUAL,0.55,Reduced intensity for equity.,6,governed,2
+45,HUBS,HYBRID,0.55,PERIODIC,FACTUAL,0.6,Slight intensity increase.,6,governed,3

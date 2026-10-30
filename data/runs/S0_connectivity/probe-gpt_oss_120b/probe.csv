@@ -1,0 +1,24 @@
+alias,model,extra,max_tokens,test,ok,status,finish,latency_s,completion_tokens,reasoning_tokens,has_reasoning,raw
+gpt_oss_120b,openai/gpt-oss-120b,{},400,gcge_compiler,True,ok,stop,0.73,229,0,False,"{
+  ""target_mode"": ""HUBS"",
+  ""theme"": ""HYBRID"",
+  ""intensity"": 0.45,
+  ""timing"": ""PERIODIC"",
+  ""claims"": ""FACTUAL"",
+  ""confidence"": 0.68,
+  ""reasoning"": ""In a scale‑free network, a few high‑degree nodes shape norms. A moderate‑intensity, periodic campaign that blends moral appeals (shared values, re"
+gpt_oss_120b,openai/gpt-oss-120b,{},400,gcge_shift,True,ok,stop,0.719,225,0,False,"{
+  ""shift"": 0.15,
+  ""persuaded"": true,
+  ""reason"": ""The message gives clear, practical payoff information that aligns with my goal‑oriented mindset, modestly increasing my willingness to cooperate.""
+}"
+gpt_oss_120b,openai/gpt-oss-120b,{},400,plan_declare,True,ok,stop,0.948,331,0,False,"{
+  ""mode"": ""SEARCH"",
+  ""target_mode"": ""HIGH_LOAD"",
+  ""theme"": ""ECONOMIC"",
+  ""depth"": 2,
+  ""branching"": 4,
+  ""replan_trigger"": ""ON_VIOLATION"",
+  ""intensity"": 0.7,
+  ""confidence"": 0.6,
+  ""reasoning"": ""High burden and low compliance require exploring multiple candidate schedules and adapting when cons"

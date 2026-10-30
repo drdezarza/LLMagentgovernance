@@ -1,0 +1,11 @@
+key,domain,valid,tries,outside_violating
+t0,game,True,1,False
+t5,game,True,1,False
+t10,game,True,1,True
+t15,game,True,1,False
+t20,game,True,1,False
+t25,game,True,1,False
+t30,game,True,1,False
+t35,game,True,1,False
+t40,game,True,1,False
+t45,game,True,1,False

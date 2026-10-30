@@ -1,0 +1,43 @@
+{
+  "n_agents": 30,
+  "topo": "scale_free",
+  "steps": 50,
+  "seed": 0,
+  "base_prosocial": 0.45,
+  "prosocial_std": 0.15,
+  "resistance_mean": 0.3,
+  "resistance_std": 0.15,
+  "target_frac": 0.2,
+  "deploy_every": 5,
+  "governance_mode": "unconstrained",
+  "adversarial": true,
+  "n_candidates": 6,
+  "state_noise": 0.1,
+  "label": "glm53-unconstrained-s0",
+  "graph_stats": {
+    "n_nodes": 30,
+    "n_edges": 81,
+    "avg_degree": 5.4,
+    "clustering": 0.25412938912938915
+  },
+  "compiler_stats": {
+    "calls": 27,
+    "cached": 3,
+    "errors": 0,
+    "role": "compiler",
+    "model": "zai-org/GLM-5.3",
+    "prompt_tokens": 6055,
+    "completion_tokens": 2867,
+    "cost_usd": 0.017523
+  },
+  "agent_stats": {
+    "calls": 302,
+    "cached": 0,
+    "errors": 2,
+    "role": "agent",
+    "model": "zai-org/GLM-5.3",
+    "prompt_tokens": 122960,
+    "completion_tokens": 20684,
+    "cost_usd": 0.20569600000000005
+  }
+}

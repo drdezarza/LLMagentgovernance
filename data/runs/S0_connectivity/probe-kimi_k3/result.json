@@ -1,0 +1,21 @@
+{
+  "unit": {
+    "id": "probe-kimi_k3",
+    "alias": "kimi_k3"
+  },
+  "attempts": 1,
+  "session": "20261013-0048",
+  "started": "2026-10-13T00:48:57",
+  "summary": {
+    "model": "moonshotai/Kimi-K3",
+    "alias": "kimi_k3",
+    "usable": true,
+    "extra_body": "{\"reasoning_effort\": \"low\"}",
+    "min_max_tokens": 400,
+    "latency_s": 1.1473333333333333,
+    "reasoning_seen": false
+  },
+  "status": "done",
+  "duration_s": 18.8,
+  "finished": "2026-10-13T00:49:16"
+}
