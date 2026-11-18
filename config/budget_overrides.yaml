@@ -1,0 +1,4 @@
+# One-off daily budget increases (USD). The session on that date uses this cap instead of budget.daily_usd.
+# Example:
+#   "2026-11-01": 60
+days: {}

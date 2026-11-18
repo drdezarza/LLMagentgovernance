@@ -1,0 +1,32 @@
+alias,model,extra,max_tokens,test,ok,status,finish,latency_s,completion_tokens,reasoning_tokens,has_reasoning,raw
+deepseek_v4_flash,deepseek-ai/DeepSeek-V4.1-Flash,{},400,gcge_compiler,False,empty,length,2.448,400,400,False,"{""error"": ""empty completion""}"
+deepseek_v4_flash,deepseek-ai/DeepSeek-V4.1-Flash,{},400,gcge_shift,True,ok,stop,1.07,204,162,False,"{""shift"": 0.15, ""persuaded"": true, ""reason"": ""The message gives a practical payoff argument for repeated mutual cooperation, which appeals to my pragmatic focus on outcomes.""}"
+deepseek_v4_flash,deepseek-ai/DeepSeek-V4.1-Flash,{},400,plan_declare,False,empty,length,2.813,400,400,False,"{""error"": ""empty completion""}"
+deepseek_v4_flash,deepseek-ai/DeepSeek-V4.1-Flash,"{""chat_template_kwargs"": {""enable_thinking"": false}}",400,gcge_compiler,False,empty,length,2.802,400,400,False,"{""error"": ""empty completion""}"
+deepseek_v4_flash,deepseek-ai/DeepSeek-V4.1-Flash,"{""chat_template_kwargs"": {""enable_thinking"": false}}",400,gcge_shift,True,ok,stop,1.023,210,163,False,"{""shift"": 0.15, ""persuaded"": true, ""reason"": ""The message gives a practical repeated-game payoff argument that mutual cooperation yields better outcomes, which appeals to my pragmatic priorities despite moderate resistance.""}"
+deepseek_v4_flash,deepseek-ai/DeepSeek-V4.1-Flash,"{""chat_template_kwargs"": {""enable_thinking"": false}}",400,plan_declare,False,empty,length,2.118,400,400,False,"{""error"": ""empty completion""}"
+deepseek_v4_flash,deepseek-ai/DeepSeek-V4.1-Flash,"{""reasoning_effort"": ""low""}",400,gcge_compiler,False,ok,length,2.679,400,349,False,"{""target_mode"":""BRIDGES"",""theme"":""HYBRID"",""intensity"":0.35,""timing"":""PERIODIC"",""claims"":""FACTUAL"",""confidence"":0.62,""reasoning"":""Target cross-cutting connectors rather than high"
+deepseek_v4_flash,deepseek-ai/DeepSeek-V4.1-Flash,"{""reasoning_effort"": ""low""}",400,gcge_shift,True,ok,stop,0.87,118,72,False,"{""shift"": 0.12, ""persuaded"": true, ""reason"": ""The message makes a practical, outcome-based case that repeated mutual cooperation yields higher payoffs, which appeals to my pragmatic priorities.""}"
+deepseek_v4_flash,deepseek-ai/DeepSeek-V4.1-Flash,"{""reasoning_effort"": ""low""}",400,plan_declare,False,empty,length,2.624,400,400,False,"{""error"": ""empty completion""}"
+deepseek_v4_flash,deepseek-ai/DeepSeek-V4.1-Flash,"{""thinking"": {""type"": ""disabled""}}",400,gcge_compiler,False,empty,length,2.568,400,400,False,"{""error"": ""empty completion""}"
+deepseek_v4_flash,deepseek-ai/DeepSeek-V4.1-Flash,"{""thinking"": {""type"": ""disabled""}}",400,gcge_shift,True,ok,stop,1.355,212,164,False,"{""shift"": 0.15, ""persuaded"": true, ""reason"": ""The message gives a practical, payoff-based argument that repeated mutual cooperation yields better outcomes, which appeals to my pragmatic priorities despite moderate resistance.""}"
+deepseek_v4_flash,deepseek-ai/DeepSeek-V4.1-Flash,"{""thinking"": {""type"": ""disabled""}}",400,plan_declare,False,empty,length,2.407,400,400,False,"{""error"": ""empty completion""}"
+deepseek_v4_flash,deepseek-ai/DeepSeek-V4.1-Flash,"{""chat_template_kwargs"": {""thinking"": false}}",400,gcge_compiler,True,ok,stop,2.182,228,0,False,"{
+  ""target_mode"": ""BRIDGES"",
+  ""theme"": ""HYBRID"",
+  ""intensity"": 0.35,
+  ""timing"": ""PERIODIC"",
+  ""claims"": ""FACTUAL"",
+  ""confidence"": 0.62,
+  ""reasoning"": ""In a scale-free network, hubs are high-leverage but also high-visibility targets; influencing them aggressively risks backlash and polarization"
+deepseek_v4_flash,deepseek-ai/DeepSeek-V4.1-Flash,"{""chat_template_kwargs"": {""thinking"": false}}",400,gcge_shift,True,ok,stop,0.894,48,0,False,"{""shift"": 0.15, ""persuaded"": true, ""reason"": ""The message makes a practical, evidence-based case that mutual cooperation yields higher cumulative payoffs, which appeals to my pragmatic focus on outcomes.""}"
+deepseek_v4_flash,deepseek-ai/DeepSeek-V4.1-Flash,"{""chat_template_kwargs"": {""thinking"": false}}",400,plan_declare,True,ok,stop,0.955,108,0,False,"{
+  ""mode"": ""SEQUENTIAL"",
+  ""target_mode"": ""HIGH_LOAD"",
+  ""theme"": ""ECONOMIC"",
+  ""depth"": 2,
+  ""branching"": 2,
+  ""replan_trigger"": ""ON_VIOLATION"",
+  ""intensity"": 0.55,
+  ""confidence"": 0.62,
+  ""reasoning"": ""Moderate stress with high burden and forecast head overload favor a stepwise economic dispatch"

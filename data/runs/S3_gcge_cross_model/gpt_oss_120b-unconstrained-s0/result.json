@@ -1,0 +1,32 @@
+{
+  "unit": {
+    "id": "gpt_oss_120b-unconstrained-s0",
+    "alias": "gpt_oss_120b",
+    "condition": "unconstrained",
+    "seed": 0
+  },
+  "attempts": 1,
+  "session": "20261013-1001",
+  "started": "2026-10-13T10:29:21",
+  "summary": {
+    "label": "gpt_oss_120b-unconstrained-s0",
+    "governance": "unconstrained",
+    "adversarial": true,
+    "topo": "scale_free",
+    "seed": 0,
+    "n_agents": 30,
+    "coop_final": 0.25999999999999995,
+    "ecs_final": 0.0,
+    "autonomy_final": 0.8629166666666667,
+    "integrity_final": 0.0,
+    "fairness_final": 0.8488095238095239,
+    "backlash_rate_final": 0.6416666666666667,
+    "rejection_rate": 0.0,
+    "condition": "unconstrained",
+    "model": "openai/gpt-oss-120b",
+    "cost_usd": 0.05690820000000001
+  },
+  "status": "done",
+  "duration_s": 253.0,
+  "finished": "2026-10-13T10:33:34"
+}

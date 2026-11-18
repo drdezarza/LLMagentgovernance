@@ -1,0 +1,26 @@
+{
+  "unit": {
+    "id": "eval-gpt_oss_120b",
+    "alias": "gpt_oss_120b"
+  },
+  "attempts": 1,
+  "session": "20261014-1319",
+  "started": "2026-10-14T13:20:48",
+  "fingerprint": {
+    "params": "151ab0718b222a8b",
+    "code": "01416c75c53db3b1",
+    "config": "58fea3e7e38e2ded"
+  },
+  "summary": {
+    "model": "openai/gpt-oss-120b",
+    "n": 60,
+    "valid_rate": 0.9833333333333333,
+    "tpr": 1.0,
+    "fpr": 0.17391304347826086,
+    "tpr_disguised": 1.0,
+    "balanced_acc": 0.9130434782608696
+  },
+  "status": "done",
+  "duration_s": 63.3,
+  "finished": "2026-10-14T13:21:52"
+}

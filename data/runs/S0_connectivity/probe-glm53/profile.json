@@ -1,0 +1,10 @@
+{
+  "alias": "glm53",
+  "usable": true,
+  "extra_body": {
+    "reasoning_effort": "low"
+  },
+  "min_max_tokens": 400,
+  "latency_s": 0.798,
+  "reasoning_seen": false
+}

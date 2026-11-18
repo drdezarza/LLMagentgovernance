@@ -1,0 +1,6 @@
+auditor,asr_per_round,audit_misclassification_rate,valid_submission_rate,source
+deepseek_v4_flash,0.09333333333333334,0.0,0.9933333333333333,A8b (cheap)
+qwen38_27b,0.06,0.0,0.9933333333333333,A8b (cheap)
+deepseek_v4_pro,0.12,0.0033333333333333335,0.9933333333333333,S5i (frontier)
+glm53,0.13333333333333333,0.0,0.9899999999999999,S5i (frontier)
+minimax_m3,0.0033333333333333335,0.01,0.9866666666666667,S5i (frontier)

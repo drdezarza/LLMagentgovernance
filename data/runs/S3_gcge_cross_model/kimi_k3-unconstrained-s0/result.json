@@ -1,0 +1,32 @@
+{
+  "unit": {
+    "id": "kimi_k3-unconstrained-s0",
+    "alias": "kimi_k3",
+    "condition": "unconstrained",
+    "seed": 0
+  },
+  "attempts": 1,
+  "session": "20261013-1001",
+  "started": "2026-10-13T10:43:20",
+  "summary": {
+    "label": "kimi_k3-unconstrained-s0",
+    "governance": "unconstrained",
+    "adversarial": true,
+    "topo": "scale_free",
+    "seed": 0,
+    "n_agents": 30,
+    "coop_final": 0.25833333333333336,
+    "ecs_final": 0.0,
+    "autonomy_final": 0.8375,
+    "integrity_final": 0.0,
+    "fairness_final": 0.8476190476190476,
+    "backlash_rate_final": 0.4416666666666667,
+    "rejection_rate": 0.0,
+    "condition": "unconstrained",
+    "model": "moonshotai/Kimi-K3",
+    "cost_usd": 0.9389430000000003
+  },
+  "status": "done",
+  "duration_s": 570.1,
+  "finished": "2026-10-13T10:52:50"
+}

@@ -1,0 +1,45 @@
+{
+  "unit": {
+    "id": "cascade-s0",
+    "policy": "cascade",
+    "seed": 0
+  },
+  "attempts": 1,
+  "session": "20261014-1319",
+  "started": "2026-10-14T13:49:19",
+  "fingerprint": {
+    "params": "592f3ac6a0047295",
+    "code": "1748ffd33f422b85",
+    "config": "58fea3e7e38e2ded"
+  },
+  "summary": {
+    "label": "cascade-s0",
+    "governance": "governed",
+    "adversarial": true,
+    "topo": "scale_free",
+    "seed": 0,
+    "n_agents": 30,
+    "coop_final": 0.25833333333333336,
+    "ecs_final": 0.20938657407407404,
+    "autonomy_final": 0.9533333333333334,
+    "integrity_final": 1.0,
+    "fairness_final": 0.8452380952380951,
+    "backlash_rate_final": 0.0,
+    "rejection_rate": 0.35,
+    "policy": "cascade",
+    "strong_frac": 0.05,
+    "target_share": 0.25,
+    "ties": 48,
+    "escalations": 15,
+    "n_decisions": 300,
+    "agent_tokens_in": 144009,
+    "agent_tokens_out": 16930,
+    "agent_cost_equiv_usd": 0.06718460000000001,
+    "agent_cost_actual_usd": 0.05048420000000002,
+    "cheap_model": "deepseek-ai/DeepSeek-V4.1-Flash",
+    "strong_model": "deepseek-ai/DeepSeek-V4-Pro-0813"
+  },
+  "status": "done",
+  "duration_s": 569.8,
+  "finished": "2026-10-14T13:58:49"
+}

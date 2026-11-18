@@ -1,0 +1,45 @@
+{
+  "unit": {
+    "id": "cheap-s1",
+    "policy": "cheap",
+    "seed": 1
+  },
+  "attempts": 1,
+  "session": "20261014-1319",
+  "started": "2026-10-14T13:58:39",
+  "fingerprint": {
+    "params": "592f3ac6a0047295",
+    "code": "1748ffd33f422b85",
+    "config": "58fea3e7e38e2ded"
+  },
+  "summary": {
+    "label": "cheap-s1",
+    "governance": "governed",
+    "adversarial": true,
+    "topo": "scale_free",
+    "seed": 1,
+    "n_agents": 30,
+    "coop_final": 0.28500000000000003,
+    "ecs_final": 0.21370235339506172,
+    "autonomy_final": 0.9037499999999999,
+    "integrity_final": 1.0,
+    "fairness_final": 0.8465277777777777,
+    "backlash_rate_final": 0.0,
+    "rejection_rate": 0.36666666666666664,
+    "policy": "cheap",
+    "strong_frac": 0.0,
+    "target_share": 0.25,
+    "ties": 49,
+    "escalations": 0,
+    "n_decisions": 300,
+    "agent_tokens_in": 137542,
+    "agent_tokens_out": 16388,
+    "agent_cost_equiv_usd": 0.05765059999999998,
+    "agent_cost_actual_usd": 0.05147479999999998,
+    "cheap_model": "deepseek-ai/DeepSeek-V4.1-Flash",
+    "strong_model": "deepseek-ai/DeepSeek-V4-Pro-0813"
+  },
+  "status": "done",
+  "duration_s": 664.3,
+  "finished": "2026-10-14T14:09:43"
+}

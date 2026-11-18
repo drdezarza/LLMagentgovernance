@@ -1,0 +1,34 @@
+{
+  "unit": {
+    "id": "cascade-s2",
+    "policy": "cascade",
+    "seed": 2
+  },
+  "attempts": 1,
+  "session": "20261014-0900",
+  "started": "2026-10-14T09:39:10",
+  "summary": {
+    "label": "cascade-s2",
+    "governance": "governed",
+    "adversarial": true,
+    "topo": "scale_free",
+    "seed": 2,
+    "n_agents": 30,
+    "coop_final": 0.26666666666666666,
+    "ecs_final": 0.22589737654320988,
+    "autonomy_final": 0.9883333333333333,
+    "integrity_final": 1.0,
+    "fairness_final": 0.8638888888888889,
+    "backlash_rate_final": 0.0,
+    "rejection_rate": 0.35,
+    "policy": "cascade",
+    "strong_frac": 0.013157894736842105,
+    "escalations": 4,
+    "agent_cost_usd": 0.026071449999999975,
+    "strong_calls_live": 2,
+    "cheap_calls_live": 288
+  },
+  "status": "done",
+  "duration_s": 333.5,
+  "finished": "2026-10-14T09:44:43"
+}

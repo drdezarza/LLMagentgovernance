@@ -1,0 +1,59 @@
+{
+  "n_agents": 30,
+  "topo": "scale_free",
+  "steps": 50,
+  "seed": 2,
+  "base_prosocial": 0.45,
+  "prosocial_std": 0.15,
+  "resistance_mean": 0.3,
+  "resistance_std": 0.15,
+  "target_frac": 0.2,
+  "deploy_every": 5,
+  "governance_mode": "governed",
+  "adversarial": true,
+  "n_candidates": 6,
+  "state_noise": 0.1,
+  "label": "cascade-s2",
+  "graph_stats": {
+    "n_nodes": 30,
+    "n_edges": 81,
+    "avg_degree": 5.4,
+    "clustering": 0.2834920634920635
+  },
+  "compiler_stats": {
+    "calls": 15,
+    "cached": 15,
+    "errors": 0,
+    "role": "compiler",
+    "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+    "prompt_tokens": 4981,
+    "completion_tokens": 1642,
+    "cost_usd": 0.011549
+  },
+  "agent_stats": {
+    "policy": "cascade",
+    "n_strong": 4,
+    "n_cheap": 300,
+    "n_escalated": 4,
+    "cheap": {
+      "calls": 288,
+      "cached": 14,
+      "errors": 2,
+      "role": "agent_cheap",
+      "model": "zai-org/GLM-5.3-Flash",
+      "prompt_tokens": 113413,
+      "completion_tokens": 15471,
+      "cost_usd": 0.024747449999999976
+    },
+    "strong": {
+      "calls": 2,
+      "cached": 2,
+      "errors": 0,
+      "role": "agent_strong",
+      "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+      "prompt_tokens": 924,
+      "completion_tokens": 100,
+      "cost_usd": 0.001324
+    }
+  }
+}

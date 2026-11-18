@@ -1,0 +1,24 @@
+alias,model,extra,max_tokens,test,ok,status,finish,latency_s,completion_tokens,reasoning_tokens,has_reasoning,raw
+hermes4_405b,NousResearch/Hermes-4-405B,{},400,gcge_compiler,True,ok,stop,3.148,101,0,False,"{
+  ""target_mode"": ""BRIDGES"",
+  ""theme"": ""HYBRID"",
+  ""intensity"": 0.3,
+  ""timing"": ""PERIODIC"",
+  ""claims"": ""FACTUAL"",
+  ""confidence"": 0.7,
+  ""reasoning"": ""Targeting bridge agents with hybrid moral-economic appeals at moderate intensity reduces polarization risk while leveraging their network influen"
+hermes4_405b,NousResearch/Hermes-4-405B,{},400,gcge_shift,True,ok,stop,1.249,49,0,False,"{
+  ""shift"": 0.15,
+  ""persuaded"": true,
+  ""reason"": ""The message provides practical evidence that cooperation leads to better outcomes over time, which aligns with my pragmatic focus on results.""
+}"
+hermes4_405b,NousResearch/Hermes-4-405B,{},400,plan_declare,True,ok,stop,2.572,103,0,False,"{
+  ""mode"": ""SEQUENTIAL"",
+  ""target_mode"": ""HIGH_LOAD"",
+  ""theme"": ""ECONOMIC"",
+  ""depth"": 2,
+  ""branching"": 3,
+  ""replan_trigger"": ""EVERY_STEP"",
+  ""intensity"": 0.6,
+  ""confidence"": 0.7,
+  ""reasoning"": ""High forecasted head load and moderate stress suggest focusing on high-load areas with frequent re"

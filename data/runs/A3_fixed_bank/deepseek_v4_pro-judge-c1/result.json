@@ -1,0 +1,30 @@
+{
+  "unit": {
+    "id": "deepseek_v4_pro-judge-c1",
+    "alias": "deepseek_v4_pro",
+    "prompt": "judge",
+    "chunk": 1
+  },
+  "attempts": 1,
+  "session": "20261017-0900",
+  "started": "2026-10-17T09:40:24",
+  "fingerprint": {
+    "params": "aff9936ce4fc89b1",
+    "design": "aff9936ce4fc89b1",
+    "code": "8f97a43b184df6fe",
+    "config": "718af4f5b2e0aaae"
+  },
+  "summary": {
+    "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+    "alias": "deepseek_v4_pro",
+    "prompt": "judge",
+    "chunk": 1,
+    "n_items": 421,
+    "valid_rate": 1.0,
+    "cached_share": 0.32779097387173395,
+    "cost_usd": 0.16434399999999996
+  },
+  "status": "done",
+  "duration_s": 503.0,
+  "finished": "2026-10-17T09:48:47"
+}

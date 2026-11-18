@@ -1,0 +1,29 @@
+{
+  "unit": {
+    "id": "qwen3_235b-bank-c3",
+    "alias": "qwen3_235b",
+    "part": "bank",
+    "chunk": 3
+  },
+  "attempts": 1,
+  "session": "20261102-0900",
+  "started": "2026-11-02T09:39:42",
+  "fingerprint": {
+    "params": "8070e2771fca2ea2",
+    "design": "8070e2771fca2ea2",
+    "code": "53bc83a80362d649",
+    "config": "91bc30e92078164c"
+  },
+  "summary": {
+    "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+    "alias": "qwen3_235b",
+    "part": "bank",
+    "n_items": 215,
+    "valid_rate": 1.0,
+    "cost_usd": 0.019042799999999988,
+    "cost_equiv_usd": 0.019779799999999993
+  },
+  "status": "done",
+  "duration_s": 232.7,
+  "finished": "2026-11-02T09:43:34"
+}

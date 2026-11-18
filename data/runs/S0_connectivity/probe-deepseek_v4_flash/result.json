@@ -1,0 +1,21 @@
+{
+  "unit": {
+    "id": "probe-deepseek_v4_flash",
+    "alias": "deepseek_v4_flash"
+  },
+  "attempts": 1,
+  "session": "20261013-1001",
+  "started": "2026-10-13T10:01:37",
+  "summary": {
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+    "alias": "deepseek_v4_flash",
+    "usable": true,
+    "extra_body": "{\"chat_template_kwargs\": {\"thinking\": false}}",
+    "min_max_tokens": 400,
+    "latency_s": 1.3436666666666666,
+    "reasoning_seen": false
+  },
+  "status": "done",
+  "duration_s": 26.1,
+  "finished": "2026-10-13T10:02:03"
+}

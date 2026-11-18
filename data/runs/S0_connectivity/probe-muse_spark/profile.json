@@ -1,0 +1,8 @@
+{
+  "alias": "muse_spark",
+  "usable": true,
+  "extra_body": {},
+  "min_max_tokens": 400,
+  "latency_s": 3.4923333333333333,
+  "reasoning_seen": false
+}

@@ -1,0 +1,21 @@
+{
+  "unit": {
+    "id": "probe-glm53_flash",
+    "alias": "glm53_flash"
+  },
+  "attempts": 1,
+  "session": "20261013-0048",
+  "started": "2026-10-13T00:48:50",
+  "summary": {
+    "model": "zai-org/GLM-5.3-Flash",
+    "alias": "glm53_flash",
+    "usable": true,
+    "extra_body": "{\"reasoning_effort\": \"low\"}",
+    "min_max_tokens": 400,
+    "latency_s": 1.212,
+    "reasoning_seen": false
+  },
+  "status": "done",
+  "duration_s": 21.2,
+  "finished": "2026-10-13T00:49:11"
+}

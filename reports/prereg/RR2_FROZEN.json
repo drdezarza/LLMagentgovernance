@@ -1,0 +1,35 @@
+{
+  "frozen": "2026-11-16",
+  "status": "exploratory reviewer-response plan v2 (MDPI reviews of v14-2); written before any RR2 unit ran",
+  "plan_file": "reports/prereg/RR_PLAN_v2.md",
+  "plan_sha256": "82be97be417db9c3eebc18d6a58e900833ee94064df08ed23f003ada917f7b43",
+  "code_file": "agentgov/experiments/reviewer2_exps.py",
+  "code_sha256": "0b25bbaf183cd4c2a003f0d0524514417c4121e2ba939e69395e03b089df8afb",
+  "support_code": {
+    "agentgov/planning_ext.py": "04e511ae35a711b2b428eb312048ebe0dfaa7149cd2490ca8425fb0dacb2752e",
+    "tests/test_equivalence.py": "214d44f98a8092be7ec76d0de1e212d3f32b56d363eb42ac7d90d61bdad54e39"
+  },
+  "tools": {
+    "tools/rr2_planner_decomposition.py": "fefc0b0040c7660c4b875ab67a0213e4f4417836218c671f2dd2ad68c402a832",
+    "tools/rr2_model_evidence.py": "8dc2cf112e65f113fc3fbc4915d57f5aa8bc37455ef4002e77539efa3bff66d9"
+  },
+  "stages": [
+    "A8b_cheap_auditor_live",
+    "S7d_search_mechanism",
+    "S5j2_labelonly_extension"
+  ],
+  "rule": "No change to design, metrics, exclusions or reading rules of these stages after their first unit runs; changes = new stage id + dated note.",
+  "amendments": [
+    {
+      "date": "2026-11-17",
+      "note": "cache race found by R-D0; Cache.put first-writer-wins; new diagnostic tools/rr2_cache_replay.py; rules unchanged",
+      "plan_sha256_after": "7fae5f34e0a41f04be9094c41ab38a563a38c7d7d381519f012835550ba5c4a8",
+      "llm_py_sha256": "a6b7500ebd4e4ebad1e27ba82accab5f21bd139587900800885d52d59c69155c",
+      "tool_sha256": "bb87a2b7ad52b389e5bed04153fedceefcb879455ed01b2cfab02c21eda64faa",
+      "addendum": {
+        "date": "2026-11-17T07:30",
+        "plan_sha256_after": "ff1ec9da0267f3ed2d8fd9d18c1c3b605f316b7881462dfea2df66d2d8891496"
+      }
+    }
+  ]
+}

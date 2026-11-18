@@ -1,0 +1,57 @@
+{
+  "stage": "S3b_C",
+  "written": "2026-10-23T19:37:11",
+  "interim": true,
+  "analysis_code": "1434ad139edba91a",
+  "rubric_sha1": "8a9fd7c89c24",
+  "params": {
+    "models": [
+      "deepseek_v4_flash",
+      "qwen38_27b",
+      "minimax_m3"
+    ],
+    "seeds": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106
+    ],
+    "conditions": [
+      "governed",
+      "unconstrained"
+    ],
+    "judge": "judge",
+    "judge_candidates": [
+      "glm53",
+      "gpt_oss_120b",
+      "qwen35_397b",
+      "kimi_k3",
+      "nemotron_super",
+      "deepseek_v4_pro",
+      "qwen3_235b",
+      "minimax_m3"
+    ],
+    "min_valid_rate": 0.9,
+    "last_k": 20,
+    "judge_fixed": "kimi_k3"
+  },
+  "design": "ad1ba9e2c70dd1a5",
+  "units_expected": 36,
+  "units_done": 8,
+  "unit_code_versions": {
+    "1434ad139edba91a": 8
+  },
+  "validity": {},
+  "contributing_units": [
+    "deepseek_v4_flash-governed-s101",
+    "deepseek_v4_flash-unconstrained-s101",
+    "deepseek_v4_flash-governed-s102",
+    "deepseek_v4_flash-governed-s103",
+    "deepseek_v4_flash-unconstrained-s103",
+    "deepseek_v4_flash-governed-s104",
+    "qwen38_27b-unconstrained-s101",
+    "minimax_m3-unconstrained-s101"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "stage": "A1_audit_calibration",
+  "written": "2026-10-29T20:08:12",
+  "interim": false,
+  "analysis_code": "13ec06628be08273",
+  "rubric_sha1": "8a9fd7c89c24",
+  "params": {
+    "models": [
+      "glm53",
+      "qwen35_397b",
+      "gpt_oss_120b",
+      "deepseek_v4_pro",
+      "kimi_k3",
+      "qwen3_235b",
+      "minimax_m3",
+      "nemotron_super",
+      "muse_spark"
+    ],
+    "sample_size": 60
+  },
+  "design": "2b877042e024cf66",
+  "units_expected": 9,
+  "units_done": 9,
+  "unit_code_versions": {
+    "01416c75c53db3b1": 8,
+    "2d8efd79ba296652": 1
+  },
+  "validity": {},
+  "contributing_units": [
+    "eval-glm53",
+    "eval-qwen35_397b",
+    "eval-gpt_oss_120b",
+    "eval-deepseek_v4_pro",
+    "eval-kimi_k3",
+    "eval-qwen3_235b",
+    "eval-minimax_m3",
+    "eval-nemotron_super",
+    "eval-muse_spark"
+  ]
+}

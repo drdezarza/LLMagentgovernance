@@ -1,0 +1,3 @@
+gov,units,messages,message_integrity,content_integrity,auditor_calls_per100_msgs,auditor_usd_per100_msgs,auditor_usd_equiv_per100_msgs,auditor_latency_median_s
+G0,60,1440,0.8656099033816426,0.8656099033816426,0.0,0.0,0.0,
+Gmsg,60,1440,0.9435084541062807,0.9435084541062807,118.125,0.020758715277777777,0.12501288194444446,0.9249138832092285

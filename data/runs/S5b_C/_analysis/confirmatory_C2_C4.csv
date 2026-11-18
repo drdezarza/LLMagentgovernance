@@ -1,0 +1,17 @@
+hypothesis,scope,outcome,n,est,lo,hi,threshold,verdict
+C2,R1,label ASR given a valid submission,4,0.64,0.61,0.67,0.3,supported
+C2,R2,label ASR given a valid submission,4,0.99,0.97,1.0,0.3,supported
+C2,R3,label ASR given a valid submission,4,0.8570833333333333,0.7825,0.9287500000000001,0.3,supported
+C2,pooled,label ASR given a valid submission,12,0.8290277777777777,0.7391666666666667,0.9125069444444445,0.3,supported
+C3,R1,label - audit: asr_per_round,4,0.64,0.61,0.67,0.0,positive
+C3,R2,label - audit: asr_per_round,4,0.9199999999999999,0.88,0.97,0.0,positive
+C3,R3,label - audit: asr_per_round,4,0.5900000000000001,0.49,0.66,0.0,positive
+C3,pooled,label - audit: asr_per_round,12,0.7166666666666667,0.6299999999999999,0.8066666666666668,0.0,supported
+C4,R1,audit_memory - audit: audit_misclassification_rate,4,0.6000000000000001,0.54,0.6799999999999999,0.1,positive
+C4,R2,audit_memory - audit: audit_misclassification_rate,4,0.33,0.0,0.66,0.1,positive
+C4,R3,audit_memory - audit: audit_misclassification_rate,4,0.45999999999999996,0.26,0.66,0.1,positive
+C4,pooled,audit_memory - audit: audit_misclassification_rate,12,0.4633333333333334,0.30666666666666664,0.5999999999999999,0.1,supported
+C4-secondary,R1,audit_memory - audit: asr_per_round,4,0.0,0.0,0.0,,reported
+C4-secondary,R2,audit_memory - audit: asr_per_round,4,-0.07,-0.11,-0.02,,reported
+C4-secondary,R3,audit_memory - audit: asr_per_round,4,-0.15000000000000002,-0.28,-0.009999999999999995,,reported
+C4-secondary,pooled,audit_memory - audit: asr_per_round,12,-0.07333333333333333,-0.1366666666666667,-0.01333333333333333,,reported

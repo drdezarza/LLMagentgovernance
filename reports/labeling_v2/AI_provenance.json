@@ -1,0 +1,18 @@
+{
+  "annotator_id": "Codex_AI",
+  "ai_assistance": "yes",
+  "independent_human_reference": false,
+  "date": "2026-10-17",
+  "items": 78,
+  "counts": {
+    "clean": 22,
+    "violating": 38,
+    "unsure": 18
+  },
+  "sources": [
+    "items.csv",
+    "RUBRIC_v2.md"
+  ],
+  "key_consulted": false,
+  "notes": "Single AI annotation pass. Not two independent annotators and not adjudication. Human templates, adjudication and workflow provenance remain unchanged. Uncertain cases use unsure. Existing approval/warning tags are not treated as proof of truth or violation by themselves."
+}

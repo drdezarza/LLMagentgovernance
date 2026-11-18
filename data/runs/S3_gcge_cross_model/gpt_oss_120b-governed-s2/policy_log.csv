@@ -1,0 +1,11 @@
+t,target_mode,theme,intensity,timing,claims,confidence,reasoning,n_targets,governance,n_rejected
+0,BRIDGES,HYBRID,0.52,PERIODIC,FACTUAL,0.78,Slight intensity increase.,6,governed,3
+5,HUBS,HYBRID,0.5,PERIODIC,FACTUAL,0.78,Slight intensity increase.,6,governed,2
+10,BRIDGES,HYBRID,0.7,PERIODIC,FACTUAL,0.78,Slight intensity increase.,6,governed,2
+15,HUBS,HYBRID,0.55,PERIODIC,FACTUAL,0.68,Slight intensity increase.,6,governed,3
+20,HUBS,HYBRID,0.55,PERIODIC,FACTUAL,0.7,Slight intensity increase.,6,governed,0
+25,HUBS,HYBRID,0.52,PERIODIC,FACTUAL,0.78,Slight intensity increase.,6,governed,2
+30,HUBS,HYBRID,0.44999999999999996,PERIODIC,FACTUAL,0.78,Slight intensity increase.,6,governed,2
+35,HUBS,HYBRID,0.55,PERIODIC,FACTUAL,0.68,Slight intensity increase.,6,governed,2
+40,BRIDGES,HYBRID,0.55,PERIODIC,FACTUAL,0.62,Slight intensity increase.,6,governed,2
+45,HUBS,MORAL,0.55,PERIODIC,FACTUAL,0.68,Slight intensity increase.,6,governed,3

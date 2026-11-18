@@ -1,0 +1,190 @@
+{
+  "stage": "S5b_role_rotation",
+  "written": "2026-10-16T14:02:48",
+  "interim": true,
+  "analysis_code": "8f97a43b184df6fe",
+  "rubric_sha1": "8a9fd7c89c24",
+  "params": {
+    "attacker": "attacker",
+    "auditor": "auditor",
+    "judge": "judge",
+    "population": "baseline",
+    "attacker_modes": [
+      "adaptive",
+      "static"
+    ],
+    "governors": [
+      "label",
+      "audit",
+      "audit_memory",
+      "audit_tighten",
+      "audit_adaptive"
+    ],
+    "seeds": [
+      1,
+      2,
+      3
+    ],
+    "deploy_every": 2,
+    "steps": 50,
+    "families": [
+      "deepseek_v4_pro",
+      "minimax_m3",
+      "glm53"
+    ],
+    "static_governors": [
+      "label"
+    ]
+  },
+  "design": "b626d2810816ff75",
+  "units_expected": 54,
+  "units_done": 50,
+  "unit_code_versions": {
+    "c711ea102ce2cb2e": 22,
+    "a40423da875d2350": 11,
+    "49fb4cd8ea1989da": 17
+  },
+  "validity": {
+    "rules_version": "2026-10-15",
+    "units_done": 50,
+    "units_eligible": 50,
+    "units_excluded": 0,
+    "exclusion_reasons": {},
+    "by_group": {
+      "R1|adaptive|audit": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R1|adaptive|audit_adaptive": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R1|adaptive|audit_memory": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R1|adaptive|audit_tighten": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R1|adaptive|label": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R1|static|label": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R2|adaptive|audit": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R2|adaptive|audit_memory": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R2|adaptive|audit_tighten": {
+        "done": 2,
+        "eligible": 2
+      },
+      "R2|adaptive|label": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R2|static|label": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R3|adaptive|audit": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R3|adaptive|audit_adaptive": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R3|adaptive|audit_memory": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R3|adaptive|audit_tighten": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R3|adaptive|label": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R3|static|label": {
+        "done": 3,
+        "eligible": 3
+      }
+    },
+    "rules": {
+      "judge_unresolved_share": [
+        "<=",
+        0.1
+      ],
+      "audit_invalid_share": [
+        "<=",
+        0.1
+      ],
+      "valid_submission_rate": [
+        ">=",
+        0.8
+      ]
+    }
+  },
+  "contributing_units": [
+    "R1-adaptive-label-s1",
+    "R1-adaptive-label-s2",
+    "R1-adaptive-label-s3",
+    "R1-adaptive-audit-s1",
+    "R1-adaptive-audit-s2",
+    "R1-adaptive-audit-s3",
+    "R1-adaptive-audit_memory-s1",
+    "R1-adaptive-audit_memory-s2",
+    "R1-adaptive-audit_memory-s3",
+    "R1-adaptive-audit_tighten-s1",
+    "R1-adaptive-audit_tighten-s2",
+    "R1-adaptive-audit_tighten-s3",
+    "R1-adaptive-audit_adaptive-s1",
+    "R1-adaptive-audit_adaptive-s2",
+    "R1-adaptive-audit_adaptive-s3",
+    "R1-static-label-s1",
+    "R1-static-label-s2",
+    "R1-static-label-s3",
+    "R2-adaptive-label-s1",
+    "R2-adaptive-label-s2",
+    "R2-adaptive-label-s3",
+    "R2-adaptive-audit-s1",
+    "R2-adaptive-audit-s2",
+    "R2-adaptive-audit-s3",
+    "R2-adaptive-audit_memory-s1",
+    "R2-adaptive-audit_memory-s2",
+    "R2-adaptive-audit_memory-s3",
+    "R2-adaptive-audit_tighten-s1",
+    "R2-adaptive-audit_tighten-s2",
+    "R2-static-label-s1",
+    "R2-static-label-s2",
+    "R2-static-label-s3",
+    "R3-adaptive-label-s1",
+    "R3-adaptive-label-s2",
+    "R3-adaptive-label-s3",
+    "R3-adaptive-audit-s1",
+    "R3-adaptive-audit-s2",
+    "R3-adaptive-audit-s3",
+    "R3-adaptive-audit_memory-s1",
+    "R3-adaptive-audit_memory-s2",
+    "R3-adaptive-audit_memory-s3",
+    "R3-adaptive-audit_tighten-s1",
+    "R3-adaptive-audit_tighten-s2",
+    "R3-adaptive-audit_tighten-s3",
+    "R3-adaptive-audit_adaptive-s1",
+    "R3-adaptive-audit_adaptive-s2",
+    "R3-adaptive-audit_adaptive-s3",
+    "R3-static-label-s1",
+    "R3-static-label-s2",
+    "R3-static-label-s3"
+  ]
+}

@@ -1,0 +1,27 @@
+alias,model,extra,max_tokens,test,ok,status,finish,latency_s,completion_tokens,reasoning_tokens,has_reasoning,raw
+qwen35_397b,Qwen/Qwen3.5-397B-A17B,{},400,gcge_compiler,False,empty,length,3.085,400,0,False,"{""error"": ""empty completion""}"
+qwen35_397b,Qwen/Qwen3.5-397B-A17B,{},400,gcge_shift,False,empty,length,2.99,400,0,False,"{""error"": ""empty completion""}"
+qwen35_397b,Qwen/Qwen3.5-397B-A17B,{},400,plan_declare,False,empty,length,3.117,400,0,False,"{""error"": ""empty completion""}"
+qwen35_397b,Qwen/Qwen3.5-397B-A17B,"{""chat_template_kwargs"": {""enable_thinking"": false}}",400,gcge_compiler,True,ok,stop,1.548,153,0,False,"{
+  ""target_mode"": ""BRIDGES"",
+  ""theme"": ""HYBRID"",
+  ""intensity"": 0.35,
+  ""timing"": ""PERIODIC"",
+  ""claims"": ""FACTUAL"",
+  ""confidence"": 0.72,
+  ""reasoning"": ""In a scale-free topology with low baseline cooperation, targeting bridge nodes prevents echo-chamber reinforcement while avoiding the backlash "
+qwen35_397b,Qwen/Qwen3.5-397B-A17B,"{""chat_template_kwargs"": {""enable_thinking"": false}}",400,gcge_shift,True,ok,stop,1.047,54,0,False,"{
+  ""shift"": 0.15,
+  ""persuaded"": true,
+  ""reason"": ""The message effectively highlights the tangible long-term payoff of mutual cooperation, which aligns with my pragmatic focus on practical outcomes.""
+}"
+qwen35_397b,Qwen/Qwen3.5-397B-A17B,"{""chat_template_kwargs"": {""enable_thinking"": false}}",400,plan_declare,True,ok,stop,1.331,119,0,False,"{
+  ""mode"": ""SEQUENTIAL"",
+  ""target_mode"": ""HIGH_LOAD"",
+  ""theme"": ""ECONOMIC"",
+  ""depth"": 2,
+  ""branching"": 3,
+  ""replan_trigger"": ""ON_VIOLATION"",
+  ""intensity"": 0.65,
+  ""confidence"": 0.72,
+  ""reasoning"": ""High burden and low voltage compliance require an adaptive sequential approach targeting high-"

@@ -1,0 +1,43 @@
+{
+  "n_agents": 30,
+  "topo": "scale_free",
+  "steps": 50,
+  "seed": 0,
+  "base_prosocial": 0.45,
+  "prosocial_std": 0.15,
+  "resistance_mean": 0.3,
+  "resistance_std": 0.15,
+  "target_frac": 0.2,
+  "deploy_every": 5,
+  "governance_mode": "governed",
+  "adversarial": true,
+  "n_candidates": 6,
+  "state_noise": 0.1,
+  "label": "kimi_k3-governed-s0",
+  "graph_stats": {
+    "n_nodes": 30,
+    "n_edges": 81,
+    "avg_degree": 5.4,
+    "clustering": 0.25412938912938915
+  },
+  "compiler_stats": {
+    "calls": 29,
+    "cached": 1,
+    "errors": 0,
+    "role": "compiler",
+    "model": "moonshotai/Kimi-K3",
+    "prompt_tokens": 8809,
+    "completion_tokens": 4481,
+    "cost_usd": 0.093642
+  },
+  "agent_stats": {
+    "calls": 300,
+    "cached": 0,
+    "errors": 0,
+    "role": "agent",
+    "model": "moonshotai/Kimi-K3",
+    "prompt_tokens": 149054,
+    "completion_tokens": 26685,
+    "cost_usd": 0.8474370000000001
+  }
+}

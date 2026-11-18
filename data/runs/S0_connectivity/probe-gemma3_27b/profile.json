@@ -1,0 +1,8 @@
+{
+  "alias": "gemma3_27b",
+  "usable": true,
+  "extra_body": {},
+  "min_max_tokens": 400,
+  "latency_s": 3.6759999999999997,
+  "reasoning_seen": false
+}

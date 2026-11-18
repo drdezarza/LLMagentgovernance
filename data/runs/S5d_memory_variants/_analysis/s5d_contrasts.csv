@@ -1,0 +1,21 @@
+contrast,reads_as,outcome,n_pairs,delta,lo,hi
+audit_neutral - audit,context presence/length,audit_misclassification_rate,18,0.0022222222222222214,-0.008888888888888889,0.015555555555555553
+audit_neutral - audit,context presence/length,asr_per_round,18,0.09555555555555556,0.028833333333333346,0.17333333333333334
+audit_neutral - audit,context presence/length,asr_given_submission,18,0.09444444444444446,0.02536574074074074,0.17342824074074073
+audit_neutral - audit,context presence/length,honest_fp_rate,18,0.0022222222222222214,-0.008888888888888889,0.015555555555555553
+audit_memory - audit,raw memory (S5b replication),audit_misclassification_rate,18,0.36000000000000004,0.23777777777777784,0.48444444444444446
+audit_memory - audit,raw memory (S5b replication),asr_per_round,18,-0.07777777777777778,-0.1511111111111111,-0.015555555555555553
+audit_memory - audit,raw memory (S5b replication),asr_given_submission,18,-0.07859500805152979,-0.15481712962962965,-0.014587359098228822
+audit_memory - audit,raw memory (S5b replication),honest_fp_rate,18,0.36000000000000004,0.23777777777777784,0.48444444444444446
+audit_memory_struct - audit,learning without attacker text,audit_misclassification_rate,18,0.017777777777777778,0.0022222222222222222,0.037777777777777785
+audit_memory_struct - audit,learning without attacker text,asr_per_round,18,0.006666666666666666,-0.07555555555555556,0.08222222222222225
+audit_memory_struct - audit,learning without attacker text,asr_given_submission,18,0.005370370370370371,-0.0779652777777778,0.08222222222222222
+audit_memory_struct - audit,learning without attacker text,honest_fp_rate,18,0.017777777777777778,0.0022222222222222222,0.037777777777777785
+audit_memory - audit_neutral,memory content beyond length,audit_misclassification_rate,18,0.35777777777777786,0.23777777777777778,0.47777777777777775
+audit_memory - audit_neutral,memory content beyond length,asr_per_round,18,-0.17333333333333337,-0.28222222222222226,-0.07333333333333333
+audit_memory - audit_neutral,memory content beyond length,asr_given_submission,18,-0.17303945249597427,-0.28231481481481485,-0.07283725845410655
+audit_memory - audit_neutral,memory content beyond length,honest_fp_rate,18,0.35777777777777786,0.23777777777777778,0.47777777777777775
+audit_memory - audit_memory_struct,contamination by attacker text,audit_misclassification_rate,18,0.3422222222222222,0.22444444444444445,0.46222222222222226
+audit_memory - audit_memory_struct,contamination by attacker text,asr_per_round,18,-0.08444444444444446,-0.1488888888888889,-0.026666666666666672
+audit_memory - audit_memory_struct,contamination by attacker text,asr_given_submission,18,-0.08396537842190017,-0.14880092592592595,-0.02675694444444447
+audit_memory - audit_memory_struct,contamination by attacker text,honest_fp_rate,18,0.3422222222222222,0.22444444444444445,0.46222222222222226

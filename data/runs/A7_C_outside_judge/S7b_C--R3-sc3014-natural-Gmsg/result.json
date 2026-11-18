@@ -1,0 +1,27 @@
+{
+  "unit": {
+    "id": "S7b_C--R3-sc3014-natural-Gmsg",
+    "source": "S7b_C",
+    "src_unit": "R3-sc3014-natural-Gmsg"
+  },
+  "attempts": 1,
+  "session": "20261024-0900",
+  "started": "2026-10-24T11:32:00",
+  "fingerprint": {
+    "params": "3cf97275d5bc74ec",
+    "design": "3cf97275d5bc74ec",
+    "code": "1434ad139edba91a",
+    "config": "f09e17f0b99f3d93"
+  },
+  "summary": {
+    "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+    "source": "S7b_C",
+    "src_unit": "R3-sc3014-natural-Gmsg",
+    "n_texts": 24,
+    "valid_rate": 1.0,
+    "cost_usd": 0.0012936
+  },
+  "status": "done",
+  "duration_s": 11.3,
+  "finished": "2026-10-24T11:32:11"
+}

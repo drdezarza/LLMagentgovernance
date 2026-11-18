@@ -1,0 +1,115 @@
+{
+  "rules_version": "2026-10-15",
+  "units_done": 120,
+  "units_eligible": 120,
+  "units_excluded": 0,
+  "exclusion_reasons": {},
+  "by_group": {
+    "R1|HIERARCHICAL|G0": {
+      "done": 5,
+      "eligible": 5
+    },
+    "R1|HIERARCHICAL|Gmsg": {
+      "done": 5,
+      "eligible": 5
+    },
+    "R1|SEARCH|G0": {
+      "done": 5,
+      "eligible": 5
+    },
+    "R1|SEARCH|Gmsg": {
+      "done": 5,
+      "eligible": 5
+    },
+    "R1|SEQUENTIAL|G0": {
+      "done": 5,
+      "eligible": 5
+    },
+    "R1|SEQUENTIAL|Gmsg": {
+      "done": 5,
+      "eligible": 5
+    },
+    "R1|natural|G0": {
+      "done": 5,
+      "eligible": 5
+    },
+    "R1|natural|Gmsg": {
+      "done": 5,
+      "eligible": 5
+    },
+    "R2|HIERARCHICAL|G0": {
+      "done": 5,
+      "eligible": 5
+    },
+    "R2|HIERARCHICAL|Gmsg": {
+      "done": 5,
+      "eligible": 5
+    },
+    "R2|SEARCH|G0": {
+      "done": 5,
+      "eligible": 5
+    },
+    "R2|SEARCH|Gmsg": {
+      "done": 5,
+      "eligible": 5
+    },
+    "R2|SEQUENTIAL|G0": {
+      "done": 5,
+      "eligible": 5
+    },
+    "R2|SEQUENTIAL|Gmsg": {
+      "done": 5,
+      "eligible": 5
+    },
+    "R2|natural|G0": {
+      "done": 5,
+      "eligible": 5
+    },
+    "R2|natural|Gmsg": {
+      "done": 5,
+      "eligible": 5
+    },
+    "R3|HIERARCHICAL|G0": {
+      "done": 5,
+      "eligible": 5
+    },
+    "R3|HIERARCHICAL|Gmsg": {
+      "done": 5,
+      "eligible": 5
+    },
+    "R3|SEARCH|G0": {
+      "done": 5,
+      "eligible": 5
+    },
+    "R3|SEARCH|Gmsg": {
+      "done": 5,
+      "eligible": 5
+    },
+    "R3|SEQUENTIAL|G0": {
+      "done": 5,
+      "eligible": 5
+    },
+    "R3|SEQUENTIAL|Gmsg": {
+      "done": 5,
+      "eligible": 5
+    },
+    "R3|natural|G0": {
+      "done": 5,
+      "eligible": 5
+    },
+    "R3|natural|Gmsg": {
+      "done": 5,
+      "eligible": 5
+    }
+  },
+  "rules": {
+    "judge_invalid_rate": [
+      "<=",
+      0.1
+    ],
+    "audit_invalid_share": [
+      "<=",
+      0.1
+    ]
+  }
+}

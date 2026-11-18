@@ -1,0 +1,28 @@
+{
+  "unit": {
+    "id": "minimax_m3-bank-c0",
+    "alias": "minimax_m3",
+    "part": "bank",
+    "chunk": 0
+  },
+  "attempts": 1,
+  "session": "20261022-0900",
+  "started": "2026-10-22T09:40:07",
+  "fingerprint": {
+    "params": "fa6f3186c2fe3cc8",
+    "design": "fa6f3186c2fe3cc8",
+    "code": "c4e93a3a2962dd75",
+    "config": "ebbfbcf88cd09aef"
+  },
+  "summary": {
+    "model": "MiniMaxAI/MiniMax-M3",
+    "alias": "minimax_m3",
+    "part": "bank",
+    "n_items": 220,
+    "valid_rate": 1.0,
+    "cost_usd": 0.21600899999999984
+  },
+  "status": "done",
+  "duration_s": 663.8,
+  "finished": "2026-10-22T09:51:11"
+}

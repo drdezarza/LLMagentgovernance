@@ -1,0 +1,30 @@
+{
+  "unit": {
+    "id": "minimax_m3-mt900",
+    "alias": "minimax_m3",
+    "budget": 900
+  },
+  "attempts": 1,
+  "session": "20261016-0900",
+  "started": "2026-10-16T09:01:18",
+  "fingerprint": {
+    "params": "d8ce72bd7186549f",
+    "design": "d8ce72bd7186549f",
+    "code": "49fb4cd8ea1989da",
+    "config": "e9cbc1b9482f6f88"
+  },
+  "summary": {
+    "model": "MiniMaxAI/MiniMax-M3",
+    "budget": 900,
+    "effective_max_tokens": 2000,
+    "valid_rate": 0.05,
+    "full_rate": 0.05,
+    "empty_rate": 0.9,
+    "median_latency_s": 6.305,
+    "cost_usd": 0.04422599999999999,
+    "cost_per_valid_usd": 0.04422599999999999
+  },
+  "status": "done",
+  "duration_s": 126.3,
+  "finished": "2026-10-16T09:03:25"
+}

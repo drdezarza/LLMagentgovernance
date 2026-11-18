@@ -1,0 +1,12 @@
+{
+  "rules_version": "2026-10-16",
+  "rules": {
+    "valid_rate": [
+      ">=",
+      0.9
+    ]
+  },
+  "cells": 11,
+  "cells_eligible": 11,
+  "excluded": {}
+}

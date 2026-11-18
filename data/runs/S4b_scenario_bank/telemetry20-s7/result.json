@@ -1,0 +1,39 @@
+{
+  "unit": {
+    "id": "telemetry20-s7",
+    "scenario": "telemetry20",
+    "family": "telemetry",
+    "seed": 7,
+    "split": "train"
+  },
+  "attempts": 1,
+  "session": "20261014-1319",
+  "started": "2026-10-14T15:15:48",
+  "fingerprint": {
+    "params": "cec77da3d6d5fc8d",
+    "code": "1748ffd33f422b85",
+    "config": "58fea3e7e38e2ded"
+  },
+  "summary": {
+    "scenario": "telemetry20",
+    "family": "telemetry",
+    "split": "train",
+    "best_mode": "SEARCH",
+    "best_obj": 1886.5655421693448,
+    "lat_cost": 0.0,
+    "n_feasible": 4,
+    "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+    "cost_usd": 0.008098,
+    "obj_PREDEFINED": 2064.508980439423,
+    "feas_PREDEFINED": true,
+    "obj_SEQUENTIAL": 2036.2408973551237,
+    "feas_SEQUENTIAL": true,
+    "obj_HIERARCHICAL": 2914.3458854182863,
+    "feas_HIERARCHICAL": true,
+    "obj_SEARCH": 1886.5655421693448,
+    "feas_SEARCH": true
+  },
+  "status": "done",
+  "duration_s": 19.1,
+  "finished": "2026-10-14T15:16:07"
+}

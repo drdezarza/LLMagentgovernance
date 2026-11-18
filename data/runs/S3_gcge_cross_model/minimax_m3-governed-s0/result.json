@@ -1,0 +1,32 @@
+{
+  "unit": {
+    "id": "minimax_m3-governed-s0",
+    "alias": "minimax_m3",
+    "condition": "governed",
+    "seed": 0
+  },
+  "attempts": 1,
+  "session": "20261013-1001",
+  "started": "2026-10-13T10:02:13",
+  "summary": {
+    "label": "minimax_m3-governed-s0",
+    "governance": "governed",
+    "adversarial": true,
+    "topo": "scale_free",
+    "seed": 0,
+    "n_agents": 30,
+    "coop_final": 0.26166666666666666,
+    "ecs_final": 0.20694609788359788,
+    "autonomy_final": 0.9358333333333333,
+    "integrity_final": 1.0,
+    "fairness_final": 0.8464285714285712,
+    "backlash_rate_final": 0.175,
+    "rejection_rate": 0.35,
+    "condition": "governed",
+    "model": "MiniMaxAI/MiniMax-M3",
+    "cost_usd": 0.2171085
+  },
+  "status": "done",
+  "duration_s": 728.1,
+  "finished": "2026-10-13T10:14:21"
+}

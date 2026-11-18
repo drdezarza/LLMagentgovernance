@@ -1,0 +1,39 @@
+{
+  "unit": {
+    "id": "feeder_seed3-s404",
+    "scenario": "feeder_seed3",
+    "family": "feeder_structure",
+    "seed": 404,
+    "split": "heldout"
+  },
+  "attempts": 1,
+  "session": "20261014-1319",
+  "started": "2026-10-14T15:44:27",
+  "fingerprint": {
+    "params": "cec77da3d6d5fc8d",
+    "code": "1748ffd33f422b85",
+    "config": "58fea3e7e38e2ded"
+  },
+  "summary": {
+    "scenario": "feeder_seed3",
+    "family": "feeder_structure",
+    "split": "heldout",
+    "best_mode": "SEARCH",
+    "best_obj": 2268.192678435323,
+    "lat_cost": 0.0,
+    "n_feasible": 4,
+    "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+    "cost_usd": 0.19156499999999999,
+    "obj_PREDEFINED": 2946.983410505928,
+    "feas_PREDEFINED": true,
+    "obj_SEQUENTIAL": 2943.2768175992946,
+    "feas_SEQUENTIAL": true,
+    "obj_HIERARCHICAL": 4605.11420962722,
+    "feas_HIERARCHICAL": true,
+    "obj_SEARCH": 2268.192678435323,
+    "feas_SEARCH": true
+  },
+  "status": "done",
+  "duration_s": 327.1,
+  "finished": "2026-10-14T15:49:54"
+}

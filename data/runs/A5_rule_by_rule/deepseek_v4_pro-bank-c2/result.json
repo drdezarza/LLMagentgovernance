@@ -1,0 +1,28 @@
+{
+  "unit": {
+    "id": "deepseek_v4_pro-bank-c2",
+    "alias": "deepseek_v4_pro",
+    "part": "bank",
+    "chunk": 2
+  },
+  "attempts": 1,
+  "session": "20261022-0900",
+  "started": "2026-10-22T09:50:58",
+  "fingerprint": {
+    "params": "fa6f3186c2fe3cc8",
+    "design": "fa6f3186c2fe3cc8",
+    "code": "c4e93a3a2962dd75",
+    "config": "ebbfbcf88cd09aef"
+  },
+  "summary": {
+    "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+    "alias": "deepseek_v4_pro",
+    "part": "bank",
+    "n_items": 226,
+    "valid_rate": 1.0,
+    "cost_usd": 0.29347599999999985
+  },
+  "status": "done",
+  "duration_s": 483.2,
+  "finished": "2026-10-22T09:59:02"
+}

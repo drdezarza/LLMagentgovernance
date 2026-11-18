@@ -1,0 +1,163 @@
+{
+  "stage": "S5k_oracle_feedback",
+  "written": "2026-11-18T09:03:21",
+  "interim": false,
+  "analysis_code": "16e32bea7b95f10a",
+  "rubric_sha1": "8a9fd7c89c24",
+  "params": {
+    "attacker": "attacker",
+    "auditor": "auditor",
+    "judge": "judge",
+    "population": "baseline",
+    "attacker_modes": [
+      "adaptive",
+      "oracle"
+    ],
+    "governors": [
+      "audit",
+      "audit_quarantine"
+    ],
+    "seeds": [
+      501,
+      502,
+      503,
+      504
+    ],
+    "deploy_every": 2,
+    "steps": 50,
+    "families": [
+      "deepseek_v4_pro",
+      "minimax_m3",
+      "glm53"
+    ],
+    "static_governors": [],
+    "extractor": "kimi_k3"
+  },
+  "design": "33586584e1b8a13c",
+  "units_expected": 48,
+  "units_done": 48,
+  "unit_code_versions": {
+    "28e2e84ff62d6aef": 48
+  },
+  "validity": {
+    "rules_version": "RR-2026-11-01",
+    "units_done": 48,
+    "units_eligible": 48,
+    "units_excluded": 0,
+    "exclusion_reasons": {},
+    "by_group": {
+      "R1|adaptive|audit": {
+        "done": 4,
+        "eligible": 4
+      },
+      "R1|adaptive|audit_quarantine": {
+        "done": 4,
+        "eligible": 4
+      },
+      "R1|oracle|audit": {
+        "done": 4,
+        "eligible": 4
+      },
+      "R1|oracle|audit_quarantine": {
+        "done": 4,
+        "eligible": 4
+      },
+      "R2|adaptive|audit": {
+        "done": 4,
+        "eligible": 4
+      },
+      "R2|adaptive|audit_quarantine": {
+        "done": 4,
+        "eligible": 4
+      },
+      "R2|oracle|audit": {
+        "done": 4,
+        "eligible": 4
+      },
+      "R2|oracle|audit_quarantine": {
+        "done": 4,
+        "eligible": 4
+      },
+      "R3|adaptive|audit": {
+        "done": 4,
+        "eligible": 4
+      },
+      "R3|adaptive|audit_quarantine": {
+        "done": 4,
+        "eligible": 4
+      },
+      "R3|oracle|audit": {
+        "done": 4,
+        "eligible": 4
+      },
+      "R3|oracle|audit_quarantine": {
+        "done": 4,
+        "eligible": 4
+      }
+    },
+    "rules": {
+      "judge_unresolved_share": [
+        "<=",
+        0.1
+      ],
+      "audit_invalid_share": [
+        "<=",
+        0.1
+      ],
+      "valid_submission_rate": [
+        ">=",
+        0.8
+      ]
+    }
+  },
+  "contributing_units": [
+    "R1-adaptive-audit-s501",
+    "R1-oracle-audit-s501",
+    "R1-adaptive-audit_quarantine-s501",
+    "R1-oracle-audit_quarantine-s501",
+    "R2-adaptive-audit-s501",
+    "R2-oracle-audit-s501",
+    "R2-adaptive-audit_quarantine-s501",
+    "R2-oracle-audit_quarantine-s501",
+    "R3-adaptive-audit-s501",
+    "R3-oracle-audit-s501",
+    "R3-adaptive-audit_quarantine-s501",
+    "R3-oracle-audit_quarantine-s501",
+    "R1-adaptive-audit-s502",
+    "R1-oracle-audit-s502",
+    "R1-adaptive-audit_quarantine-s502",
+    "R1-oracle-audit_quarantine-s502",
+    "R2-adaptive-audit-s502",
+    "R2-oracle-audit-s502",
+    "R2-adaptive-audit_quarantine-s502",
+    "R2-oracle-audit_quarantine-s502",
+    "R3-adaptive-audit-s502",
+    "R3-oracle-audit-s502",
+    "R3-adaptive-audit_quarantine-s502",
+    "R3-oracle-audit_quarantine-s502",
+    "R1-adaptive-audit-s503",
+    "R1-oracle-audit-s503",
+    "R1-adaptive-audit_quarantine-s503",
+    "R1-oracle-audit_quarantine-s503",
+    "R2-adaptive-audit-s503",
+    "R2-oracle-audit-s503",
+    "R2-adaptive-audit_quarantine-s503",
+    "R2-oracle-audit_quarantine-s503",
+    "R3-adaptive-audit-s503",
+    "R3-oracle-audit-s503",
+    "R3-adaptive-audit_quarantine-s503",
+    "R3-oracle-audit_quarantine-s503",
+    "R1-adaptive-audit-s504",
+    "R1-oracle-audit-s504",
+    "R1-adaptive-audit_quarantine-s504",
+    "R1-oracle-audit_quarantine-s504",
+    "R2-adaptive-audit-s504",
+    "R2-oracle-audit-s504",
+    "R2-adaptive-audit_quarantine-s504",
+    "R2-oracle-audit_quarantine-s504",
+    "R3-adaptive-audit-s504",
+    "R3-oracle-audit-s504",
+    "R3-adaptive-audit_quarantine-s504",
+    "R3-oracle-audit_quarantine-s504"
+  ]
+}

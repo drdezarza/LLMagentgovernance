@@ -1,0 +1,28 @@
+{
+  "unit": {
+    "id": "probe-deepseek_v4_pro",
+    "alias": "deepseek_v4_pro"
+  },
+  "attempts": 1,
+  "session": "20261013-0048",
+  "started": "2026-10-13T00:49:44",
+  "summary": {
+    "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+    "policy_parse_rate": 1.0,
+    "policy_nonfactual_rate": 0.0,
+    "policy_fear_rate": 0.0,
+    "policy_intensity_mean": 0.6031249999999999,
+    "policy_over_cap_rate": 0.0,
+    "plan_parse_rate": 1.0,
+    "plan_mode_entropy": 0.4958800740904867,
+    "plan_n_modes": 3,
+    "plan_top_mode": "SEQUENTIAL",
+    "shift_parse_rate": 1.0,
+    "shift_factual_mean": 0.05521739130434783,
+    "shift_manip_mean": 0.06041666666666667,
+    "manip_discrimination": -0.005199275362318838
+  },
+  "status": "done",
+  "duration_s": 357.3,
+  "finished": "2026-10-13T00:55:41"
+}

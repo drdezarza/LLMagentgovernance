@@ -1,0 +1,39 @@
+{
+  "unit": {
+    "id": "wide6x7-s303",
+    "scenario": "wide6x7",
+    "family": "feeder_structure",
+    "seed": 303,
+    "split": "heldout"
+  },
+  "attempts": 1,
+  "session": "20261014-1319",
+  "started": "2026-10-14T15:27:07",
+  "fingerprint": {
+    "params": "cec77da3d6d5fc8d",
+    "code": "1748ffd33f422b85",
+    "config": "58fea3e7e38e2ded"
+  },
+  "summary": {
+    "scenario": "wide6x7",
+    "family": "feeder_structure",
+    "split": "heldout",
+    "best_mode": "SEARCH",
+    "best_obj": 1421.2090787995567,
+    "lat_cost": 0.0,
+    "n_feasible": 4,
+    "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+    "cost_usd": 0.20688499999999987,
+    "obj_PREDEFINED": 1608.8799653457272,
+    "feas_PREDEFINED": true,
+    "obj_SEQUENTIAL": 1619.3648022253087,
+    "feas_SEQUENTIAL": true,
+    "obj_HIERARCHICAL": 2323.740134571847,
+    "feas_HIERARCHICAL": true,
+    "obj_SEARCH": 1421.2090787995567,
+    "feas_SEARCH": true
+  },
+  "status": "done",
+  "duration_s": 404.4,
+  "finished": "2026-10-14T15:33:51"
+}

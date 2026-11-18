@@ -1,0 +1,39 @@
+{
+  "unit": {
+    "id": "bias_over15-s7",
+    "scenario": "bias_over15",
+    "family": "forecast_shift",
+    "seed": 7,
+    "split": "train"
+  },
+  "attempts": 1,
+  "session": "20261014-1319",
+  "started": "2026-10-14T15:13:45",
+  "fingerprint": {
+    "params": "cec77da3d6d5fc8d",
+    "code": "1748ffd33f422b85",
+    "config": "58fea3e7e38e2ded"
+  },
+  "summary": {
+    "scenario": "bias_over15",
+    "family": "forecast_shift",
+    "split": "train",
+    "best_mode": "PREDEFINED",
+    "best_obj": 1659.8720470042822,
+    "lat_cost": 0.0,
+    "n_feasible": 4,
+    "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+    "cost_usd": 0.21273699999999998,
+    "obj_PREDEFINED": 1659.8720470042822,
+    "feas_PREDEFINED": true,
+    "obj_SEQUENTIAL": 1670.453304124092,
+    "feas_SEQUENTIAL": true,
+    "obj_HIERARCHICAL": 2544.950335627195,
+    "feas_HIERARCHICAL": true,
+    "obj_SEARCH": 1680.737989019805,
+    "feas_SEARCH": true
+  },
+  "status": "done",
+  "duration_s": 417.1,
+  "finished": "2026-10-14T15:20:43"
+}

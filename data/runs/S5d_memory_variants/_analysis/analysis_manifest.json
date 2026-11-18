@@ -1,0 +1,190 @@
+{
+  "stage": "S5d_memory_variants",
+  "written": "2026-10-29T20:08:20",
+  "interim": false,
+  "analysis_code": "13ec06628be08273",
+  "rubric_sha1": "8a9fd7c89c24",
+  "params": {
+    "attacker": "attacker",
+    "auditor": "auditor",
+    "judge": "judge",
+    "population": "baseline",
+    "attacker_modes": [
+      "adaptive"
+    ],
+    "governors": [
+      "audit",
+      "audit_neutral",
+      "audit_memory",
+      "audit_memory_struct"
+    ],
+    "seeds": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "deploy_every": 2,
+    "steps": 50,
+    "families": [
+      "deepseek_v4_pro",
+      "minimax_m3",
+      "glm53"
+    ],
+    "static_governors": []
+  },
+  "design": "6a63f184cd808b67",
+  "units_expected": 72,
+  "units_done": 72,
+  "unit_code_versions": {
+    "1bbd8e6b4658a976": 36,
+    "b11d6303ea675e74": 36
+  },
+  "validity": {
+    "rules_version": "2026-10-15",
+    "units_done": 72,
+    "units_eligible": 72,
+    "units_excluded": 0,
+    "exclusion_reasons": {},
+    "by_group": {
+      "R1|adaptive|audit": {
+        "done": 6,
+        "eligible": 6
+      },
+      "R1|adaptive|audit_memory": {
+        "done": 6,
+        "eligible": 6
+      },
+      "R1|adaptive|audit_memory_struct": {
+        "done": 6,
+        "eligible": 6
+      },
+      "R1|adaptive|audit_neutral": {
+        "done": 6,
+        "eligible": 6
+      },
+      "R2|adaptive|audit": {
+        "done": 6,
+        "eligible": 6
+      },
+      "R2|adaptive|audit_memory": {
+        "done": 6,
+        "eligible": 6
+      },
+      "R2|adaptive|audit_memory_struct": {
+        "done": 6,
+        "eligible": 6
+      },
+      "R2|adaptive|audit_neutral": {
+        "done": 6,
+        "eligible": 6
+      },
+      "R3|adaptive|audit": {
+        "done": 6,
+        "eligible": 6
+      },
+      "R3|adaptive|audit_memory": {
+        "done": 6,
+        "eligible": 6
+      },
+      "R3|adaptive|audit_memory_struct": {
+        "done": 6,
+        "eligible": 6
+      },
+      "R3|adaptive|audit_neutral": {
+        "done": 6,
+        "eligible": 6
+      }
+    },
+    "rules": {
+      "judge_unresolved_share": [
+        "<=",
+        0.1
+      ],
+      "audit_invalid_share": [
+        "<=",
+        0.1
+      ],
+      "valid_submission_rate": [
+        ">=",
+        0.8
+      ]
+    }
+  },
+  "contributing_units": [
+    "R1-adaptive-audit-s4",
+    "R1-adaptive-audit-s5",
+    "R1-adaptive-audit-s6",
+    "R1-adaptive-audit-s7",
+    "R1-adaptive-audit-s8",
+    "R1-adaptive-audit-s9",
+    "R1-adaptive-audit_neutral-s4",
+    "R1-adaptive-audit_neutral-s5",
+    "R1-adaptive-audit_neutral-s6",
+    "R1-adaptive-audit_neutral-s7",
+    "R1-adaptive-audit_neutral-s8",
+    "R1-adaptive-audit_neutral-s9",
+    "R1-adaptive-audit_memory-s4",
+    "R1-adaptive-audit_memory-s5",
+    "R1-adaptive-audit_memory-s6",
+    "R1-adaptive-audit_memory-s7",
+    "R1-adaptive-audit_memory-s8",
+    "R1-adaptive-audit_memory-s9",
+    "R1-adaptive-audit_memory_struct-s4",
+    "R1-adaptive-audit_memory_struct-s5",
+    "R1-adaptive-audit_memory_struct-s6",
+    "R1-adaptive-audit_memory_struct-s7",
+    "R1-adaptive-audit_memory_struct-s8",
+    "R1-adaptive-audit_memory_struct-s9",
+    "R2-adaptive-audit-s4",
+    "R2-adaptive-audit-s5",
+    "R2-adaptive-audit-s6",
+    "R2-adaptive-audit-s7",
+    "R2-adaptive-audit-s8",
+    "R2-adaptive-audit-s9",
+    "R2-adaptive-audit_neutral-s4",
+    "R2-adaptive-audit_neutral-s5",
+    "R2-adaptive-audit_neutral-s6",
+    "R2-adaptive-audit_neutral-s7",
+    "R2-adaptive-audit_neutral-s8",
+    "R2-adaptive-audit_neutral-s9",
+    "R2-adaptive-audit_memory-s4",
+    "R2-adaptive-audit_memory-s5",
+    "R2-adaptive-audit_memory-s6",
+    "R2-adaptive-audit_memory-s7",
+    "R2-adaptive-audit_memory-s8",
+    "R2-adaptive-audit_memory-s9",
+    "R2-adaptive-audit_memory_struct-s4",
+    "R2-adaptive-audit_memory_struct-s5",
+    "R2-adaptive-audit_memory_struct-s6",
+    "R2-adaptive-audit_memory_struct-s7",
+    "R2-adaptive-audit_memory_struct-s8",
+    "R2-adaptive-audit_memory_struct-s9",
+    "R3-adaptive-audit-s4",
+    "R3-adaptive-audit-s5",
+    "R3-adaptive-audit-s6",
+    "R3-adaptive-audit-s7",
+    "R3-adaptive-audit-s8",
+    "R3-adaptive-audit-s9",
+    "R3-adaptive-audit_neutral-s4",
+    "R3-adaptive-audit_neutral-s5",
+    "R3-adaptive-audit_neutral-s6",
+    "R3-adaptive-audit_neutral-s7",
+    "R3-adaptive-audit_neutral-s8",
+    "R3-adaptive-audit_neutral-s9",
+    "R3-adaptive-audit_memory-s4",
+    "R3-adaptive-audit_memory-s5",
+    "R3-adaptive-audit_memory-s6",
+    "R3-adaptive-audit_memory-s7",
+    "R3-adaptive-audit_memory-s8",
+    "R3-adaptive-audit_memory-s9",
+    "R3-adaptive-audit_memory_struct-s4",
+    "R3-adaptive-audit_memory_struct-s5",
+    "R3-adaptive-audit_memory_struct-s6",
+    "R3-adaptive-audit_memory_struct-s7",
+    "R3-adaptive-audit_memory_struct-s8",
+    "R3-adaptive-audit_memory_struct-s9"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "n_agents": 30,
+  "topo": "scale_free",
+  "steps": 50,
+  "seed": 1,
+  "base_prosocial": 0.45,
+  "prosocial_std": 0.15,
+  "resistance_mean": 0.3,
+  "resistance_std": 0.15,
+  "target_frac": 0.2,
+  "deploy_every": 5,
+  "governance_mode": "governed",
+  "adversarial": true,
+  "n_candidates": 6,
+  "state_noise": 0.1,
+  "label": "impact-s1",
+  "graph_stats": {
+    "n_nodes": 30,
+    "n_edges": 81,
+    "avg_degree": 5.4,
+    "clustering": 0.3281109339004076
+  },
+  "compiler_stats": {
+    "calls": 17,
+    "cached": 13,
+    "errors": 0,
+    "role": "compiler",
+    "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+    "prompt_tokens": 5288,
+    "completion_tokens": 1759,
+    "cost_usd": 0.012323999999999998,
+    "logical_calls": 30,
+    "logical_prompt_tokens": 8352,
+    "logical_completion_tokens": 2669,
+    "cost_equiv_usd": 0.019027999999999996
+  },
+  "agent_stats": {
+    "policy": "impact",
+    "n_decisions": 300,
+    "n_strong": 75,
+    "n_cheap": 225,
+    "n_escalated": 0,
+    "n_ties": 49,
+    "target_share": 0.25
+  }
+}

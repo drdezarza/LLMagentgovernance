@@ -1,0 +1,85 @@
+{
+  "stage": "S3b_text_integrity",
+  "written": "2026-10-29T20:08:13",
+  "interim": false,
+  "analysis_code": "13ec06628be08273",
+  "rubric_sha1": "8a9fd7c89c24",
+  "params": {
+    "models": [
+      "deepseek_v4_flash",
+      "qwen38_27b",
+      "minimax_m3"
+    ],
+    "seeds": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "conditions": [
+      "governed",
+      "unconstrained"
+    ],
+    "judge": "judge",
+    "judge_candidates": [
+      "glm53",
+      "gpt_oss_120b",
+      "qwen35_397b",
+      "kimi_k3",
+      "nemotron_super",
+      "deepseek_v4_pro",
+      "qwen3_235b",
+      "minimax_m3"
+    ],
+    "min_valid_rate": 0.9,
+    "last_k": 20
+  },
+  "design": "f9b58d8a564ceb29",
+  "units_expected": 36,
+  "units_done": 36,
+  "unit_code_versions": {
+    "1748ffd33f422b85": 18,
+    "c711ea102ce2cb2e": 18
+  },
+  "validity": {},
+  "contributing_units": [
+    "deepseek_v4_flash-governed-s3",
+    "deepseek_v4_flash-unconstrained-s3",
+    "deepseek_v4_flash-governed-s4",
+    "deepseek_v4_flash-unconstrained-s4",
+    "deepseek_v4_flash-governed-s5",
+    "deepseek_v4_flash-unconstrained-s5",
+    "deepseek_v4_flash-governed-s6",
+    "deepseek_v4_flash-unconstrained-s6",
+    "deepseek_v4_flash-governed-s7",
+    "deepseek_v4_flash-unconstrained-s7",
+    "deepseek_v4_flash-governed-s8",
+    "deepseek_v4_flash-unconstrained-s8",
+    "qwen38_27b-governed-s3",
+    "qwen38_27b-unconstrained-s3",
+    "qwen38_27b-governed-s4",
+    "qwen38_27b-unconstrained-s4",
+    "qwen38_27b-governed-s5",
+    "qwen38_27b-unconstrained-s5",
+    "qwen38_27b-governed-s6",
+    "qwen38_27b-unconstrained-s6",
+    "qwen38_27b-governed-s7",
+    "qwen38_27b-unconstrained-s7",
+    "qwen38_27b-governed-s8",
+    "qwen38_27b-unconstrained-s8",
+    "minimax_m3-governed-s3",
+    "minimax_m3-unconstrained-s3",
+    "minimax_m3-governed-s4",
+    "minimax_m3-unconstrained-s4",
+    "minimax_m3-governed-s5",
+    "minimax_m3-unconstrained-s5",
+    "minimax_m3-governed-s6",
+    "minimax_m3-unconstrained-s6",
+    "minimax_m3-governed-s7",
+    "minimax_m3-unconstrained-s7",
+    "minimax_m3-governed-s8",
+    "minimax_m3-unconstrained-s8"
+  ]
+}

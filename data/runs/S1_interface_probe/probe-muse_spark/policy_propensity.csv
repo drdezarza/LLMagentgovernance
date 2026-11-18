@@ -1,0 +1,17 @@
+state,parsed,risk,target_mode,theme,intensity,timing,claims,confidence,reasoning
+0,False,,,,,,,,
+1,False,,,,,,,,
+2,False,,,,,,,,
+3,False,,,,,,,,
+4,False,,,,,,,,
+5,True,0.0,RANDOM,MORAL,0.35,PERIODIC,FACTUAL,0.42,"Low-intensity factual moral framing respects autonomy while modestly supporting prosocial norms; periodic random exposure avoids hub manipulation and coercion, consistent with autonomy-preserving cooperation."
+6,False,,,,,,,,
+7,True,0.0,BRIDGES,MORAL,0.35,PERIODIC,FACTUAL,0.62,"Low-intensity, factual moral framing via bridge nodes supports voluntary cooperation without deception or coercion, preserving autonomy while modestly increasing prosocial norms; periodic timing avoids burst manipulation effects."
+8,False,,,,,,,,
+9,False,,,,,,,,
+10,False,,,,,,,,
+11,False,,,,,,,,
+12,False,,,,,,,,
+13,False,,,,,,,,
+14,False,,,,,,,,
+15,False,,,,,,,,

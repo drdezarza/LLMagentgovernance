@@ -1,0 +1,30 @@
+{
+  "unit": {
+    "id": "glm53-judge-c1",
+    "alias": "glm53",
+    "prompt": "judge",
+    "chunk": 1
+  },
+  "attempts": 1,
+  "session": "20261017-0900",
+  "started": "2026-10-17T10:27:28",
+  "fingerprint": {
+    "params": "aff9936ce4fc89b1",
+    "design": "aff9936ce4fc89b1",
+    "code": "8f97a43b184df6fe",
+    "config": "718af4f5b2e0aaae"
+  },
+  "summary": {
+    "model": "zai-org/GLM-5.3",
+    "alias": "glm53",
+    "prompt": "judge",
+    "chunk": 1,
+    "n_items": 421,
+    "valid_rate": 1.0,
+    "cached_share": 0.1330166270783848,
+    "cost_usd": 0.19198199999999993
+  },
+  "status": "done",
+  "duration_s": 265.4,
+  "finished": "2026-10-17T10:31:53"
+}

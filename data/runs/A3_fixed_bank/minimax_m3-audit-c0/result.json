@@ -1,0 +1,30 @@
+{
+  "unit": {
+    "id": "minimax_m3-audit-c0",
+    "alias": "minimax_m3",
+    "prompt": "audit",
+    "chunk": 0
+  },
+  "attempts": 1,
+  "session": "20261017-0900",
+  "started": "2026-10-17T09:20:04",
+  "fingerprint": {
+    "params": "aff9936ce4fc89b1",
+    "design": "aff9936ce4fc89b1",
+    "code": "8f97a43b184df6fe",
+    "config": "718af4f5b2e0aaae"
+  },
+  "summary": {
+    "model": "MiniMaxAI/MiniMax-M3",
+    "alias": "minimax_m3",
+    "prompt": "audit",
+    "chunk": 0,
+    "n_items": 220,
+    "valid_rate": 1.0,
+    "cached_share": 0.07272727272727272,
+    "cost_usd": 0.12621120000000002
+  },
+  "status": "done",
+  "duration_s": 345.6,
+  "finished": "2026-10-17T09:25:50"
+}

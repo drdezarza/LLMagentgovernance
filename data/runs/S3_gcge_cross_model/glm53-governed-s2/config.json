@@ -1,0 +1,43 @@
+{
+  "n_agents": 30,
+  "topo": "scale_free",
+  "steps": 50,
+  "seed": 2,
+  "base_prosocial": 0.45,
+  "prosocial_std": 0.15,
+  "resistance_mean": 0.3,
+  "resistance_std": 0.15,
+  "target_frac": 0.2,
+  "deploy_every": 5,
+  "governance_mode": "governed",
+  "adversarial": true,
+  "n_candidates": 6,
+  "state_noise": 0.1,
+  "label": "glm53-governed-s2",
+  "graph_stats": {
+    "n_nodes": 30,
+    "n_edges": 81,
+    "avg_degree": 5.4,
+    "clustering": 0.2834920634920635
+  },
+  "compiler_stats": {
+    "calls": 30,
+    "cached": 0,
+    "errors": 0,
+    "role": "compiler",
+    "model": "zai-org/GLM-5.3",
+    "prompt_tokens": 6751,
+    "completion_tokens": 3222,
+    "cost_usd": 0.019638999999999997
+  },
+  "agent_stats": {
+    "calls": 300,
+    "cached": 0,
+    "errors": 0,
+    "role": "agent",
+    "model": "zai-org/GLM-5.3",
+    "prompt_tokens": 120299,
+    "completion_tokens": 18920,
+    "cost_usd": 0.195979
+  }
+}

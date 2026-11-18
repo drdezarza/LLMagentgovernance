@@ -1,0 +1,39 @@
+{
+  "unit": {
+    "id": "lat120-s42",
+    "scenario": "lat120",
+    "family": "deadline_cost",
+    "seed": 42,
+    "split": "train"
+  },
+  "attempts": 1,
+  "session": "20261014-1319",
+  "started": "2026-10-14T15:06:54",
+  "fingerprint": {
+    "params": "cec77da3d6d5fc8d",
+    "code": "1748ffd33f422b85",
+    "config": "58fea3e7e38e2ded"
+  },
+  "summary": {
+    "scenario": "lat120",
+    "family": "deadline_cost",
+    "split": "train",
+    "best_mode": "PREDEFINED",
+    "best_obj": 1693.7280346260081,
+    "lat_cost": 120.0,
+    "n_feasible": 4,
+    "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+    "cost_usd": 0.0,
+    "obj_PREDEFINED": 1693.7280346260081,
+    "feas_PREDEFINED": true,
+    "obj_SEQUENTIAL": 3102.6397122170347,
+    "feas_SEQUENTIAL": true,
+    "obj_HIERARCHICAL": 8555.956879032887,
+    "feas_HIERARCHICAL": true,
+    "obj_SEARCH": 2120.674755797163,
+    "feas_SEARCH": true
+  },
+  "status": "done",
+  "duration_s": 6.0,
+  "finished": "2026-10-14T15:07:00"
+}

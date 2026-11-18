@@ -1,0 +1,39 @@
+{
+  "unit": {
+    "id": "resist50_drift15-s303",
+    "scenario": "resist50_drift15",
+    "family": "compliance_drift",
+    "seed": 303,
+    "split": "heldout"
+  },
+  "attempts": 1,
+  "session": "20261014-1319",
+  "started": "2026-10-14T15:22:56",
+  "fingerprint": {
+    "params": "cec77da3d6d5fc8d",
+    "code": "1748ffd33f422b85",
+    "config": "58fea3e7e38e2ded"
+  },
+  "summary": {
+    "scenario": "resist50_drift15",
+    "family": "compliance_drift",
+    "split": "heldout",
+    "best_mode": "PREDEFINED",
+    "best_obj": 2065.916514607098,
+    "lat_cost": 0.0,
+    "n_feasible": 4,
+    "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+    "cost_usd": 0.17445100000000005,
+    "obj_PREDEFINED": 2065.916514607098,
+    "feas_PREDEFINED": true,
+    "obj_SEQUENTIAL": 2100.3836497434927,
+    "feas_SEQUENTIAL": true,
+    "obj_HIERARCHICAL": 2893.4003176171186,
+    "feas_HIERARCHICAL": true,
+    "obj_SEARCH": 2108.236631184229,
+    "feas_SEARCH": true
+  },
+  "status": "done",
+  "duration_s": 329.2,
+  "finished": "2026-10-14T15:28:25"
+}

@@ -1,0 +1,30 @@
+{
+  "unit": {
+    "id": "muse_spark-judge-c1",
+    "alias": "muse_spark",
+    "prompt": "judge",
+    "chunk": 1
+  },
+  "attempts": 1,
+  "session": "20261022-0900",
+  "started": "2026-10-22T09:01:54",
+  "fingerprint": {
+    "params": "78ad3c84110ca430",
+    "design": "78ad3c84110ca430",
+    "code": "c4e93a3a2962dd75",
+    "config": "ebbfbcf88cd09aef"
+  },
+  "summary": {
+    "model": "meta-models/muse-spark-open",
+    "alias": "muse_spark",
+    "prompt": "judge",
+    "chunk": 1,
+    "n_items": 209,
+    "valid_rate": 1.0,
+    "cached_share": 0.03349282296650718,
+    "cost_usd": 0.3956737500000003
+  },
+  "status": "done",
+  "duration_s": 791.4,
+  "finished": "2026-10-22T09:15:06"
+}

@@ -1,0 +1,38 @@
+{
+  "stage": "S1_interface_probe",
+  "written": "2026-10-29T20:08:02",
+  "interim": false,
+  "analysis_code": "13ec06628be08273",
+  "rubric_sha1": "8a9fd7c89c24",
+  "params": {
+    "models": "probe_pool",
+    "policy_states": 16,
+    "plan_states": 20,
+    "persuasion_reps": 2
+  },
+  "design": "da7b35366753ec3a",
+  "units_expected": 15,
+  "units_done": 15,
+  "unit_code_versions": {
+    "unknown": 14,
+    "2d8efd79ba296652": 1
+  },
+  "validity": {},
+  "contributing_units": [
+    "probe-qwen3_235b",
+    "probe-deepseek_v4_pro",
+    "probe-deepseek_v4_flash",
+    "probe-glm53",
+    "probe-glm53_flash",
+    "probe-kimi_k3",
+    "probe-qwen35_397b",
+    "probe-qwen38_27b",
+    "probe-qwen3_30b",
+    "probe-minimax_m3",
+    "probe-gemma3_27b",
+    "probe-gpt_oss_120b",
+    "probe-nemotron_super",
+    "probe-hermes4_405b",
+    "probe-muse_spark"
+  ]
+}

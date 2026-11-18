@@ -1,0 +1,66 @@
+{
+  "stage": "S5g_quarantine_replay",
+  "written": "2026-10-29T20:08:30",
+  "interim": false,
+  "analysis_code": "13ec06628be08273",
+  "rubric_sha1": "8a9fd7c89c24",
+  "params": {
+    "source_stage": "S5d_memory_variants",
+    "source_governor": "audit_memory",
+    "families": [
+      "deepseek_v4_pro",
+      "minimax_m3",
+      "glm53"
+    ],
+    "seeds": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "memory_window": 6,
+    "excerpt_chars": 160,
+    "margin": 0.1,
+    "extractor": "kimi_k3"
+  },
+  "design": "d26bfb41e37140cd",
+  "units_expected": 18,
+  "units_done": 18,
+  "unit_code_versions": {
+    "1434ad139edba91a": 18
+  },
+  "validity": {
+    "rules_version": "2026-10-23",
+    "rules": {
+      "valid_rate": [
+        ">=",
+        0.9
+      ]
+    },
+    "cells": 12,
+    "cells_eligible": 12,
+    "excluded": {}
+  },
+  "contributing_units": [
+    "R1-s4",
+    "R1-s5",
+    "R1-s6",
+    "R1-s7",
+    "R1-s8",
+    "R1-s9",
+    "R2-s4",
+    "R2-s5",
+    "R2-s6",
+    "R2-s7",
+    "R2-s8",
+    "R2-s9",
+    "R3-s4",
+    "R3-s5",
+    "R3-s6",
+    "R3-s7",
+    "R3-s8",
+    "R3-s9"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "stage": "S6_risk_routing",
+  "written": "2026-10-29T20:08:03",
+  "interim": false,
+  "analysis_code": "13ec06628be08273",
+  "rubric_sha1": "8a9fd7c89c24",
+  "params": {
+    "cheap": "cheap",
+    "strong": "strong",
+    "compiler": "strong",
+    "policies": [
+      "strong",
+      "cheap",
+      "random",
+      "consequence",
+      "cascade"
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "p_strong": 0.25,
+    "escalate_abs_shift": 0.15
+  },
+  "design": "f3d40cfe3d695886",
+  "units_expected": 15,
+  "units_done": 15,
+  "unit_code_versions": {
+    "unknown": 15
+  },
+  "validity": {},
+  "contributing_units": [
+    "strong-s0",
+    "cheap-s0",
+    "random-s0",
+    "consequence-s0",
+    "cascade-s0",
+    "strong-s1",
+    "cheap-s1",
+    "random-s1",
+    "consequence-s1",
+    "cascade-s1",
+    "strong-s2",
+    "cheap-s2",
+    "random-s2",
+    "consequence-s2",
+    "cascade-s2"
+  ]
+}

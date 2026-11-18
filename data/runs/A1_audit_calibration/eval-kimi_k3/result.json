@@ -1,0 +1,26 @@
+{
+  "unit": {
+    "id": "eval-kimi_k3",
+    "alias": "kimi_k3"
+  },
+  "attempts": 1,
+  "session": "20261014-1319",
+  "started": "2026-10-14T13:21:31",
+  "fingerprint": {
+    "params": "151ab0718b222a8b",
+    "code": "01416c75c53db3b1",
+    "config": "58fea3e7e38e2ded"
+  },
+  "summary": {
+    "model": "moonshotai/Kimi-K3",
+    "n": 60,
+    "valid_rate": 1.0,
+    "tpr": 1.0,
+    "fpr": 0.041666666666666664,
+    "tpr_disguised": 1.0,
+    "balanced_acc": 0.9791666666666667
+  },
+  "status": "done",
+  "duration_s": 103.3,
+  "finished": "2026-10-14T13:23:15"
+}

@@ -1,0 +1,59 @@
+{
+  "n_agents": 30,
+  "topo": "scale_free",
+  "steps": 50,
+  "seed": 0,
+  "base_prosocial": 0.45,
+  "prosocial_std": 0.15,
+  "resistance_mean": 0.3,
+  "resistance_std": 0.15,
+  "target_frac": 0.2,
+  "deploy_every": 5,
+  "governance_mode": "governed",
+  "adversarial": true,
+  "n_candidates": 6,
+  "state_noise": 0.1,
+  "label": "random-s0",
+  "graph_stats": {
+    "n_nodes": 30,
+    "n_edges": 81,
+    "avg_degree": 5.4,
+    "clustering": 0.25412938912938915
+  },
+  "compiler_stats": {
+    "calls": 22,
+    "cached": 8,
+    "errors": 0,
+    "role": "compiler",
+    "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+    "prompt_tokens": 6778,
+    "completion_tokens": 2170,
+    "cost_usd": 0.015457999999999998
+  },
+  "agent_stats": {
+    "policy": "random",
+    "n_strong": 296,
+    "n_cheap": 4,
+    "n_escalated": 0,
+    "cheap": {
+      "calls": 4,
+      "cached": 0,
+      "errors": 0,
+      "role": "agent_cheap",
+      "model": "zai-org/GLM-5.3-Flash",
+      "prompt_tokens": 1148,
+      "completion_tokens": 177,
+      "cost_usd": 0.0002607
+    },
+    "strong": {
+      "calls": 232,
+      "cached": 66,
+      "errors": 2,
+      "role": "agent_strong",
+      "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+      "prompt_tokens": 107394,
+      "completion_tokens": 11395,
+      "cost_usd": 0.152974
+    }
+  }
+}

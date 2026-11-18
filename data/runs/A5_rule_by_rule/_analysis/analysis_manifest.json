@@ -1,0 +1,52 @@
+{
+  "stage": "A5_rule_by_rule",
+  "written": "2026-10-29T20:08:21",
+  "interim": false,
+  "analysis_code": "13ec06628be08273",
+  "rubric_sha1": "8a9fd7c89c24",
+  "params": {
+    "families": [
+      "deepseek_v4_pro",
+      "minimax_m3",
+      "glm53"
+    ],
+    "n_chunks": 4,
+    "h1_dir": "labeling_v2",
+    "margin": 0.05
+  },
+  "design": "fa6f3186c2fe3cc8",
+  "units_expected": 15,
+  "units_done": 15,
+  "unit_code_versions": {
+    "c4e93a3a2962dd75": 15
+  },
+  "validity": {
+    "rules_version": "2026-10-21",
+    "rules": {
+      "valid_rate": [
+        ">=",
+        0.9
+      ]
+    },
+    "cells": 6,
+    "cells_eligible": 6,
+    "excluded": {}
+  },
+  "contributing_units": [
+    "deepseek_v4_pro-bank-c0",
+    "deepseek_v4_pro-bank-c1",
+    "deepseek_v4_pro-bank-c2",
+    "deepseek_v4_pro-bank-c3",
+    "minimax_m3-bank-c0",
+    "minimax_m3-bank-c1",
+    "minimax_m3-bank-c2",
+    "minimax_m3-bank-c3",
+    "glm53-bank-c0",
+    "glm53-bank-c1",
+    "glm53-bank-c2",
+    "glm53-bank-c3",
+    "deepseek_v4_pro-h1",
+    "minimax_m3-h1",
+    "glm53-h1"
+  ]
+}

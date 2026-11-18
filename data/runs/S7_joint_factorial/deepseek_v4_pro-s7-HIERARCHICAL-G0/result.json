@@ -1,0 +1,40 @@
+{
+  "unit": {
+    "id": "deepseek_v4_pro-s7-HIERARCHICAL-G0",
+    "alias": "deepseek_v4_pro",
+    "seed": 7,
+    "plan": "HIERARCHICAL",
+    "gov": "G0"
+  },
+  "attempts": 1,
+  "session": "20261014-0900",
+  "started": "2026-10-14T09:48:21",
+  "summary": {
+    "objective": 2908.219598410821,
+    "violation_hours": 8,
+    "head_over_kwh": 1744.5207963713704,
+    "v_violation_total": 0.2155462291923178,
+    "curtailed_kwh": 1206.0555410807176,
+    "mean_compliance": 0.46875,
+    "curtail_gini": 0.5724819286823748,
+    "revisions": 8,
+    "plan_faithfulness": 0.8743177112742331,
+    "directive_realization": 0.44626459038548966,
+    "primary_failure": "STATE_INFERENCE",
+    "executed_mode": "HIERARCHICAL",
+    "declared_modes": "HIERARCHICAL",
+    "persuasion_rate": 0.09375,
+    "backlash_rate": 0.0,
+    "message_integrity": 0.25,
+    "n_messages": 24,
+    "banned_theme_share": 0.0,
+    "declared_banned_share": 0.0,
+    "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+    "auditor": "",
+    "judge": "qwen35_397b",
+    "cost_usd": 0.0
+  },
+  "status": "done",
+  "duration_s": 0.4,
+  "finished": "2026-10-14T09:48:21"
+}

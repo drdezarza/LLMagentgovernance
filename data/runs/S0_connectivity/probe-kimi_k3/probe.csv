@@ -1,0 +1,27 @@
+alias,model,extra,max_tokens,test,ok,status,finish,latency_s,completion_tokens,reasoning_tokens,has_reasoning,raw
+kimi_k3,moonshotai/Kimi-K3,{},400,gcge_compiler,False,empty,length,3.222,400,400,False,"{""error"": ""empty completion""}"
+kimi_k3,moonshotai/Kimi-K3,{},400,gcge_shift,True,ok,stop,2.293,370,306,False,"{
+  ""shift"": 0.15,
+  ""persuaded"": true,
+  ""reason"": ""The message uses concrete payoff data and a logical long-term argument, which directly appeals to my pragmatist focus on practical outcomes rather than emotional pressure.""
+}"
+kimi_k3,moonshotai/Kimi-K3,{},400,plan_declare,False,empty,length,2.813,400,400,False,"{""error"": ""empty completion""}"
+kimi_k3,moonshotai/Kimi-K3,"{""chat_template_kwargs"": {""enable_thinking"": false}}",400,gcge_compiler,False,empty,length,2.88,400,400,False,"{""error"": ""empty completion""}"
+kimi_k3,moonshotai/Kimi-K3,"{""chat_template_kwargs"": {""enable_thinking"": false}}",400,gcge_shift,True,ok,stop,1.579,245,169,False,"{
+  ""shift"": 0.18,
+  ""persuaded"": true,
+  ""reason"": ""As a pragmatist, concrete payoff data showing mutual cooperation outperforms defection over repeated rounds is exactly the kind of practical evidence that moves me, though my 30% resistance tempers the effect.""
+}"
+kimi_k3,moonshotai/Kimi-K3,"{""chat_template_kwargs"": {""enable_thinking"": false}}",400,plan_declare,False,empty,length,2.471,400,400,False,"{""error"": ""empty completion""}"
+kimi_k3,moonshotai/Kimi-K3,"{""reasoning_effort"": ""low""}",400,gcge_compiler,True,ok,stop,1.642,176,76,False,"{""target_mode"":""BRIDGES"",""theme"":""HYBRID"",""intensity"":0.42,""timing"":""PERIODIC"",""claims"":""FACTUAL"",""confidence"":0.68,""reasoning"":""Bridge targeting can spread cooperation across communities while limiting hub dominance and polarization. A hybrid message pairs shared moral norms with concrete mutual be"
+kimi_k3,moonshotai/Kimi-K3,"{""reasoning_effort"": ""low""}",400,gcge_shift,True,ok,stop,0.733,74,16,False,"{""shift"": 0.18, ""persuaded"": true, ""reason"": ""The message presents concrete payoff evidence showing mutual cooperation outperforms defection over time, which directly appeals to my pragmatic focus on practical outcomes.""}"
+kimi_k3,moonshotai/Kimi-K3,"{""reasoning_effort"": ""low""}",400,plan_declare,True,ok,stop,1.067,152,20,False,"{
+  ""mode"": ""SEQUENTIAL"",
+  ""target_mode"": ""HIGH_LOAD"",
+  ""theme"": ""ECONOMIC"",
+  ""depth"": 2,
+  ""branching"": 3,
+  ""replan_trigger"": ""ON_VIOLATION"",
+  ""intensity"": 0.55,
+  ""confidence"": 0.78,
+  ""reasoning"": ""Forecast head (1452 kW) exceeds the 1100 kW cap but volatility is low and stress moderate, so "

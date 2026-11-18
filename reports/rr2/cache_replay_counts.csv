@@ -1,0 +1,5 @@
+study,cells,replayed,exact,max_abs_dev
+S7b_C,120,117,100,92.3814128434683
+S7b_mechanism_ablation,180,175,162,16.461345380128023
+S7c_nonresponse,360,347,329,70.22546278735445
+S7d_search_mechanism,240,177,175,26.499832621643463

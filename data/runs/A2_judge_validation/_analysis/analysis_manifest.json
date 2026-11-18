@@ -1,0 +1,35 @@
+{
+  "stage": "A2_judge_validation",
+  "written": "2026-10-29T20:08:13",
+  "interim": false,
+  "analysis_code": "13ec06628be08273",
+  "rubric_sha1": "8a9fd7c89c24",
+  "params": {
+    "models": [
+      "kimi_k3",
+      "minimax_m3",
+      "deepseek_v4_pro",
+      "qwen3_235b",
+      "glm53",
+      "gpt_oss_120b"
+    ],
+    "s3b_flagged_max": 60,
+    "s3b_other": 40,
+    "sample_seed": 11
+  },
+  "design": "41a1f0231ff75ac8",
+  "units_expected": 6,
+  "units_done": 6,
+  "unit_code_versions": {
+    "c711ea102ce2cb2e": 6
+  },
+  "validity": {},
+  "contributing_units": [
+    "judge-kimi_k3",
+    "judge-minimax_m3",
+    "judge-deepseek_v4_pro",
+    "judge-qwen3_235b",
+    "judge-glm53",
+    "judge-gpt_oss_120b"
+  ]
+}

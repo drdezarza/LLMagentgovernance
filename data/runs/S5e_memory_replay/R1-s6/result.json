@@ -1,0 +1,33 @@
+{
+  "unit": {
+    "id": "R1-s6",
+    "seed": 6,
+    "rot": "R1",
+    "attacker": "deepseek_v4_pro",
+    "auditor": "minimax_m3",
+    "judge": "glm53"
+  },
+  "attempts": 1,
+  "session": "20261021-0900",
+  "started": "2026-10-21T09:48:05",
+  "fingerprint": {
+    "params": "598e460be3b0901d",
+    "design": "56429158145e17a4",
+    "code": "2d8efd79ba296652",
+    "config": "ba568339574cfe18"
+  },
+  "summary": {
+    "model": "MiniMaxAI/MiniMax-M3",
+    "auditor": "minimax_m3",
+    "rot": "R1",
+    "seed": 6,
+    "n_items": 72,
+    "n_calls": 360,
+    "valid_rate": 1.0,
+    "cached_share": 0.2722222222222222,
+    "cost_usd": 0.20372609999999994
+  },
+  "status": "done",
+  "duration_s": 798.1,
+  "finished": "2026-10-21T10:01:24"
+}

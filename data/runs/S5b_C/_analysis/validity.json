@@ -1,0 +1,59 @@
+{
+  "rules_version": "2026-10-15",
+  "units_done": 36,
+  "units_eligible": 36,
+  "units_excluded": 0,
+  "exclusion_reasons": {},
+  "by_group": {
+    "R1|adaptive|audit": {
+      "done": 4,
+      "eligible": 4
+    },
+    "R1|adaptive|audit_memory": {
+      "done": 4,
+      "eligible": 4
+    },
+    "R1|adaptive|label": {
+      "done": 4,
+      "eligible": 4
+    },
+    "R2|adaptive|audit": {
+      "done": 4,
+      "eligible": 4
+    },
+    "R2|adaptive|audit_memory": {
+      "done": 4,
+      "eligible": 4
+    },
+    "R2|adaptive|label": {
+      "done": 4,
+      "eligible": 4
+    },
+    "R3|adaptive|audit": {
+      "done": 4,
+      "eligible": 4
+    },
+    "R3|adaptive|audit_memory": {
+      "done": 4,
+      "eligible": 4
+    },
+    "R3|adaptive|label": {
+      "done": 4,
+      "eligible": 4
+    }
+  },
+  "rules": {
+    "judge_unresolved_share": [
+      "<=",
+      0.1
+    ],
+    "audit_invalid_share": [
+      "<=",
+      0.1
+    ],
+    "valid_submission_rate": [
+      ">=",
+      0.8
+    ]
+  }
+}

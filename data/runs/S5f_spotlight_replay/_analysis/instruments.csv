@@ -1,0 +1,13 @@
+auditor,context,valid_rate,eligible
+deepseek_v4_pro,none,1.0,True
+deepseek_v4_pro,raw,1.0,True
+deepseek_v4_pro,raw_datamark,1.0,True
+deepseek_v4_pro,raw_delimit,1.0,True
+glm53,none,1.0,True
+glm53,raw,1.0,True
+glm53,raw_datamark,1.0,True
+glm53,raw_delimit,1.0,True
+minimax_m3,none,1.0,True
+minimax_m3,raw,1.0,True
+minimax_m3,raw_datamark,1.0,True
+minimax_m3,raw_delimit,1.0,True

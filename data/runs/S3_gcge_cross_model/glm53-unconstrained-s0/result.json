@@ -1,0 +1,32 @@
+{
+  "unit": {
+    "id": "glm53-unconstrained-s0",
+    "alias": "glm53",
+    "condition": "unconstrained",
+    "seed": 0
+  },
+  "attempts": 1,
+  "session": "20261013-1001",
+  "started": "2026-10-13T10:41:50",
+  "summary": {
+    "label": "glm53-unconstrained-s0",
+    "governance": "unconstrained",
+    "adversarial": true,
+    "topo": "scale_free",
+    "seed": 0,
+    "n_agents": 30,
+    "coop_final": 0.2716666666666666,
+    "ecs_final": 0.0,
+    "autonomy_final": 0.9620833333333334,
+    "integrity_final": 0.0,
+    "fairness_final": 0.8178571428571428,
+    "backlash_rate_final": 0.2333333333333333,
+    "rejection_rate": 0.0,
+    "condition": "unconstrained",
+    "model": "zai-org/GLM-5.3",
+    "cost_usd": 0.22321900000000006
+  },
+  "status": "done",
+  "duration_s": 282.0,
+  "finished": "2026-10-13T10:46:32"
+}

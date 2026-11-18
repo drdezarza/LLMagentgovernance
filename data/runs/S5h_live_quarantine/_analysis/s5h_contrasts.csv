@@ -1,0 +1,49 @@
+contrast,reads_as,outcome,scope,n_pairs,delta,lo,hi
+audit_quarantine - audit,tag memory vs no memory,audit_misclassification_rate,R1,8,0.115,0.09,0.135
+audit_quarantine - audit,tag memory vs no memory,audit_misclassification_rate,R2,8,0.015,0.005,0.03
+audit_quarantine - audit,tag memory vs no memory,audit_misclassification_rate,R3,8,-0.009999999999999998,-0.035,0.01
+audit_quarantine - audit,tag memory vs no memory,audit_misclassification_rate,pooled,24,0.04,0.015,0.065
+audit_quarantine - audit,tag memory vs no memory,asr_per_round,R1,8,0.0,0.0,0.0
+audit_quarantine - audit,tag memory vs no memory,asr_per_round,R2,8,-0.07500000000000001,-0.15000000000000002,-0.005
+audit_quarantine - audit,tag memory vs no memory,asr_per_round,R3,8,-0.09500000000000003,-0.24500000000000005,0.05
+audit_quarantine - audit,tag memory vs no memory,asr_per_round,pooled,24,-0.05666666666666668,-0.11833333333333333,-4.625929269271485e-18
+audit_quarantine - audit,tag memory vs no memory,asr_given_submission,R1,8,0.0,0.0,0.0
+audit_quarantine - audit,tag memory vs no memory,asr_given_submission,R2,8,-0.07458333333333335,-0.14958333333333335,-0.004583333333333349
+audit_quarantine - audit,tag memory vs no memory,asr_given_submission,R3,8,-0.09270833333333336,-0.2441666666666667,0.05437499999999999
+audit_quarantine - audit,tag memory vs no memory,asr_given_submission,pooled,24,-0.05576388888888891,-0.11687673611111116,0.0002847222222221149
+audit_quarantine - audit,tag memory vs no memory,honest_fp_rate,R1,8,0.115,0.09,0.135
+audit_quarantine - audit,tag memory vs no memory,honest_fp_rate,R2,8,0.015,0.005,0.03
+audit_quarantine - audit,tag memory vs no memory,honest_fp_rate,R3,8,-0.009999999999999998,-0.035,0.01
+audit_quarantine - audit,tag memory vs no memory,honest_fp_rate,pooled,24,0.04,0.015,0.065
+audit_quarantine - audit_memory,tag memory vs raw memory,audit_misclassification_rate,R1,8,-0.62,-0.7,-0.52
+audit_quarantine - audit_memory,tag memory vs raw memory,audit_misclassification_rate,R2,8,-0.11000000000000001,-0.21500000000000002,-0.019999999999999997
+audit_quarantine - audit_memory,tag memory vs raw memory,audit_misclassification_rate,R3,8,-0.345,-0.46,-0.215
+audit_quarantine - audit_memory,tag memory vs raw memory,audit_misclassification_rate,pooled,24,-0.35833333333333334,-0.45999999999999996,-0.25333333333333335
+audit_quarantine - audit_memory,tag memory vs raw memory,asr_per_round,R1,8,0.0,0.0,0.0
+audit_quarantine - audit_memory,tag memory vs raw memory,asr_per_round,R2,8,0.0,-0.025,0.025
+audit_quarantine - audit_memory,tag memory vs raw memory,asr_per_round,R3,8,0.155,0.10999999999999999,0.21000000000000002
+audit_quarantine - audit_memory,tag memory vs raw memory,asr_per_round,pooled,24,0.051666666666666666,0.02,0.08833333333333333
+audit_quarantine - audit_memory,tag memory vs raw memory,asr_given_submission,R1,8,0.0,0.0,0.0
+audit_quarantine - audit_memory,tag memory vs raw memory,asr_given_submission,R2,8,-0.0006612318840579752,-0.026077898550724624,0.024963768115942003
+audit_quarantine - audit_memory,tag memory vs raw memory,asr_given_submission,R3,8,0.15729166666666666,0.11083333333333331,0.21314062499999975
+audit_quarantine - audit_memory,tag memory vs raw memory,asr_given_submission,pooled,24,0.05221014492753623,0.019779287439613522,0.0893107638888888
+audit_quarantine - audit_memory,tag memory vs raw memory,honest_fp_rate,R1,8,-0.62,-0.7,-0.52
+audit_quarantine - audit_memory,tag memory vs raw memory,honest_fp_rate,R2,8,-0.11000000000000001,-0.21500000000000002,-0.019999999999999997
+audit_quarantine - audit_memory,tag memory vs raw memory,honest_fp_rate,R3,8,-0.345,-0.46,-0.215
+audit_quarantine - audit_memory,tag memory vs raw memory,honest_fp_rate,pooled,24,-0.35833333333333334,-0.45999999999999996,-0.25333333333333335
+audit_memory - audit,raw memory vs no memory (S5b/S5d replication),audit_misclassification_rate,R1,8,0.735,0.635,0.8200000000000001
+audit_memory - audit,raw memory vs no memory (S5b/S5d replication),audit_misclassification_rate,R2,8,0.125,0.03,0.235
+audit_memory - audit,raw memory vs no memory (S5b/S5d replication),audit_misclassification_rate,R3,8,0.335,0.21,0.45
+audit_memory - audit,raw memory vs no memory (S5b/S5d replication),audit_misclassification_rate,pooled,24,0.3983333333333334,0.2783333333333333,0.5167083333333328
+audit_memory - audit,raw memory vs no memory (S5b/S5d replication),asr_per_round,R1,8,0.0,0.0,0.0
+audit_memory - audit,raw memory vs no memory (S5b/S5d replication),asr_per_round,R2,8,-0.075,-0.165,0.005000000000000002
+audit_memory - audit,raw memory vs no memory (S5b/S5d replication),asr_per_round,R3,8,-0.25,-0.375,-0.125
+audit_memory - audit,raw memory vs no memory (S5b/S5d replication),asr_per_round,pooled,24,-0.10833333333333334,-0.18000000000000002,-0.045000000000000005
+audit_memory - audit,raw memory vs no memory (S5b/S5d replication),asr_given_submission,R1,8,0.0,0.0,0.0
+audit_memory - audit,raw memory vs no memory (S5b/S5d replication),asr_given_submission,R2,8,-0.07392210144927538,-0.16479166666666667,0.007827445652173744
+audit_memory - audit,raw memory vs no memory (S5b/S5d replication),asr_given_submission,R3,8,-0.25,-0.375,-0.125
+audit_memory - audit,raw memory vs no memory (S5b/S5d replication),asr_given_submission,pooled,24,-0.10797403381642512,-0.17993055555555557,-0.044420289855072466
+audit_memory - audit,raw memory vs no memory (S5b/S5d replication),honest_fp_rate,R1,8,0.735,0.635,0.8200000000000001
+audit_memory - audit,raw memory vs no memory (S5b/S5d replication),honest_fp_rate,R2,8,0.125,0.03,0.235
+audit_memory - audit,raw memory vs no memory (S5b/S5d replication),honest_fp_rate,R3,8,0.335,0.21,0.45
+audit_memory - audit,raw memory vs no memory (S5b/S5d replication),honest_fp_rate,pooled,24,0.3983333333333334,0.2783333333333333,0.5167083333333328

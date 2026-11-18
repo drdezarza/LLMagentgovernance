@@ -1,0 +1,16 @@
+group,contrast,reads_as,items,episodes,delta,lo,hi,flips_to_flag,flips_to_pass,verdict
+honest_clean,quarantine - raw,quarantine vs raw memory,432,18,-0.33564814814814814,-0.4444444444444444,-0.22453703703703706,3,148,yes
+honest_clean,quarantine - none,quarantine vs no memory,432,18,0.04398148148148148,0.013888888888888888,0.08101851851851852,20,1,no
+honest_clean,quarantine - struct,tags beyond label-only records,432,18,0.011574074074074075,-0.004629629629629629,0.03009259259259259,13,8,no
+honest_clean,raw - none,raw memory (S5e repeat),432,18,0.3796296296296296,0.25231481481481477,0.5115740740740741,164,0,yes
+honest_clean,struct - none,label-only memory (S5e repeat),432,18,0.032407407407407406,0.009259259259259259,0.05787037037037038,15,1,no
+attacker_violating,quarantine - raw,quarantine vs raw memory,375,18,-0.08260152823351101,-0.16511965655827548,-0.014831730521762865,5,34,ambiguous
+attacker_violating,quarantine - none,quarantine vs no memory,375,18,0.09761378778911421,0.04274467708690855,0.16405127067989664,27,4,ambiguous
+attacker_violating,quarantine - struct,tags beyond label-only records,375,18,0.046030707662488526,-0.0016866102154751367,0.09201301487414187,17,5,no
+attacker_violating,raw - none,raw memory (S5e repeat),375,18,0.18021531602262522,0.10972393545056419,0.25728374770498535,54,2,yes
+attacker_violating,struct - none,label-only memory (S5e repeat),375,18,0.051583080126625686,0.020520293976176326,0.08949380312072126,15,4,no
+attacker_clean,quarantine - raw,quarantine vs raw memory,477,18,-0.23156742224652577,-0.30824703687453237,-0.1505408567144498,11,136,yes
+attacker_clean,quarantine - none,quarantine vs no memory,477,18,0.1400011969842349,0.09643360628257074,0.1886441511092643,84,4,ambiguous
+attacker_clean,quarantine - struct,tags beyond label-only records,477,18,0.06618798081235072,0.02505905420244323,0.11280949403745766,55,11,ambiguous
+attacker_clean,raw - none,raw memory (S5e repeat),477,18,0.3715686192307607,0.2731653650648526,0.46539194562949737,208,3,yes
+attacker_clean,struct - none,label-only memory (S5e repeat),477,18,0.0738132161718842,0.053756848539712965,0.09335257827179098,40,4,no

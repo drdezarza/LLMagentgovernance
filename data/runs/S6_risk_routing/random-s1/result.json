@@ -1,0 +1,34 @@
+{
+  "unit": {
+    "id": "random-s1",
+    "policy": "random",
+    "seed": 1
+  },
+  "attempts": 1,
+  "session": "20261014-0900",
+  "started": "2026-10-14T09:37:31",
+  "summary": {
+    "label": "random-s1",
+    "governance": "governed",
+    "adversarial": true,
+    "topo": "scale_free",
+    "seed": 1,
+    "n_agents": 30,
+    "coop_final": 0.2899999999999999,
+    "ecs_final": 0.1954027777777778,
+    "autonomy_final": 0.85,
+    "integrity_final": 1.0,
+    "fairness_final": 0.80625,
+    "backlash_rate_final": 0.008333333333333333,
+    "rejection_rate": 0.36666666666666664,
+    "policy": "random",
+    "strong_frac": 0.9866666666666667,
+    "escalations": 0,
+    "agent_cost_usd": 0.057269000000000014,
+    "strong_calls_live": 85,
+    "cheap_calls_live": 0
+  },
+  "status": "done",
+  "duration_s": 92.4,
+  "finished": "2026-10-14T09:39:04"
+}

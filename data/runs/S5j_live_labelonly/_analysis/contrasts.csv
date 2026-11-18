@@ -1,0 +1,49 @@
+contrast,reads_as,outcome,scope,n_pairs,delta,lo,hi
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_per_round,R1,8,0.0,0.0,0.0
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_per_round,R2,8,0.014999999999999996,-0.025,0.065
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_per_round,R3,8,-0.15000000000000002,-0.265,-0.025000000000000022
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_per_round,pooled,24,-0.045000000000000005,-0.09833333333333334,0.003333333333333329
+audit_memory_struct - audit,label-only memory vs no memory,asr_per_round,R1,8,-0.005,-0.015,0.0
+audit_memory_struct - audit,label-only memory vs no memory,asr_per_round,R2,8,-0.05,-0.09,-0.009999999999999998
+audit_memory_struct - audit,label-only memory vs no memory,asr_per_round,R3,8,0.05,-0.12,0.235
+audit_memory_struct - audit,label-only memory vs no memory,asr_per_round,pooled,24,-0.0016666666666666635,-0.06004166666666666,0.065
+audit_quarantine - audit,tag memory vs no memory (S5h replication),asr_per_round,R1,8,-0.005,-0.015,0.0
+audit_quarantine - audit,tag memory vs no memory (S5h replication),asr_per_round,R2,8,-0.035,-0.09,0.015000000000000001
+audit_quarantine - audit,tag memory vs no memory (S5h replication),asr_per_round,R3,8,-0.1,-0.245,0.034999999999999996
+audit_quarantine - audit,tag memory vs no memory (S5h replication),asr_per_round,pooled,24,-0.04666666666666667,-0.105,0.0016666666666666635
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_given_submission,R1,8,0.0,0.0,0.0
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_given_submission,R2,8,0.015624999999999997,-0.025,0.065625
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_given_submission,R3,8,-0.14937500000000004,-0.2625156250000001,-0.025000000000000022
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_given_submission,pooled,24,-0.044583333333333336,-0.09771354166666667,0.0037499999999999942
+audit_memory_struct - audit,label-only memory vs no memory,asr_given_submission,R1,8,-0.005,-0.015,0.0
+audit_memory_struct - audit,label-only memory vs no memory,asr_given_submission,R2,8,-0.051041666666666666,-0.09104166666666666,-0.011666666666666664
+audit_memory_struct - audit,label-only memory vs no memory,asr_given_submission,R3,8,0.04916666666666668,-0.12,0.2316666666666667
+audit_memory_struct - audit,label-only memory vs no memory,asr_given_submission,pooled,24,-0.0022916666666666593,-0.060722222222222205,0.06409895833333332
+audit_quarantine - audit,tag memory vs no memory (S5h replication),asr_given_submission,R1,8,-0.005,-0.015,0.0
+audit_quarantine - audit,tag memory vs no memory (S5h replication),asr_given_submission,R2,8,-0.035416666666666666,-0.09104166666666666,0.016468749999999848
+audit_quarantine - audit,tag memory vs no memory (S5h replication),asr_given_submission,R3,8,-0.10020833333333334,-0.24395833333333333,0.034791666666666665
+audit_quarantine - audit,tag memory vs no memory (S5h replication),asr_given_submission,pooled,24,-0.046875,-0.104375,0.0015277777777777783
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),audit_misclassification_rate,R1,8,0.025,-5.204170427930421e-18,0.05
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),audit_misclassification_rate,R2,8,0.005,-0.01,0.02
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),audit_misclassification_rate,R3,8,0.01,-0.01,0.025
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),audit_misclassification_rate,pooled,24,0.013333333333333336,2.8912057932946783e-19,0.02666666666666667
+audit_memory_struct - audit,label-only memory vs no memory,audit_misclassification_rate,R1,8,0.08499999999999999,0.05,0.12000000000000001
+audit_memory_struct - audit,label-only memory vs no memory,audit_misclassification_rate,R2,8,0.005,0.0,0.015
+audit_memory_struct - audit,label-only memory vs no memory,audit_misclassification_rate,R3,8,-0.015,-0.03,-0.005
+audit_memory_struct - audit,label-only memory vs no memory,audit_misclassification_rate,pooled,24,0.024999999999999998,0.005,0.04833333333333334
+audit_quarantine - audit,tag memory vs no memory (S5h replication),audit_misclassification_rate,R1,8,0.11000000000000001,0.07,0.15
+audit_quarantine - audit,tag memory vs no memory (S5h replication),audit_misclassification_rate,R2,8,0.01,0.0,0.025
+audit_quarantine - audit,tag memory vs no memory (S5h replication),audit_misclassification_rate,R3,8,-0.005,-0.025,0.015
+audit_quarantine - audit,tag memory vs no memory (S5h replication),audit_misclassification_rate,pooled,24,0.03833333333333334,0.013333333333333334,0.06666666666666667
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),policy_cap_rejection_rate,R1,8,0.0,0.0,0.0
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),policy_cap_rejection_rate,R2,8,0.0,0.0,0.0
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),policy_cap_rejection_rate,R3,8,0.0,0.0,0.0
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),policy_cap_rejection_rate,pooled,24,0.0,0.0,0.0
+audit_memory_struct - audit,label-only memory vs no memory,policy_cap_rejection_rate,R1,8,0.0,0.0,0.0
+audit_memory_struct - audit,label-only memory vs no memory,policy_cap_rejection_rate,R2,8,0.0,0.0,0.0
+audit_memory_struct - audit,label-only memory vs no memory,policy_cap_rejection_rate,R3,8,0.0,0.0,0.0
+audit_memory_struct - audit,label-only memory vs no memory,policy_cap_rejection_rate,pooled,24,0.0,0.0,0.0
+audit_quarantine - audit,tag memory vs no memory (S5h replication),policy_cap_rejection_rate,R1,8,0.0,0.0,0.0
+audit_quarantine - audit,tag memory vs no memory (S5h replication),policy_cap_rejection_rate,R2,8,0.0,0.0,0.0
+audit_quarantine - audit,tag memory vs no memory (S5h replication),policy_cap_rejection_rate,R3,8,0.0,0.0,0.0
+audit_quarantine - audit,tag memory vs no memory (S5h replication),policy_cap_rejection_rate,pooled,24,0.0,0.0,0.0

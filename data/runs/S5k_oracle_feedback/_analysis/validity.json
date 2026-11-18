@@ -1,0 +1,71 @@
+{
+  "rules_version": "RR-2026-11-01",
+  "units_done": 48,
+  "units_eligible": 48,
+  "units_excluded": 0,
+  "exclusion_reasons": {},
+  "by_group": {
+    "R1|adaptive|audit": {
+      "done": 4,
+      "eligible": 4
+    },
+    "R1|adaptive|audit_quarantine": {
+      "done": 4,
+      "eligible": 4
+    },
+    "R1|oracle|audit": {
+      "done": 4,
+      "eligible": 4
+    },
+    "R1|oracle|audit_quarantine": {
+      "done": 4,
+      "eligible": 4
+    },
+    "R2|adaptive|audit": {
+      "done": 4,
+      "eligible": 4
+    },
+    "R2|adaptive|audit_quarantine": {
+      "done": 4,
+      "eligible": 4
+    },
+    "R2|oracle|audit": {
+      "done": 4,
+      "eligible": 4
+    },
+    "R2|oracle|audit_quarantine": {
+      "done": 4,
+      "eligible": 4
+    },
+    "R3|adaptive|audit": {
+      "done": 4,
+      "eligible": 4
+    },
+    "R3|adaptive|audit_quarantine": {
+      "done": 4,
+      "eligible": 4
+    },
+    "R3|oracle|audit": {
+      "done": 4,
+      "eligible": 4
+    },
+    "R3|oracle|audit_quarantine": {
+      "done": 4,
+      "eligible": 4
+    }
+  },
+  "rules": {
+    "judge_unresolved_share": [
+      "<=",
+      0.1
+    ],
+    "audit_invalid_share": [
+      "<=",
+      0.1
+    ],
+    "valid_submission_rate": [
+      ">=",
+      0.8
+    ]
+  }
+}

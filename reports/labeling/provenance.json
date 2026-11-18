@@ -1,0 +1,6 @@
+{
+  "labels": "human + AI assistance",
+  "scope": "all 60 items in sample.csv (labelled 2026-10-14)",
+  "recorded": "2026-10-14, stated by the user in the daily-review chat",
+  "note": "For an independent check, label a fresh blinded subset (e.g. 20-30 items) without AI assistance and compare."
+}

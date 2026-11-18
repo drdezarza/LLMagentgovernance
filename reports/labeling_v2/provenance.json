@@ -1,0 +1,6 @@
+{
+  "labels": "pending (two annotators, no AI assistance required)",
+  "rubric_sha1": "8a9fd7c89c24",
+  "sampling": "stratified by source x {hard, ordinary}; inclusion_prob in key.csv",
+  "seed": 2027
+}

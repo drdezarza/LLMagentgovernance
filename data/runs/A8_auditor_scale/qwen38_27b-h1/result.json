@@ -1,0 +1,29 @@
+{
+  "unit": {
+    "id": "qwen38_27b-h1",
+    "alias": "qwen38_27b",
+    "part": "h1",
+    "chunk": -1
+  },
+  "attempts": 1,
+  "session": "20261102-0900",
+  "started": "2026-11-02T09:43:20",
+  "fingerprint": {
+    "params": "8070e2771fca2ea2",
+    "design": "8070e2771fca2ea2",
+    "code": "53bc83a80362d649",
+    "config": "91bc30e92078164c"
+  },
+  "summary": {
+    "model": "Qwen/Qwen3.8-27B",
+    "alias": "qwen38_27b",
+    "part": "h1",
+    "n_items": 52,
+    "valid_rate": 1.0,
+    "cost_usd": 0.014067149999999997,
+    "cost_equiv_usd": 0.01916054999999999
+  },
+  "status": "done",
+  "duration_s": 22.8,
+  "finished": "2026-11-02T09:43:43"
+}

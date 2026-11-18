@@ -1,0 +1,118 @@
+{
+  "stage": "A8b_cheap_auditor_live",
+  "written": "2026-11-18T09:03:23",
+  "interim": false,
+  "analysis_code": "16e32bea7b95f10a",
+  "rubric_sha1": "8a9fd7c89c24",
+  "params": {
+    "attacker": "attacker",
+    "auditor": "auditor",
+    "judge": "kimi_k3",
+    "population": "baseline",
+    "attacker_modes": [
+      "adaptive"
+    ],
+    "governors": [
+      "audit"
+    ],
+    "seeds": [
+      301,
+      302,
+      303,
+      304
+    ],
+    "deploy_every": 2,
+    "steps": 50,
+    "families": [
+      "deepseek_v4_pro",
+      "minimax_m3",
+      "glm53"
+    ],
+    "static_governors": [],
+    "extractor": "kimi_k3",
+    "cheap_auditors": [
+      "deepseek_v4_flash",
+      "qwen38_27b"
+    ],
+    "margin_ni": 0.05
+  },
+  "design": "75f64b043d115c56",
+  "units_expected": 24,
+  "units_done": 24,
+  "unit_code_versions": {
+    "20c26a93bc87cd1d": 24
+  },
+  "validity": {
+    "rules_version": "RR-2026-11-01",
+    "units_done": 24,
+    "units_eligible": 24,
+    "units_excluded": 0,
+    "exclusion_reasons": {},
+    "by_group": {
+      "A1C1|adaptive|audit": {
+        "done": 4,
+        "eligible": 4
+      },
+      "A1C2|adaptive|audit": {
+        "done": 4,
+        "eligible": 4
+      },
+      "A2C1|adaptive|audit": {
+        "done": 4,
+        "eligible": 4
+      },
+      "A2C2|adaptive|audit": {
+        "done": 4,
+        "eligible": 4
+      },
+      "A3C1|adaptive|audit": {
+        "done": 4,
+        "eligible": 4
+      },
+      "A3C2|adaptive|audit": {
+        "done": 4,
+        "eligible": 4
+      }
+    },
+    "rules": {
+      "judge_unresolved_share": [
+        "<=",
+        0.1
+      ],
+      "audit_invalid_share": [
+        "<=",
+        0.1
+      ],
+      "valid_submission_rate": [
+        ">=",
+        0.8
+      ]
+    }
+  },
+  "contributing_units": [
+    "A1C1-adaptive-audit-s301",
+    "A1C2-adaptive-audit-s301",
+    "A2C1-adaptive-audit-s301",
+    "A2C2-adaptive-audit-s301",
+    "A3C1-adaptive-audit-s301",
+    "A3C2-adaptive-audit-s301",
+    "A1C1-adaptive-audit-s302",
+    "A1C2-adaptive-audit-s302",
+    "A2C1-adaptive-audit-s302",
+    "A2C2-adaptive-audit-s302",
+    "A3C1-adaptive-audit-s302",
+    "A3C2-adaptive-audit-s302",
+    "A1C1-adaptive-audit-s303",
+    "A1C2-adaptive-audit-s303",
+    "A2C1-adaptive-audit-s303",
+    "A2C2-adaptive-audit-s303",
+    "A3C1-adaptive-audit-s303",
+    "A3C2-adaptive-audit-s303",
+    "A1C1-adaptive-audit-s304",
+    "A1C2-adaptive-audit-s304",
+    "A2C1-adaptive-audit-s304",
+    "A2C2-adaptive-audit-s304",
+    "A3C1-adaptive-audit-s304",
+    "A3C2-adaptive-audit-s304"
+  ]
+}

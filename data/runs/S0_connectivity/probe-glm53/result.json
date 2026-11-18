@@ -1,0 +1,21 @@
+{
+  "unit": {
+    "id": "probe-glm53",
+    "alias": "glm53"
+  },
+  "attempts": 1,
+  "session": "20261013-0048",
+  "started": "2026-10-13T00:48:44",
+  "summary": {
+    "model": "zai-org/GLM-5.3",
+    "alias": "glm53",
+    "usable": true,
+    "extra_body": "{\"reasoning_effort\": \"low\"}",
+    "min_max_tokens": 400,
+    "latency_s": 0.798,
+    "reasoning_seen": false
+  },
+  "status": "done",
+  "duration_s": 12.8,
+  "finished": "2026-10-13T00:48:57"
+}

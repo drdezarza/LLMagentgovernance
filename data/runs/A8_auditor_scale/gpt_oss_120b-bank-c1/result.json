@@ -1,0 +1,29 @@
+{
+  "unit": {
+    "id": "gpt_oss_120b-bank-c1",
+    "alias": "gpt_oss_120b",
+    "part": "bank",
+    "chunk": 1
+  },
+  "attempts": 1,
+  "session": "20261102-0900",
+  "started": "2026-11-02T09:13:08",
+  "fingerprint": {
+    "params": "8070e2771fca2ea2",
+    "design": "8070e2771fca2ea2",
+    "code": "53bc83a80362d649",
+    "config": "91bc30e92078164c"
+  },
+  "summary": {
+    "model": "openai/gpt-oss-120b",
+    "alias": "gpt_oss_120b",
+    "part": "bank",
+    "n_items": 241,
+    "valid_rate": 0.991701244813278,
+    "cost_usd": 0.05372805000000001,
+    "cost_equiv_usd": 0.05479530000000001
+  },
+  "status": "done",
+  "duration_s": 273.5,
+  "finished": "2026-11-02T09:17:42"
+}

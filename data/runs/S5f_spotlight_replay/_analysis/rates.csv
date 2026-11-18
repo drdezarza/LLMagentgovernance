@@ -1,0 +1,13 @@
+context,group,n,flag_rate
+none,attacker_clean,477,0.2809224318658281
+none,attacker_violating,375,0.8
+none,honest_clean,432,0.013888888888888888
+raw,attacker_clean,477,0.710691823899371
+raw,attacker_violating,375,0.9386666666666666
+raw,honest_clean,432,0.39351851851851855
+raw_datamark,attacker_clean,477,0.6960167714884696
+raw_datamark,attacker_violating,375,0.9253333333333333
+raw_datamark,honest_clean,432,0.32407407407407407
+raw_delimit,attacker_clean,477,0.6876310272536688
+raw_delimit,attacker_violating,375,0.9333333333333333
+raw_delimit,honest_clean,432,0.3055555555555556

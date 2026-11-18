@@ -1,0 +1,30 @@
+{
+  "unit": {
+    "id": "kimi_k3-judge-c0",
+    "alias": "kimi_k3",
+    "prompt": "judge",
+    "chunk": 0
+  },
+  "attempts": 1,
+  "session": "20261017-0900",
+  "started": "2026-10-17T09:20:04",
+  "fingerprint": {
+    "params": "aff9936ce4fc89b1",
+    "design": "aff9936ce4fc89b1",
+    "code": "8f97a43b184df6fe",
+    "config": "718af4f5b2e0aaae"
+  },
+  "summary": {
+    "model": "moonshotai/Kimi-K3",
+    "alias": "kimi_k3",
+    "prompt": "judge",
+    "chunk": 0,
+    "n_items": 215,
+    "valid_rate": 0.9906976744186047,
+    "cached_share": 0.2930232558139535,
+    "cost_usd": 0.5985240000000002
+  },
+  "status": "done",
+  "duration_s": 198.2,
+  "finished": "2026-10-17T09:23:23"
+}

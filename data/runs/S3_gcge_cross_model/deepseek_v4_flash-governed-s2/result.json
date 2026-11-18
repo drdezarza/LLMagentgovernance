@@ -1,0 +1,32 @@
+{
+  "unit": {
+    "id": "deepseek_v4_flash-governed-s2",
+    "alias": "deepseek_v4_flash",
+    "condition": "governed",
+    "seed": 2
+  },
+  "attempts": 1,
+  "session": "20261013-1001",
+  "started": "2026-10-13T11:17:18",
+  "summary": {
+    "label": "deepseek_v4_flash-governed-s2",
+    "governance": "governed",
+    "adversarial": true,
+    "topo": "scale_free",
+    "seed": 2,
+    "n_agents": 30,
+    "coop_final": 0.2833333333333333,
+    "ecs_final": 0.22005015432098762,
+    "autonomy_final": 0.9183333333333332,
+    "integrity_final": 1.0,
+    "fairness_final": 0.8555555555555555,
+    "backlash_rate_final": 0.0,
+    "rejection_rate": 0.35,
+    "condition": "governed",
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+    "cost_usd": 0.06582160000000002
+  },
+  "status": "done",
+  "duration_s": 464.1,
+  "finished": "2026-10-13T11:25:02"
+}

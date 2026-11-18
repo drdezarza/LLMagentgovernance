@@ -1,0 +1,22 @@
+alias,model,extra,max_tokens,test,ok,status,finish,latency_s,completion_tokens,reasoning_tokens,has_reasoning,raw
+glm53,zai-org/GLM-5.3,{},400,gcge_compiler,False,empty,length,2.084,400,400,False,"{""error"": ""empty completion""}"
+glm53,zai-org/GLM-5.3,{},400,gcge_shift,True,ok,stop,1.227,252,199,False,"```json
+{
+  ""shift"": 0.22,
+  ""persuaded"": true,
+  ""reason"": ""The message uses concrete payoff figures and repeated-game logic, which directly appeals to my practical, results-oriented decision-making style.""
+}
+```"
+glm53,zai-org/GLM-5.3,{},400,plan_declare,False,empty,length,1.636,400,400,False,"{""error"": ""empty completion""}"
+glm53,zai-org/GLM-5.3,"{""chat_template_kwargs"": {""enable_thinking"": false}}",400,gcge_compiler,False,empty,length,2.163,400,400,False,"{""error"": ""empty completion""}"
+glm53,zai-org/GLM-5.3,"{""chat_template_kwargs"": {""enable_thinking"": false}}",400,gcge_shift,True,ok,stop,1.707,337,278,False,"```json
+{
+  ""shift"": 0.22,
+  ""persuased"": true,
+  ""reason"": ""The message offers concrete payoff figures and sound repeated-game logic showing cooperation is the practically optimal strategy, which directly aligns with my outcome-focused decision-making.""
+}
+```"
+glm53,zai-org/GLM-5.3,"{""chat_template_kwargs"": {""enable_thinking"": false}}",400,plan_declare,False,empty,length,1.508,400,400,False,"{""error"": ""empty completion""}"
+glm53,zai-org/GLM-5.3,"{""reasoning_effort"": ""low""}",400,gcge_compiler,True,ok,stop,1.032,154,25,False,"{""target_mode"": ""HUBS"", ""theme"": ""MORAL"", ""intensity"": 0.45, ""timing"": ""PERIODIC"", ""claims"": ""FACTUAL"", ""confidence"": 0.55, ""reasoning"": ""Scale-free networks concentrate influence in hubs, so targeting them maximizes reach efficiently. Moral framing with modest intensity and periodic (not burst) del"
+glm53,zai-org/GLM-5.3,"{""reasoning_effort"": ""low""}",400,gcge_shift,True,ok,stop,0.649,47,1,False,"{""shift"": 0.20, ""persuased"": true, ""reason"": ""Concrete payoff data showing mutual cooperation is the higher-earning strategy over repeated rounds appeals directly to my practical cost-benefit reasoning.""}"
+glm53,zai-org/GLM-5.3,"{""reasoning_effort"": ""low""}",400,plan_declare,True,ok,stop,0.713,101,27,False,"{""mode"":""SEQUENTIAL"",""target_mode"":""HEAD"",""theme"":""ECONOMIC"",""depth"":2,""branching"":3,""replan_trigger"":""EVERY_STEP"",""intensity"":0.7,""confidence"":0.72,""reasoning"":""Forecast exceeds head capacity with moderate volatility, so stepwise revision targeting the head is warranted to keep violations in check."

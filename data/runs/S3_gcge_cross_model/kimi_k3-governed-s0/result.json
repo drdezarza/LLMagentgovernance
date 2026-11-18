@@ -1,0 +1,32 @@
+{
+  "unit": {
+    "id": "kimi_k3-governed-s0",
+    "alias": "kimi_k3",
+    "condition": "governed",
+    "seed": 0
+  },
+  "attempts": 1,
+  "session": "20261013-1001",
+  "started": "2026-10-13T10:19:42",
+  "summary": {
+    "label": "kimi_k3-governed-s0",
+    "governance": "governed",
+    "adversarial": true,
+    "topo": "scale_free",
+    "seed": 0,
+    "n_agents": 30,
+    "coop_final": 0.2633333333333333,
+    "ecs_final": 0.21441203703703704,
+    "autonomy_final": 0.9445833333333333,
+    "integrity_final": 1.0,
+    "fairness_final": 0.8523809523809522,
+    "backlash_rate_final": 0.0,
+    "rejection_rate": 0.35,
+    "condition": "governed",
+    "model": "moonshotai/Kimi-K3",
+    "cost_usd": 0.9410790000000001
+  },
+  "status": "done",
+  "duration_s": 815.5,
+  "finished": "2026-10-13T10:33:17"
+}

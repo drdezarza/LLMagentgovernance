@@ -1,0 +1,20 @@
+{
+  "frozen": "2026-11-01",
+  "status": "exploratory reviewer-response plan; written before any RR unit ran",
+  "plan_file": "reports/prereg/RR_PLAN_v1.md",
+  "plan_sha256": "1bf8ee7db9ee8f6bb0ae56aa9a31777dad4c32384e6c2c3b600a59301e514036",
+  "code_file": "agentgov/experiments/reviewer_exps.py",
+  "code_sha256": "69ead4fd82926002a9b90cd0f8f53035271812da197a227b2deda12134b834c4",
+  "tools": {
+    "tools/rr_inference_check.py": "2dec4f92d1481adb0b0f0c693fe887e078aeaa760ed3f1c7ce2767a0a3fa715b",
+    "tools/rr_frontier.py": "1229fb3fec13b8707eec375f6077a1f3bc7172b5963bb579eb78a1daf28749a1"
+  },
+  "stages": [
+    "A8_auditor_scale",
+    "S5j_live_labelonly",
+    "S5i_role_factorial",
+    "S5k_oracle_feedback"
+  ],
+  "rule": "No change to design, metrics, exclusions or reading rules of these stages after their first unit runs; changes = new stage id + dated note.",
+  "amendments": []
+}

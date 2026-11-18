@@ -1,0 +1,47 @@
+{
+  "rules_version": "RR-2026-11-01",
+  "units_done": 24,
+  "units_eligible": 24,
+  "units_excluded": 0,
+  "exclusion_reasons": {},
+  "by_group": {
+    "A1C1|adaptive|audit": {
+      "done": 4,
+      "eligible": 4
+    },
+    "A1C2|adaptive|audit": {
+      "done": 4,
+      "eligible": 4
+    },
+    "A2C1|adaptive|audit": {
+      "done": 4,
+      "eligible": 4
+    },
+    "A2C2|adaptive|audit": {
+      "done": 4,
+      "eligible": 4
+    },
+    "A3C1|adaptive|audit": {
+      "done": 4,
+      "eligible": 4
+    },
+    "A3C2|adaptive|audit": {
+      "done": 4,
+      "eligible": 4
+    }
+  },
+  "rules": {
+    "judge_unresolved_share": [
+      "<=",
+      0.1
+    ],
+    "audit_invalid_share": [
+      "<=",
+      0.1
+    ],
+    "valid_submission_rate": [
+      ">=",
+      0.8
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "unit": {
+    "id": "glm53-bank-c3",
+    "alias": "glm53",
+    "part": "bank",
+    "chunk": 3
+  },
+  "attempts": 1,
+  "session": "20261022-0900",
+  "started": "2026-10-22T10:03:00",
+  "fingerprint": {
+    "params": "fa6f3186c2fe3cc8",
+    "design": "fa6f3186c2fe3cc8",
+    "code": "c4e93a3a2962dd75",
+    "config": "ebbfbcf88cd09aef"
+  },
+  "summary": {
+    "model": "zai-org/GLM-5.3",
+    "alias": "glm53",
+    "part": "bank",
+    "n_items": 215,
+    "valid_rate": 0.9906976744186047,
+    "cost_usd": 0.2692209999999998
+  },
+  "status": "done",
+  "duration_s": 692.2,
+  "finished": "2026-10-22T10:14:32"
+}

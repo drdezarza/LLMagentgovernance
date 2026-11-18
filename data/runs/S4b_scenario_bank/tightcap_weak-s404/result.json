@@ -1,0 +1,39 @@
+{
+  "unit": {
+    "id": "tightcap_weak-s404",
+    "scenario": "tightcap_weak",
+    "family": "feeder_structure",
+    "seed": 404,
+    "split": "heldout"
+  },
+  "attempts": 1,
+  "session": "20261014-1319",
+  "started": "2026-10-14T15:37:54",
+  "fingerprint": {
+    "params": "cec77da3d6d5fc8d",
+    "code": "1748ffd33f422b85",
+    "config": "58fea3e7e38e2ded"
+  },
+  "summary": {
+    "scenario": "tightcap_weak",
+    "family": "feeder_structure",
+    "split": "heldout",
+    "best_mode": "SEARCH",
+    "best_obj": 4195.055613280736,
+    "lat_cost": 0.0,
+    "n_feasible": 4,
+    "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+    "cost_usd": 0.21018599999999998,
+    "obj_PREDEFINED": 4436.370392261884,
+    "feas_PREDEFINED": true,
+    "obj_SEQUENTIAL": 4393.782039831691,
+    "feas_SEQUENTIAL": true,
+    "obj_HIERARCHICAL": 7925.799786386123,
+    "feas_HIERARCHICAL": true,
+    "obj_SEARCH": 4195.055613280736,
+    "feas_SEARCH": true
+  },
+  "status": "done",
+  "duration_s": 392.6,
+  "finished": "2026-10-14T15:44:27"
+}

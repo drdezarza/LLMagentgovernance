@@ -1,0 +1,49 @@
+contrast,reads_as,outcome,scope,n_pairs,delta,lo,hi
+audit+oracle - audit+adaptive,white-box minus selection feedback under audit,asr_per_round,R1,4,0.0,0.0,0.0
+audit+oracle - audit+adaptive,white-box minus selection feedback under audit,asr_per_round,R2,4,0.08999999999999998,-0.04,0.26
+audit+oracle - audit+adaptive,white-box minus selection feedback under audit,asr_per_round,R3,4,-0.010000000000000005,-0.060000000000000026,0.040000000000000015
+audit+oracle - audit+adaptive,white-box minus selection feedback under audit,asr_per_round,pooled,12,0.026666666666666658,-0.023333333333333334,0.09999999999999998
+audit_quarantine+oracle - audit_quarantine+adaptive,white-box minus selection feedback under audit_quarantine,asr_per_round,R1,4,0.0,0.0,0.0
+audit_quarantine+oracle - audit_quarantine+adaptive,white-box minus selection feedback under audit_quarantine,asr_per_round,R2,4,0.09,0.02,0.16999999999999998
+audit_quarantine+oracle - audit_quarantine+adaptive,white-box minus selection feedback under audit_quarantine,asr_per_round,R3,4,-0.06,-0.22999999999999998,0.06000000000000001
+audit_quarantine+oracle - audit_quarantine+adaptive,white-box minus selection feedback under audit_quarantine,asr_per_round,pooled,12,0.01,-0.06333333333333334,0.06999999999999999
+audit_quarantine+oracle - audit+oracle,"tag memory vs plain audit, white-box attacker",asr_per_round,R1,4,0.0,0.0,0.0
+audit_quarantine+oracle - audit+oracle,"tag memory vs plain audit, white-box attacker",asr_per_round,R2,4,-0.039999999999999994,-0.09,0.0
+audit_quarantine+oracle - audit+oracle,"tag memory vs plain audit, white-box attacker",asr_per_round,R3,4,-0.039999999999999994,-0.09,0.0
+audit_quarantine+oracle - audit+oracle,"tag memory vs plain audit, white-box attacker",asr_per_round,pooled,12,-0.02666666666666666,-0.05333333333333334,-0.0033333333333333327
+audit+oracle - audit+adaptive,white-box minus selection feedback under audit,asr_given_submission,R1,4,0.0,0.0,0.0
+audit+oracle - audit+adaptive,white-box minus selection feedback under audit,asr_given_submission,R2,4,0.10073945981554676,-0.034173254281949936,0.2859025032938077
+audit+oracle - audit+adaptive,white-box minus selection feedback under audit,asr_given_submission,R3,4,-0.013333333333333332,-0.06666666666666668,0.040000000000000015
+audit+oracle - audit+adaptive,white-box minus selection feedback under audit,asr_given_submission,pooled,12,0.029135375494071147,-0.02314723320158103,0.10671497584541063
+audit_quarantine+oracle - audit_quarantine+adaptive,white-box minus selection feedback under audit_quarantine,asr_given_submission,R1,4,0.0,0.0,0.0
+audit_quarantine+oracle - audit_quarantine+adaptive,white-box minus selection feedback under audit_quarantine,asr_given_submission,R2,4,0.09521739130434782,0.020833333333333332,0.1839855072463768
+audit_quarantine+oracle - audit_quarantine+adaptive,white-box minus selection feedback under audit_quarantine,asr_given_submission,R3,4,-0.06,-0.22999999999999998,0.06000000000000001
+audit_quarantine+oracle - audit_quarantine+adaptive,white-box minus selection feedback under audit_quarantine,asr_given_submission,pooled,12,0.011739130434782608,-0.06043916062801932,0.07438753019323667
+audit_quarantine+oracle - audit+oracle,"tag memory vs plain audit, white-box attacker",asr_given_submission,R1,4,0.0,0.0,0.0
+audit_quarantine+oracle - audit+oracle,"tag memory vs plain audit, white-box attacker",asr_given_submission,R2,4,-0.04760540184453228,-0.10191699604743085,-0.011660079051383394
+audit_quarantine+oracle - audit+oracle,"tag memory vs plain audit, white-box attacker",asr_given_submission,R3,4,-0.039999999999999994,-0.09,0.0
+audit_quarantine+oracle - audit+oracle,"tag memory vs plain audit, white-box attacker",asr_given_submission,pooled,12,-0.029201800614844092,-0.058345849802371536,-0.006690821256038647
+audit+oracle - audit+adaptive,white-box minus selection feedback under audit,audit_misclassification_rate,R1,4,-0.03,-0.09,0.0
+audit+oracle - audit+adaptive,white-box minus selection feedback under audit,audit_misclassification_rate,R2,4,0.0,0.0,0.0
+audit+oracle - audit+adaptive,white-box minus selection feedback under audit,audit_misclassification_rate,R3,4,-0.02,-0.06,0.0
+audit+oracle - audit+adaptive,white-box minus selection feedback under audit,audit_misclassification_rate,pooled,12,-0.016666666666666666,-0.04,0.0
+audit_quarantine+oracle - audit_quarantine+adaptive,white-box minus selection feedback under audit_quarantine,audit_misclassification_rate,R1,4,-0.05,-0.1,0.010000000000000004
+audit_quarantine+oracle - audit_quarantine+adaptive,white-box minus selection feedback under audit_quarantine,audit_misclassification_rate,R2,4,0.0,-0.06,0.06
+audit_quarantine+oracle - audit_quarantine+adaptive,white-box minus selection feedback under audit_quarantine,audit_misclassification_rate,R3,4,-0.01,-0.04,0.02
+audit_quarantine+oracle - audit_quarantine+adaptive,white-box minus selection feedback under audit_quarantine,audit_misclassification_rate,pooled,12,-0.02,-0.05333333333333332,0.01333333333333333
+audit_quarantine+oracle - audit+oracle,"tag memory vs plain audit, white-box attacker",audit_misclassification_rate,R1,4,0.039999999999999994,-0.010000000000000004,0.07999999999999999
+audit_quarantine+oracle - audit+oracle,"tag memory vs plain audit, white-box attacker",audit_misclassification_rate,R2,4,0.02,0.0,0.06
+audit_quarantine+oracle - audit+oracle,"tag memory vs plain audit, white-box attacker",audit_misclassification_rate,R3,4,0.02,0.0,0.04
+audit_quarantine+oracle - audit+oracle,"tag memory vs plain audit, white-box attacker",audit_misclassification_rate,pooled,12,0.02666666666666666,0.006666666666666664,0.04999999999999999
+audit+oracle - audit+adaptive,white-box minus selection feedback under audit,policy_cap_rejection_rate,R1,4,0.0,0.0,0.0
+audit+oracle - audit+adaptive,white-box minus selection feedback under audit,policy_cap_rejection_rate,R2,4,0.0,0.0,0.0
+audit+oracle - audit+adaptive,white-box minus selection feedback under audit,policy_cap_rejection_rate,R3,4,0.0,0.0,0.0
+audit+oracle - audit+adaptive,white-box minus selection feedback under audit,policy_cap_rejection_rate,pooled,12,0.0,0.0,0.0
+audit_quarantine+oracle - audit_quarantine+adaptive,white-box minus selection feedback under audit_quarantine,policy_cap_rejection_rate,R1,4,0.0,0.0,0.0
+audit_quarantine+oracle - audit_quarantine+adaptive,white-box minus selection feedback under audit_quarantine,policy_cap_rejection_rate,R2,4,0.0,0.0,0.0
+audit_quarantine+oracle - audit_quarantine+adaptive,white-box minus selection feedback under audit_quarantine,policy_cap_rejection_rate,R3,4,0.0,0.0,0.0
+audit_quarantine+oracle - audit_quarantine+adaptive,white-box minus selection feedback under audit_quarantine,policy_cap_rejection_rate,pooled,12,0.0,0.0,0.0
+audit_quarantine+oracle - audit+oracle,"tag memory vs plain audit, white-box attacker",policy_cap_rejection_rate,R1,4,0.0,0.0,0.0
+audit_quarantine+oracle - audit+oracle,"tag memory vs plain audit, white-box attacker",policy_cap_rejection_rate,R2,4,0.0,0.0,0.0
+audit_quarantine+oracle - audit+oracle,"tag memory vs plain audit, white-box attacker",policy_cap_rejection_rate,R3,4,0.0,0.0,0.0
+audit_quarantine+oracle - audit+oracle,"tag memory vs plain audit, white-box attacker",policy_cap_rejection_rate,pooled,12,0.0,0.0,0.0

@@ -1,0 +1,33 @@
+{
+  "unit": {
+    "id": "R2-s7",
+    "seed": 7,
+    "rot": "R2",
+    "attacker": "minimax_m3",
+    "auditor": "glm53",
+    "judge": "deepseek_v4_pro"
+  },
+  "attempts": 2,
+  "session": "20261021-0900",
+  "started": "2026-10-21T10:43:12",
+  "fingerprint": {
+    "params": "598e460be3b0901d",
+    "design": "56429158145e17a4",
+    "code": "2d8efd79ba296652",
+    "config": "ba568339574cfe18"
+  },
+  "summary": {
+    "model": "zai-org/GLM-5.3",
+    "auditor": "glm53",
+    "rot": "R2",
+    "seed": 7,
+    "n_items": 72,
+    "n_calls": 360,
+    "valid_rate": 1.0,
+    "cached_share": 0.2916666666666667,
+    "cost_usd": 0.200153
+  },
+  "status": "done",
+  "duration_s": 223.7,
+  "finished": "2026-10-21T10:46:56"
+}

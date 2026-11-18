@@ -1,0 +1,145 @@
+{
+  "stage": "S5j_live_labelonly",
+  "written": "2026-11-02T12:20:25",
+  "interim": true,
+  "analysis_code": "53bc83a80362d649",
+  "rubric_sha1": "8a9fd7c89c24",
+  "params": {
+    "attacker": "attacker",
+    "auditor": "auditor",
+    "judge": "judge",
+    "population": "baseline",
+    "attacker_modes": [
+      "adaptive"
+    ],
+    "governors": [
+      "audit",
+      "audit_memory_struct",
+      "audit_quarantine"
+    ],
+    "seeds": [
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408
+    ],
+    "deploy_every": 2,
+    "steps": 50,
+    "families": [
+      "deepseek_v4_pro",
+      "minimax_m3",
+      "glm53"
+    ],
+    "static_governors": [],
+    "extractor": "kimi_k3"
+  },
+  "design": "085b8408d7f9661b",
+  "units_expected": 72,
+  "units_done": 38,
+  "unit_code_versions": {
+    "53bc83a80362d649": 38
+  },
+  "validity": {
+    "rules_version": "RR-2026-11-01",
+    "units_done": 38,
+    "units_eligible": 38,
+    "units_excluded": 0,
+    "exclusion_reasons": {},
+    "by_group": {
+      "R1|adaptive|audit": {
+        "done": 5,
+        "eligible": 5
+      },
+      "R1|adaptive|audit_memory_struct": {
+        "done": 5,
+        "eligible": 5
+      },
+      "R1|adaptive|audit_quarantine": {
+        "done": 5,
+        "eligible": 5
+      },
+      "R2|adaptive|audit": {
+        "done": 4,
+        "eligible": 4
+      },
+      "R2|adaptive|audit_memory_struct": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R2|adaptive|audit_quarantine": {
+        "done": 3,
+        "eligible": 3
+      },
+      "R3|adaptive|audit": {
+        "done": 5,
+        "eligible": 5
+      },
+      "R3|adaptive|audit_memory_struct": {
+        "done": 4,
+        "eligible": 4
+      },
+      "R3|adaptive|audit_quarantine": {
+        "done": 4,
+        "eligible": 4
+      }
+    },
+    "rules": {
+      "judge_unresolved_share": [
+        "<=",
+        0.1
+      ],
+      "audit_invalid_share": [
+        "<=",
+        0.1
+      ],
+      "valid_submission_rate": [
+        ">=",
+        0.8
+      ]
+    }
+  },
+  "contributing_units": [
+    "R1-adaptive-audit-s401",
+    "R1-adaptive-audit_memory_struct-s401",
+    "R1-adaptive-audit_quarantine-s401",
+    "R2-adaptive-audit-s401",
+    "R2-adaptive-audit_memory_struct-s401",
+    "R2-adaptive-audit_quarantine-s401",
+    "R3-adaptive-audit-s401",
+    "R3-adaptive-audit_memory_struct-s401",
+    "R3-adaptive-audit_quarantine-s401",
+    "R1-adaptive-audit-s402",
+    "R1-adaptive-audit_memory_struct-s402",
+    "R1-adaptive-audit_quarantine-s402",
+    "R2-adaptive-audit-s402",
+    "R3-adaptive-audit-s402",
+    "R3-adaptive-audit_memory_struct-s402",
+    "R3-adaptive-audit_quarantine-s402",
+    "R1-adaptive-audit-s403",
+    "R1-adaptive-audit_memory_struct-s403",
+    "R1-adaptive-audit_quarantine-s403",
+    "R2-adaptive-audit-s403",
+    "R2-adaptive-audit_memory_struct-s403",
+    "R2-adaptive-audit_quarantine-s403",
+    "R3-adaptive-audit-s403",
+    "R3-adaptive-audit_memory_struct-s403",
+    "R3-adaptive-audit_quarantine-s403",
+    "R1-adaptive-audit-s404",
+    "R1-adaptive-audit_memory_struct-s404",
+    "R1-adaptive-audit_quarantine-s404",
+    "R2-adaptive-audit-s404",
+    "R2-adaptive-audit_memory_struct-s404",
+    "R2-adaptive-audit_quarantine-s404",
+    "R3-adaptive-audit-s404",
+    "R3-adaptive-audit_memory_struct-s404",
+    "R3-adaptive-audit_quarantine-s404",
+    "R1-adaptive-audit-s405",
+    "R1-adaptive-audit_memory_struct-s405",
+    "R1-adaptive-audit_quarantine-s405",
+    "R3-adaptive-audit-s405"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "unit": {
+    "id": "nemotron_super-governed-s2",
+    "alias": "nemotron_super",
+    "condition": "governed",
+    "seed": 2
+  },
+  "attempts": 1,
+  "session": "20261013-1001",
+  "started": "2026-10-13T11:25:02",
+  "summary": {
+    "label": "nemotron_super-governed-s2",
+    "governance": "governed",
+    "adversarial": true,
+    "topo": "scale_free",
+    "seed": 2,
+    "n_agents": 30,
+    "coop_final": 0.29499999999999993,
+    "ecs_final": 0.23786342592592594,
+    "autonomy_final": 0.9795833333333335,
+    "integrity_final": 1.0,
+    "fairness_final": 0.8305555555555555,
+    "backlash_rate_final": 0.0,
+    "rejection_rate": 0.35,
+    "condition": "governed",
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "cost_usd": 0.07240109999999995
+  },
+  "status": "done",
+  "duration_s": 384.2,
+  "finished": "2026-10-13T11:31:26"
+}

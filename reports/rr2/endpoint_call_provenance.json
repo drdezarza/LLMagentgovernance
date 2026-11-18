@@ -1,0 +1,376 @@
+{
+  "source": "data/ledger/calls.csv.gz",
+  "weights_identity": "not documented",
+  "cost_query_filter": "role='auditor' AND status='ok'",
+  "groups": [
+    {
+      "stage": "A8_auditor_scale",
+      "role": "auditor",
+      "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+      "status": "net_error",
+      "first_day": "2026-11-02",
+      "last_day": "2026-11-02",
+      "calls": 3
+    },
+    {
+      "stage": "A8_auditor_scale",
+      "role": "auditor",
+      "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+      "status": "ok",
+      "first_day": "2026-11-02",
+      "last_day": "2026-11-02",
+      "calls": 956
+    },
+    {
+      "stage": "A8_auditor_scale",
+      "role": "auditor",
+      "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+      "status": "net_error",
+      "first_day": "2026-11-02",
+      "last_day": "2026-11-02",
+      "calls": 2
+    },
+    {
+      "stage": "A8_auditor_scale",
+      "role": "auditor",
+      "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+      "status": "ok",
+      "first_day": "2026-11-02",
+      "last_day": "2026-11-02",
+      "calls": 964
+    },
+    {
+      "stage": "A8_auditor_scale",
+      "role": "auditor",
+      "model": "Qwen/Qwen3.8-27B",
+      "status": "ok",
+      "first_day": "2026-11-02",
+      "last_day": "2026-11-02",
+      "calls": 954
+    },
+    {
+      "stage": "A8_auditor_scale",
+      "role": "auditor",
+      "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "status": "net_error",
+      "first_day": "2026-11-02",
+      "last_day": "2026-11-02",
+      "calls": 2
+    },
+    {
+      "stage": "A8_auditor_scale",
+      "role": "auditor",
+      "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "status": "ok",
+      "first_day": "2026-11-02",
+      "last_day": "2026-11-02",
+      "calls": 954
+    },
+    {
+      "stage": "A8_auditor_scale",
+      "role": "auditor",
+      "model": "google/gemma-3-27b-it",
+      "status": "net_error",
+      "first_day": "2026-11-02",
+      "last_day": "2026-11-02",
+      "calls": 3
+    },
+    {
+      "stage": "A8_auditor_scale",
+      "role": "auditor",
+      "model": "google/gemma-3-27b-it",
+      "status": "ok",
+      "first_day": "2026-11-02",
+      "last_day": "2026-11-02",
+      "calls": 954
+    },
+    {
+      "stage": "A8_auditor_scale",
+      "role": "auditor",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "status": "net_error",
+      "first_day": "2026-11-02",
+      "last_day": "2026-11-02",
+      "calls": 9
+    },
+    {
+      "stage": "A8_auditor_scale",
+      "role": "auditor",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "status": "ok",
+      "first_day": "2026-11-02",
+      "last_day": "2026-11-02",
+      "calls": 1211
+    },
+    {
+      "stage": "A8_auditor_scale",
+      "role": "auditor",
+      "model": "openai/gpt-oss-120b",
+      "status": "empty",
+      "first_day": "2026-11-02",
+      "last_day": "2026-11-02",
+      "calls": 8
+    },
+    {
+      "stage": "A8_auditor_scale",
+      "role": "auditor",
+      "model": "openai/gpt-oss-120b",
+      "status": "net_error",
+      "first_day": "2026-11-02",
+      "last_day": "2026-11-02",
+      "calls": 4
+    },
+    {
+      "stage": "A8_auditor_scale",
+      "role": "auditor",
+      "model": "openai/gpt-oss-120b",
+      "status": "ok",
+      "first_day": "2026-11-02",
+      "last_day": "2026-11-02",
+      "calls": 987
+    },
+    {
+      "stage": "A8_auditor_scale",
+      "role": "auditor",
+      "model": "zai-org/GLM-5.3-Flash",
+      "status": "net_error",
+      "first_day": "2026-11-02",
+      "last_day": "2026-11-02",
+      "calls": 4
+    },
+    {
+      "stage": "A8_auditor_scale",
+      "role": "auditor",
+      "model": "zai-org/GLM-5.3-Flash",
+      "status": "ok",
+      "first_day": "2026-11-02",
+      "last_day": "2026-11-02",
+      "calls": 954
+    },
+    {
+      "stage": "A8b_cheap_auditor_live",
+      "role": "auditor",
+      "model": "Qwen/Qwen3.8-27B",
+      "status": "http_504",
+      "first_day": "2026-11-16",
+      "last_day": "2026-11-16",
+      "calls": 1
+    },
+    {
+      "stage": "A8b_cheap_auditor_live",
+      "role": "auditor",
+      "model": "Qwen/Qwen3.8-27B",
+      "status": "ok",
+      "first_day": "2026-11-16",
+      "last_day": "2026-11-17",
+      "calls": 896
+    },
+    {
+      "stage": "A8b_cheap_auditor_live",
+      "role": "auditor",
+      "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "status": "http_504",
+      "first_day": "2026-11-16",
+      "last_day": "2026-11-16",
+      "calls": 2
+    },
+    {
+      "stage": "A8b_cheap_auditor_live",
+      "role": "auditor",
+      "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "status": "ok",
+      "first_day": "2026-11-16",
+      "last_day": "2026-11-17",
+      "calls": 896
+    },
+    {
+      "stage": "S3b_text_integrity",
+      "role": "agent",
+      "model": "MiniMaxAI/MiniMax-M3",
+      "status": "net_error",
+      "first_day": "2026-10-14",
+      "last_day": "2026-10-15",
+      "calls": 22
+    },
+    {
+      "stage": "S3b_text_integrity",
+      "role": "agent",
+      "model": "MiniMaxAI/MiniMax-M3",
+      "status": "ok",
+      "first_day": "2026-10-14",
+      "last_day": "2026-10-15",
+      "calls": 3600
+    },
+    {
+      "stage": "S3b_text_integrity",
+      "role": "agent",
+      "model": "Qwen/Qwen3.8-27B",
+      "status": "net_error",
+      "first_day": "2026-10-14",
+      "last_day": "2026-10-15",
+      "calls": 12
+    },
+    {
+      "stage": "S3b_text_integrity",
+      "role": "agent",
+      "model": "Qwen/Qwen3.8-27B",
+      "status": "ok",
+      "first_day": "2026-10-14",
+      "last_day": "2026-10-15",
+      "calls": 3600
+    },
+    {
+      "stage": "S3b_text_integrity",
+      "role": "agent",
+      "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "status": "net_error",
+      "first_day": "2026-10-14",
+      "last_day": "2026-10-15",
+      "calls": 18
+    },
+    {
+      "stage": "S3b_text_integrity",
+      "role": "agent",
+      "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "status": "ok",
+      "first_day": "2026-10-14",
+      "last_day": "2026-10-15",
+      "calls": 3600
+    },
+    {
+      "stage": "S3b_text_integrity",
+      "role": "compiler",
+      "model": "MiniMaxAI/MiniMax-M3",
+      "status": "net_error",
+      "first_day": "2026-10-14",
+      "last_day": "2026-10-15",
+      "calls": 5
+    },
+    {
+      "stage": "S3b_text_integrity",
+      "role": "compiler",
+      "model": "MiniMaxAI/MiniMax-M3",
+      "status": "ok",
+      "first_day": "2026-10-14",
+      "last_day": "2026-10-15",
+      "calls": 360
+    },
+    {
+      "stage": "S3b_text_integrity",
+      "role": "compiler",
+      "model": "Qwen/Qwen3.8-27B",
+      "status": "ok",
+      "first_day": "2026-10-14",
+      "last_day": "2026-10-15",
+      "calls": 360
+    },
+    {
+      "stage": "S3b_text_integrity",
+      "role": "compiler",
+      "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "status": "net_error",
+      "first_day": "2026-10-14",
+      "last_day": "2026-10-14",
+      "calls": 1
+    },
+    {
+      "stage": "S3b_text_integrity",
+      "role": "compiler",
+      "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "status": "ok",
+      "first_day": "2026-10-14",
+      "last_day": "2026-10-15",
+      "calls": 360
+    },
+    {
+      "stage": "S3b_text_integrity",
+      "role": "judge",
+      "model": "moonshotai/Kimi-K3",
+      "status": "empty",
+      "first_day": "2026-10-14",
+      "last_day": "2026-10-15",
+      "calls": 8
+    },
+    {
+      "stage": "S3b_text_integrity",
+      "role": "judge",
+      "model": "moonshotai/Kimi-K3",
+      "status": "net_error",
+      "first_day": "2026-10-15",
+      "last_day": "2026-10-15",
+      "calls": 3
+    },
+    {
+      "stage": "S3b_text_integrity",
+      "role": "judge",
+      "model": "moonshotai/Kimi-K3",
+      "status": "ok",
+      "first_day": "2026-10-14",
+      "last_day": "2026-10-15",
+      "calls": 727
+    },
+    {
+      "stage": "S5i_role_factorial",
+      "role": "auditor",
+      "model": "MiniMaxAI/MiniMax-M3",
+      "status": "net_error",
+      "first_day": "2026-11-02",
+      "last_day": "2026-11-05",
+      "calls": 13
+    },
+    {
+      "stage": "S5i_role_factorial",
+      "role": "auditor",
+      "model": "MiniMaxAI/MiniMax-M3",
+      "status": "ok",
+      "first_day": "2026-11-02",
+      "last_day": "2026-11-05",
+      "calls": 2133
+    },
+    {
+      "stage": "S5i_role_factorial",
+      "role": "auditor",
+      "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+      "status": "http_402",
+      "first_day": "2026-11-04",
+      "last_day": "2026-11-04",
+      "calls": 1
+    },
+    {
+      "stage": "S5i_role_factorial",
+      "role": "auditor",
+      "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+      "status": "net_error",
+      "first_day": "2026-11-02",
+      "last_day": "2026-11-05",
+      "calls": 17
+    },
+    {
+      "stage": "S5i_role_factorial",
+      "role": "auditor",
+      "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+      "status": "ok",
+      "first_day": "2026-11-02",
+      "last_day": "2026-11-05",
+      "calls": 2120
+    },
+    {
+      "stage": "S5i_role_factorial",
+      "role": "auditor",
+      "model": "zai-org/GLM-5.3",
+      "status": "net_error",
+      "first_day": "2026-11-02",
+      "last_day": "2026-11-05",
+      "calls": 6
+    },
+    {
+      "stage": "S5i_role_factorial",
+      "role": "auditor",
+      "model": "zai-org/GLM-5.3",
+      "status": "ok",
+      "first_day": "2026-11-02",
+      "last_day": "2026-11-05",
+      "calls": 2063
+    }
+  ]
+}

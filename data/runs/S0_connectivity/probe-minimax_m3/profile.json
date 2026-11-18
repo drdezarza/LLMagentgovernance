@@ -1,0 +1,8 @@
+{
+  "alias": "minimax_m3",
+  "usable": true,
+  "extra_body": {},
+  "min_max_tokens": 2000,
+  "latency_s": 2.6653333333333333,
+  "reasoning_seen": false
+}

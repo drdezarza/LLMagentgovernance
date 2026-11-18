@@ -1,0 +1,53 @@
+{
+  "stage": "S6v2_impact_routing",
+  "written": "2026-10-29T20:08:13",
+  "interim": false,
+  "analysis_code": "13ec06628be08273",
+  "rubric_sha1": "8a9fd7c89c24",
+  "params": {
+    "cheap": [
+      "deepseek_v4_flash",
+      "qwen3_30b"
+    ],
+    "strong": [
+      "deepseek_v4_pro",
+      "glm53"
+    ],
+    "compiler": [
+      "deepseek_v4_pro",
+      "glm53"
+    ],
+    "policies": [
+      "strong",
+      "cheap",
+      "random",
+      "impact",
+      "cascade"
+    ],
+    "seeds": [
+      0,
+      1
+    ],
+    "quantile": 0.75,
+    "escalate_abs_shift": 0.1
+  },
+  "design": "5e153b5005b9b076",
+  "units_expected": 10,
+  "units_done": 10,
+  "unit_code_versions": {
+    "1748ffd33f422b85": 10
+  },
+  "validity": {},
+  "contributing_units": [
+    "strong-s0",
+    "cheap-s0",
+    "random-s0",
+    "impact-s0",
+    "cascade-s0",
+    "strong-s1",
+    "cheap-s1",
+    "random-s1",
+    "impact-s1",
+    "cascade-s1"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "unit": {
+    "id": "probe-gemma3_27b",
+    "alias": "gemma3_27b"
+  },
+  "attempts": 1,
+  "session": "20261013-0048",
+  "started": "2026-10-13T00:49:17",
+  "summary": {
+    "model": "google/gemma-3-27b-it",
+    "alias": "gemma3_27b",
+    "usable": true,
+    "extra_body": "{}",
+    "min_max_tokens": 400,
+    "latency_s": 3.6759999999999997,
+    "reasoning_seen": false
+  },
+  "status": "done",
+  "duration_s": 11.1,
+  "finished": "2026-10-13T00:49:28"
+}

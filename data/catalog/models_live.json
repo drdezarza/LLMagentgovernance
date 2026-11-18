@@ -1,0 +1,176 @@
+{
+  "fetched": "2026-11-18 09:00:10",
+  "n": 24,
+  "ids": [
+    "MiniMaxAI/MiniMax-M3",
+    "MiniMaxAI/MiniMax-M3.1-Flash",
+    "NousResearch/Hermes-4-405B",
+    "Qwen/Qwen3-235B-A22B-Instruct-2507",
+    "Qwen/Qwen3-30B-A3B-Instruct-2507",
+    "Qwen/Qwen3-Embedding-8B",
+    "Qwen/Qwen3.8-27B",
+    "deepseek-ai/DeepSeek-V4-Pro-0813",
+    "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "google/gemma-3-27b-it",
+    "meta-models/muse-spark-open",
+    "moonshotai/Kimi-K3",
+    "moonshotai/Kimi-K3.1-Pro",
+    "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+    "nvidia/Nemotron-3-Ultra-550b-a55b",
+    "nvidia/Nemotron-3.5-Super-VL",
+    "nvidia/Nemotron-3_5-Lightning",
+    "nvidia/nemotron-3-super-120b-a12b",
+    "openai/gpt-oss-120b",
+    "reflection/beam",
+    "thinkingmachines/Inkling-2-Small",
+    "zai-org/GLM-5.2",
+    "zai-org/GLM-5.3",
+    "zai-org/GLM-5.3-Flash"
+  ],
+  "raw": [
+    {
+      "id": "thinkingmachines/Inkling-2-Small",
+      "created": 1793921651,
+      "object": "model",
+      "owned_by": "system"
+    },
+    {
+      "id": "moonshotai/Kimi-K3",
+      "created": 1785110400,
+      "object": "model",
+      "owned_by": "system"
+    },
+    {
+      "id": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+      "created": 1794988802,
+      "object": "model",
+      "owned_by": "system"
+    },
+    {
+      "id": "google/gemma-3-27b-it",
+      "created": 1794988802,
+      "object": "model",
+      "owned_by": "system"
+    },
+    {
+      "id": "Qwen/Qwen3-Embedding-8B",
+      "created": 1794988802,
+      "object": "model",
+      "owned_by": "system"
+    },
+    {
+      "id": "openai/gpt-oss-120b",
+      "created": 1794988802,
+      "object": "model",
+      "owned_by": "system"
+    },
+    {
+      "id": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+      "created": 1794988802,
+      "object": "model",
+      "owned_by": "system"
+    },
+    {
+      "id": "NousResearch/Hermes-4-405B",
+      "created": 1794988802,
+      "object": "model",
+      "owned_by": "system"
+    },
+    {
+      "id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "created": 1794988802,
+      "object": "model",
+      "owned_by": "system"
+    },
+    {
+      "id": "nvidia/Nemotron-3_5-Lightning",
+      "created": 1786406400,
+      "object": "model",
+      "owned_by": "system"
+    },
+    {
+      "id": "Qwen/Qwen3.8-27B",
+      "created": 1788458731,
+      "object": "model",
+      "owned_by": "system"
+    },
+    {
+      "id": "MiniMaxAI/MiniMax-M3",
+      "created": 1785493267,
+      "object": "model",
+      "owned_by": "system"
+    },
+    {
+      "id": "nvidia/Nemotron-3-Ultra-550b-a55b",
+      "created": 1780531200,
+      "object": "model",
+      "owned_by": "system"
+    },
+    {
+      "id": "nvidia/nemotron-3-super-120b-a12b",
+      "created": 1773187200,
+      "object": "model",
+      "owned_by": "system"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V4-Pro-0813",
+      "created": 1791525427,
+      "object": "model",
+      "owned_by": "system"
+    },
+    {
+      "id": "zai-org/GLM-5.2",
+      "created": 1781481600,
+      "object": "model",
+      "owned_by": "system"
+    },
+    {
+      "id": "moonshotai/Kimi-K3.1-Pro",
+      "created": 1793751250,
+      "object": "model",
+      "owned_by": "system"
+    },
+    {
+      "id": "MiniMaxAI/MiniMax-M3.1-Flash",
+      "created": 1792638115,
+      "object": "model",
+      "owned_by": "system"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "created": 1792629387,
+      "object": "model",
+      "owned_by": "system"
+    },
+    {
+      "id": "reflection/beam",
+      "created": 1792155600,
+      "object": "model",
+      "owned_by": "system"
+    },
+    {
+      "id": "nvidia/Nemotron-3.5-Super-VL",
+      "created": 1791841710,
+      "object": "model",
+      "owned_by": "system"
+    },
+    {
+      "id": "meta-models/muse-spark-open",
+      "created": 1791523446,
+      "object": "model",
+      "owned_by": "system"
+    },
+    {
+      "id": "zai-org/GLM-5.3-Flash",
+      "created": 1789524983,
+      "object": "model",
+      "owned_by": "system"
+    },
+    {
+      "id": "zai-org/GLM-5.3",
+      "created": 1789085803,
+      "object": "model",
+      "owned_by": "system"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "n_agents": 30,
+  "topo": "scale_free",
+  "steps": 50,
+  "seed": 1,
+  "base_prosocial": 0.45,
+  "prosocial_std": 0.15,
+  "resistance_mean": 0.3,
+  "resistance_std": 0.15,
+  "target_frac": 0.2,
+  "deploy_every": 5,
+  "governance_mode": "unconstrained",
+  "adversarial": true,
+  "n_candidates": 6,
+  "state_noise": 0.1,
+  "label": "gpt_oss_120b-unconstrained-s1",
+  "graph_stats": {
+    "n_nodes": 30,
+    "n_edges": 81,
+    "avg_degree": 5.4,
+    "clustering": 0.3281109339004076
+  },
+  "compiler_stats": {
+    "calls": 26,
+    "cached": 4,
+    "errors": 0,
+    "role": "compiler",
+    "model": "openai/gpt-oss-120b",
+    "prompt_tokens": 7090,
+    "completion_tokens": 6464,
+    "cost_usd": 0.0049419
+  },
+  "agent_stats": {
+    "calls": 300,
+    "cached": 0,
+    "errors": 0,
+    "role": "agent",
+    "model": "openai/gpt-oss-120b",
+    "prompt_tokens": 138066,
+    "completion_tokens": 52763,
+    "cost_usd": 0.052367699999999996
+  }
+}

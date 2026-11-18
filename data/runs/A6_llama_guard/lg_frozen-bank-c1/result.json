@@ -1,0 +1,29 @@
+{
+  "unit": {
+    "id": "lg_frozen-bank-c1",
+    "taxonomy": "lg_frozen",
+    "part": "bank",
+    "chunk": 1
+  },
+  "attempts": 1,
+  "session": "20261022-0900",
+  "started": "2026-10-22T10:24:52",
+  "fingerprint": {
+    "params": "3a18563e2ed09ebf",
+    "design": "3a18563e2ed09ebf",
+    "code": "c4e93a3a2962dd75",
+    "config": "ebbfbcf88cd09aef"
+  },
+  "summary": {
+    "model": "llama-guard3:8b",
+    "taxonomy": "lg_frozen",
+    "part": "bank",
+    "n_items": 241,
+    "valid_rate": 1.0,
+    "median_latency_s": 2.5502002239227295,
+    "cost_usd": 0.0
+  },
+  "status": "done",
+  "duration_s": 624.6,
+  "finished": "2026-10-22T10:35:16"
+}

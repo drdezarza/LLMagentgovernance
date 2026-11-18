@@ -1,0 +1,35 @@
+{
+  "rules_version": "2026-10-23",
+  "rules": {
+    "valid_rate": [
+      ">=",
+      0.9
+    ]
+  },
+  "by_source": [
+    {
+      "source": "S3b_C",
+      "units": 36,
+      "texts": 360,
+      "valid_rate": 1.0,
+      "cost": 0.0481026,
+      "eligible": true
+    },
+    {
+      "source": "S5b_C",
+      "units": 36,
+      "texts": 2682,
+      "valid_rate": 1.0,
+      "cost": 0.355933,
+      "eligible": true
+    },
+    {
+      "source": "S7b_C",
+      "units": 120,
+      "texts": 2880,
+      "valid_rate": 1.0,
+      "cost": 0.1124068,
+      "eligible": true
+    }
+  ]
+}

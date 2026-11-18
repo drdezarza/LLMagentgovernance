@@ -1,0 +1,5 @@
+governor,outcome,share_attacker,share_auditor,share_interaction
+audit,asr_per_round,0.22646064703042013,0.6668276195074843,0.10671173346209559
+audit,audit_misclassification_rate,0.1,0.7,0.19999999999999998
+audit_memory,asr_per_round,0.22321428571428575,0.5982142857142857,0.1785714285714286
+audit_memory,audit_misclassification_rate,0.022759028374892517,0.9515530954428203,0.025687876182287194

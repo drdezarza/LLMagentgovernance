@@ -1,0 +1,11 @@
+label,governance,adversarial,topo,seed,n_agents,coop_final,ecs_final,autonomy_final,integrity_final,fairness_final,backlash_rate_final,rejection_rate,condition,model,model_id
+governed-Llama-70B,governed,True,scale_free,42,30,0.31166666666666665,0.17115995115995114,0.69125,1.0,0.7945054945054946,0.19166666666666662,0.4166666666666667,governed,Llama-70B,meta-llama/Llama-3.3-70B-Instruct
+unconstrained-Llama-70B,unconstrained,True,scale_free,42,30,0.2683333333333333,0.0,0.8416666666666666,0.0,0.8554945054945055,0.5499999999999999,0.0,unconstrained,Llama-70B,meta-llama/Llama-3.3-70B-Instruct
+governed-Llama-8B,governed,True,scale_free,42,30,0.2816666666666666,0.18219551282051286,0.76125,1.0,0.8423076923076923,0.4833333333333333,0.4166666666666667,governed,Llama-8B,meta-llama/Meta-Llama-3.1-8B-Instruct
+unconstrained-Llama-8B,unconstrained,True,scale_free,42,30,0.2716666666666666,0.0,0.7858333333333334,0.0,0.8329670329670329,0.7083333333333333,0.0,unconstrained,Llama-8B,meta-llama/Meta-Llama-3.1-8B-Instruct
+governed-DeepSeek-V3,governed,True,scale_free,42,30,0.25166666666666665,0.2118131868131868,1.0,1.0,0.8549450549450551,0.0,0.4166666666666667,governed,DeepSeek-V3,deepseek-ai/DeepSeek-V3
+unconstrained-DeepSeek-V3,unconstrained,True,scale_free,42,30,0.29166666666666663,0.0,1.0,0.0,0.8604395604395606,0.0,0.0,unconstrained,DeepSeek-V3,deepseek-ai/DeepSeek-V3
+governed-Qwen3-235B,governed,True,scale_free,42,30,0.2799999999999999,0.14842185592185592,0.6337500000000001,1.0,0.8549450549450549,0.6916666666666665,0.4166666666666667,governed,Qwen3-235B,Qwen/Qwen3-235B-A22B-Instruct-2507
+unconstrained-Qwen3-235B,unconstrained,True,scale_free,42,30,0.25999999999999995,0.0,0.5566666666666668,0.0,0.8637362637362637,0.7583333333333333,0.0,unconstrained,Qwen3-235B,Qwen/Qwen3-235B-A22B-Instruct-2507
+governed-Hermes-4-70B,governed,True,scale_free,42,30,0.27833333333333327,0.13787393162393163,0.5945833333333335,1.0,0.8543956043956044,0.5833333333333333,0.4166666666666667,governed,Hermes-4-70B,NousResearch/Hermes-4-70B
+unconstrained-Hermes-4-70B,unconstrained,True,scale_free,42,30,0.26999999999999996,0.0,0.5445833333333335,0.0,0.876923076923077,0.7416666666666666,0.0,unconstrained,Hermes-4-70B,NousResearch/Hermes-4-70B

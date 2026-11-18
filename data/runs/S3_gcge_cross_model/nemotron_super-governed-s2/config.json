@@ -1,0 +1,43 @@
+{
+  "n_agents": 30,
+  "topo": "scale_free",
+  "steps": 50,
+  "seed": 2,
+  "base_prosocial": 0.45,
+  "prosocial_std": 0.15,
+  "resistance_mean": 0.3,
+  "resistance_std": 0.15,
+  "target_frac": 0.2,
+  "deploy_every": 5,
+  "governance_mode": "governed",
+  "adversarial": true,
+  "n_candidates": 6,
+  "state_noise": 0.1,
+  "label": "nemotron_super-governed-s2",
+  "graph_stats": {
+    "n_nodes": 30,
+    "n_edges": 81,
+    "avg_degree": 5.4,
+    "clustering": 0.2834920634920635
+  },
+  "compiler_stats": {
+    "calls": 31,
+    "cached": 0,
+    "errors": 1,
+    "role": "compiler",
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "prompt_tokens": 7225,
+    "completion_tokens": 3304,
+    "cost_usd": 0.005141100000000001
+  },
+  "agent_stats": {
+    "calls": 300,
+    "cached": 0,
+    "errors": 0,
+    "role": "agent",
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "prompt_tokens": 132964,
+    "completion_tokens": 30412,
+    "cost_usd": 0.06725999999999996
+  }
+}

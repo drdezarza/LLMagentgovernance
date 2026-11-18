@@ -1,0 +1,32 @@
+{
+  "unit": {
+    "id": "glm53_flash-governed-s1",
+    "alias": "glm53_flash",
+    "condition": "governed",
+    "seed": 1
+  },
+  "attempts": 1,
+  "session": "20261014-0900",
+  "started": "2026-10-14T09:00:17",
+  "summary": {
+    "label": "glm53_flash-governed-s1",
+    "governance": "governed",
+    "adversarial": true,
+    "topo": "scale_free",
+    "seed": 1,
+    "n_agents": 30,
+    "coop_final": 0.32499999999999996,
+    "ecs_final": 0.2388778935185185,
+    "autonomy_final": 0.9270833333333333,
+    "integrity_final": 1.0,
+    "fairness_final": 0.7895833333333332,
+    "backlash_rate_final": 0.0,
+    "rejection_rate": 0.36666666666666664,
+    "condition": "governed",
+    "model": "zai-org/GLM-5.3-Flash",
+    "cost_usd": 0.030575000000000005
+  },
+  "status": "done",
+  "duration_s": 330.6,
+  "finished": "2026-10-14T09:05:47"
+}

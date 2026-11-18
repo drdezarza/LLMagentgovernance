@@ -1,0 +1,29 @@
+{
+  "unit": {
+    "id": "nemotron_super-bank-c0",
+    "alias": "nemotron_super",
+    "part": "bank",
+    "chunk": 0
+  },
+  "attempts": 1,
+  "session": "20261102-0900",
+  "started": "2026-11-02T09:06:33",
+  "fingerprint": {
+    "params": "8070e2771fca2ea2",
+    "design": "8070e2771fca2ea2",
+    "code": "53bc83a80362d649",
+    "config": "91bc30e92078164c"
+  },
+  "summary": {
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "alias": "nemotron_super",
+    "part": "bank",
+    "n_items": 220,
+    "valid_rate": 0.8363636363636363,
+    "cost_usd": 0.06046710000000002,
+    "cost_equiv_usd": 0.061240500000000024
+  },
+  "status": "done",
+  "duration_s": 395.7,
+  "finished": "2026-11-02T09:13:08"
+}

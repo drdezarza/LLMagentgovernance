@@ -1,0 +1,39 @@
+{
+  "unit": {
+    "id": "noise25-s42",
+    "scenario": "noise25",
+    "family": "forecast_shift",
+    "seed": 42,
+    "split": "train"
+  },
+  "attempts": 1,
+  "session": "20261014-1319",
+  "started": "2026-10-14T15:08:25",
+  "fingerprint": {
+    "params": "cec77da3d6d5fc8d",
+    "code": "1748ffd33f422b85",
+    "config": "58fea3e7e38e2ded"
+  },
+  "summary": {
+    "scenario": "noise25",
+    "family": "forecast_shift",
+    "split": "train",
+    "best_mode": "SEARCH",
+    "best_obj": 1586.3206574074015,
+    "lat_cost": 0.0,
+    "n_feasible": 4,
+    "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+    "cost_usd": 0.17069399999999982,
+    "obj_PREDEFINED": 1700.526352375074,
+    "feas_PREDEFINED": true,
+    "obj_SEQUENTIAL": 1713.9159193268806,
+    "feas_SEQUENTIAL": true,
+    "obj_HIERARCHICAL": 2350.6360972557595,
+    "feas_HIERARCHICAL": true,
+    "obj_SEARCH": 1586.3206574074015,
+    "feas_SEARCH": true
+  },
+  "status": "done",
+  "duration_s": 320.6,
+  "finished": "2026-10-14T15:13:45"
+}

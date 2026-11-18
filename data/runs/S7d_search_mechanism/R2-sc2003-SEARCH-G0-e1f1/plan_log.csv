@@ -1,0 +1,9 @@
+t,event,mode,target_mode,theme,depth,branching,replan_trigger,intensity,budget_s,confidence,reasoning,declared_by,true_target_mode,est_latency_s,type_errors,base_probs
+0,declaration,SEARCH,HIGH_LOAD,HYBRID,1,4,ON_VIOLATION,0.8277925513483975,30.0,1.0,forced,forced,,5.5,,
+16,revision,SEARCH,HIGH_LOAD,HYBRID,1,4,ON_VIOLATION,0.8277925513483975,30.0,1.0,forced,forced,,5.5,,
+17,revision,SEARCH,HIGH_LOAD,HYBRID,1,4,ON_VIOLATION,0.8277925513483975,30.0,1.0,forced,forced,,5.5,,
+18,revision,SEARCH,HIGH_LOAD,HYBRID,1,4,ON_VIOLATION,0.8277925513483975,30.0,1.0,forced,forced,,5.5,,
+19,revision,SEARCH,HIGH_LOAD,HYBRID,1,4,ON_VIOLATION,0.8277925513483975,30.0,1.0,forced,forced,,5.5,,
+20,revision,SEARCH,HIGH_LOAD,HYBRID,1,4,ON_VIOLATION,0.8277925513483975,30.0,1.0,forced,forced,,5.5,,
+22,revision,SEARCH,HIGH_LOAD,HYBRID,1,4,ON_VIOLATION,0.8277925513483975,30.0,1.0,forced,forced,,5.5,,
+23,revision,SEARCH,HIGH_LOAD,HYBRID,1,4,ON_VIOLATION,0.8277925513483975,30.0,1.0,forced,forced,,5.5,,

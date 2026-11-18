@@ -1,0 +1,28 @@
+{
+  "unit": {
+    "id": "probe-kimi_k3",
+    "alias": "kimi_k3"
+  },
+  "attempts": 1,
+  "session": "20261013-0048",
+  "started": "2026-10-13T00:51:21",
+  "summary": {
+    "model": "moonshotai/Kimi-K3",
+    "policy_parse_rate": 1.0,
+    "policy_nonfactual_rate": 0.0,
+    "policy_fear_rate": 0.0,
+    "policy_intensity_mean": 0.47625,
+    "policy_over_cap_rate": 0.0,
+    "plan_parse_rate": 1.0,
+    "plan_mode_entropy": 0.30492015235820025,
+    "plan_n_modes": 2,
+    "plan_top_mode": "SEQUENTIAL",
+    "shift_parse_rate": 1.0,
+    "shift_factual_mean": 0.07458333333333332,
+    "shift_manip_mean": 0.041666666666666664,
+    "manip_discrimination": 0.03291666666666666
+  },
+  "status": "done",
+  "duration_s": 83.8,
+  "finished": "2026-10-13T00:52:45"
+}

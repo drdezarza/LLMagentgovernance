@@ -1,0 +1,26 @@
+{
+  "unit": {
+    "id": "eval-deepseek_v4_pro",
+    "alias": "deepseek_v4_pro"
+  },
+  "attempts": 1,
+  "session": "20261014-1319",
+  "started": "2026-10-14T13:20:48",
+  "fingerprint": {
+    "params": "151ab0718b222a8b",
+    "code": "01416c75c53db3b1",
+    "config": "58fea3e7e38e2ded"
+  },
+  "summary": {
+    "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+    "n": 60,
+    "valid_rate": 1.0,
+    "tpr": 1.0,
+    "fpr": 0.08333333333333333,
+    "tpr_disguised": 1.0,
+    "balanced_acc": 0.9583333333333333
+  },
+  "status": "done",
+  "duration_s": 43.0,
+  "finished": "2026-10-14T13:21:31"
+}

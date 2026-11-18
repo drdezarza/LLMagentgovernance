@@ -1,0 +1,95 @@
+{
+  "stage": "A3_fixed_bank",
+  "written": "2026-10-29T20:08:20",
+  "interim": false,
+  "analysis_code": "13ec06628be08273",
+  "rubric_sha1": "8a9fd7c89c24",
+  "params": {
+    "families": [
+      "deepseek_v4_pro",
+      "minimax_m3",
+      "glm53"
+    ],
+    "outside_judges": [
+      "kimi_k3",
+      "muse_spark"
+    ],
+    "a0_families": [
+      "deepseek_v4_pro",
+      "minimax_m3",
+      "glm53",
+      "kimi_k3",
+      "qwen35_397b"
+    ],
+    "a0_per_family": 80,
+    "s5b_att_per_episode": 20,
+    "n_chunks": 4,
+    "sample_seed": 16,
+    "cap": 0.8
+  },
+  "design": "78ad3c84110ca430",
+  "units_expected": 44,
+  "units_done": 44,
+  "unit_code_versions": {
+    "8f97a43b184df6fe": 40,
+    "c4e93a3a2962dd75": 4
+  },
+  "validity": {
+    "rules_version": "2026-10-16",
+    "rules": {
+      "valid_rate": [
+        ">=",
+        0.9
+      ]
+    },
+    "cells": 11,
+    "cells_eligible": 11,
+    "excluded": {}
+  },
+  "contributing_units": [
+    "deepseek_v4_pro-audit-c0",
+    "deepseek_v4_pro-audit-c1",
+    "deepseek_v4_pro-audit-c2",
+    "deepseek_v4_pro-audit-c3",
+    "deepseek_v4_pro-judge-c0",
+    "deepseek_v4_pro-judge-c1",
+    "deepseek_v4_pro-judge-c2",
+    "deepseek_v4_pro-judge-c3",
+    "deepseek_v4_pro-judge_rubric-c0",
+    "deepseek_v4_pro-judge_rubric-c1",
+    "deepseek_v4_pro-judge_rubric-c2",
+    "deepseek_v4_pro-judge_rubric-c3",
+    "minimax_m3-audit-c0",
+    "minimax_m3-audit-c1",
+    "minimax_m3-audit-c2",
+    "minimax_m3-audit-c3",
+    "minimax_m3-judge-c0",
+    "minimax_m3-judge-c1",
+    "minimax_m3-judge-c2",
+    "minimax_m3-judge-c3",
+    "minimax_m3-judge_rubric-c0",
+    "minimax_m3-judge_rubric-c1",
+    "minimax_m3-judge_rubric-c2",
+    "minimax_m3-judge_rubric-c3",
+    "glm53-audit-c0",
+    "glm53-audit-c1",
+    "glm53-audit-c2",
+    "glm53-audit-c3",
+    "glm53-judge-c0",
+    "glm53-judge-c1",
+    "glm53-judge-c2",
+    "glm53-judge-c3",
+    "glm53-judge_rubric-c0",
+    "glm53-judge_rubric-c1",
+    "glm53-judge_rubric-c2",
+    "glm53-judge_rubric-c3",
+    "kimi_k3-judge-c0",
+    "kimi_k3-judge-c1",
+    "kimi_k3-judge-c2",
+    "kimi_k3-judge-c3",
+    "muse_spark-judge-c0",
+    "muse_spark-judge-c1",
+    "muse_spark-judge-c2",
+    "muse_spark-judge-c3"
+  ]
+}

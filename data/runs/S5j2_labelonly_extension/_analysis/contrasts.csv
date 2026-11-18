@@ -1,0 +1,145 @@
+contrast,reads_as,outcome,scope,n_pairs,delta,lo,hi,batch
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_per_round,R1,16,0.0,0.0,0.0,combined 401-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_per_round,R2,16,-0.015,-0.045,0.019999999999999997,combined 401-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_per_round,R3,16,-0.1325,-0.2,-0.0625,combined 401-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_per_round,pooled,48,-0.049166666666666664,-0.08,-0.02,combined 401-416
+audit_memory_struct - audit,label-only memory vs no memory,asr_per_round,R1,16,-0.0025,-0.0075,0.0,combined 401-416
+audit_memory_struct - audit,label-only memory vs no memory,asr_per_round,R2,16,-0.07999999999999999,-0.12,-0.04000000000000001,combined 401-416
+audit_memory_struct - audit,label-only memory vs no memory,asr_per_round,R3,16,0.0325,-0.07,0.13749999999999998,combined 401-416
+audit_memory_struct - audit,label-only memory vs no memory,asr_per_round,pooled,48,-0.01666666666666667,-0.05666666666666667,0.024166666666666666,combined 401-416
+audit_quarantine - audit,tag memory vs no memory,asr_per_round,R1,16,-0.0025,-0.0075,0.0,combined 401-416
+audit_quarantine - audit,tag memory vs no memory,asr_per_round,R2,16,-0.095,-0.14750000000000002,-0.045,combined 401-416
+audit_quarantine - audit,tag memory vs no memory,asr_per_round,R3,16,-0.1,-0.21000000000000002,-0.0024999999999999935,combined 401-416
+audit_quarantine - audit,tag memory vs no memory,asr_per_round,pooled,48,-0.06583333333333334,-0.10833333333333335,-0.026666666666666672,combined 401-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_given_submission,R1,16,0.0,0.0,0.0,combined 401-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_given_submission,R2,16,-0.0146875,-0.044687500000000005,0.020315104166666632,combined 401-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_given_submission,R3,16,-0.1313541666666667,-0.1984453125,-0.06208072916666671,combined 401-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_given_submission,pooled,48,-0.04868055555555556,-0.07958420138888889,-0.019617187500000015,combined 401-416
+audit_memory_struct - audit,label-only memory vs no memory,asr_given_submission,R1,16,-0.0025,-0.0075,0.0,combined 401-416
+audit_memory_struct - audit,label-only memory vs no memory,asr_given_submission,R2,16,-0.0809375,-0.12052864583333334,-0.04196614583333351,combined 401-416
+audit_memory_struct - audit,label-only memory vs no memory,asr_given_submission,R3,16,0.03322916666666667,-0.06999999999999999,0.1364609375,combined 401-416
+audit_memory_struct - audit,label-only memory vs no memory,asr_given_submission,pooled,48,-0.016736111111111108,-0.056841145833333336,0.02413454861111108,combined 401-416
+audit_quarantine - audit,tag memory vs no memory,asr_given_submission,R1,16,-0.0025,-0.0075,0.0,combined 401-416
+audit_quarantine - audit,tag memory vs no memory,asr_given_submission,R2,16,-0.09562499999999999,-0.14802083333333332,-0.04582812500000007,combined 401-416
+audit_quarantine - audit,tag memory vs no memory,asr_given_submission,R3,16,-0.098125,-0.20813541666666666,0.000736979166666542,combined 401-416
+audit_quarantine - audit,tag memory vs no memory,asr_given_submission,pooled,48,-0.06541666666666666,-0.10809461805555556,-0.0264921875,combined 401-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),audit_misclassification_rate,R1,16,0.027500000000000004,-0.022499999999999996,0.07500000000000001,combined 401-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),audit_misclassification_rate,R2,16,-0.005000000000000001,-0.0225,0.010062499999999093,combined 401-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),audit_misclassification_rate,R3,16,0.0025,-0.0075,0.0125,combined 401-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),audit_misclassification_rate,pooled,48,0.008333333333333337,-0.008333333333333333,0.027499999999999997,combined 401-416
+audit_memory_struct - audit,label-only memory vs no memory,audit_misclassification_rate,R1,16,0.07999999999999999,0.05249999999999999,0.10999999999999999,combined 401-416
+audit_memory_struct - audit,label-only memory vs no memory,audit_misclassification_rate,R2,16,0.015,0.005,0.0275,combined 401-416
+audit_memory_struct - audit,label-only memory vs no memory,audit_misclassification_rate,R3,16,-0.01,-0.02,-0.0025,combined 401-416
+audit_memory_struct - audit,label-only memory vs no memory,audit_misclassification_rate,pooled,48,0.028333333333333332,0.013333333333333334,0.04416666666666667,combined 401-416
+audit_quarantine - audit,tag memory vs no memory,audit_misclassification_rate,R1,16,0.1075,0.07250000000000001,0.14,combined 401-416
+audit_quarantine - audit,tag memory vs no memory,audit_misclassification_rate,R2,16,0.01,0.0025,0.02,combined 401-416
+audit_quarantine - audit,tag memory vs no memory,audit_misclassification_rate,R3,16,-0.0075,-0.0225,0.005000000000000001,combined 401-416
+audit_quarantine - audit,tag memory vs no memory,audit_misclassification_rate,pooled,48,0.03666666666666666,0.01833333333333333,0.05583333333333334,combined 401-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),policy_cap_rejection_rate,R1,16,0.0,0.0,0.0,combined 401-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),policy_cap_rejection_rate,R2,16,0.0,0.0,0.0,combined 401-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),policy_cap_rejection_rate,R3,16,0.0,0.0,0.0,combined 401-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),policy_cap_rejection_rate,pooled,48,0.0,0.0,0.0,combined 401-416
+audit_memory_struct - audit,label-only memory vs no memory,policy_cap_rejection_rate,R1,16,0.0,0.0,0.0,combined 401-416
+audit_memory_struct - audit,label-only memory vs no memory,policy_cap_rejection_rate,R2,16,0.0,0.0,0.0,combined 401-416
+audit_memory_struct - audit,label-only memory vs no memory,policy_cap_rejection_rate,R3,16,0.0,0.0,0.0,combined 401-416
+audit_memory_struct - audit,label-only memory vs no memory,policy_cap_rejection_rate,pooled,48,0.0,0.0,0.0,combined 401-416
+audit_quarantine - audit,tag memory vs no memory,policy_cap_rejection_rate,R1,16,0.0,0.0,0.0,combined 401-416
+audit_quarantine - audit,tag memory vs no memory,policy_cap_rejection_rate,R2,16,0.0,0.0,0.0,combined 401-416
+audit_quarantine - audit,tag memory vs no memory,policy_cap_rejection_rate,R3,16,0.0,0.0,0.0,combined 401-416
+audit_quarantine - audit,tag memory vs no memory,policy_cap_rejection_rate,pooled,48,0.0,0.0,0.0,combined 401-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_per_round,R1,8,0.0,0.0,0.0,new seeds 409-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_per_round,R2,8,-0.045,-0.07999999999999999,-0.009999999999999998,new seeds 409-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_per_round,R3,8,-0.115,-0.195,-0.044999999999999984,new seeds 409-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_per_round,pooled,24,-0.05333333333333332,-0.08833333333333333,-0.021666666666666667,new seeds 409-416
+audit_memory_struct - audit,label-only memory vs no memory,asr_per_round,R1,8,0.0,0.0,0.0,new seeds 409-416
+audit_memory_struct - audit,label-only memory vs no memory,asr_per_round,R2,8,-0.11,-0.165,-0.045000000000000005,new seeds 409-416
+audit_memory_struct - audit,label-only memory vs no memory,asr_per_round,R3,8,0.015,-0.11000000000000001,0.12,new seeds 409-416
+audit_memory_struct - audit,label-only memory vs no memory,asr_per_round,pooled,24,-0.03166666666666667,-0.08166666666666668,0.016666666666666663,new seeds 409-416
+audit_quarantine - audit,tag memory vs no memory,asr_per_round,R1,8,0.0,0.0,0.0,new seeds 409-416
+audit_quarantine - audit,tag memory vs no memory,asr_per_round,R2,8,-0.155,-0.21500000000000002,-0.09999999999999999,new seeds 409-416
+audit_quarantine - audit,tag memory vs no memory,asr_per_round,R3,8,-0.1,-0.26,0.03500000000000001,new seeds 409-416
+audit_quarantine - audit,tag memory vs no memory,asr_per_round,pooled,24,-0.085,-0.14833333333333334,-0.02833333333333334,new seeds 409-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_given_submission,R1,8,0.0,0.0,0.0,new seeds 409-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_given_submission,R2,8,-0.045,-0.07958333333333334,-0.009999999999999998,new seeds 409-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_given_submission,R3,8,-0.11333333333333334,-0.18875,-0.04229166666666667,new seeds 409-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_given_submission,pooled,24,-0.05277777777777778,-0.08736284722222222,-0.021874999999999995,new seeds 409-416
+audit_memory_struct - audit,label-only memory vs no memory,asr_given_submission,R1,8,0.0,0.0,0.0,new seeds 409-416
+audit_memory_struct - audit,label-only memory vs no memory,asr_given_submission,R2,8,-0.11083333333333334,-0.1691666666666667,-0.04541666666666667,new seeds 409-416
+audit_memory_struct - audit,label-only memory vs no memory,asr_given_submission,R3,8,0.017291666666666664,-0.11000000000000001,0.122338541666666,new seeds 409-416
+audit_memory_struct - audit,label-only memory vs no memory,asr_given_submission,pooled,24,-0.031180555555555562,-0.08194444444444446,0.018059027777777723,new seeds 409-416
+audit_quarantine - audit,tag memory vs no memory,asr_given_submission,R1,8,0.0,0.0,0.0,new seeds 409-416
+audit_quarantine - audit,tag memory vs no memory,asr_given_submission,R2,8,-0.15583333333333335,-0.21604166666666666,-0.09937499999999999,new seeds 409-416
+audit_quarantine - audit,tag memory vs no memory,asr_given_submission,R3,8,-0.09604166666666666,-0.26,0.040645833333333034,new seeds 409-416
+audit_quarantine - audit,tag memory vs no memory,asr_given_submission,pooled,24,-0.08395833333333332,-0.14659895833333336,-0.027704861111111152,new seeds 409-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),audit_misclassification_rate,R1,8,0.030000000000000006,-0.06499999999999999,0.125,new seeds 409-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),audit_misclassification_rate,R2,8,-0.015,-0.04,0.01,new seeds 409-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),audit_misclassification_rate,R3,8,-0.005,-0.015,0.0,new seeds 409-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),audit_misclassification_rate,pooled,24,0.003333333333333336,-0.029999999999999995,0.03833333333333334,new seeds 409-416
+audit_memory_struct - audit,label-only memory vs no memory,audit_misclassification_rate,R1,8,0.075,0.029999999999999992,0.12,new seeds 409-416
+audit_memory_struct - audit,label-only memory vs no memory,audit_misclassification_rate,R2,8,0.025,0.005,0.045,new seeds 409-416
+audit_memory_struct - audit,label-only memory vs no memory,audit_misclassification_rate,R3,8,-0.005,-0.015,0.0,new seeds 409-416
+audit_memory_struct - audit,label-only memory vs no memory,audit_misclassification_rate,pooled,24,0.03166666666666666,0.011666666666666665,0.05499999999999999,new seeds 409-416
+audit_quarantine - audit,tag memory vs no memory,audit_misclassification_rate,R1,8,0.10500000000000001,0.049999999999999996,0.155,new seeds 409-416
+audit_quarantine - audit,tag memory vs no memory,audit_misclassification_rate,R2,8,0.01,0.0,0.025,new seeds 409-416
+audit_quarantine - audit,tag memory vs no memory,audit_misclassification_rate,R3,8,-0.01,-0.03,0.0,new seeds 409-416
+audit_quarantine - audit,tag memory vs no memory,audit_misclassification_rate,pooled,24,0.034999999999999996,0.01,0.065,new seeds 409-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),policy_cap_rejection_rate,R1,8,0.0,0.0,0.0,new seeds 409-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),policy_cap_rejection_rate,R2,8,0.0,0.0,0.0,new seeds 409-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),policy_cap_rejection_rate,R3,8,0.0,0.0,0.0,new seeds 409-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),policy_cap_rejection_rate,pooled,24,0.0,0.0,0.0,new seeds 409-416
+audit_memory_struct - audit,label-only memory vs no memory,policy_cap_rejection_rate,R1,8,0.0,0.0,0.0,new seeds 409-416
+audit_memory_struct - audit,label-only memory vs no memory,policy_cap_rejection_rate,R2,8,0.0,0.0,0.0,new seeds 409-416
+audit_memory_struct - audit,label-only memory vs no memory,policy_cap_rejection_rate,R3,8,0.0,0.0,0.0,new seeds 409-416
+audit_memory_struct - audit,label-only memory vs no memory,policy_cap_rejection_rate,pooled,24,0.0,0.0,0.0,new seeds 409-416
+audit_quarantine - audit,tag memory vs no memory,policy_cap_rejection_rate,R1,8,0.0,0.0,0.0,new seeds 409-416
+audit_quarantine - audit,tag memory vs no memory,policy_cap_rejection_rate,R2,8,0.0,0.0,0.0,new seeds 409-416
+audit_quarantine - audit,tag memory vs no memory,policy_cap_rejection_rate,R3,8,0.0,0.0,0.0,new seeds 409-416
+audit_quarantine - audit,tag memory vs no memory,policy_cap_rejection_rate,pooled,24,0.0,0.0,0.0,new seeds 409-416
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_per_round,R1,8,0.0,0.0,0.0,S5j 401-408 (pre-specified)
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_per_round,R2,8,0.014999999999999996,-0.025,0.065,S5j 401-408 (pre-specified)
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_per_round,R3,8,-0.15000000000000002,-0.265,-0.025000000000000022,S5j 401-408 (pre-specified)
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_per_round,pooled,24,-0.045000000000000005,-0.09833333333333334,0.003333333333333329,S5j 401-408 (pre-specified)
+audit_memory_struct - audit,label-only memory vs no memory,asr_per_round,R1,8,-0.005,-0.015,0.0,S5j 401-408 (pre-specified)
+audit_memory_struct - audit,label-only memory vs no memory,asr_per_round,R2,8,-0.05,-0.09,-0.009999999999999998,S5j 401-408 (pre-specified)
+audit_memory_struct - audit,label-only memory vs no memory,asr_per_round,R3,8,0.05,-0.12,0.235,S5j 401-408 (pre-specified)
+audit_memory_struct - audit,label-only memory vs no memory,asr_per_round,pooled,24,-0.0016666666666666635,-0.06004166666666666,0.065,S5j 401-408 (pre-specified)
+audit_quarantine - audit,tag memory vs no memory,asr_per_round,R1,8,-0.005,-0.015,0.0,S5j 401-408 (pre-specified)
+audit_quarantine - audit,tag memory vs no memory,asr_per_round,R2,8,-0.035,-0.09,0.015000000000000001,S5j 401-408 (pre-specified)
+audit_quarantine - audit,tag memory vs no memory,asr_per_round,R3,8,-0.1,-0.245,0.034999999999999996,S5j 401-408 (pre-specified)
+audit_quarantine - audit,tag memory vs no memory,asr_per_round,pooled,24,-0.04666666666666667,-0.105,0.0016666666666666635,S5j 401-408 (pre-specified)
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_given_submission,R1,8,0.0,0.0,0.0,S5j 401-408 (pre-specified)
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_given_submission,R2,8,0.015624999999999997,-0.025,0.065625,S5j 401-408 (pre-specified)
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_given_submission,R3,8,-0.14937500000000004,-0.2625156250000001,-0.025000000000000022,S5j 401-408 (pre-specified)
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),asr_given_submission,pooled,24,-0.044583333333333336,-0.09771354166666667,0.0037499999999999942,S5j 401-408 (pre-specified)
+audit_memory_struct - audit,label-only memory vs no memory,asr_given_submission,R1,8,-0.005,-0.015,0.0,S5j 401-408 (pre-specified)
+audit_memory_struct - audit,label-only memory vs no memory,asr_given_submission,R2,8,-0.05104166666666665,-0.09104166666666665,-0.011666666666666648,S5j 401-408 (pre-specified)
+audit_memory_struct - audit,label-only memory vs no memory,asr_given_submission,R3,8,0.04916666666666668,-0.12,0.2316666666666667,S5j 401-408 (pre-specified)
+audit_memory_struct - audit,label-only memory vs no memory,asr_given_submission,pooled,24,-0.002291666666666655,-0.060722222222222205,0.06409895833333332,S5j 401-408 (pre-specified)
+audit_quarantine - audit,tag memory vs no memory,asr_given_submission,R1,8,-0.005,-0.015,0.0,S5j 401-408 (pre-specified)
+audit_quarantine - audit,tag memory vs no memory,asr_given_submission,R2,8,-0.03541666666666665,-0.09104166666666666,0.016468749999999865,S5j 401-408 (pre-specified)
+audit_quarantine - audit,tag memory vs no memory,asr_given_submission,R3,8,-0.10020833333333333,-0.24395833333333333,0.034791666666666665,S5j 401-408 (pre-specified)
+audit_quarantine - audit,tag memory vs no memory,asr_given_submission,pooled,24,-0.046875,-0.104375,0.0015277777777777807,S5j 401-408 (pre-specified)
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),audit_misclassification_rate,R1,8,0.025,-5.204170427930421e-18,0.05,S5j 401-408 (pre-specified)
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),audit_misclassification_rate,R2,8,0.005,-0.01,0.02,S5j 401-408 (pre-specified)
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),audit_misclassification_rate,R3,8,0.01,-0.01,0.025,S5j 401-408 (pre-specified)
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),audit_misclassification_rate,pooled,24,0.013333333333333336,2.8912057932946783e-19,0.02666666666666667,S5j 401-408 (pre-specified)
+audit_memory_struct - audit,label-only memory vs no memory,audit_misclassification_rate,R1,8,0.08499999999999999,0.05,0.12000000000000001,S5j 401-408 (pre-specified)
+audit_memory_struct - audit,label-only memory vs no memory,audit_misclassification_rate,R2,8,0.005,0.0,0.015,S5j 401-408 (pre-specified)
+audit_memory_struct - audit,label-only memory vs no memory,audit_misclassification_rate,R3,8,-0.015,-0.03,-0.005,S5j 401-408 (pre-specified)
+audit_memory_struct - audit,label-only memory vs no memory,audit_misclassification_rate,pooled,24,0.024999999999999998,0.005,0.04833333333333334,S5j 401-408 (pre-specified)
+audit_quarantine - audit,tag memory vs no memory,audit_misclassification_rate,R1,8,0.11000000000000001,0.07,0.15,S5j 401-408 (pre-specified)
+audit_quarantine - audit,tag memory vs no memory,audit_misclassification_rate,R2,8,0.01,0.0,0.025,S5j 401-408 (pre-specified)
+audit_quarantine - audit,tag memory vs no memory,audit_misclassification_rate,R3,8,-0.005,-0.025,0.015,S5j 401-408 (pre-specified)
+audit_quarantine - audit,tag memory vs no memory,audit_misclassification_rate,pooled,24,0.03833333333333334,0.013333333333333334,0.06666666666666667,S5j 401-408 (pre-specified)
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),policy_cap_rejection_rate,R1,8,0.0,0.0,0.0,S5j 401-408 (pre-specified)
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),policy_cap_rejection_rate,R2,8,0.0,0.0,0.0,S5j 401-408 (pre-specified)
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),policy_cap_rejection_rate,R3,8,0.0,0.0,0.0,S5j 401-408 (pre-specified)
+audit_quarantine - audit_memory_struct,tags vs label-only (incremental value of tags),policy_cap_rejection_rate,pooled,24,0.0,0.0,0.0,S5j 401-408 (pre-specified)
+audit_memory_struct - audit,label-only memory vs no memory,policy_cap_rejection_rate,R1,8,0.0,0.0,0.0,S5j 401-408 (pre-specified)
+audit_memory_struct - audit,label-only memory vs no memory,policy_cap_rejection_rate,R2,8,0.0,0.0,0.0,S5j 401-408 (pre-specified)
+audit_memory_struct - audit,label-only memory vs no memory,policy_cap_rejection_rate,R3,8,0.0,0.0,0.0,S5j 401-408 (pre-specified)
+audit_memory_struct - audit,label-only memory vs no memory,policy_cap_rejection_rate,pooled,24,0.0,0.0,0.0,S5j 401-408 (pre-specified)
+audit_quarantine - audit,tag memory vs no memory,policy_cap_rejection_rate,R1,8,0.0,0.0,0.0,S5j 401-408 (pre-specified)
+audit_quarantine - audit,tag memory vs no memory,policy_cap_rejection_rate,R2,8,0.0,0.0,0.0,S5j 401-408 (pre-specified)
+audit_quarantine - audit,tag memory vs no memory,policy_cap_rejection_rate,R3,8,0.0,0.0,0.0,S5j 401-408 (pre-specified)
+audit_quarantine - audit,tag memory vs no memory,policy_cap_rejection_rate,pooled,24,0.0,0.0,0.0,S5j 401-408 (pre-specified)

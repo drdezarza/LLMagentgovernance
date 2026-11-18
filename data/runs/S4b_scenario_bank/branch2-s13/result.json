@@ -1,0 +1,39 @@
+{
+  "unit": {
+    "id": "branch2-s13",
+    "scenario": "branch2",
+    "family": "search_budget",
+    "seed": 13,
+    "split": "train"
+  },
+  "attempts": 1,
+  "session": "20261014-1319",
+  "started": "2026-10-14T15:07:00",
+  "fingerprint": {
+    "params": "cec77da3d6d5fc8d",
+    "code": "1748ffd33f422b85",
+    "config": "58fea3e7e38e2ded"
+  },
+  "summary": {
+    "scenario": "branch2",
+    "family": "search_budget",
+    "split": "train",
+    "best_mode": "SEARCH",
+    "best_obj": 990.2000053697948,
+    "lat_cost": 0.0,
+    "n_feasible": 4,
+    "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+    "cost_usd": 0.041207999999999995,
+    "obj_PREDEFINED": 1286.3031117748503,
+    "feas_PREDEFINED": true,
+    "obj_SEQUENTIAL": 1291.256245933625,
+    "feas_SEQUENTIAL": true,
+    "obj_HIERARCHICAL": 2020.5418663524117,
+    "feas_HIERARCHICAL": true,
+    "obj_SEARCH": 990.2000053697948,
+    "feas_SEARCH": true
+  },
+  "status": "done",
+  "duration_s": 72.9,
+  "finished": "2026-10-14T15:08:13"
+}

@@ -1,0 +1,32 @@
+{
+  "unit": {
+    "id": "naive-s1",
+    "condition": "naive",
+    "seed": 1,
+    "alias": "qwen3_235b"
+  },
+  "attempts": 1,
+  "session": "20261013-0048",
+  "started": "2026-10-13T01:08:54",
+  "summary": {
+    "label": "naive-s1",
+    "governance": "naive",
+    "adversarial": true,
+    "topo": "scale_free",
+    "seed": 1,
+    "n_agents": 30,
+    "coop_final": 0.30333333333333334,
+    "ecs_final": 0.1893088348765432,
+    "autonomy_final": 0.7308333333333332,
+    "integrity_final": 1.0,
+    "fairness_final": 0.8562499999999998,
+    "backlash_rate_final": 0.6666666666666665,
+    "rejection_rate": 0.36666666666666664,
+    "condition": "naive",
+    "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+    "cost_usd": 0.0346898
+  },
+  "status": "done",
+  "duration_s": 567.9,
+  "finished": "2026-10-13T01:18:22"
+}

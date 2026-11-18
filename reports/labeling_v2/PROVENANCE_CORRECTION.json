@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-23",
+  "statement": "The author stated (chat, 2026-10-23) that both H1 annotators (A1, B1) used MiniMax-M3 assistance. The ai_assistance=no flags in annotator_A.csv / annotator_B.csv are superseded by this statement and are left unchanged (original files). An earlier review (2026-10-20) had recorded the opposite; this correction replaces it.",
+  "assistant_model": "MiniMax-M3",
+  "applies_to": [
+    "annotator_A.csv",
+    "annotator_B.csv"
+  ],
+  "adjudication_assistance": "not specified"
+}

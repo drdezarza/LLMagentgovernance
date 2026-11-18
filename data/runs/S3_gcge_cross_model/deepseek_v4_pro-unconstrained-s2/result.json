@@ -1,0 +1,32 @@
+{
+  "unit": {
+    "id": "deepseek_v4_pro-unconstrained-s2",
+    "alias": "deepseek_v4_pro",
+    "condition": "unconstrained",
+    "seed": 2
+  },
+  "attempts": 1,
+  "session": "20261013-1001",
+  "started": "2026-10-13T11:49:16",
+  "summary": {
+    "label": "deepseek_v4_pro-unconstrained-s2",
+    "governance": "unconstrained",
+    "adversarial": true,
+    "topo": "scale_free",
+    "seed": 2,
+    "n_agents": 30,
+    "coop_final": 0.2783333333333333,
+    "ecs_final": 0.00958287037037037,
+    "autonomy_final": 0.9008333333333333,
+    "integrity_final": 0.05,
+    "fairness_final": 0.7833333333333334,
+    "backlash_rate_final": 0.11666666666666665,
+    "rejection_rate": 0.0,
+    "condition": "unconstrained",
+    "model": "deepseek-ai/DeepSeek-V4-Pro-0813",
+    "cost_usd": 0.22076700000000013
+  },
+  "status": "done",
+  "duration_s": 228.8,
+  "finished": "2026-10-13T11:53:05"
+}

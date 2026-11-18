@@ -1,0 +1,55 @@
+{
+  "stage": "A0_attacker_interface",
+  "written": "2026-10-29T20:08:13",
+  "interim": false,
+  "analysis_code": "13ec06628be08273",
+  "rubric_sha1": "8a9fd7c89c24",
+  "params": {
+    "families": [
+      "deepseek_v4_pro",
+      "minimax_m3",
+      "glm53",
+      "kimi_k3",
+      "qwen35_397b"
+    ],
+    "budgets": [
+      900,
+      2000,
+      6000,
+      12000
+    ],
+    "n_states": 10,
+    "seed": 5,
+    "fit_valid_rate": 0.9,
+    "fit_median_latency_s": 60.0
+  },
+  "design": "d8ce72bd7186549f",
+  "units_expected": 20,
+  "units_done": 20,
+  "unit_code_versions": {
+    "49fb4cd8ea1989da": 20
+  },
+  "validity": {},
+  "contributing_units": [
+    "deepseek_v4_pro-mt900",
+    "deepseek_v4_pro-mt2000",
+    "deepseek_v4_pro-mt6000",
+    "deepseek_v4_pro-mt12000",
+    "minimax_m3-mt900",
+    "minimax_m3-mt2000",
+    "minimax_m3-mt6000",
+    "minimax_m3-mt12000",
+    "glm53-mt900",
+    "glm53-mt2000",
+    "glm53-mt6000",
+    "glm53-mt12000",
+    "kimi_k3-mt900",
+    "kimi_k3-mt2000",
+    "kimi_k3-mt6000",
+    "kimi_k3-mt12000",
+    "qwen35_397b-mt900",
+    "qwen35_397b-mt2000",
+    "qwen35_397b-mt6000",
+    "qwen35_397b-mt12000"
+  ]
+}

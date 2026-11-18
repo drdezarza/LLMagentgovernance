@@ -1,0 +1,34 @@
+{
+  "unit": {
+    "id": "probe-muse_spark",
+    "alias": "muse_spark"
+  },
+  "attempts": 1,
+  "session": "20261021-0900",
+  "started": "2026-10-21T09:00:15",
+  "fingerprint": {
+    "params": "da7b35366753ec3a",
+    "design": "da7b35366753ec3a",
+    "code": "2d8efd79ba296652",
+    "config": "ba568339574cfe18"
+  },
+  "summary": {
+    "model": "meta-models/muse-spark-open",
+    "policy_parse_rate": 0.125,
+    "policy_nonfactual_rate": 0.0,
+    "policy_fear_rate": 0.0,
+    "policy_intensity_mean": 0.35,
+    "policy_over_cap_rate": 0.0,
+    "plan_parse_rate": 0.75,
+    "plan_mode_entropy": 0.9543063494363562,
+    "plan_n_modes": 4,
+    "plan_top_mode": "SEQUENTIAL",
+    "shift_parse_rate": 1.0,
+    "shift_factual_mean": 0.06291666666666666,
+    "shift_manip_mean": 0.004583333333333324,
+    "manip_discrimination": 0.05833333333333334
+  },
+  "status": "done",
+  "duration_s": 269.8,
+  "finished": "2026-10-21T09:04:45"
+}

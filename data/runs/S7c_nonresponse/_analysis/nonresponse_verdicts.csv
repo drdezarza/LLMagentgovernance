@@ -1,0 +1,4 @@
+nonresponse,objective_delta,objective_hi,C5a-type (hi < Δ),integrity_delta,integrity_lo,C5b-type (lo > 0),advantage_holds,n_scen
+0.0,-8.508693002202635,-0.4698561394590773,non-inferior,0.07986111111111115,0.04375,higher,True,15
+0.2,-3.628679500422773,5.8481388139559645,non-inferior,0.07986111111111115,0.04375,higher,True,15
+0.4,-12.68391249426996,-5.017014507432001,non-inferior,0.07986111111111115,0.04375,higher,True,15

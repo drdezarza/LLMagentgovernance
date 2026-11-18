@@ -1,0 +1,20 @@
+alias,model,extra,max_tokens,test,ok,status,finish,latency_s,completion_tokens,reasoning_tokens,has_reasoning,raw
+qwen3_235b,Qwen/Qwen3-235B-A22B-Instruct-2507,{},400,gcge_compiler,True,ok,stop,2.567,148,0,False,"{
+  ""target_mode"": ""BRIDGES"",
+  ""theme"": ""MORAL"",
+  ""intensity"": 0.6,
+  ""timing"": ""PERIODIC"",
+  ""claims"": ""FACTUAL"",
+  ""confidence"": 0.75,
+  ""reasoning"": ""In a scale-free network, bridge agents connect dense clusters and are pivotal for information flow across communities. Targeting them promotes wi"
+qwen3_235b,Qwen/Qwen3-235B-A22B-Instruct-2507,{},400,gcge_shift,True,ok,stop,0.964,42,0,False,"{""shift"": 0.25, ""persuaded"": true, ""reason"": ""The message highlights long-term practical benefits of cooperation, which aligns with my pragmatist values.""}"
+qwen3_235b,Qwen/Qwen3-235B-A22B-Instruct-2507,{},400,plan_declare,True,ok,stop,2.002,100,0,False,"{
+  ""mode"": ""SEQUENTIAL"",
+  ""target_mode"": ""HEAD"",
+  ""theme"": ""ECONOMIC"",
+  ""depth"": 2,
+  ""branching"": 4,
+  ""replan_trigger"": ""ON_VIOLATION"",
+  ""intensity"": 0.65,
+  ""confidence"": 0.78,
+  ""reasoning"": ""Moderate stress and high burden warrant adaptive control focused on head reduction with economic pr"

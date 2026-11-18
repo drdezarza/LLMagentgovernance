@@ -1,0 +1,89 @@
+{
+  "stage": "A8_auditor_scale",
+  "written": "2026-11-18T09:03:17",
+  "interim": false,
+  "analysis_code": "16e32bea7b95f10a",
+  "rubric_sha1": "8a9fd7c89c24",
+  "params": {
+    "models": [
+      "qwen3_30b",
+      "glm53_flash",
+      "deepseek_v4_flash",
+      "gemma3_27b",
+      "gpt_oss_120b",
+      "nemotron_super",
+      "qwen38_27b",
+      "qwen3_235b"
+    ],
+    "frontier": [
+      "deepseek_v4_pro",
+      "minimax_m3",
+      "glm53"
+    ],
+    "n_chunks": 4,
+    "h1_dir": "labeling_v2",
+    "valid_rule": 0.9
+  },
+  "design": "8070e2771fca2ea2",
+  "units_expected": 40,
+  "units_done": 40,
+  "unit_code_versions": {
+    "53bc83a80362d649": 40
+  },
+  "validity": {
+    "rules_version": "RR-2026-11-01",
+    "rules": {
+      "valid_rate": [
+        ">=",
+        0.9
+      ]
+    },
+    "cells": 11,
+    "cells_eligible": 10,
+    "excluded": {
+      "nemotron_super": 0.8532494758909853
+    }
+  },
+  "contributing_units": [
+    "qwen3_30b-bank-c0",
+    "qwen3_30b-bank-c1",
+    "qwen3_30b-bank-c2",
+    "qwen3_30b-bank-c3",
+    "glm53_flash-bank-c0",
+    "glm53_flash-bank-c1",
+    "glm53_flash-bank-c2",
+    "glm53_flash-bank-c3",
+    "deepseek_v4_flash-bank-c0",
+    "deepseek_v4_flash-bank-c1",
+    "deepseek_v4_flash-bank-c2",
+    "deepseek_v4_flash-bank-c3",
+    "gemma3_27b-bank-c0",
+    "gemma3_27b-bank-c1",
+    "gemma3_27b-bank-c2",
+    "gemma3_27b-bank-c3",
+    "gpt_oss_120b-bank-c0",
+    "gpt_oss_120b-bank-c1",
+    "gpt_oss_120b-bank-c2",
+    "gpt_oss_120b-bank-c3",
+    "nemotron_super-bank-c0",
+    "nemotron_super-bank-c1",
+    "nemotron_super-bank-c2",
+    "nemotron_super-bank-c3",
+    "qwen38_27b-bank-c0",
+    "qwen38_27b-bank-c1",
+    "qwen38_27b-bank-c2",
+    "qwen38_27b-bank-c3",
+    "qwen3_235b-bank-c0",
+    "qwen3_235b-bank-c1",
+    "qwen3_235b-bank-c2",
+    "qwen3_235b-bank-c3",
+    "qwen3_30b-h1",
+    "glm53_flash-h1",
+    "deepseek_v4_flash-h1",
+    "gemma3_27b-h1",
+    "gpt_oss_120b-h1",
+    "nemotron_super-h1",
+    "qwen38_27b-h1",
+    "qwen3_235b-h1"
+  ]
+}

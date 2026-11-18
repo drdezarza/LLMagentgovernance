@@ -1,0 +1,92 @@
+alias,role,study,n
+deepseek_v4_flash,population backbone,S3_gcge_cross_model,6
+glm53_flash,population backbone,S3_gcge_cross_model,6
+qwen38_27b,population backbone,S3_gcge_cross_model,6
+minimax_m3,population backbone,S3_gcge_cross_model,6
+gpt_oss_120b,population backbone,S3_gcge_cross_model,6
+nemotron_super,population backbone,S3_gcge_cross_model,6
+gemma3_27b,population backbone,S3_gcge_cross_model,6
+qwen35_397b,population backbone,S3_gcge_cross_model,6
+deepseek_v4_pro,population backbone,S3_gcge_cross_model,6
+glm53,population backbone,S3_gcge_cross_model,6
+kimi_k3,population backbone,S3_gcge_cross_model,6
+muse_spark,population backbone,S3_gcge_cross_model,6
+deepseek_v4_pro,planner backbone,S7b_mechanism_ablation,60
+minimax_m3,planner backbone,S7b_mechanism_ablation,60
+glm53,planner backbone,S7b_mechanism_ablation,60
+minimax_m3,message auditor,S7b_mechanism_ablation,24
+glm53,message auditor,S7b_mechanism_ablation,24
+deepseek_v4_pro,message auditor,S7b_mechanism_ablation,24
+glm53,judge,S7b_mechanism_ablation,60
+deepseek_v4_pro,judge,S7b_mechanism_ablation,60
+minimax_m3,judge,S7b_mechanism_ablation,60
+deepseek_v4_pro,planner backbone,S7b_C,40
+minimax_m3,planner backbone,S7b_C,40
+glm53,planner backbone,S7b_C,40
+minimax_m3,message auditor,S7b_C,20
+glm53,message auditor,S7b_C,20
+deepseek_v4_pro,message auditor,S7b_C,20
+glm53,judge,S7b_C,40
+deepseek_v4_pro,judge,S7b_C,40
+minimax_m3,judge,S7b_C,40
+deepseek_v4_pro,planner backbone,S7c_nonresponse,120
+minimax_m3,planner backbone,S7c_nonresponse,120
+glm53,planner backbone,S7c_nonresponse,120
+minimax_m3,message auditor,S7c_nonresponse,60
+glm53,message auditor,S7c_nonresponse,60
+deepseek_v4_pro,message auditor,S7c_nonresponse,60
+glm53,judge,S7c_nonresponse,120
+deepseek_v4_pro,judge,S7c_nonresponse,120
+minimax_m3,judge,S7c_nonresponse,120
+deepseek_v4_pro,attacker,S5b_C,12
+minimax_m3,attacker,S5b_C,12
+glm53,attacker,S5b_C,12
+minimax_m3,auditor,S5b_C,12
+glm53,auditor,S5b_C,12
+deepseek_v4_pro,auditor,S5b_C,12
+glm53,judge,S5b_C,12
+deepseek_v4_pro,judge,S5b_C,12
+minimax_m3,judge,S5b_C,12
+deepseek_v4_pro,attacker,S5b_role_rotation,18
+minimax_m3,attacker,S5b_role_rotation,18
+glm53,attacker,S5b_role_rotation,18
+minimax_m3,auditor,S5b_role_rotation,18
+glm53,auditor,S5b_role_rotation,18
+deepseek_v4_pro,auditor,S5b_role_rotation,18
+glm53,judge,S5b_role_rotation,18
+deepseek_v4_pro,judge,S5b_role_rotation,18
+minimax_m3,judge,S5b_role_rotation,18
+deepseek_v4_pro,attacker,S5h_live_quarantine,24
+minimax_m3,attacker,S5h_live_quarantine,24
+glm53,attacker,S5h_live_quarantine,24
+minimax_m3,auditor,S5h_live_quarantine,24
+glm53,auditor,S5h_live_quarantine,24
+deepseek_v4_pro,auditor,S5h_live_quarantine,24
+glm53,judge,S5h_live_quarantine,24
+deepseek_v4_pro,judge,S5h_live_quarantine,24
+minimax_m3,judge,S5h_live_quarantine,24
+deepseek_v4_pro,attacker,S5i_role_factorial,24
+minimax_m3,attacker,S5i_role_factorial,24
+glm53,attacker,S5i_role_factorial,24
+deepseek_v4_pro,auditor,S5i_role_factorial,24
+minimax_m3,auditor,S5i_role_factorial,24
+glm53,auditor,S5i_role_factorial,24
+kimi_k3,judge,S5i_role_factorial,72
+deepseek_v4_pro,attacker,S5j_live_labelonly,24
+minimax_m3,attacker,S5j_live_labelonly,24
+glm53,attacker,S5j_live_labelonly,24
+minimax_m3,auditor,S5j_live_labelonly,24
+glm53,auditor,S5j_live_labelonly,24
+deepseek_v4_pro,auditor,S5j_live_labelonly,24
+glm53,judge,S5j_live_labelonly,24
+deepseek_v4_pro,judge,S5j_live_labelonly,24
+minimax_m3,judge,S5j_live_labelonly,24
+deepseek_v4_pro,attacker,S5k_oracle_feedback,16
+minimax_m3,attacker,S5k_oracle_feedback,16
+glm53,attacker,S5k_oracle_feedback,16
+minimax_m3,auditor,S5k_oracle_feedback,16
+glm53,auditor,S5k_oracle_feedback,16
+deepseek_v4_pro,auditor,S5k_oracle_feedback,16
+glm53,judge,S5k_oracle_feedback,16
+deepseek_v4_pro,judge,S5k_oracle_feedback,16
+minimax_m3,judge,S5k_oracle_feedback,16

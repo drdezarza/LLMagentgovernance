@@ -1,0 +1,171 @@
+{
+  "stage": "S5i_role_factorial",
+  "written": "2026-11-04T09:03:15",
+  "interim": true,
+  "analysis_code": "39547111aeffc288",
+  "rubric_sha1": "8a9fd7c89c24",
+  "params": {
+    "attacker": "attacker",
+    "auditor": "auditor",
+    "judge": "kimi_k3",
+    "population": "baseline",
+    "attacker_modes": [
+      "adaptive"
+    ],
+    "governors": [
+      "audit",
+      "audit_memory"
+    ],
+    "seeds": [
+      301,
+      302,
+      303,
+      304
+    ],
+    "deploy_every": 2,
+    "steps": 50,
+    "families": [
+      "deepseek_v4_pro",
+      "minimax_m3",
+      "glm53"
+    ],
+    "static_governors": [],
+    "extractor": "kimi_k3"
+  },
+  "design": "8bed62d3ba09f05e",
+  "units_expected": 72,
+  "units_done": 33,
+  "unit_code_versions": {
+    "b95991022b30afc9": 33
+  },
+  "validity": {
+    "rules_version": "RR-2026-11-01",
+    "units_done": 33,
+    "units_eligible": 33,
+    "units_excluded": 0,
+    "exclusion_reasons": {},
+    "by_group": {
+      "A1U1|adaptive|audit": {
+        "done": 2,
+        "eligible": 2
+      },
+      "A1U1|adaptive|audit_memory": {
+        "done": 2,
+        "eligible": 2
+      },
+      "A1U2|adaptive|audit": {
+        "done": 3,
+        "eligible": 3
+      },
+      "A1U2|adaptive|audit_memory": {
+        "done": 3,
+        "eligible": 3
+      },
+      "A1U3|adaptive|audit": {
+        "done": 3,
+        "eligible": 3
+      },
+      "A1U3|adaptive|audit_memory": {
+        "done": 3,
+        "eligible": 3
+      },
+      "A2U1|adaptive|audit": {
+        "done": 2,
+        "eligible": 2
+      },
+      "A2U1|adaptive|audit_memory": {
+        "done": 2,
+        "eligible": 2
+      },
+      "A2U2|adaptive|audit": {
+        "done": 2,
+        "eligible": 2
+      },
+      "A2U2|adaptive|audit_memory": {
+        "done": 2,
+        "eligible": 2
+      },
+      "A2U3|adaptive|audit": {
+        "done": 2,
+        "eligible": 2
+      },
+      "A2U3|adaptive|audit_memory": {
+        "done": 1,
+        "eligible": 1
+      },
+      "A3U1|adaptive|audit": {
+        "done": 1,
+        "eligible": 1
+      },
+      "A3U1|adaptive|audit_memory": {
+        "done": 1,
+        "eligible": 1
+      },
+      "A3U2|adaptive|audit": {
+        "done": 1,
+        "eligible": 1
+      },
+      "A3U2|adaptive|audit_memory": {
+        "done": 1,
+        "eligible": 1
+      },
+      "A3U3|adaptive|audit": {
+        "done": 1,
+        "eligible": 1
+      },
+      "A3U3|adaptive|audit_memory": {
+        "done": 1,
+        "eligible": 1
+      }
+    },
+    "rules": {
+      "judge_unresolved_share": [
+        "<=",
+        0.1
+      ],
+      "audit_invalid_share": [
+        "<=",
+        0.1
+      ],
+      "valid_submission_rate": [
+        ">=",
+        0.8
+      ]
+    }
+  },
+  "contributing_units": [
+    "A1U1-adaptive-audit-s301",
+    "A1U1-adaptive-audit_memory-s301",
+    "A1U2-adaptive-audit-s301",
+    "A1U2-adaptive-audit_memory-s301",
+    "A1U3-adaptive-audit-s301",
+    "A1U3-adaptive-audit_memory-s301",
+    "A2U1-adaptive-audit-s301",
+    "A2U1-adaptive-audit_memory-s301",
+    "A2U2-adaptive-audit-s301",
+    "A2U2-adaptive-audit_memory-s301",
+    "A2U3-adaptive-audit-s301",
+    "A2U3-adaptive-audit_memory-s301",
+    "A3U1-adaptive-audit-s301",
+    "A3U1-adaptive-audit_memory-s301",
+    "A3U2-adaptive-audit-s301",
+    "A3U2-adaptive-audit_memory-s301",
+    "A3U3-adaptive-audit-s301",
+    "A3U3-adaptive-audit_memory-s301",
+    "A1U1-adaptive-audit-s302",
+    "A1U1-adaptive-audit_memory-s302",
+    "A1U2-adaptive-audit-s302",
+    "A1U2-adaptive-audit_memory-s302",
+    "A1U3-adaptive-audit-s302",
+    "A1U3-adaptive-audit_memory-s302",
+    "A2U1-adaptive-audit-s302",
+    "A2U1-adaptive-audit_memory-s302",
+    "A2U2-adaptive-audit-s302",
+    "A2U2-adaptive-audit_memory-s302",
+    "A2U3-adaptive-audit-s302",
+    "A1U2-adaptive-audit-s304",
+    "A1U2-adaptive-audit_memory-s304",
+    "A1U3-adaptive-audit-s304",
+    "A1U3-adaptive-audit_memory-s304"
+  ]
+}

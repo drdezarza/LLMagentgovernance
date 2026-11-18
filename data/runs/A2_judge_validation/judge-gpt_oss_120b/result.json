@@ -1,0 +1,25 @@
+{
+  "unit": {
+    "id": "judge-gpt_oss_120b",
+    "alias": "gpt_oss_120b"
+  },
+  "attempts": 1,
+  "session": "20261015-0900",
+  "started": "2026-10-15T09:49:55",
+  "fingerprint": {
+    "params": "41a1f0231ff75ac8",
+    "design": "41a1f0231ff75ac8",
+    "code": "c711ea102ce2cb2e",
+    "config": "287873370a1d7dfd"
+  },
+  "summary": {
+    "model": "openai/gpt-oss-120b",
+    "n_items": 135,
+    "n_calls_valid": 163,
+    "rubric_sha1": "8a9fd7c89c24",
+    "cost_usd": 0.057668550000000006
+  },
+  "status": "done",
+  "duration_s": 233.8,
+  "finished": "2026-10-15T09:53:49"
+}

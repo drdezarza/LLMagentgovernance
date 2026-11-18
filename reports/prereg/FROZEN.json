@@ -1,0 +1,28 @@
+{
+  "frozen": "2026-10-23",
+  "approved_by": "author (chat, 2026-10-23: 'go ahead' to the freeze; scope/judge/margin/H1 answers recorded in the plan)",
+  "plan_file": "reports/prereg/ANALYSIS_PLAN_v1.md",
+  "plan_sha256": "83439caa852a287a07a8d0cf54d13831bd5a2749750034b3fbaaae0c817febdd",
+  "draft_sha256": "99c4833b7cd458e28f43b3fb1f135a4f46ff21f5ad46bb4b96e321f1d7fd10b1",
+  "confirmatory_code": "agentgov/experiments/confirmatory_exps.py",
+  "confirmatory_code_sha256": "3f656bf75a105516fad54237b6989291f0e72d6fb9440d9321a3a90c6be32a56",
+  "agentgov_code_hash_at_freeze": "1434ad139edba91a",
+  "confirmatory_stages": [
+    "S3b_C",
+    "S5b_C",
+    "S7b_C",
+    "A7_C_outside_judge"
+  ],
+  "rule": "No change to design, metrics, exclusions or decision rules of the confirmatory stages after this file exists; amendments are dated, appended to the plan, and use new stage ids.",
+  "amendments": [
+    {
+      "n": 1,
+      "date": "2026-10-24",
+      "kind": "implementation bug fix (J1 S5b_C re-scoring; numpy-bool identity test)",
+      "design_or_rule_change": false,
+      "confirmatory_code_sha256_amended": "6ffd64037ea9da4eaafcf7bcb0e730449bc845b13b040f87dfc985d81e172a69",
+      "plan_sha256_with_amendment": "a59fed5f33966d674adaa0359ec2c94fced2be2b275e7090997b10987e1c515e",
+      "original_code_backup": "_to_delete/confirmatory_exps.py.frozen-20261023"
+    }
+  ]
+}

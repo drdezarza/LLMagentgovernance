@@ -1,0 +1,23 @@
+{
+  "stage": "H1_independent_labels",
+  "written": "2026-10-29T20:08:21",
+  "interim": false,
+  "analysis_code": "13ec06628be08273",
+  "rubric_sha1": "8a9fd7c89c24",
+  "params": {
+    "n_hard": 40,
+    "n_ordinary": 40,
+    "seed": 2027,
+    "dir": "labeling_v2"
+  },
+  "design": "c530a14ac330268a",
+  "units_expected": 1,
+  "units_done": 1,
+  "unit_code_versions": {
+    "8f97a43b184df6fe": 1
+  },
+  "validity": {},
+  "contributing_units": [
+    "export"
+  ]
+}

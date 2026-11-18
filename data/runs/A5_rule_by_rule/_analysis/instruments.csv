@@ -1,0 +1,7 @@
+alias,procedure,valid_rate,valid_rate_h1,eligible
+deepseek_v4_pro,joint,1.0,1.0,True
+deepseek_v4_pro,rules,1.0,1.0,True
+glm53,joint,0.9977827050997783,1.0,True
+glm53,rules,0.9944567627494457,1.0,True
+minimax_m3,joint,1.0,1.0,True
+minimax_m3,rules,0.9977827050997783,1.0,True

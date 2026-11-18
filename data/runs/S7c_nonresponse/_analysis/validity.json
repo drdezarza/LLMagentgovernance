@@ -1,0 +1,115 @@
+{
+  "rules_version": "2026-10-29",
+  "units_done": 360,
+  "units_eligible": 360,
+  "units_excluded": 0,
+  "exclusion_reasons": {},
+  "by_group": {
+    "0.0|HIERARCHICAL|G0": {
+      "done": 15,
+      "eligible": 15
+    },
+    "0.0|HIERARCHICAL|Gmsg": {
+      "done": 15,
+      "eligible": 15
+    },
+    "0.0|SEARCH|G0": {
+      "done": 15,
+      "eligible": 15
+    },
+    "0.0|SEARCH|Gmsg": {
+      "done": 15,
+      "eligible": 15
+    },
+    "0.0|SEQUENTIAL|G0": {
+      "done": 15,
+      "eligible": 15
+    },
+    "0.0|SEQUENTIAL|Gmsg": {
+      "done": 15,
+      "eligible": 15
+    },
+    "0.0|natural|G0": {
+      "done": 15,
+      "eligible": 15
+    },
+    "0.0|natural|Gmsg": {
+      "done": 15,
+      "eligible": 15
+    },
+    "0.2|HIERARCHICAL|G0": {
+      "done": 15,
+      "eligible": 15
+    },
+    "0.2|HIERARCHICAL|Gmsg": {
+      "done": 15,
+      "eligible": 15
+    },
+    "0.2|SEARCH|G0": {
+      "done": 15,
+      "eligible": 15
+    },
+    "0.2|SEARCH|Gmsg": {
+      "done": 15,
+      "eligible": 15
+    },
+    "0.2|SEQUENTIAL|G0": {
+      "done": 15,
+      "eligible": 15
+    },
+    "0.2|SEQUENTIAL|Gmsg": {
+      "done": 15,
+      "eligible": 15
+    },
+    "0.2|natural|G0": {
+      "done": 15,
+      "eligible": 15
+    },
+    "0.2|natural|Gmsg": {
+      "done": 15,
+      "eligible": 15
+    },
+    "0.4|HIERARCHICAL|G0": {
+      "done": 15,
+      "eligible": 15
+    },
+    "0.4|HIERARCHICAL|Gmsg": {
+      "done": 15,
+      "eligible": 15
+    },
+    "0.4|SEARCH|G0": {
+      "done": 15,
+      "eligible": 15
+    },
+    "0.4|SEARCH|Gmsg": {
+      "done": 15,
+      "eligible": 15
+    },
+    "0.4|SEQUENTIAL|G0": {
+      "done": 15,
+      "eligible": 15
+    },
+    "0.4|SEQUENTIAL|Gmsg": {
+      "done": 15,
+      "eligible": 15
+    },
+    "0.4|natural|G0": {
+      "done": 15,
+      "eligible": 15
+    },
+    "0.4|natural|Gmsg": {
+      "done": 15,
+      "eligible": 15
+    }
+  },
+  "rules": {
+    "judge_invalid_rate": [
+      "<=",
+      0.1
+    ],
+    "audit_invalid_share": [
+      "<=",
+      0.1
+    ]
+  }
+}

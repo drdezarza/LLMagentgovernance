@@ -1,0 +1,30 @@
+{
+  "unit": {
+    "id": "qwen35_397b-mt6000",
+    "alias": "qwen35_397b",
+    "budget": 6000
+  },
+  "attempts": 1,
+  "session": "20261016-0900",
+  "started": "2026-10-16T09:04:37",
+  "fingerprint": {
+    "params": "d8ce72bd7186549f",
+    "design": "d8ce72bd7186549f",
+    "code": "49fb4cd8ea1989da",
+    "config": "e9cbc1b9482f6f88"
+  },
+  "summary": {
+    "model": "Qwen/Qwen3.5-397B-A17B",
+    "budget": 6000,
+    "effective_max_tokens": 6000,
+    "valid_rate": 0.95,
+    "full_rate": 0.95,
+    "empty_rate": 0.0,
+    "median_latency_s": 3.332,
+    "cost_usd": 0.0380044,
+    "cost_per_valid_usd": 0.0020002315789473687
+  },
+  "status": "done",
+  "duration_s": 66.6,
+  "finished": "2026-10-16T09:05:43"
+}

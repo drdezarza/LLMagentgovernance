@@ -1,0 +1,40 @@
+{
+  "unit": {
+    "id": "glm53-s101-PREDEFINED-G0",
+    "alias": "glm53",
+    "seed": 101,
+    "plan": "PREDEFINED",
+    "gov": "G0"
+  },
+  "attempts": 1,
+  "session": "20261014-0900",
+  "started": "2026-10-14T10:08:03",
+  "summary": {
+    "objective": 1705.2113471940888,
+    "violation_hours": 7,
+    "head_over_kwh": 915.4057678125794,
+    "v_violation_total": 0.07009644533012549,
+    "curtailed_kwh": 2037.6791922440298,
+    "mean_compliance": 0.6391826923076923,
+    "curtail_gini": 0.3135453350159576,
+    "revisions": 0,
+    "plan_faithfulness": 1.0,
+    "directive_realization": 0.5501732623166479,
+    "primary_failure": "DECOMPOSITION_ERROR",
+    "executed_mode": "PREDEFINED",
+    "declared_modes": "PREDEFINED",
+    "persuasion_rate": 0.8235294117647058,
+    "backlash_rate": 0.0196078431372549,
+    "message_integrity": 0.5833333333333334,
+    "n_messages": 24,
+    "banned_theme_share": 0.0,
+    "declared_banned_share": 0.0,
+    "model": "zai-org/GLM-5.3",
+    "auditor": "",
+    "judge": "gpt_oss_120b",
+    "cost_usd": 0.00207435
+  },
+  "status": "done",
+  "duration_s": 10.2,
+  "finished": "2026-10-14T10:08:13"
+}

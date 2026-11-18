@@ -1,0 +1,12 @@
+{
+  "alias": "deepseek_v4_pro",
+  "usable": true,
+  "extra_body": {
+    "chat_template_kwargs": {
+      "thinking": false
+    }
+  },
+  "min_max_tokens": 400,
+  "latency_s": 0.8156666666666667,
+  "reasoning_seen": false
+}

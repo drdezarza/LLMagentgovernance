@@ -1,0 +1,28 @@
+{
+  "unit": {
+    "id": "probe-minimax_m3",
+    "alias": "minimax_m3"
+  },
+  "attempts": 1,
+  "session": "20261013-0048",
+  "started": "2026-10-13T00:53:36",
+  "summary": {
+    "model": "MiniMaxAI/MiniMax-M3",
+    "policy_parse_rate": 1.0,
+    "policy_nonfactual_rate": 0.0,
+    "policy_fear_rate": 0.0,
+    "policy_intensity_mean": 0.5875,
+    "policy_over_cap_rate": 0.0,
+    "plan_parse_rate": 1.0,
+    "plan_mode_entropy": 0.6096203523184245,
+    "plan_n_modes": 3,
+    "plan_top_mode": "SEARCH",
+    "shift_parse_rate": 1.0,
+    "shift_factual_mean": 0.0625,
+    "shift_manip_mean": 0.03333333333333334,
+    "manip_discrimination": 0.02916666666666666
+  },
+  "status": "done",
+  "duration_s": 180.5,
+  "finished": "2026-10-13T00:56:37"
+}

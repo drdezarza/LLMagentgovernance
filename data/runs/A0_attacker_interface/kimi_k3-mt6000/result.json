@@ -1,0 +1,30 @@
+{
+  "unit": {
+    "id": "kimi_k3-mt6000",
+    "alias": "kimi_k3",
+    "budget": 6000
+  },
+  "attempts": 1,
+  "session": "20261016-0900",
+  "started": "2026-10-16T09:04:30",
+  "fingerprint": {
+    "params": "d8ce72bd7186549f",
+    "design": "d8ce72bd7186549f",
+    "code": "49fb4cd8ea1989da",
+    "config": "e9cbc1b9482f6f88"
+  },
+  "summary": {
+    "model": "moonshotai/Kimi-K3",
+    "budget": 6000,
+    "effective_max_tokens": 6000,
+    "valid_rate": 0.95,
+    "full_rate": 0.95,
+    "empty_rate": 0.0,
+    "median_latency_s": 2.8819999999999997,
+    "cost_usd": 0.19766999999999998,
+    "cost_per_valid_usd": 0.010403684210526315
+  },
+  "status": "done",
+  "duration_s": 62.4,
+  "finished": "2026-10-16T09:05:32"
+}
