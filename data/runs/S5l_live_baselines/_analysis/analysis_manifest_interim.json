@@ -1,0 +1,224 @@
+{
+  "stage": "S5l_live_baselines",
+  "written": "2026-11-19T18:51:28",
+  "interim": true,
+  "analysis_code": "7d7e04dfe05c0991",
+  "rubric_sha1": "8a9fd7c89c24",
+  "params": {
+    "attacker": "attacker",
+    "auditor": "auditor",
+    "judge": "kimi_k3",
+    "population": "baseline",
+    "attacker_modes": [
+      "adaptive"
+    ],
+    "governors": [
+      "audit",
+      "audit_rules"
+    ],
+    "seeds": [
+      601,
+      602,
+      603,
+      604
+    ],
+    "deploy_every": 2,
+    "steps": 50,
+    "families": [
+      "deepseek_v4_pro",
+      "minimax_m3",
+      "glm53"
+    ],
+    "static_governors": [],
+    "extractor": "kimi_k3",
+    "guard": true,
+    "guard_model": "llama-guard3:8b",
+    "ollama_url": "http://localhost:11434",
+    "guard_timeout_s": 120,
+    "margin_ni": 0.05
+  },
+  "design": "e2ff0fe62d1642fe",
+  "units_expected": 84,
+  "units_done": 69,
+  "unit_code_versions": {
+    "7d7e04dfe05c0991": 69
+  },
+  "validity": {
+    "rules_version": "RR-2026-11-01",
+    "units_done": 69,
+    "units_eligible": 69,
+    "units_excluded": 0,
+    "exclusion_reasons": {},
+    "by_group": {
+      "A1G|adaptive|guard": {
+        "done": 4,
+        "eligible": 4
+      },
+      "A1U1|adaptive|audit": {
+        "done": 4,
+        "eligible": 4
+      },
+      "A1U1|adaptive|audit_rules": {
+        "done": 4,
+        "eligible": 4
+      },
+      "A1U2|adaptive|audit": {
+        "done": 4,
+        "eligible": 4
+      },
+      "A1U2|adaptive|audit_rules": {
+        "done": 4,
+        "eligible": 4
+      },
+      "A1U3|adaptive|audit": {
+        "done": 3,
+        "eligible": 3
+      },
+      "A1U3|adaptive|audit_rules": {
+        "done": 3,
+        "eligible": 3
+      },
+      "A2G|adaptive|guard": {
+        "done": 4,
+        "eligible": 4
+      },
+      "A2U1|adaptive|audit": {
+        "done": 4,
+        "eligible": 4
+      },
+      "A2U1|adaptive|audit_rules": {
+        "done": 4,
+        "eligible": 4
+      },
+      "A2U2|adaptive|audit": {
+        "done": 4,
+        "eligible": 4
+      },
+      "A2U2|adaptive|audit_rules": {
+        "done": 4,
+        "eligible": 4
+      },
+      "A2U3|adaptive|audit": {
+        "done": 3,
+        "eligible": 3
+      },
+      "A2U3|adaptive|audit_rules": {
+        "done": 3,
+        "eligible": 3
+      },
+      "A3G|adaptive|guard": {
+        "done": 3,
+        "eligible": 3
+      },
+      "A3U1|adaptive|audit": {
+        "done": 2,
+        "eligible": 2
+      },
+      "A3U1|adaptive|audit_rules": {
+        "done": 2,
+        "eligible": 2
+      },
+      "A3U2|adaptive|audit": {
+        "done": 3,
+        "eligible": 3
+      },
+      "A3U2|adaptive|audit_rules": {
+        "done": 2,
+        "eligible": 2
+      },
+      "A3U3|adaptive|audit": {
+        "done": 2,
+        "eligible": 2
+      },
+      "A3U3|adaptive|audit_rules": {
+        "done": 3,
+        "eligible": 3
+      }
+    },
+    "rules": {
+      "judge_unresolved_share": [
+        "<=",
+        0.1
+      ],
+      "audit_invalid_share": [
+        "<=",
+        0.1
+      ],
+      "valid_submission_rate": [
+        ">=",
+        0.8
+      ]
+    }
+  },
+  "contributing_units": [
+    "A1G-adaptive-guard-s601",
+    "A1U1-adaptive-audit-s601",
+    "A1U1-adaptive-audit_rules-s601",
+    "A1U2-adaptive-audit-s601",
+    "A1U2-adaptive-audit_rules-s601",
+    "A1U3-adaptive-audit-s601",
+    "A1U3-adaptive-audit_rules-s601",
+    "A2G-adaptive-guard-s601",
+    "A2U1-adaptive-audit-s601",
+    "A2U1-adaptive-audit_rules-s601",
+    "A2U2-adaptive-audit-s601",
+    "A2U2-adaptive-audit_rules-s601",
+    "A2U3-adaptive-audit-s601",
+    "A2U3-adaptive-audit_rules-s601",
+    "A3G-adaptive-guard-s601",
+    "A3U1-adaptive-audit-s601",
+    "A3U1-adaptive-audit_rules-s601",
+    "A3U2-adaptive-audit-s601",
+    "A3U2-adaptive-audit_rules-s601",
+    "A3U3-adaptive-audit-s601",
+    "A3U3-adaptive-audit_rules-s601",
+    "A1G-adaptive-guard-s602",
+    "A1U1-adaptive-audit-s602",
+    "A1U1-adaptive-audit_rules-s602",
+    "A1U2-adaptive-audit-s602",
+    "A1U2-adaptive-audit_rules-s602",
+    "A1U3-adaptive-audit-s602",
+    "A1U3-adaptive-audit_rules-s602",
+    "A2G-adaptive-guard-s602",
+    "A2U1-adaptive-audit-s602",
+    "A2U1-adaptive-audit_rules-s602",
+    "A2U2-adaptive-audit-s602",
+    "A2U2-adaptive-audit_rules-s602",
+    "A2U3-adaptive-audit-s602",
+    "A2U3-adaptive-audit_rules-s602",
+    "A3G-adaptive-guard-s602",
+    "A3U1-adaptive-audit-s602",
+    "A3U1-adaptive-audit_rules-s602",
+    "A3U2-adaptive-audit-s602",
+    "A3U2-adaptive-audit_rules-s602",
+    "A3U3-adaptive-audit-s602",
+    "A3U3-adaptive-audit_rules-s602",
+    "A1G-adaptive-guard-s603",
+    "A1U1-adaptive-audit-s603",
+    "A1U1-adaptive-audit_rules-s603",
+    "A1U2-adaptive-audit-s603",
+    "A1U2-adaptive-audit_rules-s603",
+    "A1U3-adaptive-audit-s603",
+    "A1U3-adaptive-audit_rules-s603",
+    "A2G-adaptive-guard-s603",
+    "A2U1-adaptive-audit-s603",
+    "A2U1-adaptive-audit_rules-s603",
+    "A2U2-adaptive-audit-s603",
+    "A2U2-adaptive-audit_rules-s603",
+    "A2U3-adaptive-audit-s603",
+    "A2U3-adaptive-audit_rules-s603",
+    "A3G-adaptive-guard-s603",
+    "A3U2-adaptive-audit-s603",
+    "A3U3-adaptive-audit_rules-s603",
+    "A1G-adaptive-guard-s604",
+    "A1U1-adaptive-audit-s604",
+    "A1U1-adaptive-audit_rules-s604",
+    "A1U2-adaptive-audit-s604",
+    "A1U2-adaptive-audit_rules-s604",
+    "A2G-adaptive-guard-s604",
+    "A2U1-adaptive-audit-s604",
+    "A2U1-adaptive-audit_rules-s604",
+    "A2U2-adaptive-audit-s604",
+    "A2U2-adaptive-audit_rules-s604"
+  ]
+}

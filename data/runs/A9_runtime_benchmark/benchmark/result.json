@@ -1,0 +1,23 @@
+{
+  "unit": {
+    "id": "benchmark",
+    "alias": "deepseek_v4_pro"
+  },
+  "attempts": 1,
+  "session": "20261119-0029",
+  "started": "2026-11-19T00:29:39",
+  "fingerprint": {
+    "params": "35882623fb3fecd0",
+    "design": "35882623fb3fecd0",
+    "code": "7d7e04dfe05c0991",
+    "config": "77e3e14fb808868b"
+  },
+  "summary": {
+    "n_paths": 1200,
+    "failed": 0,
+    "cost_usd": 1.394865
+  },
+  "status": "done",
+  "duration_s": 6876.5,
+  "finished": "2026-11-19T02:24:15"
+}

@@ -1,0 +1,15 @@
+study,governor,cells,messages_audited,rewrite_rate,template_fallback_rate,invalid_audit_rate,cells_with_template,max_invalid_audit_rate_episode
+S7b_C,Gmsg,60,1663.0,0.12266987372218882,0.011425135297654841,0.0006013229104028864,14.0,
+S7b_mechanism_ablation,G1r,36,1011.0,0.13254203758654798,0.012858555885262116,,8.0,
+S7b_mechanism_ablation,Gmsg,36,1010.0,0.13366336633663367,0.01089108910891089,,6.0,
+S7c_nonresponse,Gmsg,60,1662.0,0.12214199759326114,0.011432009626955475,0.0006016847172081829,14.0,
+S5b_C,audit,12,,,,0.0011111111111111083,,0.0133333333333333
+S5b_C,audit_memory,12,,,,0.0,,0.0
+S5h_live_quarantine,audit,24,,,,0.0,,0.0
+S5h_live_quarantine,audit_memory,24,,,,0.0005868544600938959,,0.0140845070422535
+S5h_live_quarantine,audit_quarantine,24,,,,0.0,,0.0
+S5i_role_factorial,audit,36,,,,0.0,,0.0
+S5i_role_factorial,audit_memory,36,,,,0.0,,0.0
+S5j_live_labelonly,audit,24,,,,0.0005555555555555541,,0.0133333333333333
+S5j_live_labelonly,audit_memory_struct,24,,,,0.0,,0.0
+S5j_live_labelonly,audit_quarantine,24,,,,0.0,,0.0

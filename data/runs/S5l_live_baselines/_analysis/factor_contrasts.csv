@@ -1,0 +1,13 @@
+governor,outcome,factor,contrast,n_pairs,delta,lo,hi,resolved
+audit,asr_per_round,auditor,deepseek_v4_pro - glm53,12,-0.02,-0.09000000000000001,0.06333333333333334,False
+audit,asr_per_round,auditor,deepseek_v4_pro - minimax_m3,12,0.13333333333333333,0.06666666666666665,0.21,True
+audit,asr_per_round,auditor,glm53 - minimax_m3,12,0.15333333333333332,0.11000000000000003,0.20333333333333334,True
+audit,asr_per_round,attacker,deepseek_v4_pro - glm53,12,-0.03333333333333334,-0.08333333333333333,0.0066666666666666706,False
+audit,asr_per_round,attacker,deepseek_v4_pro - minimax_m3,12,-0.14333333333333334,-0.25000000000000006,-0.05666666666666667,True
+audit,asr_per_round,attacker,glm53 - minimax_m3,12,-0.11,-0.2066666666666667,-0.023333333333333334,True
+audit,audit_misclassification_rate,auditor,deepseek_v4_pro - glm53,12,0.006666666666666667,0.0,0.016666666666666666,False
+audit,audit_misclassification_rate,auditor,deepseek_v4_pro - minimax_m3,12,-0.0033333333333333335,-0.016666666666666666,0.01,False
+audit,audit_misclassification_rate,auditor,glm53 - minimax_m3,12,-0.01,-0.02,0.0,False
+audit,audit_misclassification_rate,attacker,deepseek_v4_pro - glm53,12,-0.0033333333333333335,-0.013333333333333334,0.006666666666666667,False
+audit,audit_misclassification_rate,attacker,deepseek_v4_pro - minimax_m3,12,-0.0033333333333333335,-0.01,0.0,False
+audit,audit_misclassification_rate,attacker,glm53 - minimax_m3,12,0.0,-0.01,0.01,False

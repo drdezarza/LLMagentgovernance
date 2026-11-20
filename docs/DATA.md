@@ -1,7 +1,7 @@
 # Data guide
 
 All data in this repository were produced by the pipeline in `agentgov/`, between 13 October and 17 November 2026, using
-models served by Nebius AI Studio / Token Factory (plus one local Llama Guard model for A6). Nothing was edited
+models served by Nebius AI Studio / Token Factory (plus one local Llama Guard model for A6 and S5l). Nothing was edited
 by hand, except the documented provenance corrections in `reports/labeling_v2/`. The data are released under
 CC BY 4.0 (see `DATA_LICENSE.md`).
 
@@ -14,9 +14,10 @@ data/
   superseded/                 unit outputs replaced under a pre-specified re-run rule, kept for provenance
 reports/
   prereg/                     analysis plan for the confirmatory stages and its freeze record (hashes, amendment);
-                              reading rules for the revision follow-ups (RR_PLAN_v1/v2) and their freeze records
-  rr/, rr2/                   revision analyses (no API calls): inference checks, decomposition, model evidence,
-                              cache replay, execution sensitivity, auditor costs, endpoint provenance
+                              reading rules for the revision follow-ups (RR_PLAN_v1/v2/v3) and their freeze records
+  rr/, rr2/, rr3/             revision analyses (no API calls): inference checks, decomposition, model evidence,
+                              cache replay, execution sensitivity, auditor costs, endpoint provenance, multiplicity,
+                              objective weights, household burden, runtime from the ledger
   labeling/                   2026-10-14 annotation sample (60 real messages, AI-assisted) with rubric and key
   labeling_v2/                H1 annotation sample (78 items): two annotator files, adjudication, AI pass, provenance
   operating_characteristics*  attacks admitted, legitimate messages lost and inference cost per 100 messages
@@ -101,7 +102,7 @@ between sessions. Each such case is recorded and was checked.
 
 ## Ledger (`data/ledger/`)
 
-`calls.csv.gz` has one row per model call (636,814 calls, mock calls excluded). Columns: `ts` (Unix time),
+`calls.csv.gz` has one row per model call (795,469 calls, mock calls excluded). Columns: `ts` (Unix time),
 `day`, `session`, `experiment`, `unit`, `role` (planner, compiler, agent, attacker, auditor, judge, extractor, …),
 `model`, `prompt_tokens`, `completion_tokens`, `reasoning_tokens`, `cost_usd` (list price, 0 for cache hits),
 `latency_s`, `cached`, `mock`, `status`, `finish_reason`, and `cost_equiv_usd` (what a cache hit would have cost

@@ -162,3 +162,17 @@ experiments:
   - id: S5j2_labelonly_extension  # R2.2 (optional): S5j arms on seeds 409-416 (72 episodes); combined read-out with S5j.
     enabled: true                 # est ~$15-20; runs last. Set enabled: false to skip.
 
+
+  # ---- revision follow-ups, round 3 (added 2026-11-18, after the third journal review) ----------------------------
+  # EXPLORATORY, NOT confirmatory. Reading rules fixed before any unit ran: reports/prereg/RR_PLAN_v3.md (+ RR3_FROZEN.json).
+  # No-API analyses for the same review: tools/rr3_*.py (multiplicity, objective weights and margin, household burden,
+  # runtime from the call ledger). Order = run order. The Llama Guard arm of S5l needs a local Ollama server.
+  - id: A9_runtime_benchmark      # complete governed-message paths, cache off, concurrency 1/4/16, five auditors; one unit
+    enabled: true                 # (runs alone). est ~$3-6
+  - id: S5l_live_baselines        # joint vs per-rule audit (3x3 attacker x auditor, judge kimi_k3) + local Llama Guard 3
+    enabled: true                 # (frozen custom categories); seeds 601-604; 84 episodes. est ~$40-60
+  - id: S5m_attack_challenge      # five held-out attack strategies + standard control. RAN WITH THE PLAIN ATTACKER PROMPT
+    enabled: true                 # instead of the informed S5b prompt: kept as a disclosed deviation, not used (see S5m2)
+  # amendment 1 (2026-11-20, RR_PLAN_v3): S5m re-run with the informed S5b attacker prompt, fresh seeds, same rules.
+  - id: S5m2_attack_challenge     # informed S5b attacker + 5 held-out strategies + standard control; S5b rotations, plain
+    enabled: true                 # audit, judges kimi_k3 + qwen3_235b; seeds 711-714; 72 episodes. est ~$25-35

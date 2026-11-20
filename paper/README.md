@@ -1,8 +1,8 @@
 # Paper verification
 
 `numbers.json` maps every number in the revised manuscript (v14-7, November 2026) to the analysis record it comes from:
-893 checks in total. Entries from the first submission are retained; entries added for the revision have ids starting
-with `V14_4` and read from the new stages, `reports/rr/` and `reports/rr2/`. Each entry gives:
+1430 checks in total. Entries from the first submission are retained; entries added for the revision have ids starting
+with `V14_4` or `RR3` and read from the new stages, `reports/rr/`, `reports/rr2/` and `reports/rr3/`. Each entry gives:
 
 | Field | Meaning |
 |---|---|
@@ -15,7 +15,7 @@ with `V14_4` and read from the new stages, `reports/rr/` and `reports/rr2/`. Eac
 
 ```bash
 python paper/check_numbers.py
-# 893 numbers checked; 0 drifted or missing
+# 1430 numbers checked; 0 drifted or missing
 ```
 
 The checker uses only the Python standard library and reads only `data/runs/*/_analysis/` and `reports/`. Re-running

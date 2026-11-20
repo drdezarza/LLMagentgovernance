@@ -23,10 +23,10 @@ upstream GCGE and feeder simulators exactly. It should print `equivalence OK` an
 
 ```bash
 python paper/check_numbers.py
-# 893 numbers checked; 0 drifted or missing
+# 1430 numbers checked; 0 drifted or missing
 ```
 
-`paper/numbers.json` lists every number checked for the revised manuscript (893 entries, including entries from the
+`paper/numbers.json` lists every number checked for the revised manuscript (1430 entries, including entries from the
 first submission kept for provenance). For each one it records the file, row and column it
 comes from in `data/runs/*/_analysis/` or `reports/`, its rounded value, and where the paper uses it. The checker
 recomputes each value from the saved file and reports any drift.
@@ -61,6 +61,8 @@ The revision analyses are plain scripts (no API calls):
 python tools/rr_inference_check.py && python tools/rr_frontier.py      # reports/rr/
 python tools/rr2_planner_decomposition.py && python tools/rr2_model_evidence.py
 python tools/rr2_revision_tables.py                                     # needs data/ledger/calls.csv.gz
+python tools/rr3_multiplicity.py && python tools/rr3_objective_sensitivity.py
+python tools/rr3_burden.py && python tools/rr3_runtime_logs.py          # reports/rr3/
 make revision-tables                                                    # all of the above
 ```
 
@@ -120,9 +122,11 @@ whose design fingerprint no longer matches the current parameters.
 * **Disk cache**: every response is cached under `data/cache.nosync/`, so resumed or repeated work is free. The cache
   from the original runs is *not* distributed, so a fresh clone makes fresh calls.
 
-Reference cost for a full re-run of the article's stages at October–November 2026 list prices: about $205 (see
-`data/ledger/cost_by_stage.csv`), of which about $90 for the revision follow-ups. The largest stages are S5i ($27),
-S5j and S5j2 ($18 each) and S5h ($18). Reasoning-heavy models can cost
+Reference cost for a full re-run of the article's stages at October–November 2026 list prices: about $290 (see
+`data/ledger/cost_by_stage.csv`), of which about $172 for the revision follow-ups; this includes the deviating batch
+`S5m_attack_challenge` ($23), which need not be re-run. The largest stages are S5l ($31), S5i ($27),
+S5m2 ($26), S5j and S5j2 ($18 each) and S5h ($18). The Llama Guard arm of `S5l_live_baselines` (like A6) needs a local
+Ollama server with `llama-guard3:8b` (`ollama pull llama-guard3:8b`). Reasoning-heavy models can cost
 several times their non-reasoning equivalents.
 
 ### What a live re-run reproduces
@@ -198,6 +202,14 @@ The revision follow-ups have their own frozen reading rules:
   with a 07:30 addendum) documents the cache race above; its recorded hashes match the current plan, `agentgov/llm.py`
   and `tools/rr2_cache_replay.py`. The plan discloses that S7b cell means and one hourly trace were inspected before
   S7d was designed.
+* `RR_PLAN_v3.md` + `RR3_FROZEN.json` (2026-11-18): A9, S5l, S5m and the no-API analyses N1–N4. The plan,
+  `reviewer3_exps.py` and the four `tools/rr3_*.py` match the frozen hashes. Amendment 1 (2026-11-20) records that S5m
+  appended its strategies to the plain attacker prompt instead of the informed S5b prompt the plan specifies; S5m is
+  kept unchanged as a disclosed deviation and the challenge was re-run as `S5m2_attack_challenge`
+  (`reviewer3b_exps.py`: informed prompt, fresh seeds, a fix for a column that dropped the second-judge contrast from
+  the S5m report). Its recorded hashes match the amended plan, `reviewer3b_exps.py` and `agentgov/experiments/__init__.py`.
+  `config/plan.yaml` in this repository carries edited comments, so its hash differs from the run copy recorded in
+  the freeze files; the stage ids, order and parameters are unchanged.
 
 ```bash
 python - <<'EOF'

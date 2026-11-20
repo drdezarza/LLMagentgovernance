@@ -7,7 +7,7 @@ registered in `agentgov/experiments/__init__.py`. Parameters are in `config/plan
 
 Costs are taken from the call ledger (`data/ledger/cost_by_stage.csv`) and are list-price USD for the calls actually
 made. Calls answered from the disk cache cost nothing. The whole programme, development stages included, cost
-**$242** in inference, of which $90 for the revision follow-ups (November 2026).
+**$324** in inference, of which $172 for the revision follow-ups (November 2026).
 
 ## How to read the stage identifiers
 
@@ -71,9 +71,10 @@ in `reports/operating_characteristics*.csv`. They are produced by `tools/operati
 ### Revision follow-ups (November 2026; exploratory)
 
 Added after the journal reviews. Each stage's reading rules were written and hashed before its first unit ran
-(`reports/prereg/RR_PLAN_v1.md` + `RR_FROZEN.json`, 2026-11-01; `RR_PLAN_v2.md` + `RR2_FROZEN.json`, 2026-11-16). None
-changes a confirmatory result. Stage classes: `agentgov/experiments/reviewer_exps.py` (round 1) and
-`reviewer2_exps.py` (round 2).
+(`reports/prereg/RR_PLAN_v1.md` + `RR_FROZEN.json`, 2026-11-01; `RR_PLAN_v2.md` + `RR2_FROZEN.json`, 2026-11-16;
+`RR_PLAN_v3.md` + `RR3_FROZEN.json`, 2026-11-18, with one dated amendment on 2026-11-20). None changes a confirmatory
+result. Stage classes: `agentgov/experiments/reviewer_exps.py` (round 1), `reviewer2_exps.py` (round 2),
+`reviewer3_exps.py` and `reviewer3b_exps.py` (round 3).
 
 | Stage | Question | Design | Sample | Cost | Paper |
 |---|---|---|---|---|---|
@@ -84,8 +85,12 @@ changes a confirmatory result. Stage classes: `agentgov/experiments/reviewer_exp
 | `A8_auditor_scale` | Which cheaper auditors are worth a live test? | 8 candidate auditors on the A3 bank and 52 H1 game items, joint audit prompt unchanged | 8 candidates | $1.22 | §4.12, §5.9 |
 | `A8b_cheap_auditor_live` | Do the screened candidates hold up against adaptive attackers? | DeepSeek-V4.1-Flash, Qwen3.8-27B as auditors in the S5i cell design (judge Kimi-K3, plain audit); paired with the S5i reference cells | 24 episodes | $6.47 | §4.12, §5.9 |
 | `S7d_search_mechanism` | Why does the cap cost the search planner most, and what does feedback add? | Search × escalation on/off × compliance feedback off/on × no governance / caps, plus sequential reference; the 24 S7b and S7b_C scenarios | 240 cells | $5.71 | §4.12, §5.7.2 |
+| `A9_runtime_benchmark` | How long does a complete governed message take under concurrent load? | Response cache off; 40 recorded game rounds and 40 feeder messages per auditor; five auditors × concurrency 1, 4, 16; audits, re-asks, rewrites and template fallbacks timed, research judge and simulator excluded | 1200 paths (one unit) | $1.39 | §4.12, §5.10 |
+| `S5l_live_baselines` | How do joint auditing, per-rule auditing and a specialist classifier compare end to end under the same attackers? | Fresh seeds 601–604; 3 × 3 attacker × auditor crossing (DeepSeek-V4-Pro, MiniMax-M3, GLM-5.3) under joint vs per-rule audit; plus local Llama Guard 3 8B (frozen custom categories) per attacker × seed; judge Kimi-K3 | 84 episodes | $31.19 | §4.12, §5.9 |
+| `S5m_attack_challenge` | (Disclosed deviation.) Intended as S5m2, but the strategies were appended to the plain attacker prompt instead of the informed S5b prompt; standard-arm attack success 0. Kept, not used, not pooled | as S5m2, seeds 701–704 | 72 episodes | $23.33 | §4.12 |
+| `S5m2_attack_challenge` | Do attack strategies outside the original attacker prompt, including text addressed to the screening model, defeat plain auditing? | Informed S5b attacker + one of five fixed strategies (authority, quoted instructions, implicature, multilingual, auditor-directed injection) or the standard attack; S5b rotations; judges Kimi-K3 and Qwen3-235B on every candidate; seeds 711–714 | 72 episodes, 12 pairs per strategy | $26.40 | §4.12, §5.3 |
 
-No-API analyses for the revision (`tools/`, outputs in `reports/rr/` and `reports/rr2/`):
+No-API analyses for the revision (`tools/`, outputs in `reports/rr/`, `reports/rr2/` and `reports/rr3/`):
 
 | Tool | Output | Contents |
 |---|---|---|
@@ -94,6 +99,10 @@ No-API analyses for the revision (`tools/`, outputs in `reports/rr/` and `report
 | `rr2_model_evidence.py` | `reports/rr2/M1_*` | One row per model: roles, prices, interface profile, calibration and closed-loop evidence |
 | `rr2_revision_tables.py` | `reports/rr2/` | Execution sensitivity, cache-replay counts, message interventions, auditor costs, endpoint provenance |
 | `rr2_cache_replay.py` | `reports/rr2/R1_*` | Replays recorded feeder cells from the response cache (needs the original cache, which is not distributed; see `docs/REPRODUCING.md`) |
+| `rr3_multiplicity.py` | `reports/rr3/N1_*` | Family-wise (Bonferroni, Holm) sensitivity analysis of the six confirmatory claims against their own thresholds; recomputed intervals checked against the recorded ones |
+| `rr3_objective_sensitivity.py` | `reports/rr3/N2_*` | Feeder non-inferiority re-scored over 25 voltage × curtailment weight pairs and margins 10–50; integrity by plan |
+| `rr3_burden.py` | `reports/rr3/N3_*` | Household-level requested and realized curtailment for all 40 households (zero burdens included), flexible-energy shares, subgroup summaries, governor contrasts |
+| `rr3_runtime_logs.py` | `reports/rr3/N4_*` | Episode wall clock, calls, failed attempts and governance share of latency from the call ledger; fallback rates from the cell records |
 
 `S5i_go` and `S5k_go` (`go_exps.py`) are optional replicas of S5i/S5k on an alternative provider. They are disabled and
 were never run; no reported result uses them.
@@ -128,7 +137,7 @@ Each stage declares instrument-validity rules **before** its units run (class at
 `_analysis/validity.json` with a `rules_version`). Only eligible units enter the main tables; exclusions are counted and
 listed. Examples:
 
-* Adversarial episodes (S5b, S5d, S5h, S5i–S5k, A8b, S5b_C): the attacker submitted a parseable candidate in ≥ 80 % of rounds,
+* Adversarial episodes (S5b, S5d, S5h, S5i–S5m2, A8b, S5b_C): the attacker submitted a parseable candidate in ≥ 80 % of rounds,
   judge-unresolved verdicts ≤ 10 % and auditor-invalid outputs ≤ 10 % of evaluations.
 * Feeder cells (S7b, S7b_C, S7c, S7d): judge resolved ≥ 90 % of messages; auditor valid ≥ 90 % of audits.
 * Evaluator cells (A3, S5e–S5g, A4–A6): ≥ 90 % valid labels per evaluator × prompt (or context) cell.

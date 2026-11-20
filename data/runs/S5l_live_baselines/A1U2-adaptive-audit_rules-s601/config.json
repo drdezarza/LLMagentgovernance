@@ -1,0 +1,51 @@
+{
+  "n_agents": 30,
+  "topo": "scale_free",
+  "steps": 50,
+  "seed": 601,
+  "base_prosocial": 0.45,
+  "prosocial_std": 0.15,
+  "resistance_mean": 0.3,
+  "resistance_std": 0.15,
+  "target_frac": 0.2,
+  "deploy_every": 2,
+  "governance_mode": "governed",
+  "adversarial": true,
+  "n_candidates": 6,
+  "state_noise": 0.1,
+  "label": "A1U2-adaptive-audit_rules-s601",
+  "graph_stats": {
+    "n_nodes": 30,
+    "n_edges": 81,
+    "avg_degree": 5.4,
+    "clustering": 0.26113289760348585
+  },
+  "compiler_stats": {
+    "calls": 36,
+    "cached": 39,
+    "errors": 0,
+    "role": "compiler",
+    "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+    "prompt_tokens": 11278,
+    "completion_tokens": 5065,
+    "cost_usd": 0.005294599999999999,
+    "logical_calls": 75,
+    "logical_prompt_tokens": 17679,
+    "logical_completion_tokens": 7972,
+    "cost_equiv_usd": 0.008318999999999997
+  },
+  "agent_stats": {
+    "calls": 221,
+    "cached": 79,
+    "errors": 0,
+    "role": "agent",
+    "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+    "prompt_tokens": 94703,
+    "completion_tokens": 10428,
+    "cost_usd": 0.025197399999999988,
+    "logical_calls": 300,
+    "logical_prompt_tokens": 126372,
+    "logical_completion_tokens": 14072,
+    "cost_equiv_usd": 0.03371760000000001
+  }
+}

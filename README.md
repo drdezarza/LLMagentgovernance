@@ -6,7 +6,7 @@
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](#installation)
 [![Code license: MIT](https://img.shields.io/badge/code-MIT-green.svg)](LICENSE)
 [![Data license: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey.svg)](DATA_LICENSE.md)
-[![Paper numbers verified](https://img.shields.io/badge/paper%20numbers-893%20verified-brightgreen.svg)](paper/)
+[![Paper numbers verified](https://img.shields.io/badge/paper%20numbers-1430%20verified-brightgreen.svg)](paper/)
 
 ---
 
@@ -52,7 +52,7 @@ Exploratory follow-ups (run after the freeze, with reading rules fixed before an
   objective difference stays within the 25-unit margin (−3.6 [−12.8, +5.8] and −12.7 [−22.3, −5.0]).
 
 Revision follow-ups (November 2026; exploratory, reading rules in [`reports/prereg/RR_PLAN_v1.md`](reports/prereg/RR_PLAN_v1.md)
-and [`RR_PLAN_v2.md`](reports/prereg/RR_PLAN_v2.md), each frozen before its stage ran):
+[`RR_PLAN_v2.md`](reports/prereg/RR_PLAN_v2.md) and [`RR_PLAN_v3.md`](reports/prereg/RR_PLAN_v3.md), each frozen before its stage ran):
 
 * **Attacker × auditor factorial (S5i, 72 episodes).** With the judge fixed (Kimi-K3), the raw-memory rejection penalty
   depends on the auditor: +0.760 [+0.713, +0.803] for MiniMax-M3, +0.247 [+0.107, +0.400] for DeepSeek-V4-Pro and
@@ -69,6 +69,25 @@ and [`RR_PLAN_v2.md`](reports/prereg/RR_PLAN_v2.md), each frozen before its stag
   of the cost that intensity caps impose on it (cap cost +256.5 [+220.9, +289.1] vs +43.1 [+17.0, +71.7]).
   Giving search the sequential planner's re-planning on violation helps in the selected scenarios it had lost, with no
   established pooled improvement.
+* **Live method baselines (S5l, 84 episodes, fresh seeds).** Under the same adaptive attackers, fully crossed with three
+  auditors and judged by Kimi-K3, joint minus per-rule auditing changes attack success by +0.029 [−0.008, +0.071] and
+  false rejection by −0.002 [−0.010, +0.006]; joint auditing is therefore not shown non-inferior (margin +0.05), while
+  using about one model call per audit instead of three. A local Llama Guard 3 arm admits far more attacks: joint
+  auditing lowers attack success by 0.728 [0.664, 0.788].
+* **Attack-strategy challenge (S5m2, 72 episodes).** Five fixed strategies (authority impersonation, quoted
+  instructions, implicature, multilingual text, text addressed to the screening model) against the standard informed
+  attack: none conclusively raises attack success under the primary judge; authority is unresolved
+  (+0.040 [−0.040, +0.117]). Implicature is strongly judge-dependent (+0.273 [+0.153, +0.387] under the second judge,
+  51 % candidate-level agreement). Auditor-directed injection lowers the auditor miss rate by 0.098 [0.035, 0.178].
+  An earlier batch (S5m) ran with the uninformed attacker prompt by mistake; it is kept as a disclosed deviation and
+  not pooled ([amendment](reports/prereg/RR_PLAN_v3.md#amendments)).
+* **Governance-path timing (A9, 1200 paths, cache off).** At concurrency 16 the median feeder path takes 0.46–7.5 s
+  depending on the auditor; no path fails finally, but provider timeouts produce long tails (GLM-5.3: 90th percentile
+  138 s).
+* **Sensitivity analyses (no new model calls, [`reports/rr3/`](reports/rr3/)).** All six confirmatory claims survive
+  Bonferroni and Holm adjustment; feeder non-inferiority holds for all 25 objective-weight pairs and margins down to
+  10 units; household-level burden distributions show that reallocation lowers aggregate inequality without lowering
+  every subgroup's burden.
 * **Execution sensitivity.** Re-executing the confirmatory feeder scenarios (S7c at 0 % non-response) preserves pooled
   non-inferiority, but not the planner-specific audit effects of the confirmatory sample; see
   [`reports/rr2/execution_sensitivity.csv`](reports/rr2/execution_sensitivity.csv) and the cache note in
@@ -89,7 +108,7 @@ config/              plan.yaml (stages and parameters), settings.yaml (model ros
 data/runs/<STAGE>/   every unit's raw records + _analysis/ (tables, figures, findings.md, validity, manifest)
 data/ledger/         per-call token/cost/latency ledger (no prompt or response text)
 reports/             frozen analysis plans (prereg/), annotation samples and rubrics, operating-characteristics tables,
-                     revision analyses (rr/, rr2/)
+                     revision analyses (rr/, rr2/, rr3/)
 paper/               numbers.json: every number quoted in the manuscript, mapped to its source file
 docs/                documentation (start with docs/EXPERIMENTS.md)
 tests/, tools/       equivalence tests against the upstream simulators; analysis utilities (rr*, revision analyses)

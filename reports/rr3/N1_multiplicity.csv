@@ -1,0 +1,7 @@
+claim,components,p_claim,p_floor,pass95_planned,pass_bonferroni,extra_condition,holm_threshold,pass_holm
+C1,2,0.0,True,True,True,,0.008333333333333333,True
+C2,3,0.0,True,True,True,,0.01,True
+C3,1,0.0,True,True,True,positive in every rotation: True,0.0125,True
+C4,1,0.0,True,True,True,,0.016666666666666666,True
+C5a,1,0.0,True,True,True,,0.025,True
+C5b,1,0.0,True,True,True,,0.05,True

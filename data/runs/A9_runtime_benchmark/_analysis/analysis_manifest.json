@@ -1,0 +1,34 @@
+{
+  "stage": "A9_runtime_benchmark",
+  "written": "2026-11-20T18:37:22",
+  "interim": false,
+  "analysis_code": "4f0d3459deb8a00b",
+  "rubric_sha1": "8a9fd7c89c24",
+  "params": {
+    "auditors": [
+      "deepseek_v4_pro",
+      "minimax_m3",
+      "glm53",
+      "deepseek_v4_flash",
+      "qwen38_27b"
+    ],
+    "concurrency": [
+      1,
+      4,
+      16
+    ],
+    "n_game_rounds": 40,
+    "n_feeder_messages": 40,
+    "sample_seed": 2026
+  },
+  "design": "35882623fb3fecd0",
+  "units_expected": 1,
+  "units_done": 1,
+  "unit_code_versions": {
+    "7d7e04dfe05c0991": 1
+  },
+  "validity": {},
+  "contributing_units": [
+    "benchmark"
+  ]
+}

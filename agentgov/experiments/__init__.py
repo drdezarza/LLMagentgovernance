@@ -16,6 +16,8 @@ from .followup_exps import S7cNonResponse, S5hLiveQuarantine
 from .reviewer_exps import S5jLiveLabelOnly, S5iRoleFactorial, S5kOracleFeedback, A8AuditorScale
 from .go_exps import S5iGo, S5kGo
 from .reviewer2_exps import A8bCheapAuditorLive, S7dSearchMechanism, S5j2LabelOnlyExtension
+from .reviewer3_exps import S5lLiveBaselines, S5mAttackChallenge, A9RuntimeBenchmark
+from .reviewer3b_exps import S5m2AttackChallengeInformed
 from .planning_exps import S4PlanningBackbone, S7JointFactorial, S8JointController, S4bScenarioBank, S7bMechanismAblation
 
 REGISTRY = {cls.id: cls for cls in [
@@ -29,4 +31,6 @@ REGISTRY = {cls.id: cls for cls in [
     A8AuditorScale, S5jLiveLabelOnly, S5iRoleFactorial, S5kOracleFeedback,
     S5iGo, S5kGo,
     A8bCheapAuditorLive, S7dSearchMechanism, S5j2LabelOnlyExtension,
+    S5lLiveBaselines, S5mAttackChallenge, A9RuntimeBenchmark,
+    S5m2AttackChallengeInformed,
 ]}

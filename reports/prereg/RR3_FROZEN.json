@@ -1,0 +1,47 @@
+{
+  "frozen": "2026-11-18",
+  "status": "exploratory reviewer-response plan v3 (third review of v14-2); written before any RR3 paid unit ran",
+  "plan_file": "reports/prereg/RR_PLAN_v3.md",
+  "plan_sha256": "da665a50d7edf46163951de00c6141a497819c33e2e0bf2e6cc0568377be906b",
+  "code_file": "agentgov/experiments/reviewer3_exps.py",
+  "code_sha256": "bdfbc03b7708ba7e4c3f7a32cdc38cf3699f14837ecc66e12964b0a79fab9aa5",
+  "support_code": {
+    "agentgov/experiments/__init__.py": "0b6915f36a24d5b4d5208d7ed3dedd7c411adc80f59d1c0222c8f9a85b47b223",
+    "config/plan.yaml": "e2e331a752b49bc9616034fc3f37dfd645557551216d12f880386486482a2be9",
+    "agentgov/llm.py": "a6b7500ebd4e4ebad1e27ba82accab5f21bd139587900800885d52d59c69155c",
+    "agentgov/experiments/guard_exps.py": "9432a355052bfee5c3ec577822546357e1fef787e94d29747354c2e79cec1560",
+    "agentgov/experiments/rule_exps.py": "caf2d69936fc1b853e746cab098d3b723f604ffd7cc57ebfdd26bcf0c9b666f4",
+    "agentgov/experiments/followup_exps.py": "bfa90f9445c9c08ee4c304252eb1c0d5be089c29ac4d8d479a6ed46b3974b35d",
+    "agentgov/experiments/reviewer_exps.py": "69ead4fd82926002a9b90cd0f8f53035271812da197a227b2deda12134b834c4"
+  },
+  "tools": {
+    "tools/rr3_multiplicity.py": "a309f566dbb2e46a26626f17732cd0fc86034ed5682060daa2f1c810640b3433",
+    "tools/rr3_objective_sensitivity.py": "ba1326d9469f6e9cfb2bbe7c11938c66324aad9fa5830e38cc9a3bf9a9b5c982",
+    "tools/rr3_burden.py": "83abd97b1e78993571e43950fbfcd28b36b6678f1eb4cbe36fe731401694e446",
+    "tools/rr3_runtime_logs.py": "868bd3fa3af8e9691802a357abee235ca5a5596cad36e0139b760d086ebea41a"
+  },
+  "stages": [
+    "A9_runtime_benchmark",
+    "S5l_live_baselines",
+    "S5m_attack_challenge",
+    "S5m2_attack_challenge"
+  ],
+  "budget": "daily cap $200 for 2026-11-18..2026-11-20, author-approved",
+  "rule": "No change to design, metrics, exclusions or reading rules of these stages after their first unit runs; changes = new stage id + dated note.",
+  "amendments": [
+    {
+      "date": "2026-11-20",
+      "note": "S5m used the plain attacker prompt instead of the informed S5b prompt; S5m kept as disclosed deviation; new stage S5m2 (informed prompt, seeds 711-714, asr_j2 merge fix); rules unchanged",
+      "plan_sha256_after": "367fa6fad869a349599281576b53c19e58e299a7ea5bb1f6ef5c34651fc6edf2",
+      "code_file": "agentgov/experiments/reviewer3b_exps.py",
+      "code_sha256": "2dcd1d0a02880c76450a6f3f08ac16854f55ea95c0cb6912b83a71e637c13061",
+      "support_code_after": {
+        "agentgov/experiments/__init__.py": "16c286fdcd6ca471ad3ee2f85d7980da32d1590c3686789127ec536ddd15b94f",
+        "config/plan.yaml": "2fdc6b268a0129e352ed51078f41068e113b525422b50b1d3aee4574d9beb93b"
+      },
+      "unchanged": {
+        "agentgov/experiments/reviewer3_exps.py": "bdfbc03b7708ba7e4c3f7a32cdc38cf3699f14837ecc66e12964b0a79fab9aa5"
+      }
+    }
+  ]
+}

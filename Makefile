@@ -11,7 +11,7 @@ help:
 	@echo "make mock      offline end-to-end run of two stages with the mock model"
 	@echo "make plan      stage status and live cost estimates"
 	@echo "make ledger-db rebuild data/ledger.sqlite from data/ledger/calls.csv.gz"
-	@echo "make revision-tables  regenerate reports/rr and reports/rr2 (no API calls)"
+	@echo "make revision-tables  regenerate reports/rr, reports/rr2 and reports/rr3 (no API calls)"
 
 install:
 	$(PY) -m pip install -r requirements.txt
@@ -43,3 +43,7 @@ revision-tables: data/ledger.sqlite
 	$(PY) tools/rr2_planner_decomposition.py
 	$(PY) tools/rr2_model_evidence.py
 	$(PY) tools/rr2_revision_tables.py
+	$(PY) tools/rr3_multiplicity.py
+	$(PY) tools/rr3_objective_sensitivity.py
+	$(PY) tools/rr3_burden.py
+	$(PY) tools/rr3_runtime_logs.py

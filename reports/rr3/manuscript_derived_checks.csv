@@ -1,0 +1,3 @@
+governor,metric,value,source,n_cells
+G0,idealist_mean_realized_kwh,51.02343375317972,reports/rr3/N3_subgroups.csv,36
+Ggini,idealist_mean_realized_kwh,51.751053619854964,reports/rr3/N3_subgroups.csv,36

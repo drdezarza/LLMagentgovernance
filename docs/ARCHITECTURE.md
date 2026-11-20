@@ -107,7 +107,7 @@ preference and binds to the first one in the live catalogue. The families used i
 | `qwen3_235b` | Qwen3-235B-A22B-Instruct-2507 | game compiler and agent population; outside judge (J1) |
 | `deepseek_v4_flash`, `qwen38_27b` | DeepSeek-V4.1-Flash, Qwen3.8-27B | S3b backbones |
 | `gpt_oss_120b`, `nemotron_super`, `muse_spark`, `qwen35_397b` | gpt-oss-120b, Nemotron-3-Super, Muse Spark, Qwen3.5-397B | calibration and judge comparisons |
-| `llama-guard3:8b` (local) | Llama Guard 3 8B via Ollama | A6 specialist baseline |
+| `llama-guard3:8b` (local) | Llama Guard 3 8B via Ollama | A6 specialist baseline; S5l live arm |
 
 The exact model IDs bound in the last session are in `data/catalog/resolved_roster.json`. The IDs used by each unit
 are in its `manifest.json`.
